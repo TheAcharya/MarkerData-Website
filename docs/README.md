@@ -1,6 +1,6 @@
 #
 
-![](/assets/marker_data_banner.gif)
+![](assets/marker_data_banner.gif)
 
 Marker metadata extraction and conversion application for [Final Cut Pro](https://www.apple.com/final-cut-pro/){target=“_blank”}.
 
