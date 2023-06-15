@@ -14,6 +14,9 @@ branding:
 editor:
   enabled: false
 
+edit:
+  base: /docs
+
 links:
 - text: GitHub
   icon: mark-github
@@ -41,10 +44,6 @@ links:
   target: blank
 
 favicon: static/favicon.ico
-
-server:
- watch:
-  mode: disk
   
 markdown:
   lineBreaks: hard
@@ -55,7 +54,3 @@ footer:
   - text: License
     link: license.md
     icon: shield-check
-    
-edit:
-    repo: "https://github.com/TheAcharya/MarkerData-Website"
-    base: /docs
