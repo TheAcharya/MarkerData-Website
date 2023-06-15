@@ -4,13 +4,13 @@
 
 When there are Markers at the same timecode position, **Marker Data** will automatically resolve the collision of ID (Timecode, Name or Notes).
 
-![Marker Collision](/assets/fcp_marker_collision_01.png)
+![Marker Collision](assets/fcp_marker_collision_01.png)
 
 **Marker Data** will create unique Marker ID by automatically appending a numerical suffix at the end of the Marker ID and Image Filename.
 
-![Unique Marker ID](/assets/fcp_marker_collision_02.png)
+![Unique Marker ID](assets/fcp_marker_collision_02.png)
 
-![Unique Image Filename](/assets/fcp_marker_collision_03.png)
+![Unique Image Filename](assets/fcp_marker_collision_03.png)
 
 ## Does Marker Data replaces FCPXImageExporter?
 

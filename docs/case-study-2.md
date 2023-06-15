@@ -8,11 +8,11 @@ Marker Export was one necessary minor feature from Final Cut Pro 7. It allowed t
 
 Once the user has added markers to his or her timeline, you could export them by going to `File`, `Export`, `Markers List as Text`. This will bring up the Marker Export window, where you can choose the format and location of the exported marker file. You could export markers in tab-delimited text with different export options.
 
-![Markers List as Text](/assets/fcp7_labels_markers_1.jpg)
+![Markers List as Text](assets/fcp7_labels_markers_1.jpg)
 
 When you export markers, Final Cut Pro 7 includes all the marker information, such as the name, comment, and duration, as well as the position in the timeline. This allowed the user and collaborators to reference specific points in the project and stay organised throughout the editing process productively.
 
-![Export Options](/assets/fcp7_labels_markers_2.jpg)
+![Export Options](assets/fcp7_labels_markers_2.jpg)
 
 In Final Cut Pro, there is the widely used feature of [Export XML](https://support.apple.com/en-sg/guide/final-cut-pro/verdbd66ae/mac){target=“_blank”} (`.fcpxml`). Final Cut Pro is extremely powerful for handling Metadata. FCPXML contains most of the timeline’s information, include Marker Metadata. However, it is not easily accessible from the end user’s perspective. Hence, I would not associate Final Cut Pro's Export XML as a direct feature parity with legacy Final Cut Pro 7’s Marker Export. Enter Marker Data!
 
