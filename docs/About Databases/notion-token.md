@@ -9,7 +9,7 @@
 Using Web Developer Tools
 
 <video controls width="1920">
-  <source src="assets/safari.mp4" type="video/mp4">
+  <source src="/assets/safari.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 ===
@@ -18,7 +18,7 @@ Your browser does not support the video tag.
 Using Cookie Menu
 
 <video controls width="1920">
-  <source src="assets/chrome.mp4" type="video/mp4">
+  <source src="/assets/chrome.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 ===
@@ -27,7 +27,7 @@ Your browser does not support the video tag.
 Using Web Developer Tools
 
 <video controls width="1920">
-  <source src="assets/firefox.mp4" type="video/mp4">
+  <source src="/assets/firefox.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 ===
@@ -36,7 +36,7 @@ Your browser does not support the video tag.
 Using Cookie Menu
 
 <video controls width="1920">
-  <source src="assets/edge.mp4" type="video/mp4">
+  <source src="/assets/edge.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 ===
