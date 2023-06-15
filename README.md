@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/TheAcharya/MarkerData-Website/main/docs/static/logo.png?token=GHSAT0AAAAAACD564XEVEUIKLAFMDGYMMOWZEKQTGQ" align="right" width="15%" height="15%" />
+<img src="docs/static/logo.png" align="right" width="15%" height="15%" />
 
 # Marker Data Website
 

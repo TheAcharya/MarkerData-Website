@@ -2,7 +2,7 @@ input: .
 output: .retype
 url: https://markerdata.theacharya.co
 
-image: https://example.com/static/feature-image1.jpg
+image: https://markerdata.theacharya.co/assets/marker-data-social-card.png
 
 meta:
 title: " - Marker Data for Final Cut Pro"
