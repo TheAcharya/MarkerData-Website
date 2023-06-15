@@ -19,4 +19,4 @@ Icon Design by [Bor Jen Goh](https://www.artstation.com/borjengoh){target=“_bl
 Marker Data also utilises other [open-source projects and libraries](additional-credits.md).
 
 ### Special Thanks
-I would also like to thank the entire Final Cut Pro Community.
+I would also like to thank the entire Final Cut Pro and Open-Source Community!
