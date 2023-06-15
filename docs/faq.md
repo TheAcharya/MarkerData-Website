@@ -72,7 +72,7 @@ The current focus is to support and maintain Notion and Airtable integration. As
 
 If you have a particular use case and platform in mind, please start a [discussion](https://github.com/TheAcharya/MarkerData/discussions){target=“_blank”}. However, the addition of platforms will be subjected to the availability of CLI or API libraries.
 
-## Why is Marker Data free?
+## Is Marker Data free to use?
 
-There is nothing is free in the world.
+Yes.
 
