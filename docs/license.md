@@ -2,7 +2,6 @@
 label: License
 layout: page
 ---
-
 # Marker Data License Agreement
 
 MIT License

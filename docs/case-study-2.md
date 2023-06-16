@@ -1,3 +1,8 @@
+---
+label: Case Study 2
+icon: pin
+order: -4
+---
 # Case Study 2
 
 ## Lost Feature from Legacy Final Cut Pro 7

@@ -1,3 +1,8 @@
+---
+label: Credits
+icon: people
+order: -100
+---
 # Credits
 
 Original Idea, Application Direction and Workflow by [Vigneswaran Rajkumar](https://twitter.com/IAmVigneswaran){target=“_blank”}

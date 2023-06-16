@@ -1,3 +1,8 @@
+---
+label: Release Notes
+icon: note
+order: -99
+---
 # Release Notes
 
 ### 1.0.0 (2) - Private Alpha 1

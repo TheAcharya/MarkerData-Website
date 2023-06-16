@@ -1,3 +1,8 @@
+---
+label: Application Objectives
+icon: rocket
+order: -5
+---
 # Application Objectives
 
 ## Come on <a href="https://interstellarfilm.fandom.com/wiki/TARS" target="_blank">TARS</a>!

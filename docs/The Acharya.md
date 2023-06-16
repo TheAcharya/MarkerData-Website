@@ -1,3 +1,8 @@
+---
+label: The Acharya
+icon: star
+order: -99
+---
 #
 
 **The Acharya** is an independent production company based in Singapore founded by [Vigneswaran Rajkumar](https://vigneswaranrajkumar.com/){target=“_blank”}. Its current relentless pursuit is to develop and produce feature films for a distinctive global audience. With an unequivocal focus on Asian Cinema, it is engaged to bridge production opportunities and collaboration of various artistic disciplines in Asian and International landscape.

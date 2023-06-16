@@ -1,3 +1,8 @@
+---
+icon: key
+expanded: true
+order: -2
+---
 # Notion Token
 
 ## To obtain your Notion session token:

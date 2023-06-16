@@ -1,3 +1,8 @@
+---
+label: Why Final Cut Pro?
+icon: question
+order: -2
+---
 # Why Final Cut Pro?
 
 ![](https://upload.wikimedia.org/wikipedia/en/9/9f/2015_Final_Cut_Pro_Logo.png)

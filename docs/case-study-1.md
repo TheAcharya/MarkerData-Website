@@ -1,3 +1,8 @@
+---
+label: Case Study 1
+icon: pin
+order: -3
+---
 # Case Study 1
 
 ## VFX Data Tracking and Management

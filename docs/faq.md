@@ -1,3 +1,8 @@
+---
+label: FAQ
+icon: question
+order: -98
+---
 # Frequently Asked Questions
 
 ## What is the behaviour when Marker collision occurs?
