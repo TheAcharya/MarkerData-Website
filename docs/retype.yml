@@ -28,7 +28,7 @@ links:
   link: https://github.com/TheAcharya/MarkerData/releases
   target: blank
   
-- text: Feedback & Issues
+- text: Issues
   link: https://github.com/TheAcharya/MarkerData/issues
   icon: issue-opened
   target: blank
@@ -51,4 +51,4 @@ footer:
   links:
   - text: License
     link: license.md
-    icon: shield-check
+    icon: law

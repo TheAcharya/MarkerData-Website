@@ -33,7 +33,7 @@ Cost | Free & Open Source | Paid
 **Dependent on your Mac’s hardware. With Apple Silicon, you can get faster results.*
 ***Rendered Timeline*
 
-## Does Marker Data replaces ****Producer's Best Friend?****
+## Does Marker Data replaces Producer's Best Friend?
 
 No. In fact it complements it. **Producer’s Best Friend** is the best application for creating spreadsheet report (for Numbers, Excel, Preview, etc.) about the Video Clips, Audio Clips, Titles, Generators, Markers, Keywords, Effects, and Transitions. **Marker Data** only extracts information pertaining markers and its accompanying metadata. Nothing more.
 
@@ -68,9 +68,13 @@ Notion’s official API does not support direct upload and merging of images and
 
 ## Will other database platforms be supported?
 
-The current focus is to support and maintain Notion and Airtable integration. As these two are the most popular platforms among users and companies in the Film and TV industry. In the database space, new platforms (both commercial and open-source) such as [Coda](https://coda.io/), [Baserow](https://baserow.io/){target=“_blank”}, [AppFlowy](https://appflowy.io/){target=“_blank”}, Microsoft’s [Loop](https://loop.microsoft.com/learn){target=“_blank”} and the upcoming Google’s [Tables](https://www.youtube.com/@TablesfromArea120byGoogle/videos){target=“_blank”} are on the rise.
+The current focus is to support and maintain Notion and Airtable integration. As these two are the most popular platforms among users and companies in the Film and TV industry. In the database space, new platforms (both commercial and open-source) such as [Coda](https://coda.io/){target=“_blank”}, [Baserow](https://baserow.io/){target=“_blank”}, [AppFlowy](https://appflowy.io/){target=“_blank”}, Microsoft’s [Loop](https://loop.microsoft.com/learn){target=“_blank”} and the upcoming Google’s [Tables](https://www.youtube.com/@TablesfromArea120byGoogle/videos){target=“_blank”} are on the rise.
 
 If you have a particular use case and platform in mind, please start a [discussion](https://github.com/TheAcharya/MarkerData/discussions){target=“_blank”}. However, the addition of platforms will be subjected to the availability of CLI or API libraries.
+
+## Could Marker Data extract and convert Final Cut Pro's Marker metadata to another format?
+
+Yes, it is possible. We will definitely add more [Profiles](https://github.com/TheAcharya/MarkersExtractor/issues?q=is%3Aissue+is%3Aopen+label%3Aprofiles){target=“_blank”} as we improve and update our API Library over time.
 
 ## Is Marker Data free to use?
 
