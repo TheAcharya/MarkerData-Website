@@ -1,7 +1,7 @@
 ---
 label: Sample 02
 icon: star
-order: -999
+order: -998
 ---
 #
 <div class="flex">
