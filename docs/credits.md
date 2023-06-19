@@ -13,7 +13,7 @@ This open-source project would not have been possible without the talented and d
 Maintained by [Peter Schorn](https://github.com/Peter-Schorn){target=“_blank”} (1.0.0 ...)
 Initial Prototype Development by [Mark Howard](https://github.com/markydoodled){target=“_blank”} & [Theo Scott](https://github.com/theogscott){target=“_blank”}
 
-### MarkersExtractor Library and API
+### MarkersExtractor API Library
 Maintained by [Steffan Andrews](https://github.com/orchetect){target=“_blank”} ([0.2.0 ...](https://github.com/TheAcharya/MarkersExtractor){target=“_blank”})
 Initial Work by [Vladilen Zhdanov](https://github.com/vzhd1701){target=“_blank”} ([0.1.0 ... 0.1.1](https://github.com/vzhd1701/MarkersExtractor){target=“_blank”})
 
