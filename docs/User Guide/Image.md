@@ -3,7 +3,7 @@ label: Image
 icon: image
 order: -4
 ---
-# Image - Preferences
+# Image Settings
 
 ## File Creation
 

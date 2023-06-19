@@ -3,7 +3,7 @@ label: General
 icon: gear
 order: -3
 ---
-# General - Preferences
+# General Settings
 
 ## Export Destination
 

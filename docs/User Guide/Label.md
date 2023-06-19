@@ -3,4 +3,38 @@ label: Label
 icon: tag
 order: -5
 ---
-# Label - Preferences
+# Label Settings
+
+## Font
+
+### Typeface
+
+### Style
+
+### Size
+
+### Color
+
+### Opacity
+
+## Stroke
+
+### Size
+
+### Color
+
+### Opacity
+
+## Alignment
+
+### Horizontal
+
+### Vertical
+
+## Labels
+
+### Overlays:
+
+### Copyright:
+
+### Hide Label Names:
