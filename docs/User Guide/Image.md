@@ -5,6 +5,8 @@ order: -4
 ---
 # Image Settings
 
+![](/assets/md-image-settings.png)
+
 ## File Creation
 
 ### Naming Mode
@@ -15,4 +17,10 @@ order: -4
 
 ## JPG
 
+### Quality
+
 ## GIF
+
+### FPS
+
+### Span (Sec)

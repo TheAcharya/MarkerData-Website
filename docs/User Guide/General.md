@@ -5,11 +5,37 @@ order: -3
 ---
 # General Settings
 
+![](/assets/md-general-settings.png)
+
 ## Export Destination
 
-### Select Location
+### Destination
+
+Click on the **Folder Icon** to select your preferred export destination.
+
+!!!info Info
+If the destination path is empty, **Marker Data** will export to `~/Movies/Marker Data` folder within User's **Home** folder.
+!!!
 
 ### Folder Format
+
+Folder Format allows you to select your preferred folder naming scheme. To prevent conflicts or overwrites of any previously generated files, both **Medium** and **Long** Folder Formats have `Current Date` and `Current Time` printed into naming scheme. Hence, every extraction is unique.
+
+Select your desired Folder Format.
+- **Short**
+- **Medium** [!badge text="Default"]
+- **Long**
+
+!!!info Info
+Short
+`Marker Data Demo_V1`
+
+Medium
+`Marker Data Demo_V1 2023-03-21 09-45-22`
+
+Long
+`Marker Data Demo_V1 2023-03-21 09-45-22 [Notion]`
+!!!
 
 ## Extraction Profile
 
