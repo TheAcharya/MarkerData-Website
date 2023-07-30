@@ -5,7 +5,7 @@ order: -4
 ---
 # Image Settings
 
-![](assets/md-image-settings.png)
+![](/assets/md-image-settings.png)
 
 ## File Creation
 
