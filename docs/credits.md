@@ -10,8 +10,8 @@ Original Idea, Application Direction and Workflow by [Vigneswaran Rajkumar](http
 This open-source project would not have been possible without the talented and dedicated individuals mentioned below. I would like to express my sincere thanks and gratitude. :heart:
 
 ### Graphical User Interface and UI/UX Logic
-Maintained by [Peter Schorn](https://github.com/Peter-Schorn){target=“_blank”} (1.0.0 ...)
-Initial Prototype Development by [Mark Howard](https://github.com/markydoodled){target=“_blank”} & [Theo Scott](https://github.com/theogscott){target=“_blank”}
+Maintained by [Milán Várady](https://github.com/milanvarady){target=“_blank”} (1.0.0 ...)
+Previous Developers [Peter Schorn](https://github.com/Peter-Schorn){target=“_blank”}, [Theo Scott](https://github.com/theogscott){target=“_blank”} & [Mark Howard](https://github.com/markydoodled){target=“_blank”}
 
 ### MarkersExtractor API Library
 Maintained by [Steffan Andrews](https://github.com/orchetect){target=“_blank”} ([0.2.0 ...](https://github.com/TheAcharya/MarkersExtractor){target=“_blank”})
