@@ -4,7 +4,41 @@ icon: star
 order: -99
 ---
 #
-![](/static/the-acharya-black.png){ class="TheAcharyaWhite" } ![](/static/the-acharya-white.png){ class="TheAcharyaBlack" }
+<html>
+<head>
+	<style>
+		html {
+			transition: background-color 0.5s ease;
+			color: black;
+		}
+		html.dark {
+			background-color: #121212;
+			color: white;
+		}
+		.modeTA {
+			background-image: url('/static/the-acharya-black.png');
+			background-size: contain;
+			background-position: center;
+			width: 100%;
+			height: 70px;
+			background-repeat: no-repeat;
+		}
+		html.dark .modeTA {
+			background-image: url('/static/the-acharya-white.png');
+		}
+	</style>
+	<script>
+		function toggleDarkLightMode() {
+			var html = document.documentElement;
+			html.classList.toggle("dark");
+		}
+	</script>
+</head>
+<body>
+	<div align="center" class="modeTA"></div>
+	<br>
+</body>
+</html>
 
 The Acharya is an independent production company based in Singapore founded by [Vigneswaran Rajkumar](https://vigneswaranrajkumar.com/){target=“_blank”}. Its current relentless pursuit is to develop and produce feature films for a distinctive global audience. With an unequivocal focus on Asian Cinema, it is engaged to bridge production opportunities and collaboration of various artistic disciplines in Asian and International landscape.
 
