@@ -11,7 +11,10 @@ order: -2
 2. Find and copy the entire `token_v2` value including `v02%3Auser_token_or_cookies%` from your Notion session.
 
 ==- Safari
-Using Web Developer Tools
+Enable Web Inspector
+
+- If you don’t see the Develop menu in the menu bar, choose Safari, Settings, click Advanced, then select “Show features for web developers”.
+- Press `⌥ + ⌘ + i` to show Web Inspector
 
 <video controls width="1920">
   <source src="/assets/safari.mp4" type="video/mp4">
@@ -19,11 +22,11 @@ Your browser does not support the video tag.
 </video>
 ===
 
-==- Chrome or Brave
-Using Cookie Menu
+==- Brave, Chrome or Edge
+Go to Setting, Privacy and security
 
 <video controls width="1920">
-  <source src="/assets/chrome.mp4" type="video/mp4">
+  <source src="/assets/brave.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 ===
@@ -33,15 +36,6 @@ Using Web Developer Tools
 
 <video controls width="1920">
   <source src="/assets/firefox.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video>
-===
-
-==- Edge
-Using Cookie Menu
-
-<video controls width="1920">
-  <source src="/assets/edge.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 ===
