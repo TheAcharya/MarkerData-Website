@@ -31,15 +31,6 @@ Your browser does not support the video tag.
 </video>
 ===
 
-==- Firefox
-Using Web Developer Tools
-
-<video controls width="1920">
-  <source src="/assets/firefox.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video>
-===
-
 !!!info Info
 Please take note that your Notion v2 Token may expire after some period of time. You would have to obtain it again.
 !!!
