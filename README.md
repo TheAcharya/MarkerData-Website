@@ -2,4 +2,6 @@
 
 # Marker Data Website
 
+[![Publish Retype powered website to GitHub Pages](https://github.com/TheAcharya/MarkerData-Website/actions/workflows/retype-action.yml/badge.svg)](https://github.com/TheAcharya/MarkerData-Website/actions/workflows/retype-action.yml)
+
 This repository contains the source code for the Marker Data website.
