@@ -13,9 +13,13 @@ This open-source project would not have been possible without the talented and d
 Maintained by [Milán Várady](https://github.com/milanvarady){target=“_blank”} (1.0.0 ...)
 Previous Developers [Peter Schorn](https://github.com/Peter-Schorn){target=“_blank”}, [Theo Scott](https://github.com/theogscott){target=“_blank”} & [Mark Howard](https://github.com/markydoodled){target=“_blank”}
 
-### MarkersExtractor API Library
+### MarkersExtractor (CLI & API)
 Maintained by [Steffan Andrews](https://github.com/orchetect){target=“_blank”} ([0.2.0 ...](https://github.com/TheAcharya/MarkersExtractor){target=“_blank”})
 Initial Work by [Vladilen Zhdanov](https://github.com/vzhd1701){target=“_blank”} ([0.1.0 ... 0.1.1](https://github.com/vzhd1701/MarkersExtractor){target=“_blank”})
+
+### CSV2Notion Neo
+Maintained by [Arjun Prakash](https://github.com/arjunprakash027){target=“_blank”} ([1.0.0 ...](https://github.com/TheAcharya/csv2notion-neo){target=“_blank”})
+Original Work by [Vladilen Zhdanov](https://github.com/vzhd1701){target=“_blank”}
 
 ### App Icon
 Icon Design by [Bor Jen Goh](https://www.artstation.com/borjengoh){target=“_blank”}
