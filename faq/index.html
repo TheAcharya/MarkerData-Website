@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.751253429094">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.751618406879">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -33,11 +33,11 @@
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../static/favicon.ico" rel="icon">
-    <link href="../resources/css/retype.css?v=3.5.0.751253429094" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=3.5.0.751618406879" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=3.5.0.751253429094" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=3.5.0.751618406879" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.5.0.751253429094" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.5.0.751618406879" data-turbo-eval="false" defer></script>
 
     <style>
     	/* The Acharya Logo */
@@ -430,14 +430,16 @@
         <span>Why Notion v2 Token is used instead of Notion’s official API Connections?</span>
     </h2>
 </doc-anchor-target>
-<p>Notion’s official API does not support direct upload and merging of images and page icons. It also does not support automatic linking or create new entries in relation columns based on their value. Hence, Marker Data utilise <a href="https://github.com/vzhd1701/csv2notion" target="“_blank”">csv2notion</a>.</p>
+<p>Notion’s official API does not support direct upload and merging of images and page icons. It also does not support automatic linking or create new entries in relation columns based on their value. The day when Notion further opens up their APIs, we will look into updating our internal components.</p>
+<p>Hence, Marker Data utilise <a href="https://github.com/TheAcharya/csv2notion-neo" target="“_blank”">CSV2Notion Neo</a>.</p>
 <doc-anchor-target id="will-other-database-platforms-be-supported">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#will-other-database-platforms-be-supported">#</doc-anchor-trigger>
         <span>Will other database platforms be supported?</span>
     </h2>
 </doc-anchor-target>
-<p>The current focus is to support and maintain Notion and Airtable integration. As these two are the most popular platforms among users and companies in the Film and TV industry. In the database space, new platforms (both commercial and open-source) such as <a href="https://coda.io/" target="“_blank”">Coda</a>, <a href="https://baserow.io/" target="“_blank”">Baserow</a>, <a href="https://appflowy.io/" target="“_blank”">AppFlowy</a>, Microsoft’s <a href="https://loop.microsoft.com/learn" target="“_blank”">Loop</a> and the upcoming Google’s <a href="https://www.youtube.com/@TablesfromArea120byGoogle/videos" target="“_blank”">Tables</a> are on the rise.</p>
+<p>The current focus is to support and maintain Notion and Airtable integration. As these two are the most popular platforms among users and companies in the Film and TV industry. We took considerable amount of time in building our internal components for both Notion and Airtable.</p>
+<p>In the database space, new platforms (both commercial and open-source) such as <a href="https://coda.io/" target="“_blank”">Coda</a>, <a href="https://baserow.io/" target="“_blank”">Baserow</a>, <a href="https://appflowy.io/" target="“_blank”">AppFlowy</a>, Microsoft’s <a href="https://loop.microsoft.com/learn" target="“_blank”">Loop</a> and the upcoming Google’s <a href="https://www.youtube.com/@TablesfromArea120byGoogle/videos" target="“_blank”">Tables</a> are on the rise.</p>
 <p>If you have a particular use case and platform in mind, please start a <a href="https://github.com/TheAcharya/MarkerData/discussions" target="“_blank”">discussion</a>. However, the addition of platforms will be subjected to the availability of CLI or API libraries.</p>
 <doc-anchor-target id="could-marker-data-extract-and-convert-final-cut-pros-marker-metadata-to-another-format">
     <h2>
@@ -462,11 +464,11 @@
                             
                                 <nav class="flex mt-14">
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../about-databases/notion-token/">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../about-databases/airtable-token/">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                             <span>
                                                 <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
-                                                <span class="block mt-1">Notion Token</span>
+                                                <span class="block mt-1">Airtable Personal Access Token</span>
                                             </span>
                                         </a>
                                     </div>
