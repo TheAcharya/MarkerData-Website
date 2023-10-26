@@ -12,7 +12,7 @@ order: -3
 3. Give your token a unique name. This name will be visible in record revision history.
 4. Add the following scopes to grant to your token. This controls what API endpoints the token will be able to use.
 
-![](assets/airtable_scopes.png)
+![Scopes](assets/airtable_scopes.png)
 
 5. Click ‘add a base’ to grant the token access to a base or workspace.
 !!!info Info
