@@ -69,11 +69,15 @@ No. Despite having the ability to import and export FCPXMLs from DaVinci Resolve
 
 ## Why Notion v2 Token is used instead of Notion’s official API Connections?
 
-Notion’s official API does not support direct upload and merging of images and page icons. It also does not support automatic linking or create new entries in relation columns based on their value. Hence, Marker Data utilise [csv2notion](https://github.com/vzhd1701/csv2notion){target=“_blank”}.
+Notion’s official API does not support direct upload and merging of images and page icons. It also does not support automatic linking or create new entries in relation columns based on their value. The day when Notion further opens up their APIs, we will look into updating our internal components.
+
+Hence, Marker Data utilise [CSV2Notion Neo](https://github.com/TheAcharya/csv2notion-neo){target=“_blank”}.
 
 ## Will other database platforms be supported?
 
-The current focus is to support and maintain Notion and Airtable integration. As these two are the most popular platforms among users and companies in the Film and TV industry. In the database space, new platforms (both commercial and open-source) such as [Coda](https://coda.io/){target=“_blank”}, [Baserow](https://baserow.io/){target=“_blank”}, [AppFlowy](https://appflowy.io/){target=“_blank”}, Microsoft’s [Loop](https://loop.microsoft.com/learn){target=“_blank”} and the upcoming Google’s [Tables](https://www.youtube.com/@TablesfromArea120byGoogle/videos){target=“_blank”} are on the rise.
+The current focus is to support and maintain Notion and Airtable integration. As these two are the most popular platforms among users and companies in the Film and TV industry. We took considerable amount of time in building our internal components for both Notion and Airtable.
+
+In the database space, new platforms (both commercial and open-source) such as [Coda](https://coda.io/){target=“_blank”}, [Baserow](https://baserow.io/){target=“_blank”}, [AppFlowy](https://appflowy.io/){target=“_blank”}, Microsoft’s [Loop](https://loop.microsoft.com/learn){target=“_blank”} and the upcoming Google’s [Tables](https://www.youtube.com/@TablesfromArea120byGoogle/videos){target=“_blank”} are on the rise.
 
 If you have a particular use case and platform in mind, please start a [discussion](https://github.com/TheAcharya/MarkerData/discussions){target=“_blank”}. However, the addition of platforms will be subjected to the availability of CLI or API libraries.
 

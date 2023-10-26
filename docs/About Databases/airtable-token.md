@@ -1,9 +1,9 @@
 ---
 icon: key
 expanded: true
-order: -2
+order: -3
 ---
-# Notion Sessions Token
+# Airtable Personal Access Token
 
 ## To obtain your Notion session token:
 
@@ -30,10 +30,6 @@ Go to Setting, Privacy and security
 Your browser does not support the video tag.
 </video>
 ===
-
-!!!info Info
-Please take note that your Notion v2 Token may expire after some period of time. You would have to obtain it again.
-!!!
 
 !!!warning Warning
 Do not share your Notion v2 Token with anyone.
