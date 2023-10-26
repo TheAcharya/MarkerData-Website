@@ -3,34 +3,20 @@ icon: key
 expanded: true
 order: -3
 ---
-# Airtable Personal Access Token
+# Airtable Token
 
-## To obtain your Notion session token:
+## To obtain your Airtable's Personal Access Token (PATs):
 
-1. Login to your [Notion](https://www.notion.so/login){target=“_blank”} account via a web browser.
-2. Find and copy the entire `token_v2` value including `v02%3Auser_token_or_cookies%` from your Notion session.
+1. Login to your [Airtable](https://airtable.com/login){target=“_blank”} account via a web browser.
+2. Go to [Personal access token](https://airtable.com/create/tokens){target=“_blank”}, click the **Create new token** button to create a new personal access token.
+3. Give your token a unique name. This name will be visible in record revision history.
+4. Add the following scopes to grant to your token. This controls what API endpoints the token will be able to use.
 
-==- Safari
-Enable Web Inspector
+![](assets/airtable_scopes.png)
 
-- If you don’t see the Develop menu in the menu bar, choose Safari, Settings, click Advanced, then select “Show features for web developers”.
-- Press `⌥ + ⌘ + i` to show Web Inspector
-
-<video controls width="1920">
-  <source src="/assets/safari.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video>
-===
-
-==- Brave, Chrome or Edge
-Go to Setting, Privacy and security
-
-<video controls width="1920">
-  <source src="/assets/brave.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video>
-===
-
-!!!warning Warning
-Do not share your Notion v2 Token with anyone.
+5. Click ‘add a base’ to grant the token access to a base or workspace.
+!!!info Info
+You can grant access to any combination and number of bases and workspaces. You can also grant access to all workspaces and bases under your account. Keep in mind that the token will only be able to read and write data within the bases and workspaces that have been assigned to it.
 !!!
+
+6. Once your token is created, we will only show it to you once, it is encouraged that you to copy it to your clipboard and store it somewhere safe. While you will be able to manage it in [Personal access token](https://airtable.com/create/tokens){target=“_blank”}, the sensitive token itself is not stored for security purposes.
