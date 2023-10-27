@@ -19,7 +19,7 @@ order: -3
 You can grant access to any combination and number of bases and workspaces. You can also grant access to all workspaces and bases under your account. Keep in mind that the token will only be able to read and write data within the bases and workspaces that have been assigned to it.
 !!!
 
-6. Once your token is created, we will only show it to you once, it is encouraged that you to copy it to your clipboard and store it somewhere safe. While you will be able to manage it in [Personal access token](https://airtable.com/create/tokens){target=“_blank”}, the sensitive token itself is not stored for security purposes.
+6. Once your token is created, the token will only be shown to you once, it is encouraged that you to copy it to your clipboard and store it somewhere safe. While you will be able to manage it in [Personal access token](https://airtable.com/create/tokens){target=“_blank”}, the sensitive token itself is not stored for security purposes.
 
 ## Obtain your Airtable's Base ID & Table ID:
 
