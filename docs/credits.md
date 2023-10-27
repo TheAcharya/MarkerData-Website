@@ -7,7 +7,7 @@ order: -100
 
 Original Idea, Application Direction and Workflow Architecture by [Vigneswaran Rajkumar](https://twitter.com/IAmVigneswaran){target=“_blank”}
 
-This open-source project would not have been possible without the talented and dedicated individuals mentioned below. I would like to express my sincere thanks and gratitude. :heart:
+**Marker Data** would not have been possible without the talented and dedicated individuals mentioned below. I would like to express my sincere thanks and gratitude. :heart:
 
 ### Graphical User Interface and UI/UX Logic
 Maintained by [Milán Várady](https://github.com/milanvarady){target=“_blank”} (1.0.0 ...)
@@ -20,6 +20,9 @@ Initial Work by [Vladilen Zhdanov](https://github.com/vzhd1701){target=“_blank
 ### CSV2Notion Neo
 Maintained by [Arjun Prakash](https://github.com/arjunprakash027){target=“_blank”} ([1.0.0 ...](https://github.com/TheAcharya/csv2notion-neo){target=“_blank”})
 Original Work by [Vladilen Zhdanov](https://github.com/vzhd1701){target=“_blank”}
+
+### Airlift
+Maintained by [Arjun Prakash](https://github.com/arjunprakash027){target=“_blank”} ([1.0.0 ...](https://github.com/TheAcharya/Airlift){target=“_blank”})
 
 ### App Icon
 Icon Design by [Bor Jen Goh](https://www.artstation.com/borjengoh){target=“_blank”}
