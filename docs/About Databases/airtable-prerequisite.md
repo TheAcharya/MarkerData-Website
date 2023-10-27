@@ -25,7 +25,7 @@ You can grant access to any combination and number of bases and workspaces. You 
 
 1. When you have a base open in a compatible web browser, you should see a URL in the address bar that looks similar to the example below:
 
-![Scopes](/assets/airtable_url.jpg)
+![Airtable URL](/assets/airtable_url.jpg)
 
 In between each backslash, you will find a string that identifies the base, table, and view IDs.
 
@@ -33,7 +33,7 @@ In between each backslash, you will find a string that identifies the base, tabl
 - Table IDs begin with "tbl"
 - View IDs begin with "viw"
 
-![Scopes](/assets/airtable_url_reference.png)
+![Airtable URL Reference](/assets/airtable_url_reference.png)
 
 !!!info Info
 We only require **Base ID** and **Table ID** for Marker Data

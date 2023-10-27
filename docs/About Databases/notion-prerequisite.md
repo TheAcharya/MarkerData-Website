@@ -43,4 +43,4 @@ Do not share your Notion v2 Token with anyone.
 
 1. Go to your Notion Database, and right-click on the view and click **Copy link to view**
 
-![Scopes](/assets/notion_url.png)
+![Copy Notion URL](/assets/notion_url.png)
