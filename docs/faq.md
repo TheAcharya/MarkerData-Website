@@ -71,8 +71,6 @@ No. Despite having the ability to import and export FCPXMLs from DaVinci Resolve
 
 Notion’s official API does not support direct upload and merging of images and page icons. It also does not support automatic linking or create new entries in relation columns based on their value. The day when Notion further opens up their APIs, we will look into updating our internal components.
 
-Hence, Marker Data utilise [CSV2Notion Neo](https://github.com/TheAcharya/csv2notion-neo){target=“_blank”}.
-
 ## Will other database platforms be supported?
 
 The current focus is to support and maintain Notion and Airtable integration. As these two are the most popular platforms among users and companies in the Film and TV industry. We took considerable amount of time in building our internal components for both Notion and Airtable.
@@ -87,5 +85,5 @@ Yes, it is possible. We will definitely add more [Profiles](https://github.com/T
 
 ## Is Marker Data free to use?
 
-Yes.
+Yes. But you can [sponsor](https://github.com/sponsors/TheAcharya){target=“_blank”} us if you find our tools useful.
 

@@ -5,7 +5,7 @@ order: -100
 ---
 # Credits
 
-Original Idea, Application Direction and Workflow by [Vigneswaran Rajkumar](https://twitter.com/IAmVigneswaran){target=“_blank”}
+Original Idea, Application Direction and Workflow Architecture by [Vigneswaran Rajkumar](https://twitter.com/IAmVigneswaran){target=“_blank”}
 
 This open-source project would not have been possible without the talented and dedicated individuals mentioned below. I would like to express my sincere thanks and gratitude. :heart:
 
