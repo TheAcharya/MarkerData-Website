@@ -3,7 +3,7 @@ icon: key
 expanded: true
 order: -2
 ---
-# Notion Token
+# Notion Prerequisite
 
 ## To obtain your Notion's Session Token:
 
@@ -38,3 +38,7 @@ Please take note that your Notion v2 Token may expire after some period of time.
 !!!warning Warning
 Do not share your Notion v2 Token with anyone.
 !!!
+
+## Obtaining Database URL:
+
+![Scopes](/assets/airtable_scopes.png)
