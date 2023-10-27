@@ -5,7 +5,7 @@ order: -3
 ---
 # Airtable Prerequisite
 
-## To obtain your Airtable's Personal Access Token (PATs):
+## Obtain your Airtable's Personal Access Token:
 
 1. Login to your [Airtable](https://airtable.com/login){target=“_blank”} account via a web browser.
 2. Go to [Personal access token](https://airtable.com/create/tokens){target=“_blank”}, click the **Create new token** button to create a new personal access token.
@@ -20,3 +20,21 @@ You can grant access to any combination and number of bases and workspaces. You 
 !!!
 
 6. Once your token is created, we will only show it to you once, it is encouraged that you to copy it to your clipboard and store it somewhere safe. While you will be able to manage it in [Personal access token](https://airtable.com/create/tokens){target=“_blank”}, the sensitive token itself is not stored for security purposes.
+
+## Obtain your Airtable's Base ID & Table ID:
+
+1. When you have a base open in a compatible web browser, you should see a URL in the address bar that looks similar to the example below:
+
+![Scopes](/assets/airtable_url.jpg)
+
+In between each backslash, you will find a string that identifies the base, table, and view IDs.
+
+- Base IDs begin with "app"
+- Table IDs begin with "tbl"
+- View IDs begin with "viw"
+
+![Scopes](/assets/airtable_url_reference.png)
+
+!!!info Info
+We only require **Base ID** and **Table ID** for Marker Data
+!!!
