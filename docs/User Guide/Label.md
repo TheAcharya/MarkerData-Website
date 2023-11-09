@@ -7,31 +7,31 @@ order: -5
 
 ## Appearance
 
-## Font
+### Font
 
-### Typeface
+#### Typeface
 
-### Style
+#### Style
 
-### Size
+#### Size
 
-### Color
+#### Color
 
-### Opacity
+#### Opacity
 
 ## Stroke
 
-### Size
+#### Size
 
-### Color
+#### Color
 
-### Opacity
+#### Opacity
 
-## Alignment
+### Alignment
 
-### Horizontal
+#### Horizontal
 
-### Vertical
+#### Vertical
 
 ## Appearance
 
