@@ -19,7 +19,7 @@ order: -5
 
 #### Opacity
 
-## Stroke
+### Stroke
 
 #### Size
 
@@ -33,7 +33,7 @@ order: -5
 
 #### Vertical
 
-## Appearance
+## Overlays
 
 ### Available Overlays
 
