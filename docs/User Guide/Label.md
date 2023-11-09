@@ -5,6 +5,8 @@ order: -5
 ---
 # Label Settings
 
+## Appearance
+
 ## Font
 
 ### Typeface
@@ -31,9 +33,11 @@ order: -5
 
 ### Vertical
 
-## Labels
+## Appearance
 
-### Overlays:
+### Available Overlays
+
+### Selected Overlays
 
 ### Copyright:
 
