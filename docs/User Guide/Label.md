@@ -35,4 +35,4 @@ order: -5
 
 ### Copyright:
 
-### Hide Label Names:
+### Hide Overlay Names:
