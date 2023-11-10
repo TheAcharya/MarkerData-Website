@@ -37,9 +37,29 @@ The file size of the images would be relatively large when selecting **GIF**.
 
 ## Image Size
 
+### Width
+
+By [!badge text="Default"] `Width` selection is disabled. **Marker Data** would automatically use the exact dimensions from your exported video file. When enabled, you can manually limit image width while keeping its aspect ratio.
+
+### Height
+
+By [!badge text="Default"] `Height` selection is disabled. **Marker Data** would automatically use the exact dimensions from your exported video file. When enabled, you can manually limit image height while keeping its aspect ratio.
+
+### Size (%)
+
+By [!badge text="Default"] `Size (%)` is set to `100` for both `PNG` and `JPG`  Image Format. For `GIF` the [!badge text="Default"] value is set to `50`. 
+
+If your original exported video file had dimensions of `1920 x 1080`; when setting `Size (%)` value to `50`, the extracted images would be in `960 x 540`.
+
+!!!info Info
+For **GIF** Image Format we do not recommend setting the `Size (%)` value to be more than 60.
+!!!
+
 ## JPG
 
 ### Quality
+
+By [!badge text="Default"] `Quality` is greyed out. It is only available for `JPG` Image Format. The [!badge text="Default"] value is set to `100`.
 
 ## GIF
 

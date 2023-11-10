@@ -5,33 +5,27 @@ order: -5
 ---
 # Label Settings
 
-## Appearance
+## Font
 
-### Font
+### Typeface
 
-#### Typeface
+### Style
 
-#### Style
+### Size
 
-#### Size
+### Color & Opacity
 
-#### Color
+## Stroke
 
-#### Opacity
+### Size
 
-### Stroke
+### Color & Opacity
 
-#### Size
+## Alignment
 
-#### Color
+### Horizontal
 
-#### Opacity
-
-### Alignment
-
-#### Horizontal
-
-#### Vertical
+### Vertical
 
 ## Overlays
 
