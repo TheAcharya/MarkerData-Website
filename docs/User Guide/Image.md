@@ -13,7 +13,7 @@ order: -4
 
 Naming Mode allows you to select your preferred `Marker IDs` and image `Filenames` scheme. By [!badge text="Default"] **Marker Data** will use Marker’s `Timecode` as its `Marker ID`. If the project name was `Demo V1`, **Marker Data** would generate the `Marker ID` as `Demo_V1_Timecode` and it will utilise the same `Marker ID` for the image `Filename` as well.
 
-Depending on your workflow, you can also select `Name` or `Notes` as your `Marker ID`. These could be ideal for creating [!ref VFX Database](/faq.md). For both `Name` and `Notes`, it is ideal that you input unique text values. If your text values were found to be identical, **Marker Data** would automatically append a numerical suffix at the end of the filename.
+Depending on your workflow, you can also select `Name` or `Notes` as your `Marker ID`. These could be ideal for creating [VFX Database](/faq.md#what-is-the-appropriate-workflow-for-naming-vfx-ids). For both `Name` and `Notes`, it is ideal that you input unique text values. If your text values were found to be identical, **Marker Data** would automatically append a numerical suffix at the end of the filename.
 
 ![Final Cut Pro's Time Display](/assets/md-image-settings_01.png)
 
@@ -52,7 +52,7 @@ By [!badge text="Default"] `Size (%)` is set to `100` for both `PNG` and `JPG`  
 If your original exported video file had dimensions of `1920 x 1080`; when setting `Size (%)` value to `50`, the extracted images would be in `960 x 540`.
 
 !!!info Info
-For **GIF** Image Format we do not recommend setting the `Size (%)` value to be more than 60.
+For **GIF** Image Format we do not recommend setting the `Size (%)` value to be more than `60`.
 !!!
 
 ## JPG
@@ -65,4 +65,12 @@ By [!badge text="Default"] `Quality` is greyed out. It is only available for `JP
 
 ### FPS
 
+By [!badge text="Default"] `FPS` is greyed out. It is only available for `GIF` Image Format. The [!badge text="Default"] value is set to `10`.
+
 ### Span (Sec)
+
+By [!badge text="Default"] `Span (Sec)` is greyed out. It is only available for `GIF` Image Format. The [!badge text="Default"] value is set to `2`.
+
+!!!info Info
+For **GIF** Image Format we do not recommend setting the `FPS` value to be more than `15` and setting the `Span (Sec)` value to be more than `5`.
+!!!
