@@ -73,7 +73,7 @@ Notion’s official API does not support direct upload and merging of images and
 
 ## Will other database platforms be supported?
 
-The current focus is to support and maintain Notion and Airtable integration. As these two are the most popular platforms among users and companies in the Film and TV industry. We took considerable amount of time in building our internal components for both Notion and Airtable.
+The current focus is to support and maintain Notion and Airtable integration. As these two are the most popular platforms among users and companies in the Film and TV industry. We took considerable amount of time in building our internal components for both [Notion](https://github.com/TheAcharya/csv2notion-neo){target=“_blank”} and [Airtable](https://github.com/TheAcharya/Airlift){target=“_blank”}.
 
 In the database space, new platforms (both commercial and open-source) such as [Coda](https://coda.io/){target=“_blank”}, [Baserow](https://baserow.io/){target=“_blank”}, [AppFlowy](https://appflowy.io/){target=“_blank”}, Microsoft’s [Loop](https://loop.microsoft.com/learn){target=“_blank”} and the upcoming Google’s [Tables](https://www.youtube.com/@TablesfromArea120byGoogle/videos){target=“_blank”} are on the rise.
 
