@@ -11,7 +11,7 @@ order: -4
 
 ### Naming Mode
 
-Naming Mode allows you to select your preferred `Marker IDs` and image `Filenames` scheme. By [!badge text="Default"] **Marker Data** will use Marker’s `Timecode` as its `Marker ID`. If the project name was `Demo V1`, **Marker Data** would generate the `Marker ID` as `Demo_V1_Timecode` and it will utilise the same `Marker ID` for the image `Filename` as well.
+Naming Mode allows you to select your preferred `Marker IDs` and image `file-name` scheme. By [!badge text="Default"] **Marker Data** will use Marker’s `Timecode` as its `Marker ID`. If the project name was `Demo V1`, **Marker Data** would generate the `Marker ID` as `Demo_V1_Timecode` and it will utilise the same `Marker ID` for the image `file-name` as well.
 
 Depending on your workflow, you can also select `Name` or `Notes` as your `Marker ID`. These could be ideal for creating [VFX Database](/faq.md#what-is-the-appropriate-workflow-for-naming-vfx-ids). For both `Name` and `Notes`, it is ideal that you input unique text values. If your text values were found to be identical, **Marker Data** would automatically append a numerical suffix at the end of the filename.
 
@@ -75,10 +75,10 @@ By [!badge text="Default"] `FPS` is greyed out. It is only available for `GIF` I
 
 By [!badge text="Default"] `Span (Sec)` is greyed out. It is only available for `GIF` Image Format. The [!badge text="Default"] value is set to `2`.
 
-![GIF with 10 FPS and 2 Sec Duration](/assets/md-image-settings_04.gif) 
+![GIF with 10 FPS and 2 Sec Span](/assets/md-image-settings_04.gif) 
 
-![GIF with 15 FPS and 3 Sec Duration](/assets/md-image-settings_05.gif)
+![GIF with 15 FPS and 3 Sec Span](/assets/md-image-settings_05.gif)
 
 !!!info Info
-For **GIF** Image Format we do not recommend setting the `FPS` value to be more than `15` and setting the `Span (Sec)` value to be more than `4`.
+For **GIF** Image Format we do not recommend setting the `FPS` value to be more than `15` and setting the `Span (Sec)` value to be more than `3`. You can right-click on the above images and save them to your computer to make file-size comparison.
 !!!
