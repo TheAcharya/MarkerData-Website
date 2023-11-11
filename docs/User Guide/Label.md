@@ -9,10 +9,10 @@ order: -5
 
 ### Typeface
 
-**Marker Data** allows you to select different Typefaces for the label burn-ins. `Menlo` is the [!badge text="Default"] Typeface.
+**Marker Data** allows you to select different fonts for the label appearance. `Menlo` is the [!badge text="Default"] `Typeface` selection.
 
 !!!info Info
-By design, we have restricted the choice of Typefaces selection. We believe the provided choice of Typefaces would be more than adequate for burn-ins. Furthermore, these fonts are installed macOS by default.
+By design, we have restricted the choice of Typeface selection. We believe the provided choice of Typefaces would be more than adequate for burn-ins. Furthermore, these fonts are installed macOS by default.
 !!!
 
 Select your desired Typeface.
@@ -32,6 +32,8 @@ Select your desired Style.
 - **Bold**
 
 ### Size
+
+By [!badge text="Default"] `Size` is set to `30` for `Typeface`'s' font-size. You can set a lower `Size` to accommodate more `Overlays`.
 
 ### Color & Opacity
 

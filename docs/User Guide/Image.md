@@ -65,6 +65,10 @@ By [!badge text="Default"] `Quality` is greyed out. It is only available for `JP
 
 ![Quality set to 10](/assets/md-image-settings_03.jpg)
 
+!!!info Info
+You can right-click on the above images and save them to your computer to make file-size and compression comparison.
+!!!
+
 ## GIF
 
 ### FPS
@@ -80,5 +84,9 @@ By [!badge text="Default"] `Span (Sec)` is greyed out. It is only available for 
 ![GIF with 15 FPS and 3 Sec Span](/assets/md-image-settings_05.gif)
 
 !!!info Info
-For **GIF** Image Format we do not recommend setting the `FPS` value to be more than `15` and setting the `Span (Sec)` value to be more than `3`. You can right-click on the above images and save them to your computer to make file-size comparison.
+For **GIF** Image Format we do not recommend setting the `FPS` value to be more than `15` and setting the `Span (Sec)` value to be more than `3`.
+!!!
+
+!!!info Info
+You can right-click on the above images and save them to your computer to make file-size comparison.
 !!!
