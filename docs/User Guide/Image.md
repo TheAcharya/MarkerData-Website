@@ -61,7 +61,9 @@ For **GIF** Image Format we do not recommend setting the `Size (%)` value to be 
 
 By [!badge text="Default"] `Quality` is greyed out. It is only available for `JPG` Image Format. The [!badge text="Default"] value is set to `100`.
 
-![`Quality` set to `100`](/assets/md-image-settings_02.jpg) ![`Quality` set to `10`](/assets/md-image-settings_03.jpg)
+![Quality set to 100](/assets/md-image-settings_02.jpg) 
+
+![Quality set to 10](/assets/md-image-settings_03.jpg)
 
 ## GIF
 
@@ -73,6 +75,10 @@ By [!badge text="Default"] `FPS` is greyed out. It is only available for `GIF` I
 
 By [!badge text="Default"] `Span (Sec)` is greyed out. It is only available for `GIF` Image Format. The [!badge text="Default"] value is set to `2`.
 
+![GIF with 10 FPS and 2 Sec Duration](/assets/md-image-settings_04.gif) 
+
+![GIF with 15 FPS and 3 Sec Duration](/assets/md-image-settings_05.gif)
+
 !!!info Info
-For **GIF** Image Format we do not recommend setting the `FPS` value to be more than `15` and setting the `Span (Sec)` value to be more than `5`.
+For **GIF** Image Format we do not recommend setting the `FPS` value to be more than `15` and setting the `Span (Sec)` value to be more than `4`.
 !!!
