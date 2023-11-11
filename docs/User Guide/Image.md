@@ -61,7 +61,7 @@ For **GIF** Image Format we do not recommend setting the `Size (%)` value to be 
 
 By [!badge text="Default"] `Quality` is greyed out. It is only available for `JPG` Image Format. The [!badge text="Default"] value is set to `100`.
 
-![`Quality` set to `100`](/assets/md-image-settings_02.png) ![`Quality` set to `10`](/assets/md-image-settings_03.png)
+![`Quality` set to `100`](/assets/md-image-settings_02.jpg) ![`Quality` set to `10`](/assets/md-image-settings_03.jpg)
 
 ## GIF
 
