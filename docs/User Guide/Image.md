@@ -15,7 +15,7 @@ Naming Mode allows you to select your preferred `Marker IDs` and image `Filename
 
 Depending on your workflow, you can also select `Name` or `Notes` as your `Marker ID`. These could be ideal for creating [VFX Database](/faq.md#what-is-the-appropriate-workflow-for-naming-vfx-ids). For both `Name` and `Notes`, it is ideal that you input unique text values. If your text values were found to be identical, **Marker Data** would automatically append a numerical suffix at the end of the filename.
 
-![Final Cut Pro's Time Display](/assets/md-image-settings_01.png)
+![Selecting Naming Mode](/assets/md-image-settings_01.png)
 
 Select your desired Naming Mode.
 - **Timecode** [!badge text="Default"]
@@ -60,6 +60,8 @@ For **GIF** Image Format we do not recommend setting the `Size (%)` value to be 
 ### Quality
 
 By [!badge text="Default"] `Quality` is greyed out. It is only available for `JPG` Image Format. The [!badge text="Default"] value is set to `100`.
+
+![`Quality` set to `100`](/assets/md-image-settings_02.png) ![`Quality` set to `10`](/assets/md-image-settings_03.png)
 
 ## GIF
 
