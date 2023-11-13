@@ -31,12 +31,20 @@ Marker Data allows users to extract, convert and create databases from [Final Cu
 
 ## Demo
 
+![](/assets/md-main.png)
+
+![](/assets/md-general-settings.png)
+
+![](/assets/md-label-settings.png)
+
+![](/assets/md-configuration-settings.png)
+
 ## Screenshot
 
 ## System Requirements
 
-macOS Monterey 12.6.5 or later
-Final Cut Pro 10.6.5
+macOS Ventura 13.6.2 or later
+Final Cut Pro 10.6.9
 Runs natively on both Apple silicon and Intel-based Mac computers
 
 ## Use Cases
@@ -51,6 +59,6 @@ Runs natively on both Apple silicon and Intel-based Mac computers
 
 ## Support
 
-Technical support questions are best asked in the Discussions.
+Technical support questions are best asked in the [Discussions](https://github.com/TheAcharya/MarkerData/discussions){target=“_blank”}.
 
-For bug reports, feature requests and other suggestions you can create a new issue to discuss.
+For bug reports, feature requests and other suggestions you can create a new [issue](https://github.com/TheAcharya/MarkerData/issues){target=“_blank”} to discuss.
