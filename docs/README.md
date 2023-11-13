@@ -33,7 +33,7 @@ Marker Data allows users to extract, convert and create databases from [Final Cu
 
 ## Screenshot
 
-![Main Window](/assets/md-main.png)
+![Main Extract Window](/assets/md-main.png)
 
 ![General Settings](/assets/md-general-settings.png)
 

@@ -41,7 +41,9 @@ Select your desired Style.
 
 ![](/assets/md-label-settings_01.gif)
 
-By [!badge text="Default"] the colour of the [!badge variant="success" text="Typeface"] is in `White`. You can click on the [!badge variant="success" text="Colour Well"] to invoke the pop-over. You can also click on [!badge variant="success" text="Show More Colors"] button to invoke macOS's [!badge variant="success" text="Colors"] pop-up should you desire to customise further.
+By [!badge text="Default"] the colour of the [!badge variant="success" text="Typeface"] is in `White`. You can click on the [!badge variant="success" text="Colour Well"] to invoke the pop-over. You can also click on [!badge variant="success" text="Show More Colours"] button to invoke macOS's picker should you desire to customise further.
+
+The [!badge text="Default"] value of [!badge variant="success" text="Opacity"] is `100` for the [!badge variant="success" text="Typeface"]. Use the [!badge variant="success" text="Slider"] to set your desired value.
 
 ## Stroke
 
