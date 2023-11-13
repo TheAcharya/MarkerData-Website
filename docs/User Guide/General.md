@@ -5,7 +5,7 @@ order: -3
 ---
 # General Settings
 
-![](/assets/md-general-settings.png)
+![General Settings](/assets/md-general-settings.png)
 
 ## Export Destination
 

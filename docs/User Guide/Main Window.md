@@ -5,5 +5,5 @@ order: -2
 ---
 # Main Window
 
-![](/assets/md-main.png)
+![Main Extract Window](/assets/md-main.png)
 

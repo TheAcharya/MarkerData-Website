@@ -5,7 +5,7 @@ order: -5
 ---
 # Label Settings
 
-![](/assets/md-label-settings.png)
+![Label Settings](/assets/md-label-settings.png)
 
 ## Font
 
