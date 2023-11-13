@@ -84,7 +84,7 @@ You can right-click on the above images and save them to your computer to make f
 ![GIF with 15 FPS and 3 Sec Span](/assets/md-image-settings_05.gif)
 
 !!!info Info
-For `GIF` [!badge variant="success" text="Image Format"] we do not recommend setting the `FPS` value to be more than `15` and setting the [!badge variant="success" text="Size (%)"] value to be more than `3`.
+For `GIF` [!badge variant="success" text="Image Format"] we do not recommend setting the [!badge variant="success" text="FPS"] value to be more than `15` and setting the [!badge variant="success" text="Size (%)"] value to be more than `3`.
 !!!
 
 !!!info Info
