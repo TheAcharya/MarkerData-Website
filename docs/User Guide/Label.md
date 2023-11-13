@@ -5,6 +5,8 @@ order: -5
 ---
 # Label Settings
 
+![](/assets/md-label-settings.png)
+
 ## Font
 
 ### Typeface
@@ -50,6 +52,8 @@ By [!badge text="Default"] `Size` is set to `30` for `Typeface`'s' font-size. Yo
 ### Vertical
 
 ## Overlays
+
+![](/assets/md-label-overlays-settings.png)
 
 ### Available Overlays
 
