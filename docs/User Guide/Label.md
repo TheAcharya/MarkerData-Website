@@ -14,7 +14,7 @@ order: -5
 **Marker Data** allows you to select different fonts for the label appearance. `Menlo` is the [!badge text="Default"] [!badge variant="success" text="Typeface"].
 
 !!!info Info
-By design, we have restricted the choice of [!badge variant="success" text="Typeface"] selection. We believe the provided [!badge variant="success" text="Typeface"] selection would be more than adequate for burn-ins. Furthermore, these fonts are installed on macOS by default.
+By design, we have restricted the choice of [!badge variant="success" text="Typeface"] selection. We believe the provided [!badge variant="success" text="Typeface"] selection would be more than adequate for burn-ins. Furthermore, these fonts are installed on macOS by [!badge text="Default"].
 !!!
 
 Select your desired Typeface.
@@ -38,6 +38,10 @@ Select your desired Style.
 [!badge variant="success" text="Size"] is set to `30` by [!badge text="Default"]. You can set a lower [!badge variant="success" text="Size"] to accommodate more [!badge variant="success" text="Overlays"].
 
 ### Color & Opacity
+
+![](/assets/md-label-settings_01.gif)
+
+By [!badge text="Default"] the colour of the [!badge variant="success" text="Typeface"] is in `White`. You can click on the [!badge variant="success" text="Colour Well"] to invoke the pop-over. You can also click on [!badge variant="success" text="Show More Colors"] button to invoke macOS's [!badge variant="success" text="Colors"] pop-up should you desire to customise further.
 
 ## Stroke
 
