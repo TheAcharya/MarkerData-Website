@@ -32,7 +32,7 @@ Select your desired Image Format.
 - **GIF**
 
 !!!info Info
-The file size of the images would be drastically large when selecting **GIF**.
+The file size of the images would be drastically large when selecting `GIF`.
 !!!
 
 ## Image Size
@@ -45,7 +45,7 @@ The file size of the images would be drastically large when selecting **GIF**.
 
 [!badge variant="success" text="Height"] selection is disabled by [!badge text="Default"]. **Marker Data** would automatically use the exact dimensions from your exported video file. When enabled, you can manually limit image height while keeping its aspect ratio.
 
-### Size (%) [!badge variant="success" text="Size (%)"]
+### Size (%)
 
 [!badge variant="success" text="Size (%)"] is set to `100` for both `PNG` and `JPG`  [!badge variant="success" text="Image Format"] by [!badge text="Default"]. For `GIF` the [!badge text="Default"] value is set to `50`. 
 
@@ -73,18 +73,18 @@ You can right-click on the above images and save them to your computer to make f
 
 ### FPS
 
-By [!badge text="Default"] `FPS` is greyed out. It is only available for `GIF` Image Format. The [!badge text="Default"] value is set to `10`.
+[!badge variant="success" text="FPS"] is greyed out by [!badge text="Default"]. It is only available for `GIF` [!badge variant="success" text="Image Format"]. The [!badge text="Default"] value is set to `10`.
 
 ### Span (Sec)
 
-By [!badge text="Default"] `Span (Sec)` is greyed out. It is only available for `GIF` Image Format. The [!badge text="Default"] value is set to `2`.
+[!badge variant="success" text="Size (%)"] is greyed out by [!badge text="Default"]. It is only available for `GIF` [!badge variant="success" text="Image Format"]. The [!badge text="Default"] value is set to `2`.
 
 ![GIF with 10 FPS and 2 Sec Span](/assets/md-image-settings_04.gif) 
 
 ![GIF with 15 FPS and 3 Sec Span](/assets/md-image-settings_05.gif)
 
 !!!info Info
-For **GIF** Image Format we do not recommend setting the `FPS` value to be more than `15` and setting the `Span (Sec)` value to be more than `3`.
+For `GIF` [!badge variant="success" text="Image Format"] we do not recommend setting the `FPS` value to be more than `15` and setting the [!badge variant="success" text="Size (%)"] value to be more than `3`.
 !!!
 
 !!!info Info

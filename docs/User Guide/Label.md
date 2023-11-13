@@ -11,10 +11,10 @@ order: -5
 
 ### Typeface
 
-**Marker Data** allows you to select different fonts for the label appearance. `Menlo` is the [!badge text="Default"] `Typeface` selection.
+**Marker Data** allows you to select different fonts for the label appearance. `Menlo` is the [!badge text="Default"] [!badge variant="success" text="Typeface"].
 
 !!!info Info
-By design, we have restricted the choice of Typeface selection. We believe the provided choice of Typefaces would be more than adequate for burn-ins. Furthermore, these fonts are installed on macOS by default.
+By design, we have restricted the choice of [!badge variant="success" text="Typeface"] selection. We believe the provided [!badge variant="success" text="Typeface"] selection would be more than adequate for burn-ins. Furthermore, these fonts are installed on macOS by default.
 !!!
 
 Select your desired Typeface.
@@ -26,7 +26,7 @@ Select your desired Typeface.
 
 ### Style
 
-You can select your preferred style for your styling for your `Typeface` selection. The [!badge text="Default"] selection is `Regular`.
+You can select your preferred [!badge variant="success" text="Style"] for your styling for your [!badge variant="success" text="Typeface"] selection. The [!badge text="Default"] selection is `Regular`.
 
 Select your desired Style.
 - **Regular** [!badge text="Default"]
@@ -35,7 +35,7 @@ Select your desired Style.
 
 ### Size
 
-By [!badge text="Default"] `Size` is set to `30` for `Typeface`'s' font-size. You can set a lower `Size` to accommodate more `Overlays`.
+[!badge variant="success" text="Size"] is set to `30` by [!badge text="Default"]. You can set a lower [!badge variant="success" text="Size"] to accommodate more [!badge variant="success" text="Overlays"].
 
 ### Color & Opacity
 
