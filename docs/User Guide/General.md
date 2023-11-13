@@ -11,7 +11,9 @@ order: -3
 
 ### Destination
 
-Click on the **Folder Icon** to select your preferred export [!badge variant="success" text="Destination"].
+Click on the [!badge variant="success" text="Folder Icon"] to select your preferred location. 
+
+You can click [!badge variant="success" text="Trash Icon"] to clear the stored path.
 
 ### Folder Format
 
@@ -50,7 +52,11 @@ This a feature where you can exclude all the Marker metadata of data either `Vid
 
 ![Final Cut Pro's Time Display](/assets/fcp-subframes.png)
 
-**Final Cut Pro** allows the user to view timecode at the subframe level. A subframe has 1/80 the duration of a video frame and is a more precise unit of reference when viewing or editing audio waveforms that are zoomed in to the sample level.
+**Final Cut Pro** allows the user to view timecode at the subframe level.
+
+!!!info Info
+A subframe has 1/80 the duration of a video frame and is a more precise unit of reference when viewing or editing audio waveforms that are zoomed in to the sample level.
+!!!
 
 Checking [!badge variant="success" text="Enable Subframes"] will **Marker Data** to include the subframes in the `Marker ID`.
 
