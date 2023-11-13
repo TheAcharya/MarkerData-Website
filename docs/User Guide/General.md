@@ -61,7 +61,7 @@ A subframe has 1/80 the duration of a video frame and is a more precise unit of 
 Checking [!badge variant="success" text="Enable Subframes"] will **Marker Data** to include the subframes in the `Marker ID`.
 
 !!!info Info
-Enabling subframes will only work when [!badge variant="success" text="Naming Mode"] is in `Timecode` Mode.
+[!badge variant="success" text="Enable Subframes"] will only work for `Timecode` under [!badge variant="success" text="Naming Mode"].
 !!!
 
 ### Clip Boundaries
