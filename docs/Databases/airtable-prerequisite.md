@@ -14,7 +14,7 @@ order: -3
 
 ![Scopes](/assets/airtable_scopes.png)
 
-5. Click ‘add a base’ to grant the token access to a base or workspace.
+5. Click **add a base** to grant the token access to a base or workspace.
 !!!info Info
 You can grant access to any combination and number of bases and workspaces. You can also grant access to all workspaces and bases under your account. Keep in mind that the token will only be able to read and write data within the bases and workspaces that have been assigned to it.
 !!!
