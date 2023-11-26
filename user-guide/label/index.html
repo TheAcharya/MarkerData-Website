@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.753172538504">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.754273142672">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -33,11 +33,11 @@
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../static/favicon.ico" rel="icon">
-    <link href="../../resources/css/retype.css?v=3.5.0.753172538504" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.5.0.754273142672" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.753172538504" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.754273142672" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.753172538504" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.754273142672" data-turbo-eval="false" defer></script>
 
     <style>
     	/* The Acharya Logo */
@@ -442,9 +442,11 @@
 </doc-anchor-target>
 <p><span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-green-700 bg-green-100 h-6 px-2 text-xs rounded-md">
     <span>Size</span>
-</span> is disable by <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-blue-600 bg-blue-100 h-6 px-2 text-xs rounded-md">
+</span> is set to <code v-pre>Auto</code> by <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-blue-600 bg-blue-100 h-6 px-2 text-xs rounded-md">
     <span>Default</span>
-</span>. Change to a higher value from <code v-pre>0</code> to enable it.</p>
+</span>. Change the value to <code v-pre>1</code> or more to increase the <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-green-700 bg-green-100 h-6 px-2 text-xs rounded-md">
+    <span>Size</span>
+</span>.</p>
 <doc-anchor-target id="color">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#color">#</doc-anchor-trigger>
@@ -453,7 +455,7 @@
 </doc-anchor-target>
 <p>By <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-blue-600 bg-blue-100 h-6 px-2 text-xs rounded-md">
     <span>Default</span>
-</span> the colour is <code v-pre>White</code>. You can click on the <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-green-700 bg-green-100 h-6 px-2 text-xs rounded-md">
+</span> the colour is <code v-pre>Black</code>. You can click on the <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-green-700 bg-green-100 h-6 px-2 text-xs rounded-md">
     <span>Colour Well</span>
 </span> to invoke the pop-over. You can also click on <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-green-700 bg-green-100 h-6 px-2 text-xs rounded-md">
     <span>Show More Colors...</span>
@@ -498,6 +500,26 @@
         <span>Vertical</span>
     </h3>
 </doc-anchor-target>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-300"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-300" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Info</h5>
+<p>There are <code v-pre>6</code> possible combination for <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-green-700 bg-green-100 h-6 px-2 text-xs rounded-md">
+    <span>Alignment</span>
+</span></p>
+        </div>
+    </div>
+</div>
 <doc-anchor-target id="overlays">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#overlays">#</doc-anchor-trigger>

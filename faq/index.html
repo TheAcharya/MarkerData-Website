@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.753172538504">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.754273142672">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -33,11 +33,11 @@
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../static/favicon.ico" rel="icon">
-    <link href="../resources/css/retype.css?v=3.5.0.753172538504" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=3.5.0.754273142672" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=3.5.0.753172538504" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=3.5.0.754273142672" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.5.0.753172538504" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.5.0.754273142672" data-turbo-eval="false" defer></script>
 
     <style>
     	/* The Acharya Logo */
@@ -332,6 +332,14 @@
     <figcaption class="caption">Unique Image Filename</figcaption>
 </figure>
 </p>
+<doc-anchor-target id="what-is-the-behaviour-when-markers-are-located-within-compound-multicam-and-synchronise-clips">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#what-is-the-behaviour-when-markers-are-located-within-compound-multicam-and-synchronise-clips">#</doc-anchor-trigger>
+        <span>What is the behaviour when Markers are located within Compound, Multicam and Synchronise Clips?</span>
+    </h2>
+</doc-anchor-target>
+<p><strong>Marker Data</strong> will ignore all Markers that are not part of the main active timeline. This is by design. For example, Compound Clips can have an umpteen number of nested Compound Clips with each Compound clip. It would get complicated trying to parse the Markers within each nested Compound Clips.</p>
+<p>If a user want so extract the markers from within the Compound Clip, that user would just double-click the particular Compound Clip and export its timeline. Any markers nested within that Compound Clip of the timeline would be ignored by the <strong>Marker Data</strong>.</p>
 <doc-anchor-target id="does-marker-data-replaces-fcpximageexporter">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#does-marker-data-replaces-fcpximageexporter">#</doc-anchor-trigger>
@@ -414,9 +422,9 @@
     </h2>
 </doc-anchor-target>
 <ol>
-<li>Yes. You can uncheck <strong>Automatically Upload Converted FCPXMLs</strong> in <strong>Shot Data</strong>’s Toolbox.</li>
+<li>Yes.</li>
 <li>All Shot Data files are stored in <strong>Export Destination</strong> folder. Press <strong>Reveal Export Destination</strong> to open the folder.</li>
-<li>In each sub folders, you will find the <code v-pre>*.csv</code> file with the accompanying images auto renamed.</li>
+<li>In each sub folders, you will find the <code v-pre>*.csv</code> file with the accompanying images auto named.</li>
 <li>You can import the <code v-pre>*.csv</code> to any application that accepts it.</li>
 </ol>
 <doc-anchor-target id="what-is-the-appropriate-workflow-for-naming-vfx-ids">
