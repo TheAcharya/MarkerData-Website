@@ -48,10 +48,10 @@ Cost | Free & Open Source | Paid
 
 No. In fact it complements it. **Producer’s Best Friend** is the best application for creating spreadsheet report (for Numbers, Excel, Preview, etc.) about the Video Clips, Audio Clips, Titles, Generators, Markers, Keywords, Effects, and Transitions. **Marker Data** only extracts information pertaining markers and its accompanying metadata. Nothing more.
 
-## Can Marker Data be used with other applications?
+## Can Marker Data's Data Set be used with other applications?
 
 1. Yes.
-2. All Shot Data files are stored in **Export Destination** folder. Press **Reveal Export Destination** to open the folder.
+2. All **Marker Data** files are stored in **Export Destination** folder.
 3. In each sub folders, you will find the `*.csv` file with the accompanying images auto named.
 4. You can import the `*.csv` to any application that accepts it.
 
@@ -79,9 +79,9 @@ Notion’s official API does not support direct upload and merging of images and
 
 ## Will other database platforms be supported?
 
-The current focus is to support and maintain Notion and Airtable integration. As these two are the most popular platforms among users and companies in the Film and TV industry. We took considerable amount of time in building our internal components for both [Notion](https://github.com/TheAcharya/csv2notion-neo){target=“_blank”} and [Airtable](https://github.com/TheAcharya/Airlift){target=“_blank”}.
+The current focus is to support and maintain Notion and Airtable integration. These two are the most popular platforms among users and companies in the Film and TV industry around the world. We took considerable amount of time in building our internal components for both [Notion](https://github.com/TheAcharya/csv2notion-neo){target=“_blank”} and [Airtable](https://github.com/TheAcharya/Airlift){target=“_blank”}.
 
-In the database space, new platforms (both commercial and open-source) such as [Coda](https://coda.io/){target=“_blank”}, [Baserow](https://baserow.io/){target=“_blank”}, [AppFlowy](https://appflowy.io/){target=“_blank”}, Microsoft’s [Loop](https://loop.microsoft.com/learn){target=“_blank”} and the upcoming Google’s [Tables](https://www.youtube.com/@TablesfromArea120byGoogle/videos){target=“_blank”} are on the rise.
+In the database/productivity space, new platforms (both commercial and open-source) such as [Coda](https://coda.io/){target=“_blank”}, [Baserow](https://baserow.io/){target=“_blank”}, [AppFlowy](https://appflowy.io/){target=“_blank”} and Microsoft’s [Loop](https://loop.microsoft.com/learn){target=“_blank”} are on the rise.
 
 If you have a particular use case and platform in mind, please start a [discussion](https://github.com/TheAcharya/MarkerData/discussions){target=“_blank”}. However, the addition of platforms will be subjected to the availability of CLI or API libraries.
 
