@@ -11,7 +11,7 @@ order: -5
 
 ### Typeface
 
-**Marker Data** allows you to select different fonts for the label appearance. `Menlo` is the [!badge text="Default"] Typeface.
+**Marker Data** allows you to select different fonts for the label appearance.
 
 !!!info Info
 By design, we have restricted the choice of Typeface selection. We believe the provided Typeface selection would be more than adequate for burn-ins. Furthermore, these fonts are installed on macOS by [!badge text="Default"].
@@ -26,7 +26,7 @@ Select your desired Typeface.
 
 ### Style
 
-You can select your preferred Style for your styling for your Typeface selection. The [!badge text="Default"] selection is `Regular`.
+You can select your preferred Style for your styling for your Typeface selection.
 
 Select your desired Style.
 - **Regular** [!badge text="Default"]
@@ -45,9 +45,9 @@ You can set a lower Size to accommodate more Overlays.
 
 ![](/assets/md-label-settings_01.gif)
 
-By [!badge text="Default"] the colour is `White`. You can click on the Colour Well to invoke the pop-over. You can also click on Show More Colours button to invoke macOS's picker should you desire to further customise the Typeface colour.
+You can click on the Colour Well to invoke the pop-over. You can also click on Show More Colours button to invoke macOS's picker should you desire to further customise the Typeface colour. By [!badge text="Default"] the colour is `White`.
 
-The [!badge text="Default"] value of Opacity is `100`. Use the Slider to set your desired value.
+Use the Slider to set your desired Opacity value. The [!badge text="Default"] value of Opacity is `100`.
 
 ## Stroke
 
@@ -57,23 +57,23 @@ Size is set to `Auto` by [!badge text="Default"]. Change the value to `1` or mor
 
 ### Color
 
-By [!badge text="Default"] the colour is `Black`. You can click on the Colour Well to invoke the pop-over. You can also click on Show More Colours button to invoke macOS's picker should you desire to further customise the Typeface colour.
+You can click on the Colour Well to invoke the pop-over. You can also click on Show More Colours button to invoke macOS's picker should you desire to further customise the Typeface colour. By [!badge text="Default"] the colour is `Black`.
 
 !!!info Info
-Enabling stroke Size allows better legibility for bright coloured images or vice-versa.
+Enabling Stroke Size allows better legibility for bright coloured images or vice-versa.
 !!!
 
 ## Alignment
 
 ### Horizontal
 
-By [!badge text="Default"] the Horizontal is set to `Left`.
+Set your desired Horizontal Alignment for the Label. By [!badge text="Default"] the Horizontal is set to `Left`.
 
 ![Horizontal set to Left, Vertical set to Top](/assets/md-label-settings_02.png)
 
 ### Vertical
 
-By [!badge text="Default"] the Vertical is set to `Top`.
+Set your desired Vertical Alignment for the Label. By [!badge text="Default"] the Vertical is set to `Top`.
 
 ![Horizontal set to Right, Vertical set to Bottom](/assets/md-label-settings_03.png)
 
