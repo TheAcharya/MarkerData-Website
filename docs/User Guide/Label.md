@@ -70,7 +70,7 @@ Enabling stroke Size allows better legibility for bright coloured images or vice
 ### Vertical
 
 !!!info Info
-There are `6` possible combination for Alignment".
+There are `6` possible combination for Alignment.
 !!!
 
 ## Overlays
