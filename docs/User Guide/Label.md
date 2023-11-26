@@ -49,11 +49,11 @@ The [!badge text="Default"] value of [!badge variant="success" text="Opacity"] i
 
 ### Size
 
-[!badge variant="success" text="Size"] is disable by [!badge text="Default"]. Change to a higher value from `0` to enable it.
+[!badge variant="success" text="Size"] is set to `Auto` by [!badge text="Default"]. Change the value to `1` or more to increase the [!badge variant="success" text="Size"].
 
 ### Color
 
-By [!badge text="Default"] the colour is `White`. You can click on the [!badge variant="success" text="Colour Well"] to invoke the pop-over. You can also click on [!badge variant="success" text="Show More Colors..."] button to invoke macOS's picker should you desire to further customise the [!badge variant="success" text="Typeface"] colour.
+By [!badge text="Default"] the colour is `Black`. You can click on the [!badge variant="success" text="Colour Well"] to invoke the pop-over. You can also click on [!badge variant="success" text="Show More Colors..."] button to invoke macOS's picker should you desire to further customise the [!badge variant="success" text="Typeface"] colour.
 
 !!!info Info
 Enabling stroke [!badge variant="success" text="Size"] allows better legibility for bright coloured images or vice-versa.
@@ -64,6 +64,10 @@ Enabling stroke [!badge variant="success" text="Size"] allows better legibility 
 ### Horizontal
 
 ### Vertical
+
+!!!info Info
+There are `6` possible combination for [!badge variant="success" text="Alignment"]
+!!!
 
 ## Overlays
 

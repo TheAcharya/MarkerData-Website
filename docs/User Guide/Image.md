@@ -49,7 +49,7 @@ The file size of the images would be drastically large when selecting `GIF`.
 
 [!badge variant="success" text="Size (%)"] is set to `100` for both `PNG` and `JPG`  [!badge variant="success" text="Image Format"] by [!badge text="Default"]. For `GIF` the [!badge text="Default"] value is set to `50`. 
 
-If your original exported video file had dimensions of `1920 x 1080`; when setting `Size (%)` value to `50`, the extracted images would be in `960 x 540`.
+If your original exported video file had dimensions of `1920 x 1080`; when setting [!badge variant="success" text="Size (%)"] value to `50`, the extracted images would be in `960 x 540`.
 
 !!!info Info
 For `GIF` Image Format we do not recommend setting the [!badge variant="success" text="Size (%)"] value to be more than `60`.

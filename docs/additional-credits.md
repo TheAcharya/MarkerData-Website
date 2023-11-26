@@ -7,7 +7,6 @@ Marker Data is also made possible because of the hard work of these amazing open
 
 | Library | Role |
 |---|---|
-| [Pipeline Neo](https://github.com/TheAcharya/pipeline-neo){target=“_blank”} | Swift framework for working with Final Cut Pro FCPXML files |
 | [TimecodeKit](https://github.com/orchetect/TimecodeKit){target=“_blank”} | SMPTE timecode library for Swift |
 | [DAWFileKit](https://github.com/orchetect/DAWFileKit){target=“_blank”} | Swift library for reading and writing common import/export file formats between popular DAW applications |
 | [MIDIKit](https://github.com/orchetect/MIDIKit){target=“_blank”} | Modern multi-platform Swift CoreMIDI wrapper with MIDI 2.0 support |

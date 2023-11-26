@@ -17,6 +17,12 @@ When there are Markers at the same timecode position, **Marker Data** will autom
 
 ![Unique Image Filename](assets/fcp_marker_collision_03.png)
 
+## What is the behaviour when Markers are located within Compound, Multicam and Synchronise Clips?
+
+**Marker Data** will ignore all Markers that are not part of the main active timeline. This is by design. For example, Compound Clips can have an umpteen number of nested Compound Clips with each Compound clip. It would get complicated trying to parse the Markers within each nested Compound Clips.
+
+If a user want so extract the markers from within the Compound Clip, that user would just double-click the particular Compound Clip and export its timeline. Any markers nested within that Compound Clip of the timeline would be ignored by the **Marker Data**.
+
 ## Does Marker Data replaces FCPXImageExporter?
 
 Yes & No. Both **Marker Data** and **FCPXImageExporter** utilise different approach in solving a similar problem. **FCPXImageExporter** only extracts still images from source clips based on Makers. **FCPXImageExporter** completely ignores any post effects and titles applied to the timeline and individual clips. By contrast, Marker Data utilises both the output of the rendered timeline, and its accompanying FCPXML to derive all thumbnails (Stills or GIFs) and `.csv` to create a complete Data Set.
@@ -44,9 +50,9 @@ No. In fact it complements it. **Producer’s Best Friend** is the best applicat
 
 ## Can Marker Data be used with other applications?
 
-1. Yes. You can uncheck **Automatically Upload Converted FCPXMLs** in **Shot Data**’s Toolbox.
+1. Yes.
 2. All Shot Data files are stored in **Export Destination** folder. Press **Reveal Export Destination** to open the folder.
-3. In each sub folders, you will find the `*.csv` file with the accompanying images auto renamed.
+3. In each sub folders, you will find the `*.csv` file with the accompanying images auto named.
 4. You can import the `*.csv` to any application that accepts it.
 
 ## What is the appropriate workflow for naming VFX IDs?
