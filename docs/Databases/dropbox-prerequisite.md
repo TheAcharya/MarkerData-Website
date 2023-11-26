@@ -1,40 +1,75 @@
 ---
 icon: key
 expanded: true
-order: -3
+order: -4
 ---
-# Airtable Prerequisite
+# Dropbox Prerequisite
+
+Airtable's API does not allow direct uploading of attachments. In order to upload an attachment via Airtable's API, the attachment must first exist at a publicly accessible url. To mitigate this problem, **Marker Data** has integrated Dropbox into its internal Airtable client. Dropbox’s basic account offers 2GB of free storage. We believe it would be adequate for most operations Once your attachments are uploaded by Airtable, you can delete the files from your Dropbox account.
 
 ## Obtain your Airtable's Personal Access Token:
 
-1. Login to your [Airtable](https://airtable.com/login){target=“_blank”} account via a web browser.
-2. Go to [Personal access token](https://airtable.com/create/tokens){target=“_blank”}, click the **Create new token** button to create a new personal access token.
-3. Give your token a unique name. This name will be visible in record revision history.
-4. Add the following scopes to grant to your token. This controls what API endpoints the token will be able to use.
 
-![Scopes](/assets/airtable_scopes.png)
+1. Right-click and save [dropbox-token.json](https://raw.githubusercontent.com/TheAcharya/Airlift/main/assets/dropbox-token.json) file to your computer.
+2. When using `--dropbox-token` make sure you input the full `PATH` of `dropbox-token.json` file.
+3. Login to your [Dropbox's App Console](https://www.dropbox.com/developers/apps) account via a web browser.
+4. Click on ‘Create app’ button.
+5. Choose Scoped access.
+6. Choose Full Dropbox access.
+7. Give your App a name. _The name of the App can be unique and personal to you._
+8. Click on ‘Create app’ button.
 
-5. Click ‘add a base’ to grant the token access to a base or workspace.
-!!!info Info
-You can grant access to any combination and number of bases and workspaces. You can also grant access to all workspaces and bases under your account. Keep in mind that the token will only be able to read and write data within the bases and workspaces that have been assigned to it.
-!!!
+<p align="center"> <img src="https://github.com/TheAcharya/Airlift/blob/main/assets/dropbox_01.png?raw=true"> </p>
 
-6. Once your token is created, the token will only be shown to you once, it is encouraged that you to copy it to your clipboard and store it somewhere safe. While you will be able to manage it in [Personal access token](https://airtable.com/create/tokens){target=“_blank”}, the sensitive token itself is not stored for security purposes.
+7. Go to the Permissions tab.
+8. Set the permissions as shown on the screenshot.
+9. Click on 'Submit' at the bottom.
 
-## Obtain your Airtable's Base ID & Table ID:
+<p align="center"> <img src="https://github.com/TheAcharya/Airlift/blob/main/assets/dropbox_02.png?raw=true"> </p>
 
-1. When you have a base open in a compatible web browser, you should see a URL in the address bar that looks similar to the example below:
+10. Go to the Settings tab.
+11. Copy your App key and paste into your `dropbox-token.json` file. Where `REPLACE` is your App key.
 
-![Airtable URL](/assets/airtable_url.jpg)
+<p align="center"> <img src="https://github.com/TheAcharya/Airlift/blob/main/assets/dropbox_03.png?raw=true"> </p>
 
-In between each backslash, you will find a string that identifies the base, table, and view IDs.
+```json
+{
+  "app_key": "REPLACE"
+}
+```
 
-- Base IDs begin with "app"
-- Table IDs begin with "tbl"
-- View IDs begin with "viw"
+12. On first usage of Airlift, you will be promted to visit Dropbox.
+13. Copy and paste the full Dropbox URL into your browser.
 
-![Airtable URL Reference](/assets/airtable_url_reference.png)
+```txt
+INFO: Validation done!
+INFO: All the columns are verified and present in both the file and Airtable!
+1. Go to: https://www.dropbox.com/oauth2/authorize?response_type=code&client_id=6zh18qgnw37ifpp&token_access_type=offline&code_challenge=TphrwcwmRtkGawgxFvWQcROFMbjsTeba9BGv0Lgi0nw&code_challenge_method=S256
+2. Click "Allow" (you might have to log in first).
+3. Copy the authorization code.
+Enter the authorization code here:    
+```
 
-!!!info Info
-We only require **Base ID** and **Table ID** for Marker Data
-!!!
+<p align="center"> <img src="https://github.com/TheAcharya/Airlift/blob/main/assets/dropbox_04.png?raw=true"> </p>
+
+14. Click Continue.
+
+<p align="center"> <img src="https://github.com/TheAcharya/Airlift/blob/main/assets/dropbox_04.png?raw=true"> </p>
+
+15. Click Allow.
+
+<p align="center"> <img src="https://github.com/TheAcharya/Airlift/blob/main/assets/dropbox_05.png?raw=true"> </p>
+
+16. You will be presented with your authorization code. Copy your authorization code.
+
+<p align="center"> <img src="https://github.com/TheAcharya/Airlift/blob/main/assets/dropbox_06.png?raw=true"> </p>
+
+```bash
+Enter the authorization code here:    XXXZZaa0-poAAAAAAABZNgc9CwNdyryqoRAi4fxP2aU
+```
+
+17. Paste it back into the terminal.
+18. Airlift would update and store your Dropbox refresh token into your `dropbox-token.json` file.
+19. This is a one time procress. You will not be asked again.
+
+**Do not share your access json token file with anyone.**
