@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.754275226000">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.754275484334">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
 
     <!-- Primary Meta Tags -->
-    <title>Airtable Prerequisite</title>
-    <meta name="title" content="Airtable Prerequisite">
-    <meta name="description" content="Login to your Airtable account via a web browser.">
+    <title>Dropbox Prerequisite</title>
+    <meta name="title" content="Dropbox Prerequisite">
+    <meta name="description" content="Airtable's API does not allow direct uploading of attachments.">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://markerdata.theacharya.co/databases/dropbox-prerequisite/">
@@ -19,25 +19,24 @@
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://markerdata.theacharya.co/databases/dropbox-prerequisite/">
-    <meta property="og:title" content="Airtable Prerequisite">
-    <meta property="og:description" content="Login to your Airtable account via a web browser.">
-    <meta property="og:image" content="https://markerdata.theacharya.co/assets/airtable_scopes.png">
+    <meta property="og:title" content="Dropbox Prerequisite">
+    <meta property="og:description" content="Airtable's API does not allow direct uploading of attachments.">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://markerdata.theacharya.co/databases/dropbox-prerequisite/">
-    <meta property="twitter:title" content="Airtable Prerequisite">
-    <meta property="twitter:description" content="Login to your Airtable account via a web browser.">
-    <meta property="twitter:image" content="https://markerdata.theacharya.co/assets/airtable_scopes.png">
+    <meta property="twitter:title" content="Dropbox Prerequisite">
+    <meta property="twitter:description" content="Airtable's API does not allow direct uploading of attachments.">
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../static/favicon.ico" rel="icon">
-    <link href="../../resources/css/retype.css?v=3.5.0.754275226000" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.5.0.754275484334" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.754275226000" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.754275484334" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.754275226000" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.754275484334" data-turbo-eval="false" defer></script>
+    <script id="prism-js" data-cfasync="false" src="../../resources/js/prism.js?v=3.5.0.754275484334" defer></script>
 
     <style>
     	/* The Acharya Logo */
@@ -303,12 +302,13 @@
                                 <!-- Rendered if sidebar right is enabled -->
                                 <div id="docs-sidebar-right-toggle"></div>
                                 <!-- Page content  -->
-<doc-anchor-target id="airtable-prerequisite" class="break-words">
+<doc-anchor-target id="dropbox-prerequisite" class="break-words">
     <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#airtable-prerequisite">#</doc-anchor-trigger>
-        <span>Airtable Prerequisite</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#dropbox-prerequisite">#</doc-anchor-trigger>
+        <span>Dropbox Prerequisite</span>
     </h1>
 </doc-anchor-target>
+<p>Airtable&#x27;s API does not allow direct uploading of attachments. In order to upload an attachment via Airtable&#x27;s API, the attachment must first exist at a publicly accessible url. To mitigate this problem, <strong>Marker Data</strong> has integrated Dropbox into its internal Airtable client. Dropbox’s basic account offers 2GB of free storage. We believe it would be adequate for most operations Once your attachments are uploaded by Airtable, you can delete the files from your Dropbox account.</p>
 <doc-anchor-target id="obtain-your-airtables-personal-access-token">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#obtain-your-airtables-personal-access-token">#</doc-anchor-trigger>
@@ -316,83 +316,66 @@
     </h2>
 </doc-anchor-target>
 <ol>
-<li>Login to your <a href="https://airtable.com/login" target="“_blank”">Airtable</a> account via a web browser.</li>
-<li>Go to <a href="https://airtable.com/create/tokens" target="“_blank”">Personal access token</a>, click the <strong>Create new token</strong> button to create a new personal access token.</li>
-<li>Give your token a unique name. This name will be visible in record revision history.</li>
-<li>Add the following scopes to grant to your token. This controls what API endpoints the token will be able to use.</li>
+<li>Right-click and save <a href="https://raw.githubusercontent.com/TheAcharya/Airlift/main/assets/dropbox-token.json">dropbox-token.json</a> file to your computer.</li>
+<li>When using <code v-pre>--dropbox-token</code> make sure you input the full <code v-pre>PATH</code> of <code v-pre>dropbox-token.json</code> file.</li>
+<li>Login to your <a href="https://www.dropbox.com/developers/apps">Dropbox&#x27;s App Console</a> account via a web browser.</li>
+<li>Click on ‘Create app’ button.</li>
+<li>Choose Scoped access.</li>
+<li>Choose Full Dropbox access.</li>
+<li>Give your App a name. <em>The name of the App can be unique and personal to you.</em></li>
+<li>Click on ‘Create app’ button.</li>
 </ol>
-<p><figure class="content-center">
-    <img src="../../assets/airtable_scopes.png" alt="Scopes">
-    <figcaption class="caption">Scopes</figcaption>
-</figure>
-</p>
-<ol start="5">
-<li>Click ‘add a base’ to grant the token access to a base or workspace.</li>
+<p align="center"> <img src="https://github.com/TheAcharya/Airlift/blob/main/assets/dropbox_01.png?raw=true"> </p>
+<ol start="7">
+<li>Go to the Permissions tab.</li>
+<li>Set the permissions as shown on the screenshot.</li>
+<li>Click on &#x27;Submit&#x27; at the bottom.</li>
 </ol>
-<div class="flex mb-6">
-    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-300"></div>
-    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
-        <div class="flex items-center ml-4 h-7">
-            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-300" width="22" height="22" viewBox="0 0 24 24" role="presentation">
-                <g fill="currentColor"><g>
-                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
-                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
-                    <path fill="none" d="M0 0h24v24H0z"></path>
-                </g></g>
-            </svg>
-        </div>
-        <div class="pr-5 ml-3 w-full">
-            <h5>Info</h5>
-<p>You can grant access to any combination and number of bases and workspaces. You can also grant access to all workspaces and bases under your account. Keep in mind that the token will only be able to read and write data within the bases and workspaces that have been assigned to it.</p>
-        </div>
-    </div>
-</div>
-<ol start="6">
-<li>Once your token is created, the token will only be shown to you once, it is encouraged that you to copy it to your clipboard and store it somewhere safe. While you will be able to manage it in <a href="https://airtable.com/create/tokens" target="“_blank”">Personal access token</a>, the sensitive token itself is not stored for security purposes.</li>
+<p align="center"> <img src="https://github.com/TheAcharya/Airlift/blob/main/assets/dropbox_02.png?raw=true"> </p>
+<ol start="10">
+<li>Go to the Settings tab.</li>
+<li>Copy your App key and paste into your <code v-pre>dropbox-token.json</code> file. Where <code v-pre>REPLACE</code> is your App key.</li>
 </ol>
-<doc-anchor-target id="obtain-your-airtables-base-id--table-id">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#obtain-your-airtables-base-id--table-id">#</doc-anchor-trigger>
-        <span>Obtain your Airtable&#x27;s Base ID &amp; Table ID:</span>
-    </h2>
-</doc-anchor-target>
-<ol>
-<li>When you have a base open in a compatible web browser, you should see a URL in the address bar that looks similar to the example below:</li>
+<p align="center"> <img src="https://github.com/TheAcharya/Airlift/blob/main/assets/dropbox_03.png?raw=true"> </p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-json"><code v-pre class="language-json">{
+  &quot;app_key&quot;: &quot;REPLACE&quot;
+}</code></pre>
+</doc-codeblock></div>
+<ol start="12">
+<li>On first usage of Airlift, you will be promted to visit Dropbox.</li>
+<li>Copy and paste the full Dropbox URL into your browser.</li>
 </ol>
-<p><figure class="content-center">
-    <img src="../../assets/airtable_url.jpg" alt="Airtable URL">
-    <figcaption class="caption">Airtable URL</figcaption>
-</figure>
-</p>
-<p>In between each backslash, you will find a string that identifies the base, table, and view IDs.</p>
-<ul>
-<li>Base IDs begin with &quot;app&quot;</li>
-<li>Table IDs begin with &quot;tbl&quot;</li>
-<li>View IDs begin with &quot;viw&quot;</li>
-</ul>
-<p><figure class="content-center">
-    <img src="../../assets/airtable_url_reference.png" alt="Airtable URL Reference">
-    <figcaption class="caption">Airtable URL Reference</figcaption>
-</figure>
-</p>
-<div class="flex mb-6">
-    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-300"></div>
-    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
-        <div class="flex items-center ml-4 h-7">
-            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-300" width="22" height="22" viewBox="0 0 24 24" role="presentation">
-                <g fill="currentColor"><g>
-                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
-                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
-                    <path fill="none" d="M0 0h24v24H0z"></path>
-                </g></g>
-            </svg>
-        </div>
-        <div class="pr-5 ml-3 w-full">
-            <h5>Info</h5>
-<p>We only require <strong>Base ID</strong> and <strong>Table ID</strong> for Marker Data</p>
-        </div>
-    </div>
-</div>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none">INFO: Validation done!
+INFO: All the columns are verified and present in both the file and Airtable!
+1. Go to: https://www.dropbox.com/oauth2/authorize?response_type=code&amp;client_id=6zh18qgnw37ifpp&amp;token_access_type=offline&amp;code_challenge=TphrwcwmRtkGawgxFvWQcROFMbjsTeba9BGv0Lgi0nw&amp;code_challenge_method=S256
+2. Click &quot;Allow&quot; (you might have to log in first).
+3. Copy the authorization code.
+Enter the authorization code here:    </code></pre>
+</doc-codeblock></div>
+<p align="center"> <img src="https://github.com/TheAcharya/Airlift/blob/main/assets/dropbox_04.png?raw=true"> </p>
+<ol start="14">
+<li>Click Continue.</li>
+</ol>
+<p align="center"> <img src="https://github.com/TheAcharya/Airlift/blob/main/assets/dropbox_04.png?raw=true"> </p>
+<ol start="15">
+<li>Click Allow.</li>
+</ol>
+<p align="center"> <img src="https://github.com/TheAcharya/Airlift/blob/main/assets/dropbox_05.png?raw=true"> </p>
+<ol start="16">
+<li>You will be presented with your authorization code. Copy your authorization code.</li>
+</ol>
+<p align="center"> <img src="https://github.com/TheAcharya/Airlift/blob/main/assets/dropbox_06.png?raw=true"> </p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-bash"><code v-pre class="language-bash">Enter the authorization code here:    XXXZZaa0-poAAAAAAABZNgc9CwNdyryqoRAi4fxP2aU</code></pre>
+</doc-codeblock></div>
+<ol start="17">
+<li>Paste it back into the terminal.</li>
+<li>Airlift would update and store your Dropbox refresh token into your <code v-pre>dropbox-token.json</code> file.</li>
+<li>This is a one time procress. You will not be asked again.</li>
+</ol>
+<p><strong>Do not share your access json token file with anyone.</strong></p>
 
                                 
                                 <!-- Required only on API pages -->
@@ -402,20 +385,20 @@
                             
                                 <nav class="flex mt-14">
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../databases/notion-prerequisite/">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../databases/airtable-prerequisite/">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                             <span>
                                                 <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
-                                                <span class="block mt-1">Notion Prerequisite</span>
+                                                <span class="block mt-1">Airtable Prerequisite</span>
                                             </span>
                                         </a>
                                     </div>
                             
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../databases/airtable-prerequisite/">
+                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../faq/">
                                             <span>
                                                 <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
-                                                <span class="block mt-1">Dropbox Prerequisite</span>
+                                                <span class="block mt-1">FAQ</span>
                                             </span>
                                             <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                         </a>
@@ -469,6 +452,6 @@
 
     <div id="docs-overlay-target"></div>
 
-    <script data-cfasync="false">window.__DOCS__ = { "title": "Airtable Prerequisite", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+    <script data-cfasync="false">window.__DOCS__ = { "title": "Dropbox Prerequisite", level: 2, icon: "file", hasPrism: true, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
 </body>
 </html>
