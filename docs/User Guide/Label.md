@@ -69,13 +69,13 @@ Enabling stroke Size allows better legibility for bright coloured images or vice
 
 By [!badge text="Default"] the Horizontal is set to `Left`.
 
-![Horizontal set to Left, Vertical set to Top](/assets/md-label-settings_02.gif)
+![Horizontal set to Left, Vertical set to Top](/assets/md-label-settings_02.png)
 
 ### Vertical
 
 By [!badge text="Default"] the Vertical is set to `Top`.
 
-![Horizontal set to Right, Vertical set to Bottom](/assets/md-label-settings_03.gif)
+![Horizontal set to Right, Vertical set to Bottom](/assets/md-label-settings_03.png)
 
 !!!info Info
 There are `9` possible combination for Alignment.
