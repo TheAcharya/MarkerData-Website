@@ -12,7 +12,7 @@ Original Idea, Application Direction and Workflow Architecture by [Vigneswaran R
 ### Graphical User Interface and UI/UX Logic
 Maintained by [Milán Várady](https://github.com/milanvarady){target=“_blank”} (1.0.0 ...)
 
-### MarkersExtractor (CLI & API)
+### MarkersExtractor (CLI & Library)
 Maintained by [Steffan Andrews](https://github.com/orchetect){target=“_blank”} ([0.2.0 ...](https://github.com/TheAcharya/MarkersExtractor){target=“_blank”})
 
 ### CSV2Notion Neo
