@@ -42,10 +42,6 @@ Select your desired Extraction Profile.
 - **Airtable**
 - **MIDI**
 
-### Exclude Roles
-
-This a feature where you can exclude all the Marker metadata of data either `Video` or `Audio` Role.
-
 ### Enable Subframes
 
 ![Final Cut Pro's Time Display](/assets/fcp-subframes.png)
@@ -73,6 +69,5 @@ When Clip Boundaries is enabled, **Marker Data** will include Markers that are o
 By [!badge text="Default"] Marker Data will always look for accompanying movie file (`.mov` or `.mp4`) in directory where the `.fcpbundle` or `.fcpxml` resides. When No Media is enabled, **Marker Data** will bypass the movie file.
 
 This option is available in scenarios where :
-- User do not have an output movie file.
 - User does not wish to export movie file.
 - User does not require image extraction.  

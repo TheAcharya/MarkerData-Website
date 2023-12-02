@@ -14,7 +14,7 @@ order: -5
 **Marker Data** allows you to select different fonts for the label appearance.
 
 !!!info Info
-By design, we have restricted the choice of Typeface selection. We believe the provided Typeface selection would be more than adequate for burn-ins. Furthermore, these fonts are installed on macOS by [!badge text="Default"].
+By design, we have restricted the choice of Typeface selection. We believe the provided Typeface selection would be more than adequate for burn-ins. Furthermore, these fonts are build-in feature of macOS.
 !!!
 
 Select your desired Typeface.

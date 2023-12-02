@@ -59,7 +59,7 @@ For `GIF` Image Format we do not recommend setting the Size (%) value to be more
 
 ### Quality
 
-By [!badge text="Default"] `Quality` is greyed out. It is only available for `JPG` Image Format. The [!badge text="Default"] value is set to `100`.
+Users can set different `Quality` value for  `JPG` Image Format. Lower value would yield a lower file-size. By [!badge text="Default"] `Quality` is greyed out. It is only available for `JPG` Image Format. The [!badge text="Default"] value is set to `100`.
 
 ![Quality set to 100](/assets/md-image-settings_02.jpg) 
 
@@ -73,7 +73,7 @@ You can right-click on the above images and save them to your computer to make f
 
 ### FPS
 
-FPS is greyed out by [!badge text="Default"]. It is only available for `GIF` Image Format. The [!badge text="Default"] value is set to `10`.
+Frames per second (FPS) is greyed out by [!badge text="Default"]. It is only available for `GIF` Image Format. The [!badge text="Default"] value is set to `10`.
 
 ### Span (Sec)
 
