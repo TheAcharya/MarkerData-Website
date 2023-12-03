@@ -15,10 +15,6 @@ As I developed [Shot Data](https://commandpost.io/toolbox/shot-data/){target=“
 - What if users could collaborate and share database with other team members without worrying about exorbitant platform cost?
 - Could all of the steps be achieved with a click of a button or key-stroke?
 
-!!!info Info
-I am also aware of a macOS application, [FCPXImageExporter](https://apps.apple.com/sg/app/fcpximageexporter/id1018641037?mt=12){target=“_blank”}. It is indeed a handy utility. But it only works with Source Media. The application does not support clips with Effects and Titles applied.
-!!!
-
 With the above mentioned thoughts, I intent to address the following objectives to improve and enhance the user’s experience.
 
 ## Ideal Workflow

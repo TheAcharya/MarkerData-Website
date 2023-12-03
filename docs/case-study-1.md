@@ -20,7 +20,7 @@ You can export still frames from Final Cut Pro. You can add the native **Save Cu
 ![Excerpts from Josh Beal’s Video](assets/batch_export_still_frames.gif)
 
 !!!info Info
-It just requires too many steps in my textbook.
+It just requires too many steps in my textbook. What happens when you have 500 VFX shots?
 !!!
 
 ### Extracting Marker information & match still’s filename
@@ -35,12 +35,12 @@ Again, additional application and further steps are required to created a proper
 
 ### Sending & Managing VFX Data Set to a Database Application
 
-Josh Beal utilises Airtable to manage his Data Set. Airtable is undoubtedly a powerful cloud-base database application. It has a lot of features when comes to automations, scripting, extensions, report generation and collaboration. But users have to bear a [high cost](https://www.airtable.com/pricing){target=“_blank”} when factoring in collaborative expansion. Furthermore, additional database views and features are locked behind a higher paywall tier. Having alternative database platforms would be ideal to the end user.
+Josh Beal utilises Airtable to manage his Data Set. Airtable is undoubtedly a powerful cloud-base database application. It has a lot of features when comes to automations, scripting, extensions, report generation and collaboration. But users have to bear a [high cost](https://www.airtable.com/pricing){target=“_blank”} when factoring in collaborative expansion and additional user licenses. Furthermore, additional database views and features are locked behind a higher paywall tier. Having alternative database platforms would be ideal to the end user.
 
 ![Excerpts from Josh Beal’s Video](assets/airtable_database.gif)
 
 !!!info Info
-The above example shows merging of image’s data set and `.csv`’s data set via Airtable’s [CSV Import Extension](https://support.airtable.com/docs/csv-import-extension){target=“_blank”}. In my opinion, there is still a little manual work involved when mapping data to the appropriate fields.
+The above example shows merging of image’s data set and `.csv`’s data set via Airtable’s [CSV Import Extension](https://support.airtable.com/docs/csv-import-extension){target=“_blank”}. There is still a little manual work involved when mapping data to the appropriate fields.
 !!!
 
 ### Creating Burn-In labels
@@ -52,3 +52,5 @@ There are several ways to create Burn-In labels for your still frames. Josh Beal
 !!!info Info
 Using an Effect Template created from Apple Motion is a great approach. It all depends on what are you trying to achieve. Having that custom Effect Template for burn-In labels will always come in handy! What if it can be automated?
 !!!
+
+Enter **Marker Data**!
