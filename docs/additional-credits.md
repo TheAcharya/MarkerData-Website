@@ -12,4 +12,5 @@ Marker Data is also made possible because of the hard work of these amazing open
 | [MIDIKit](https://github.com/orchetect/MIDIKit){target=“_blank”} | Modern multi-platform Swift CoreMIDI wrapper with MIDI 2.0 support |
 | [CodableCSV](https://github.com/dehesa/CodableCSV){target=“_blank”} | Read and write CSV files row-by-row or through Swift's Codable interface |
 | [ColorWellKit](https://github.com/jordanbaird/ColorWellKit){target=“_blank”} | An alternative to NSColorWell for Cocoa and ColorPicker for SwiftUI |
+| [PasswordField](https://github.com/MrAsterisco/PasswordField){target=“_blank”} | A secure text field for SwiftUI with a button to toggle visibility |
 | [SiriWave](https://github.com/kopiro/siriwave){target=“_blank”} | Siri wave-form animation replicated in a JS library |
