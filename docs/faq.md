@@ -25,7 +25,7 @@ If a user want so extract the markers from within the Compound Clip, that user w
 
 ## Does Marker Data replaces FCPXImageExporter?
 
-Yes & No. Both **Marker Data** and **FCPXImageExporter** utilise different approach in solving a similar problem. **FCPXImageExporter** only extracts still images from source clips based on Makers. **FCPXImageExporter** completely ignores any post effects and titles applied to the timeline and individual clips. By contrast, Marker Data utilises both the output of the rendered timeline, and its accompanying FCPXML to derive all thumbnails (Stills or GIFs) and `.csv` to create a complete Data Set.
+Yes & No. Both **Marker Data** and **FCPXImageExporter** utilise different approach in solving a similar problem. **FCPXImageExporter** only extracts still images from source clips based on Makers. **FCPXImageExporter** completely ignores any post effects and titles applied to the timeline and individual clips. By contrast, Marker Data utilises both the output of the rendered timeline, and its accompanying FCPXML to derive all thumbnails (Stills or GIFs) and `.json` to create a complete Data Set.
 
 Comparison matrix between **Marker Data** and **FCPXImageExporter.**
 
@@ -83,13 +83,13 @@ The current focus is to support and maintain Notion and Airtable integration. Th
 
 In the database/productivity space, new platforms (both commercial and open-source) such as [Coda](https://coda.io/){target=“_blank”}, [Baserow](https://baserow.io/){target=“_blank”}, [AppFlowy](https://appflowy.io/){target=“_blank”} and Microsoft’s [Loop](https://loop.microsoft.com/learn){target=“_blank”} are on the rise.
 
-If you have a particular use case and platform in mind, please start a [discussion](https://github.com/TheAcharya/MarkerData/discussions){target=“_blank”}. However, the addition of platforms will be subjected to the availability of CLI or API libraries.
+If you have a particular use case and platform in mind, please start a [discussion](https://github.com/TheAcharya/MarkerData/discussions){target=“_blank”}. However, the addition of platforms will be subjected to the availability of API libraries.
 
 ## Could Marker Data extract and convert Final Cut Pro's Marker metadata to another format?
 
-Yes, it is possible. We will definitely add more [Profiles](https://github.com/TheAcharya/MarkersExtractor/issues?q=is%3Aissue+is%3Aopen+label%3Aprofiles){target=“_blank”} as we improve and update our API Library over time.
+Yes, it is possible. We will definitely add more [Profiles](https://github.com/TheAcharya/MarkersExtractor/issues?q=is%3Aissue+is%3Aopen+label%3Aprofiles){target=“_blank”} as we improve and update our Library over time.
 
 ## Is Marker Data free to use?
 
-Yes. But you can [sponsor](https://github.com/sponsors/TheAcharya){target=“_blank”} us if you find our tools useful.
+Yes. But you can [sponsor](https://github.com/sponsors/TheAcharya){target=“_blank”} us if you **Marker Data** useful.
 
