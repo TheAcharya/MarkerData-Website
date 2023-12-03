@@ -41,9 +41,9 @@ Marker Data allows users to extract, convert and create databases from [Final Cu
 
 ![Label Settings](/assets/md-label-settings.png)
 
-![Label Settings](/assets/md-database-settings.png)
-
 ![Configuration Settings](/assets/md-configuration-settings.png)
+
+![Label Settings](/assets/md-database-settings.png)
 
 ## System Requirements
 
