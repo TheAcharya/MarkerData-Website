@@ -52,7 +52,7 @@ markdown:
   lineBreaks: hard
 
 footer:
-  copyright: "&copy; Copyright {{ year }} [The Acharya](https://theacharya.co/){target=“_blank”}. All rights reserved."
+  copyright: "&copy; Copyright {{ year }} [The Acharya](https://theacharya.co/). All rights reserved."
   links:
   - text: License
     link: license.md

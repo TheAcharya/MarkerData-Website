@@ -9,7 +9,7 @@ Airtable's API does not allow direct uploading of attachments. In order to uploa
 
 ## Obtain your Dropbox's App key:
 
-1. Login to your [Dropbox's App Console](https://www.dropbox.com/developers/apps){target=“_blank”} account via a web browser.
+1. Login to your [Dropbox's App Console](https://www.dropbox.com/developers/apps) account via a web browser.
 2. Click on **Create app** button.
 3. Choose Scoped access.
 4. Choose Full Dropbox access.

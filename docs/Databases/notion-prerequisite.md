@@ -7,7 +7,7 @@ order: -2
 
 ## Obtain your Notion's Session Token:
 
-1. Login to your [Notion](https://www.notion.so/login){target=“_blank”} account via a web browser.
+1. Login to your [Notion](https://www.notion.so/login) account via a web browser.
 2. Find and copy the entire `token_v2` value including `v02%3Auser_token_or_cookies%` from your Notion session.
 
 ==- Safari

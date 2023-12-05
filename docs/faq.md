@@ -79,17 +79,17 @@ Notion’s official API does not support direct upload and merging of images and
 
 ## Will other database platforms be supported?
 
-The current focus is to support and maintain Notion and Airtable integration. These two are the most popular platforms among users and companies in the Film and TV industry around the world. We took considerable amount of time in building our internal components for both [Notion](https://github.com/TheAcharya/csv2notion-neo){target=“_blank”} and [Airtable](https://github.com/TheAcharya/Airlift){target=“_blank”}.
+The current focus is to support and maintain Notion and Airtable integration. These two are the most popular platforms among users and companies in the Film and TV industry around the world. We took considerable amount of time in building our internal components for both [Notion](https://github.com/TheAcharya/csv2notion-neo) and [Airtable](https://github.com/TheAcharya/Airlift).
 
-In the database/productivity space, new platforms (both commercial and open-source) such as [Coda](https://coda.io/){target=“_blank”}, [Baserow](https://baserow.io/){target=“_blank”}, [AppFlowy](https://appflowy.io/){target=“_blank”} and Microsoft’s [Loop](https://loop.microsoft.com/learn){target=“_blank”} are on the rise.
+In the database/productivity space, new platforms (both commercial and open-source) such as [Coda](https://coda.io/), [Baserow](https://baserow.io/), [AppFlowy](https://appflowy.io/) and Microsoft’s [Loop](https://loop.microsoft.com/learn) are on the rise.
 
-If you have a particular use case and platform in mind, please start a [discussion](https://github.com/TheAcharya/MarkerData/discussions){target=“_blank”}. However, the addition of platforms will be subjected to the availability of API libraries.
+If you have a particular use case and platform in mind, please start a [discussion](https://github.com/TheAcharya/MarkerData/discussions). However, the addition of platforms will be subjected to the availability of API libraries.
 
 ## Could Marker Data extract and convert Final Cut Pro's Marker metadata to another format?
 
-Yes, it is possible. We will definitely add more [Profiles](https://github.com/TheAcharya/MarkersExtractor/issues?q=is%3Aissue+is%3Aopen+label%3Aprofiles){target=“_blank”} as we improve and update our Library over time.
+Yes, it is possible. We will definitely add more [Profiles](https://github.com/TheAcharya/MarkersExtractor/issues?q=is%3Aissue+is%3Aopen+label%3Aprofiles) as we improve and update our Library over time.
 
 ## Is Marker Data free to use?
 
-Yes. But you can [sponsor](https://github.com/sponsors/TheAcharya){target=“_blank”} us if you find **Marker Data** useful.
+Yes. But you can [sponsor](https://github.com/sponsors/TheAcharya) us if you find **Marker Data** useful.
 

@@ -9,7 +9,7 @@ order: -4
 
 ![TARS helped Cooper to translate quantum gravitational data to Morse code so that Cooper could transmit the data to Murph’s watch from tesseract within Gargantua back to Earth. Similarly, **Marker Data** will help us translate and transmit Final Cut Pro’s Marker metadata to databases effortlessly.](assets/interstellar.gif)
 
-As I developed [Shot Data](https://commandpost.io/toolbox/shot-data/){target=“_blank”} workflow, I soon realise that there could be a similar technique to parse Marker metadata from Final Cut Pro to Notion or any database in a meaningful and dynamic way. 
+As I developed [Shot Data](https://commandpost.io/toolbox/shot-data/) workflow, I soon realise that there could be a similar technique to parse Marker metadata from Final Cut Pro to Notion or any database in a meaningful and dynamic way. 
 
 - What if users could manage and organise Final Cut Pro Markers, VFX Shots, Comments and Edit Notes effectively and smartly?
 - What if users could collaborate and share database with other team members without worrying about exorbitant platform cost?
@@ -26,7 +26,7 @@ With the above mentioned thoughts, I intent to address the following objectives 
 - It should not require any additional application other than the application itself.
 - The exported Data Set should be portable and self-contained.
 - It should support clips with Colour Grades, Effects and Titles applied.
-- It should support Camera RAW files like [REDCODE RAW](https://support.apple.com/en-sg/guide/final-cut-pro/ver715436b78/mac){target=“_blank”}, [Canon Cinema RAW](https://support.apple.com/en-sg/guide/final-cut-pro/ver10fade120/mac){target=“_blank”} and [Blackmagic RAW](https://brawtoolbox.io/){target=“_blank”}.
+- It should support Camera RAW files like [REDCODE RAW](https://support.apple.com/en-sg/guide/final-cut-pro/ver715436b78/mac), [Canon Cinema RAW](https://support.apple.com/en-sg/guide/final-cut-pro/ver10fade120/mac) and [Blackmagic RAW](https://brawtoolbox.io/).
 - It should make and introduce database workflows more accessible to users.
 - It should save user’s time.
 
