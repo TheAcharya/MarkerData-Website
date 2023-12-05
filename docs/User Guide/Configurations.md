@@ -41,11 +41,11 @@ At any given time only 1 Configuration can be Active.
 1. Select your desired Configuration.
 2. Click on the `Make Active` button.
 
-Alternatively, you can also utilise the `Configuration` menu from the menu bar to switch Configurations on the fly.
+Alternatively, you can also utilise the `Configurations` menu from the menu bar to switch Configuration on the fly.
 
-1. Click on the `Configuration` menu.
+1. Click on the `Configurations` menu.
 
-![Configuration Menu](/assets/md-configuration-settings_05.gif)
+![Configurations Menu](/assets/md-configuration-settings_05.gif)
 
 2. Click on your desired Configuration to `Make Active`.
 
