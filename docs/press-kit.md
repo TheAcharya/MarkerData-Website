@@ -1,7 +1,7 @@
 ---
 label: Press Kit
 icon: star
-order: -96
+order: -97
 ---
 
 # Press Kit
