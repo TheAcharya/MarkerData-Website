@@ -1,7 +1,7 @@
 ---
 label: Why Final Cut Pro?
 icon: question
-order: -5
+order: -2
 ---
 # Why Final Cut Pro?
 
