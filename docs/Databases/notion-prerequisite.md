@@ -39,7 +39,7 @@ Please take note that your Notion v2 Token may expire after some period of time.
 Do not share your Notion v2 Token with anyone.
 !!!
 
-## Obtaining Database URL:
+## Obtain your Database URL:
 
 1. Go to your Notion Database, and right-click on the view and click **Copy link to view**
 
