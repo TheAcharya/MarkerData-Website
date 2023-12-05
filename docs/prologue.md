@@ -1,9 +1,9 @@
 ---
 label: Application Objectives
 icon: rocket
-order: -5
+order: -2
 ---
-# Application Objectives
+# Prologue
 
 ## Come on <a href="https://interstellarfilm.fandom.com/wiki/TARS" target="_blank">TARS</a>!
 
@@ -17,7 +17,7 @@ As I developed [Shot Data](https://commandpost.io/toolbox/shot-data/){target=“
 
 With the above mentioned thoughts, I intent to address the following objectives to improve and enhance the user’s experience.
 
-## Ideal Workflow
+## Application Objectives
 
 - It should provide the user with a near “**single**” click experience. Excluding initial setup.
 - It should provide native Airtable or Notion uploading in a consecutive fashion.
