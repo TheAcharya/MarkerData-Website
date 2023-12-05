@@ -1,11 +1,11 @@
 ---
-label: VFX Data
+label: Creating VFX Database
 icon: pin
 order: -1
 ---
-# VFX Data Tracking and Management
+# Creating VFX Database
 
-[Josh Beal](https://twitter.com/jbkilty) makes an excellent comparison of VFX Data Tracking & Management workflow between **Media Composer** and **Final Cut Pro**. Without a doubt, Final Cut Pro’s approach is much superior because of FCPXML’s metadata. **Can we improve the user’s workflow even further?**
+[Josh Beal](https://twitter.com/jbkilty) makes an excellent workflow comparison between **Media Composer** and **Final Cut Pro** on creation of VFX databases. Without a doubt, Final Cut Pro’s approach is much superior because of FCPXML’s metadata. **Can we improve the user’s workflow even further?**
 
 [!embed](https://www.youtube.com/watch?v=Md-hNTzr5UE)
 
@@ -45,8 +45,8 @@ The above example shows merging of image’s data set and `.csv`’s data set vi
 
 There are several ways to create Burn-In labels for your still frames. Josh Beal uses a Final Cut Pro [Effect Template](https://support.apple.com/en-sg/guide/motion/motn141bbb1f/mac) created from Apple Motion to create the desired burn-In label for your frames.
 
-![Excerpts from Josh Beal’s Video](assets/jb-burn-ins.gif)
+![Excerpts from Josh Beal’s Video](/assets/jb-burn-ins.gif)
 
 !!!info Info
-Using an Effect Template created from Apple Motion is a great approach. It all depends on what are you trying to achieve. Having that custom Effect Template for burn-In labels will always come in handy! What if it can be automated?
+Using an Effect Template created from Apple Motion is a great approach. It all depends on what are you trying to achieve. Having that custom Effect Template for burn-In labels will always come in handy! What if these tasks can be automated?
 !!!

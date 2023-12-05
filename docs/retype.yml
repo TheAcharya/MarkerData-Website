@@ -17,6 +17,12 @@ editor:
 edit:
   base: /docs
 
+breadcrumb:
+  home: ":icon-home:"
+  
+outbound:
+  icon: ""
+
 links:
 - text: GitHub
   icon: mark-github
