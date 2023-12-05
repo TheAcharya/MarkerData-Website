@@ -1,7 +1,7 @@
 ---
 label: Prologue
 icon: rocket
-order: -5
+order: -4
 ---
 # Prologue
 
