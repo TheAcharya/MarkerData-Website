@@ -91,5 +91,5 @@ Yes, it is possible. We will definitely add more [Profiles](https://github.com/T
 
 ## Is Marker Data free to use?
 
-Yes. But you can [sponsor](https://github.com/sponsors/TheAcharya){target=“_blank”} us if you **Marker Data** useful.
+Yes. But you can [sponsor](https://github.com/sponsors/TheAcharya){target=“_blank”} us if you find **Marker Data** useful.
 
