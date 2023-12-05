@@ -1,6 +1,6 @@
 ---
 label: Airtable Profile
-icon: paper-airplane
+icon: eye
 order: -2
 ---
 

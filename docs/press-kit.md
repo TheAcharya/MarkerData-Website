@@ -1,6 +1,6 @@
 ---
 label: Press Kit
-icon: star
+icon: megaphone
 order: -97
 ---
 

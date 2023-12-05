@@ -1,6 +1,6 @@
 ---
 label: Epilogue
-icon: star
+icon: trophy
 order: -98
 ---
 

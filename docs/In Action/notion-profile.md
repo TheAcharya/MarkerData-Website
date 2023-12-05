@@ -1,6 +1,6 @@
 ---
 label: Notion Profile
-icon: paper-airplane
+icon: eye
 order: -1
 ---
 # Notion Profile

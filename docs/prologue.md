@@ -1,6 +1,6 @@
 ---
 label: Prologue
-icon: rocket
+icon: goal
 order: -4
 ---
 # Prologue
