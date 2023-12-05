@@ -57,3 +57,5 @@ footer:
   - text: License
     link: license.md
     icon: law
+    
+poweredByRetype: false
