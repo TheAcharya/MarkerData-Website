@@ -29,3 +29,5 @@ With the above mentioned thoughts, I intent to address the following objectives 
 - It should support Camera RAW files like [REDCODE RAW](https://support.apple.com/en-sg/guide/final-cut-pro/ver715436b78/mac){target=“_blank”}, [Canon Cinema RAW](https://support.apple.com/en-sg/guide/final-cut-pro/ver10fade120/mac){target=“_blank”} and [Blackmagic RAW](https://brawtoolbox.io/){target=“_blank”}.
 - It should make and introduce database workflows more accessible to users.
 - It should save user’s time.
+
+Enter **Marker Data**!
