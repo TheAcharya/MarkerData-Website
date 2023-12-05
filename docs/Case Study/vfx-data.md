@@ -1,11 +1,9 @@
 ---
-label: Case Study 1
+label: VFX Data
 icon: pin
-order: -3
+order: -1
 ---
-# Case Study 1
-
-## VFX Data Tracking and Management
+# VFX Data Tracking and Management
 
 [Josh Beal](https://twitter.com/jbkilty){target=“_blank”} makes an excellent comparison of VFX Data Tracking & Management workflow between **Media Composer** and **Final Cut Pro**. Without a doubt, Final Cut Pro’s approach is much superior because of FCPXML’s metadata. **Can we improve the user’s workflow even further?**
 
