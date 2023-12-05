@@ -1,9 +1,9 @@
 ---
-label: Lost Feature
+label: Reviving A Lost Feature
 icon: pin
 order: -2
 ---
-# Lost Feature from Legacy Final Cut Pro 7
+# Reviving A Lost Feature
 
 Those of us who have been in the industry long enough would recall [Legacy Final Cut Pro 7](https://en.wikipedia.org/wiki/Final_Cut_Pro#Final_Cut_Pro_4_to_7). It was a professional video editing software developed by Apple. Final Cut Pro 7 was highly popular and widely used in the film and television industry for its advanced features and powerful tools. It allowed users to edit and manipulate video footage, audio, and graphics in real-time, making it a favourite among video editors who demanded high-speed and efficient workflows. In 2011, Final Cut Pro 7 was replaced with the highly controversial announcement of Final Cut Pro X; which is simply called **Final Cut Pro** now.
 
