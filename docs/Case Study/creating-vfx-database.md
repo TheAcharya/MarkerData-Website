@@ -1,6 +1,6 @@
 ---
 label: Creating VFX Database
-icon: pin
+icon: bookmark
 order: -1
 ---
 # Creating VFX Database

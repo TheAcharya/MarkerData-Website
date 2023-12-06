@@ -1,6 +1,6 @@
 ---
 label: Airtable Profile
-icon: eye
+icon: video
 order: -2
 ---
 

@@ -1,6 +1,6 @@
 ---
 label: Notion Profile
-icon: eye
+icon: video
 order: -1
 ---
 # Notion Profile

@@ -1,6 +1,6 @@
 ---
 label: Reviving A Lost Feature
-icon: pin
+icon: bookmark
 order: -2
 ---
 # Reviving A Lost Feature
