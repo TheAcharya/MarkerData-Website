@@ -1,7 +1,7 @@
 ---
 label: Prologue
 icon: goal
-order: -4
+order: -3
 ---
 # Prologue
 

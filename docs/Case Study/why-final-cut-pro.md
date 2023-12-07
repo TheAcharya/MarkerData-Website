@@ -1,7 +1,7 @@
 ---
 label: Why Final Cut Pro?
-icon: north-star
-order: -2
+icon: file
+order: -1
 ---
 # Why Final Cut Pro?
 
