@@ -1,9 +1,9 @@
 ---
-label: Why Final Cut Pro?
+label: Final Cut Pro's Enigma
 icon: file
 order: -1
 ---
-# Why Final Cut Pro?
+# Final Cut Pro's Enigma
 
 ![](https://upload.wikimedia.org/wikipedia/en/9/9f/2015_Final_Cut_Pro_Logo.png)
 
