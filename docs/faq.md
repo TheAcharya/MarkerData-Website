@@ -31,11 +31,11 @@ Comparison matrix between **Marker Data** and **FCPXImageExporter.**
 
 Features   | Marker Data | FCPXImageExporter
 :---:   | :---: | :---:
-Speed | Moderate to Fast*  | Fast
+Speed | Fast*  | Fast
 Utilises Source Clips | No | Yes
-Utilises Rendered Timeline  | Yes | No
 RAW Files| Yes** | No
 Effects, Titles & Transitions | Yes** | No
+Creates .json Data Set | Yes | No
 Creates .csv Data Set | Yes | No
 Creates GIFs | Yes | No
 Burn-Ins of Labels | Yes | No
