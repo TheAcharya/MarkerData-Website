@@ -6,6 +6,6 @@ order: -98
 
 # Epilogue
 
-## Come on <a href="https://interstellarfilm.fandom.com/wiki/TARS" target="_blank">TARS</a>!
+## <a href="https://www.youtube.com/watch?v=FwdvVuK7a88" target="_blank">Where We're Going</a>!
 
-![TARS helped Cooper to translate quantum gravitational data to Morse code so that Cooper could transmit the data to Murph’s watch from tesseract within Gargantua back to Earth. Similarly, **Marker Data** will help us translate and transmit Final Cut Pro’s Marker metadata to databases effortlessly.](assets/interstellar_02.gif)
+![Cooper and TARS sets off on a new journey.](assets/interstellar_02.gif)
