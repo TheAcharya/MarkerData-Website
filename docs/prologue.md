@@ -7,7 +7,7 @@ order: -3
 
 ## Come on <a href="https://interstellarfilm.fandom.com/wiki/TARS" target="_blank">TARS</a>!
 
-![TARS helped Cooper to translate quantum gravitational data to Morse code so that Cooper could transmit the data to Murph’s watch from tesseract within Gargantua back to Earth. Similarly, **Marker Data** will help us translate and transmit Final Cut Pro’s Marker metadata to databases effortlessly.](assets/interstellar.gif)
+![TARS helped Cooper to translate quantum gravitational data to Morse code so that Cooper could transmit the data to Murph’s watch from tesseract within Gargantua back to Earth. Similarly, **Marker Data** will help us translate and transmit Final Cut Pro’s Marker metadata to databases effortlessly.](assets/interstellar_01.gif)
 
 As I developed [Shot Data](https://commandpost.io/toolbox/shot-data/) workflow, I soon realise that there could be a similar technique to parse Marker metadata from Final Cut Pro to Notion or any database in a meaningful and dynamic way. 
 
