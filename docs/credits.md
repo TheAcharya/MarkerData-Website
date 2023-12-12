@@ -28,4 +28,4 @@ Icon Design by [Bor Jen Goh](https://www.artstation.com/borjengoh)
 Marker Data also utilises other [open-source projects and libraries](additional-credits.md).
 
 ### Special Thanks
-I would also like to thank the entire Final Cut Pro and Open-Source Community!
+I extend my sincere appreciation to [Chris Hocking](https://github.com/latenitefilms) for the invaluable insights and inspirations provided, as well as to the entirety of the Final Cut Pro and Open-Source Community.
