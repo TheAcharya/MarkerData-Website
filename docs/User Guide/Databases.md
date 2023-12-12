@@ -1,7 +1,7 @@
 ---
 label: Databases
 icon: server
-order: -7
+order: -8
 ---
 # Database Settings
 

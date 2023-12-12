@@ -1,7 +1,7 @@
 ---
 label: Image
 icon: image
-order: -4
+order: -5
 ---
 # Image Settings
 

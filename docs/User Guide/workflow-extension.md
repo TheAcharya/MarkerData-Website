@@ -1,6 +1,6 @@
 ---
 label: Workflow Extension
 icon: project-symlink
-order: -9
+order: -10
 ---
 # Workflow Extension

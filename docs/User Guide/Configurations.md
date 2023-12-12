@@ -1,7 +1,7 @@
 ---
 label: Configurations
 icon: briefcase
-order: -6
+order: -7
 ---
 # Configuration Settings
 

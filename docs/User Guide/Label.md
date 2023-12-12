@@ -1,7 +1,7 @@
 ---
 label: Label
 icon: tag
-order: -5
+order: -6
 ---
 # Label Settings
 

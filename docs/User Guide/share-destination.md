@@ -1,6 +1,6 @@
 ---
-label: Share Destination
-icon: share
-order: -8
+label: Recent
+icon: clock
+order: -9
 ---
 # Share Destination
