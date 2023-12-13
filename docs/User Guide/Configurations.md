@@ -14,7 +14,7 @@ order: -7
 You will not be allowed to make changes to the Default Configuration.
 
 !!!info Info
-The Default Configuration provides users an overview of all the default values and settings of **Marker Data**. Users must create a new Configuration to fully use **Marker Data**.
+The Default Configuration serves as a comprehensive delineation of the default values and parameters pertaining to **Marker Data**. Users are required to instantiate a new Configuration in order to harness the complete functionality of **Marker Data**.
 !!!
 
 ## Add Configuration
@@ -27,21 +27,21 @@ The Default Configuration provides users an overview of all the default values a
 3. Click on the `Save` button.
 
 !!!info Info
-You can't have another Configuration Name with the same name. You will be prompted with an error.
+Identical Configuration Names are disallowed, and attempts to do so will elicit an error prompt.
 !!!
 
 ![Couldn't create configuration](/assets/md-configuration-settings_03.png)
 
 ## Make Active Configuration
 
-At any given time only 1 Configuration can be Active.
+At any given time, only a single Configuration may be designated as active.
 
 ![Active Configuration](/assets/md-configuration-settings_04.gif)
 
 1. Select your desired Configuration.
 2. Click on the `Make Active` button.
 
-Alternatively, you can also utilise the `Configurations` menu from the menu bar to switch Configuration on the fly.
+Alternatively, one may employ the `Configurations` menu located in the menu bar to seamlessly switch between Configurations.
 
 1. Click on the `Configurations` menu.
 
