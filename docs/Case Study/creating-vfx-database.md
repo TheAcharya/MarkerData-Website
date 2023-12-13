@@ -5,7 +5,7 @@ order: -2
 ---
 # Creating VFX Database
 
-[Josh Beal](https://twitter.com/jbkilty) makes an excellent workflow comparison between **Media Composer** and **Final Cut Pro** on creation of VFX databases. Without a doubt, Final Cut Pro’s approach is much superior because of FCPXML’s metadata. **Can we improve the user’s workflow even further?**
+[Josh Beal](https://twitter.com/jbkilty) provides a compelling analysis, drawing a noteworthy comparison between the workflows of two prominent video editing platforms, namely **Media Composer** and **Final Cut Pro**, particularly in the context of VFX database creation. Unquestionably, Josh affirms the superiority of Final Cut Pro's methodology, attributing this advantage to the efficacy of FCPXML's metadata handling capabilities.
 
 [!embed](https://www.youtube.com/watch?v=Md-hNTzr5UE)
 
@@ -13,42 +13,42 @@ order: -2
 
 ### Batch exporting still frames for thumbnails & frame identification
 
-You can export still frames from Final Cut Pro. You can add the native **Save Current Frame** preset [destination](https://support.apple.com/en-sg/guide/final-cut-pro/ver9fd008a21/mac) to your share menu. Even though you can Batch Export Clips natively, for still frames, you could only do it one by one. However, you can create a [Custom Compressor Setting](https://support.apple.com/en-sg/guide/compressor/cpsr52823a16/mac) specifically for batch exporting, still frames. Despite having a **Custom Compressor Setting** you would still need to manually copy and paste those desired clips to compound clips and mark your desired frame.
+Within Final Cut Pro, the capability to extract individual still frames is present through the utilisation of the native **Save Current Frame** preset, which can be seamlessly integrated into the [share destination](https://support.apple.com/en-sg/guide/final-cut-pro/ver9fd008a21/mac) menu. While the software inherently supports the batch exportation of clips, it is noteworthy that, for still frames, the process remains constrained to a one-by-one basis. Nevertheless, a solution lies in the creation of a [Custom Compressor Setting](https://support.apple.com/en-sg/guide/compressor/cpsr52823a16/mac) tailored specifically for the batch export of still frames. It is imperative to acknowledge that despite the implementation of this customised setting, a manual process involving the transfer of desired clips into compound clips and subsequent frame selection is requisite for optimal results.
 
 ![Excerpts from Josh Beal’s Video](/assets/jb-batch_export_still_frames.gif)
 
 !!!info Info
-It just requires too many steps in my textbook. What happens when you have 500 VFX shots?
+It just requires too many steps in my textbook. Consider the implications when confronted with the management of 500 visual effects shots
 !!!
 
 ### Extracting Marker information & match still’s filename
 
-There is an application called [Producer’s Best Friend](https://intelligentassistance.com/producer-s-best-friend.html). Using Final Cut Pro’s FCPXML file, users can extract all metadata information to a spreadsheet pertaining to any timeline. It is an outstanding tool for generating and extracting specific reports from any Final Cut Pro project.
+An application of notable repute, denoted as [Producer’s Best Friend](https://intelligentassistance.com/producer-s-best-friend.html), offers a sophisticated utility for Final Cut Pro practitioners. Leveraging the FCPXML file format, this tool facilitates the meticulous extraction of comprehensive metadata from any given timeline, presenting users with the capability to systematically compile this information into a structured spreadsheet. Remarkably adept in its functionality, Producer’s Best Friend stands out as an exceptional resource, particularly for the purpose of generating and extracting targeted reports derived from diverse Final Cut Pro projects.
 
 ![Excerpts from Josh Beal’s Video](/assets/jb-extract_metadata.gif)
 
 !!!info Info
-Again, additional application and further steps are required to created a proper Data Set that has relationship with thumbnails.
+Once more, the establishment of a comprehensive dataset correlating with thumbnails demands supplementary application and additional procedural measures.
 !!!
 
 ### Sending & Managing VFX Data Set to a Database Application
 
-Josh Beal utilises Airtable to manage his Data Set. Airtable is undoubtedly a powerful cloud-base database application. It has a lot of features when comes to automations, scripting, extensions, report generation and collaboration. But users have to bear a [high cost](https://www.airtable.com/pricing) when factoring in collaborative expansion and additional user licenses. Furthermore, additional database views and features are locked behind a higher paywall tier. Having alternative database platforms would be ideal to the end user.
+Josh Beal employs Airtable as the cornerstone for his dataset management. Undoubtedly, Airtable stands as a potent cloud-based database application, boasting a plethora of attributes ranging from automations, scripting, and extensions to robust features for report generation and collaborative efforts. However, it is essential to note that users may incur a considerable expense, particularly with regard to collaborative expansion and the acquisition of additional user licenses, as detailed in the pricing structure [here](https://www.airtable.com/pricing). Furthermore, certain advanced database views and features are restricted to higher-tier paywall access. Consequently, exploring alternative database platforms becomes an advisable consideration for the discerning end user.
 
 ![Excerpts from Josh Beal’s Video](/assets/jb-airtable_database.gif)
 
 !!!info Info
-The above example shows merging of image’s data set and `.csv`’s data set via Airtable’s [CSV Import Extension](https://support.airtable.com/docs/csv-import-extension). There is still a little manual work involved when mapping data to the appropriate fields.
+The aforementioned illustration demonstrates the amalgamation of image dataset and a `.csv` dataset facilitated by Airtable's [CSV Import Extension](https://support.airtable.com/docs/csv-import-extension). Nevertheless, a modest degree of manual intervention remains necessary for the mapping of data to the respective fields.
 !!!
 
 ### Creating Burn-In labels
 
-There are several ways to create Burn-In labels for your still frames. Josh Beal uses a Final Cut Pro [Effect Template](https://support.apple.com/en-sg/guide/motion/motn141bbb1f/mac) created from Apple Motion to create the desired burn-In label for your frames.
+Numerous methodologies exist for generating Burn-In labels on still frames. Josh Beal employs a sophisticated approach by utilising a specialised [Effect Template](https://support.apple.com/en-sg/guide/motion/motn141bbb1f/mac) within Final Cut Pro, derived from Apple Motion. This template serves as a pivotal tool in crafting the desired Burn-In label on individual frames."
 
 ![Excerpts from Josh Beal’s Video](/assets/jb-burn-ins.gif)
 
 !!!info Info
-Using an Effect Template created from Apple Motion is a great approach. It all depends on what are you trying to achieve. Having that custom Effect Template for burn-In labels will always come in handy! What if these tasks can be automated?
+The utilisation of an Effect Template originating from Apple Motion constitutes a commendable strategy, its efficacy contingent upon the desired outcome. Possessing a bespoke Effect Template for the integration of Burn-In labels consistently proves to be a valuable asset.
 !!!
 
-**Can we improve this workflow?**
+**Is there room for enhancement for this workflow?**
