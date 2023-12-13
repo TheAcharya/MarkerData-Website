@@ -1,7 +1,7 @@
 ---
-label: Airtable Profile
+label: Sending to Airtable
 icon: video
 order: -2
 ---
 
-# Airtable Profile
+# Sending to Airtable

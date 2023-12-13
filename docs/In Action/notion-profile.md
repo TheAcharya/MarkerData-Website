@@ -1,6 +1,6 @@
 ---
-label: Notion Profile
+label: Sending to Notion
 icon: video
 order: -1
 ---
-# Notion Profile
+# Sending to Notion
