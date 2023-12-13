@@ -9,25 +9,21 @@ order: -3
 
 ![TARS translated quantum gravitational data into Morse code for Cooper to transmit from Gargantua's tesseract to Murph's watch on Earth.<br>Similarly, **Marker Data** streamlines the translation and transmission of Final Cut Pro's Marker metadata to databases effortlessly.](assets/interstellar_01.gif)
 
-As I developed [Shot Data](https://commandpost.io/toolbox/shot-data/) workflow, I soon realise that there could be a similar technique to parse Marker metadata from Final Cut Pro to Notion or any database in a meaningful and dynamic way. 
+Considering the multifaceted issues and concepts elucidated in the case studies, my aspiration is to conceive an application that adeptly tackles these challenges. This envisioned application would proficiently extract Marker metadata from Final Cut Pro, seamlessly integrating it into Notion or any database in a manner that is not only meaningful but also dynamic. Envision a scenario where users can judiciously manage and organise Final Cut Pro Markers, VFX Shots, Comments, and Edit Notes with unparalleled efficiency. The overarching goal is to enable users to collaborate seamlessly, sharing databases with team members without the burden of exorbitant platform costs.
 
-- What if users could manage and organise Final Cut Pro Markers, VFX Shots, Comments and Edit Notes effectively and smartly?
-- What if users could collaborate and share database with other team members without worrying about exorbitant platform cost?
-- Could all of the steps be achieved with a click of a button or key-stroke?
-
-With the above mentioned thoughts, I intent to address the following objectives to improve and enhance the user’s experience.
+What if the intricate tasks of managing and organising Final Cut Pro elements could be executed effortlessly with a mere click of a button or a keystroke? This contemplation underpins the core objectives I aim to address in order to elevate and refine the user experience significantly.
 
 ## Application Objectives
 
-- It should provide the user with a near “**single**” click experience. Excluding initial setup.
-- It should provide native Airtable or Notion uploading in a consecutive fashion.
-- It should provide the options for extracting for both PNGs and animated GIFs. Why GIFs!? It is because both Notion and Airtable supports GIFs. And animated GIFs provides a better frame identification than a static still images.
-- It should have native Burn-In options for labels.
-- It should not require any additional application other than the application itself.
-- The exported Data Set should be portable and self-contained.
-- It should support clips with Colour Grades, Effects and Titles applied.
-- It should support Camera RAW files like [REDCODE RAW](https://support.apple.com/en-sg/guide/final-cut-pro/ver715436b78/mac), [Canon Cinema RAW](https://support.apple.com/en-sg/guide/final-cut-pro/ver10fade120/mac) and [Blackmagic RAW](https://brawtoolbox.io/).
-- It should make and introduce database workflows more accessible to users.
-- It should save user’s time.
+- Delivering a nearly seamless experience with a **near-single-click** functionality, post initial setup, is a paramount objective.
+- Facilitate a streamlined and consecutive integration with native uploading options for both Airtable and Notion platforms.
+- Provide the versatility to extract both PNGs and animated GIFs, with a deliberate emphasis on GIFs owing to their enhanced frame identification capabilities, supported seamlessly by both Notion and Airtable.
+- Incorporate native Burn-In options for labels.
+- Emphasise self-sufficiency by eliminating the necessity for additional applications, offering an all-encompassing solution within the application itself.
+- Ensure the portability and self-containment of the exported Data Set, enhancing convenience and accessibility.
+- Extend support for clips enriched with Color Grades, Effects, and Titles, augmenting the application's versatility.
+- Accommodate Camera RAW files, including formats such as [REDCODE RAW](https://support.apple.com/en-sg/guide/final-cut-pro/ver715436b78/mac), [Canon Cinema RAW](https://support.apple.com/en-sg/guide/final-cut-pro/ver10fade120/mac), and [Blackmagic RAW](https://brawtoolbox.io/), broadening compatibility and functionality.
+- Enhance accessibility to database workflows, making them more user-friendly and intuitive.
+- Prioritise time efficiency by introducing features that significantly contribute to saving the user's valuable time throughout the application's usage.
 
 Enter **Marker Data**!
