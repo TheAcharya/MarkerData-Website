@@ -7,11 +7,11 @@ order: -96
 
 ## What is the behaviour when Marker collision occurs?
 
-When there are Markers at the same timecode position, **Marker Data** will automatically resolve the collision of ID (Timecode, Name or Notes).
+In instances where Markers coincide, **Marker Data** will adeptly rectify any conflicts arising from overlapping Marker ID such as Timecode, Name, or Notes.
 
 ![Marker Collision](assets/fcp_marker_collision_01.png)
 
-**Marker Data** will create unique Marker ID by automatically appending a numerical suffix at the end of the Marker ID and Image Filename.
+**Marker Data** will fashion unique Marker IDs through an automated process of appending a numerical suffix to both the Marker ID and the Image Filename.
 
 ![Unique Marker ID](assets/fcp_marker_collision_02.png)
 
@@ -19,13 +19,15 @@ When there are Markers at the same timecode position, **Marker Data** will autom
 
 ## What is the behaviour when Markers are located within Compound, Multicam and Synchronise Clips?
 
-**Marker Data** will ignore all Markers that are not part of the main active timeline. This is by design. For example, Compound Clips can have an umpteen number of nested Compound Clips with each Compound clip. It would get complicated trying to parse the Markers within each nested Compound Clips.
+**Marker Data** is intentionally configured to disregard any markers outside the primary active timeline. This deliberate choice is particularly pertinent in scenarios involving Compound Clips, where the potential for numerous nested structures exists. Parsing markers within each nested Compound Clip could introduce undue complexity.
 
-If a user want so extract the markers from within the Compound Clip, that user would just double-click the particular Compound Clip and export its timeline. Any markers nested within that Compound Clip of the timeline would be ignored by the **Marker Data**.
+Should a user wish to extract markers from within a Compound Clip, a straightforward approach involves double-clicking the specific Compound Clip and exporting its associated timeline. In doing so, any markers nested within that particular Compound Clip's timeline will be excluded from consideration by **Marker Data**.
 
 ## Does Marker Data replaces FCPXImageExporter?
 
-Yes & No. Both **Marker Data** and **FCPXImageExporter** utilise different approach in solving a similar problem. **FCPXImageExporter** only extracts still images from source clips based on Makers. **FCPXImageExporter** completely ignores any post effects and titles applied to the timeline and individual clips. By contrast, Marker Data utilises both the output of the rendered timeline, and its accompanying FCPXML to derive all thumbnails (Stills or GIFs) and `.json` to create a complete Data Set.
+Indeed, there are distinctions between the methodologies employed by **Marker Data** and **FCPXImageExporter** in addressing analogous challenges. **FCPXImageExporter** singularly focuses on the extraction of static images from source clips delineated by markers. This process, however, intentionally overlooks any post-effects and titles applied at both the timeline and individual clip levels.
+
+In contrast, **Marker Data** adopts a comprehensive strategy by harnessing the output of the rendered timeline, alongside its associated FCPXML, to generate thumbnails encompassing both stills and GIFs. Additionally, the utilisation of a `.json` format contributes to the creation of an all-encompassing data set.
 
 Comparison matrix between **Marker Data** and **FCPXImageExporter.**
 
@@ -46,7 +48,9 @@ Cost | Free & Open Source | Paid
 
 ## Does Marker Data replaces Producer's Best Friend?
 
-No. In fact it complements it. **Producer’s Best Friend** is the best application for creating spreadsheet report (for Numbers, Excel, Preview, etc.) about the Video Clips, Audio Clips, Titles, Generators, Markers, Keywords, Effects, and Transitions. **Marker Data** only extracts information pertaining markers and its accompanying metadata. Nothing more.
+Contrary to negation, **Producer’s Best Friend** serves as a complement rather than a contradiction. It stands as the optimal application for crafting comprehensive spreadsheet reports compatible with platforms such as Numbers, Excel, Preview, and others. This versatile tool adeptly encompasses diverse elements, including Video Clips, Audio Clips, Titles, Generators, Markers, Keywords, Effects, and Transitions.
+
+In contrast, **Marker Data** specialises solely in the extraction of information pertinent to markers and their associated metadata. It confines its focus to this specific domain, providing a nuanced and refined functionality distinct from the broader spectrum covered by Producer’s Best Friend.
 
 ## Can Marker Data's Data Set be used with other applications?
 
@@ -71,23 +75,23 @@ XYZ701_150_010 - COOPER APPEARS NEAR PLANET SATURN
 
 ## Could Marker Data support DaVinci Resolve since it supports FCPXMLs?
 
-No. Despite having the ability to import and export FCPXMLs from DaVinci Resolve, compatible Marker metadata is not added in the FCPXMLs.
+Regrettably, despite the capacity to import and export FCPXMLs within **DaVinci Resolve**, it is noteworthy that the compatibility of Marker metadata is not seamlessly integrated into the FCPXML format.
 
 ## Why Notion v2 Token is used instead of Notion’s official API Connections?
 
-Notion’s official API does not support direct upload and merging of images and page icons. It also does not support automatic linking or create new entries in relation columns based on their value. The day when Notion further opens up their APIs, we will look into updating our internal components.
+The official API provided by Notion currently lacks the capability for direct image uploads and the seamless merging of page icons. Furthermore, it does not offer support for automatic linking or the creation of new entries in relation columns based on their respective values. The prospect of revisiting and updating our internal components will be considered as Notion continues to expand and enhance the functionality of their APIs.
 
 ## Will other database platforms be supported?
 
-The current focus is to support and maintain Notion and Airtable integration. These two are the most popular platforms among users and companies in the Film and TV industry around the world. We took considerable amount of time in building our internal components for both [Notion](https://github.com/TheAcharya/csv2notion-neo) and [Airtable](https://github.com/TheAcharya/Airlift).
+At present, our primary emphasis lies in the steadfast support and enhancement of integration capabilities with Notion and Airtable—two widely acclaimed platforms embraced by users and companies across the global Film and TV industry. The development of robust internal components for both [Notion](https://github.com/TheAcharya/csv2notion-neo) and [Airtable](https://github.com/TheAcharya/Airlift) has demanded a significant investment of time and effort.
 
-In the database/productivity space, new platforms (both commercial and open-source) such as [Coda](https://coda.io/), [Baserow](https://baserow.io/), [AppFlowy](https://appflowy.io/) and Microsoft’s [Loop](https://loop.microsoft.com/learn) are on the rise.
+Within the expansive landscape of database and productivity solutions, emerging platforms such as [Coda](https://coda.io/), [Baserow](https://baserow.io/), [AppFlowy](https://appflowy.io/), and Microsoft’s [Loop](https://loop.microsoft.com/learn) are gaining prominence.
 
-If you have a particular use case and platform in mind, please start a [discussion](https://github.com/TheAcharya/MarkerData/discussions). However, the addition of platforms will be subjected to the availability of API libraries.
+Should you have specific use cases or preferences for other platforms, we encourage you to initiate a thoughtful [discussion](https://github.com/TheAcharya/MarkerData/discussions). It is essential to note that the incorporation of additional platforms will be contingent upon the availability of compatible API libraries.
 
 ## Could Marker Data extract and convert Final Cut Pro's Marker metadata to another format?
 
-Yes, it is possible. We will definitely add more [Profiles](https://github.com/TheAcharya/MarkersExtractor/issues?q=is%3Aissue+is%3Aopen+label%3Aprofiles) as we improve and update our Library over time.
+Certainly, such an endeavour is within our purview. As we continue to refine and advance our Library, the augmentation of [Profiles](https://github.com/TheAcharya/MarkersExtractor/issues?q=is%3Aissue+is%3Aopen+label%3Aprofiles) is a definite consideration for future enhancements.
 
 ## What is Marker Data's Privacy Policy?
 
