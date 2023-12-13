@@ -50,3 +50,5 @@ There are several ways to create Burn-In labels for your still frames. Josh Beal
 !!!info Info
 Using an Effect Template created from Apple Motion is a great approach. It all depends on what are you trying to achieve. Having that custom Effect Template for burn-In labels will always come in handy! What if these tasks can be automated?
 !!!
+
+**Can we improve this workflow?**

@@ -18,3 +18,5 @@ When you export markers, Final Cut Pro 7 includes all the marker information, su
 ![Export Options](/assets/fcp7_markers_2.png)
 
 In Final Cut Pro, there is the widely used feature of [Export XML](https://support.apple.com/en-sg/guide/final-cut-pro/verdbd66ae/mac) (`.fcpxml`). Final Cut Pro is extremely powerful for handling Metadata. FCPXML contains most of the timeline’s information, include Marker Metadata. However, it is not easily accessible from the end user’s perspective. Hence, I would not associate Final Cut Pro's Export XML as a direct feature parity with legacy Final Cut Pro 7’s Marker Export.
+
+**Is it plausible for us to reinvigorate this functionality and modernise it to align with contemporary workflow requirements?**
