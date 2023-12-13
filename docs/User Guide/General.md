@@ -11,11 +11,11 @@ order: -4
 
 ### Destination
 
-Click on the Folder Icon to select your preferred location. You can click Trash Icon to clear the stored path.
+Select your desired location by clicking on the Folder Icon. Alternatively, the Trash Icon may be utilised to reset and clear the stored path.
 
 ### Folder Format
 
-Folder Format allows you to select your preferred folder naming scheme. To prevent conflicts or overwrites of any previously generated files, both `Medium` and `Long` Folder Formats have `Current Date` and `Current Time` printed into naming scheme. Hence, every extraction is unique.
+The Folder Format feature affords the user the capability to designate a folder naming scheme of their preference. In order to mitigate conflicts and potential overwrites of previously generated files, both the `Medium` and `Long` Folder Formats incorporate the inclusion of the `Current Date` and `Current Time` within the nomenclature. Consequently, each extraction yields a distinct and uniquely identified result.
 
 Select your desired Folder Format.
 - **Short**
@@ -66,7 +66,7 @@ When Clip Boundaries is enabled, **Marker Data** will include Markers that are o
 
 ### No Media
 
-By [!badge text="Default"] Marker Data will always look for accompanying movie file (`.mov` or `.mp4`) in directory where the `.fcpbundle` or `.fcpxml` resides. When No Media is enabled, **Marker Data** will bypass the movie file.
+By [!badge text="Default"] Marker Data will always look for accompanying movie file (`.mov` or `.mp4`) in directory where the `.fcpbundle` or `.fcpxml` resides. Activating the No Media option allows **Marker Data** to circumvent the inclusion of the movie file during processing.
 
 This option is available in scenarios where :
 - User does not wish to export movie file.

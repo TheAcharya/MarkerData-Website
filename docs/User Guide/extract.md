@@ -1,5 +1,5 @@
 ---
-label: Extract Window
+label: Extract
 icon: browser
 order: -2
 ---
