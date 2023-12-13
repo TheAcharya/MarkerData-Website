@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.755751040636">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.755777797649">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -11,7 +11,7 @@
     <!-- Primary Meta Tags -->
     <title>Frequently Asked Questions</title>
     <meta name="title" content="Frequently Asked Questions">
-    <meta name="description" content="When there are Markers at the same timecode position, Marker Data will automatically resolve the collision of ID (Timecode, Name or Notes).">
+    <meta name="description" content="In instances where Markers coincide, Marker Data will adeptly rectify any conflicts arising from overlapping Marker ID such as Timecode, Name, or...">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://markerdata.theacharya.co/faq/">
@@ -20,24 +20,24 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://markerdata.theacharya.co/faq/">
     <meta property="og:title" content="Frequently Asked Questions">
-    <meta property="og:description" content="When there are Markers at the same timecode position, Marker Data will automatically resolve the collision of ID (Timecode, Name or Notes).">
+    <meta property="og:description" content="In instances where Markers coincide, Marker Data will adeptly rectify any conflicts arising from overlapping Marker ID such as Timecode, Name, or...">
     <meta property="og:image" content="https://markerdata.theacharya.co/assets/fcp_marker_collision_01.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://markerdata.theacharya.co/faq/">
     <meta property="twitter:title" content="Frequently Asked Questions">
-    <meta property="twitter:description" content="When there are Markers at the same timecode position, Marker Data will automatically resolve the collision of ID (Timecode, Name or Notes).">
+    <meta property="twitter:description" content="In instances where Markers coincide, Marker Data will adeptly rectify any conflicts arising from overlapping Marker ID such as Timecode, Name, or...">
     <meta property="twitter:image" content="https://markerdata.theacharya.co/assets/fcp_marker_collision_01.png">
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../static/favicon.ico" rel="icon">
-    <link href="../resources/css/retype.css?v=3.5.0.755751040636" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=3.5.0.755777797649" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=3.5.0.755751040636" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=3.5.0.755777797649" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.5.0.755751040636" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.5.0.755777797649" data-turbo-eval="false" defer></script>
 
     <style>
     	/* The Acharya Logo */
@@ -324,13 +324,13 @@
         <span>What is the behaviour when Marker collision occurs?</span>
     </h2>
 </doc-anchor-target>
-<p>When there are Markers at the same timecode position, <strong>Marker Data</strong> will automatically resolve the collision of ID (Timecode, Name or Notes).</p>
+<p>In instances where Markers coincide, <strong>Marker Data</strong> will adeptly rectify any conflicts arising from overlapping Marker ID such as Timecode, Name, or Notes.</p>
 <p><figure class="content-center">
     <img src="../assets/fcp_marker_collision_01.png" alt="Marker Collision">
     <figcaption class="caption">Marker Collision</figcaption>
 </figure>
 </p>
-<p><strong>Marker Data</strong> will create unique Marker ID by automatically appending a numerical suffix at the end of the Marker ID and Image Filename.</p>
+<p><strong>Marker Data</strong> will fashion unique Marker IDs through an automated process of appending a numerical suffix to both the Marker ID and the Image Filename.</p>
 <p><figure class="content-center">
     <img src="../assets/fcp_marker_collision_02.png" alt="Unique Marker ID">
     <figcaption class="caption">Unique Marker ID</figcaption>
@@ -347,15 +347,16 @@
         <span>What is the behaviour when Markers are located within Compound, Multicam and Synchronise Clips?</span>
     </h2>
 </doc-anchor-target>
-<p><strong>Marker Data</strong> will ignore all Markers that are not part of the main active timeline. This is by design. For example, Compound Clips can have an umpteen number of nested Compound Clips with each Compound clip. It would get complicated trying to parse the Markers within each nested Compound Clips.</p>
-<p>If a user want so extract the markers from within the Compound Clip, that user would just double-click the particular Compound Clip and export its timeline. Any markers nested within that Compound Clip of the timeline would be ignored by the <strong>Marker Data</strong>.</p>
+<p><strong>Marker Data</strong> is intentionally configured to disregard any markers outside the primary active timeline. This deliberate choice is particularly pertinent in scenarios involving Compound Clips, where the potential for numerous nested structures exists. Parsing markers within each nested Compound Clip could introduce undue complexity.</p>
+<p>Should a user wish to extract markers from within a Compound Clip, a straightforward approach involves double-clicking the specific Compound Clip and exporting its associated timeline. In doing so, any markers nested within that particular Compound Clip&#x27;s timeline will be excluded from consideration by <strong>Marker Data</strong>.</p>
 <doc-anchor-target id="does-marker-data-replaces-fcpximageexporter">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#does-marker-data-replaces-fcpximageexporter">#</doc-anchor-trigger>
         <span>Does Marker Data replaces FCPXImageExporter?</span>
     </h2>
 </doc-anchor-target>
-<p>Yes &amp; No. Both <strong>Marker Data</strong> and <strong>FCPXImageExporter</strong> utilise different approach in solving a similar problem. <strong>FCPXImageExporter</strong> only extracts still images from source clips based on Makers. <strong>FCPXImageExporter</strong> completely ignores any post effects and titles applied to the timeline and individual clips. By contrast, Marker Data utilises both the output of the rendered timeline, and its accompanying FCPXML to derive all thumbnails (Stills or GIFs) and <code v-pre>.json</code> to create a complete Data Set.</p>
+<p>Indeed, there are distinctions between the methodologies employed by <strong>Marker Data</strong> and <strong>FCPXImageExporter</strong> in addressing analogous challenges. <strong>FCPXImageExporter</strong> singularly focuses on the extraction of static images from source clips delineated by markers. This process, however, intentionally overlooks any post-effects and titles applied at both the timeline and individual clip levels.</p>
+<p>In contrast, <strong>Marker Data</strong> adopts a comprehensive strategy by harnessing the output of the rendered timeline, alongside its associated FCPXML, to generate thumbnails encompassing both stills and GIFs. Additionally, the utilisation of a <code v-pre>.json</code> format contributes to the creation of an all-encompassing data set.</p>
 <p>Comparison matrix between <strong>Marker Data</strong> and <strong>FCPXImageExporter.</strong></p>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
@@ -423,7 +424,8 @@
         <span>Does Marker Data replaces Producer&#x27;s Best Friend?</span>
     </h2>
 </doc-anchor-target>
-<p>No. In fact it complements it. <strong>Producer’s Best Friend</strong> is the best application for creating spreadsheet report (for Numbers, Excel, Preview, etc.) about the Video Clips, Audio Clips, Titles, Generators, Markers, Keywords, Effects, and Transitions. <strong>Marker Data</strong> only extracts information pertaining markers and its accompanying metadata. Nothing more.</p>
+<p>Contrary to negation, <strong>Producer’s Best Friend</strong> serves as a complement rather than a contradiction. It stands as the optimal application for crafting comprehensive spreadsheet reports compatible with platforms such as Numbers, Excel, Preview, and others. This versatile tool adeptly encompasses diverse elements, including Video Clips, Audio Clips, Titles, Generators, Markers, Keywords, Effects, and Transitions.</p>
+<p>In contrast, <strong>Marker Data</strong> specialises solely in the extraction of information pertinent to markers and their associated metadata. It confines its focus to this specific domain, providing a nuanced and refined functionality distinct from the broader spectrum covered by Producer’s Best Friend.</p>
 <doc-anchor-target id="can-marker-datas-data-set-be-used-with-other-applications">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#can-marker-datas-data-set-be-used-with-other-applications">#</doc-anchor-trigger>
@@ -460,30 +462,30 @@
         <span>Could Marker Data support DaVinci Resolve since it supports FCPXMLs?</span>
     </h2>
 </doc-anchor-target>
-<p>No. Despite having the ability to import and export FCPXMLs from DaVinci Resolve, compatible Marker metadata is not added in the FCPXMLs.</p>
+<p>Regrettably, despite the capacity to import and export FCPXMLs within <strong>DaVinci Resolve</strong>, it is noteworthy that the compatibility of Marker metadata is not seamlessly integrated into the FCPXML format.</p>
 <doc-anchor-target id="why-notion-v2-token-is-used-instead-of-notions-official-api-connections">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#why-notion-v2-token-is-used-instead-of-notions-official-api-connections">#</doc-anchor-trigger>
         <span>Why Notion v2 Token is used instead of Notion’s official API Connections?</span>
     </h2>
 </doc-anchor-target>
-<p>Notion’s official API does not support direct upload and merging of images and page icons. It also does not support automatic linking or create new entries in relation columns based on their value. The day when Notion further opens up their APIs, we will look into updating our internal components.</p>
+<p>The official API provided by Notion currently lacks the capability for direct image uploads and the seamless merging of page icons. Furthermore, it does not offer support for automatic linking or the creation of new entries in relation columns based on their respective values. The prospect of revisiting and updating our internal components will be considered as Notion continues to expand and enhance the functionality of their APIs.</p>
 <doc-anchor-target id="will-other-database-platforms-be-supported">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#will-other-database-platforms-be-supported">#</doc-anchor-trigger>
         <span>Will other database platforms be supported?</span>
     </h2>
 </doc-anchor-target>
-<p>The current focus is to support and maintain Notion and Airtable integration. These two are the most popular platforms among users and companies in the Film and TV industry around the world. We took considerable amount of time in building our internal components for both <a href="https://github.com/TheAcharya/csv2notion-neo" class="outbound" target="_blank">Notion</a> and <a href="https://github.com/TheAcharya/Airlift" class="outbound" target="_blank">Airtable</a>.</p>
-<p>In the database/productivity space, new platforms (both commercial and open-source) such as <a href="https://coda.io/" class="outbound" target="_blank">Coda</a>, <a href="https://baserow.io/" class="outbound" target="_blank">Baserow</a>, <a href="https://appflowy.io/" class="outbound" target="_blank">AppFlowy</a> and Microsoft’s <a href="https://loop.microsoft.com/learn" class="outbound" target="_blank">Loop</a> are on the rise.</p>
-<p>If you have a particular use case and platform in mind, please start a <a href="https://github.com/TheAcharya/MarkerData/discussions" class="outbound" target="_blank">discussion</a>. However, the addition of platforms will be subjected to the availability of API libraries.</p>
+<p>At present, our primary emphasis lies in the steadfast support and enhancement of integration capabilities with Notion and Airtable—two widely acclaimed platforms embraced by users and companies across the global Film and TV industry. The development of robust internal components for both <a href="https://github.com/TheAcharya/csv2notion-neo" class="outbound" target="_blank">Notion</a> and <a href="https://github.com/TheAcharya/Airlift" class="outbound" target="_blank">Airtable</a> has demanded a significant investment of time and effort.</p>
+<p>Within the expansive landscape of database and productivity solutions, emerging platforms such as <a href="https://coda.io/" class="outbound" target="_blank">Coda</a>, <a href="https://baserow.io/" class="outbound" target="_blank">Baserow</a>, <a href="https://appflowy.io/" class="outbound" target="_blank">AppFlowy</a>, and Microsoft’s <a href="https://loop.microsoft.com/learn" class="outbound" target="_blank">Loop</a> are gaining prominence.</p>
+<p>Should you have specific use cases or preferences for other platforms, we encourage you to initiate a thoughtful <a href="https://github.com/TheAcharya/MarkerData/discussions" class="outbound" target="_blank">discussion</a>. It is essential to note that the incorporation of additional platforms will be contingent upon the availability of compatible API libraries.</p>
 <doc-anchor-target id="could-marker-data-extract-and-convert-final-cut-pros-marker-metadata-to-another-format">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#could-marker-data-extract-and-convert-final-cut-pros-marker-metadata-to-another-format">#</doc-anchor-trigger>
         <span>Could Marker Data extract and convert Final Cut Pro&#x27;s Marker metadata to another format?</span>
     </h2>
 </doc-anchor-target>
-<p>Yes, it is possible. We will definitely add more <a href="https://github.com/TheAcharya/MarkersExtractor/issues?q=is%3Aissue+is%3Aopen+label%3Aprofiles" class="outbound" target="_blank">Profiles</a> as we improve and update our Library over time.</p>
+<p>Certainly, such an endeavour is within our purview. As we continue to refine and advance our Library, the augmentation of <a href="https://github.com/TheAcharya/MarkersExtractor/issues?q=is%3Aissue+is%3Aopen+label%3Aprofiles" class="outbound" target="_blank">Profiles</a> is a definite consideration for future enhancements.</p>
 <doc-anchor-target id="what-is-marker-datas-privacy-policy">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#what-is-marker-datas-privacy-policy">#</doc-anchor-trigger>
