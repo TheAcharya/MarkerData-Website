@@ -11,7 +11,7 @@ In instances where Markers coincide, **Marker Data** will adeptly rectify any co
 
 ![Marker Collision](assets/fcp_marker_collision_01.png)
 
-**Marker Data** will fashion unique Marker IDs through an automated process of appending a numerical suffix to both the Marker ID and the Image Filename.
+**Marker Data** will create unique Marker IDs through an automated process of appending a numerical suffix to both the Marker ID and the Image Filename.
 
 ![Unique Marker ID](assets/fcp_marker_collision_02.png)
 
@@ -75,7 +75,7 @@ XYZ701_150_010 - COOPER APPEARS NEAR PLANET SATURN
 
 ## Could Marker Data support DaVinci Resolve since it supports FCPXMLs?
 
-Regrettably, despite the capacity to import and export FCPXMLs within **DaVinci Resolve**, it is noteworthy that the compatibility of Marker metadata is not seamlessly integrated into the FCPXML format.
+Regrettably, despite the capacity to import and export FCPXMLs within **DaVinci Resolve**, the compatibility of Marker metadata is not integrated into the FCPXML format.
 
 ## Why Notion v2 Token is used instead of Notion’s official API Connections?
 
