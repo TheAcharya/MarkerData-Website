@@ -21,7 +21,7 @@ Marker Data allows users to extract, convert and create databases from [Final Cu
 - Features a versatile functionality allowing batch extraction and rendering of stills or animated GIFs based on each Marker's timecode.
 - Offers a versatile feature set for batch burning-in labels, embedding the comprehensive metadata of each Marker onto stills or animated GIFs.
 - Flexibility is paramount, allowing the creation of multiple configurations tailored to diverse project requirements.
-- Harnesses the potential to utilise Captions as Markers, adding a layer of flexibility and functionality to the application's feature set.
+- Harnesses the potential to utilise Captions as Markers, adding a layer of flexibility.
 
 ## Available Extract Profiles
 
