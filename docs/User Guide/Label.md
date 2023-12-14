@@ -14,7 +14,7 @@ order: -6
 **Marker Data** allows you to select different fonts for the label appearance.
 
 !!!info Info
-By design, we have restricted the choice of Typeface selection. We believe the provided Typeface selection would be more than adequate for burn-ins. Furthermore, these fonts are build-in feature of macOS.
+Deliberately, we have constrained the options for Typeface selection. We posit that the available Typeface choices are sufficiently comprehensive for burn-in purposes. Additionally, these fonts are integral components of the macOS system.
 !!!
 
 Select your desired Typeface.
@@ -26,7 +26,7 @@ Select your desired Typeface.
 
 ### Style
 
-You can select your preferred Style for your styling for your Typeface selection.
+You have the option to choose your favoured Style when determining the Typeface for your selection.
 
 Select your desired Style.
 - **Regular** [!badge text="Default"]
@@ -38,47 +38,47 @@ Select your desired Style.
 Size is set to `30` by [!badge text="Default"].
 
 !!!info Info
-You can set a lower Size to accommodate more Overlays.
+One has the ability to establish a lower size to facilitate the inclusion of a greater number of overlays.
 !!!
 
 ### Color & Opacity
 
 ![](/assets/md-label-settings_01.gif)
 
-You can click on the Colour Well to invoke the pop-over. You can also click on Show More Colours button to invoke macOS's picker should you desire to further customise the Typeface colour. By [!badge text="Default"] the colour is `White`.
+One may activate the colour pop-over by clicking on the Color Well, or alternatively, access macOS's colour picker button for more extensive customisation of the Typeface colour. The [!badge text="Default"] colour is set to `White`.
 
-Use the Slider to set your desired Opacity value. The [!badge text="Default"] value of Opacity is `100`.
+Utilise the slider to establish the desired opacity value, with the [!badge text="Default"] opacity pre-set to `100`.
 
 ## Stroke
 
 ### Size
 
-Size is set to `Auto` by [!badge text="Default"]. Change the value to `1` or more to increase the Size.
+By [!badge text="Default"], the Size is configured to `Auto`. To augment the dimensions, modify the value to `1` or a higher numerical input.
 
 ### Color
 
-You can click on the Colour Well to invoke the pop-over. You can also click on Show More Colours button to invoke macOS's picker should you desire to further customise the Typeface colour. By [!badge text="Default"] the colour is `Black`.
+One may activate the colour pop-over by clicking on the Color Well, or alternatively, access macOS's colour picker button for more extensive customisation of the Stroke colour. The [!badge text="Default"] colour is set to `Black`.
 
 !!!info Info
-Enabling Stroke Size allows better legibility for bright coloured images or vice-versa.
+The activation of Stroke Size enhances legibility, particularly in the context of vividly colored images or conversely.
 !!!
 
 ## Alignment
 
 ### Horizontal
 
-Set your desired Horizontal Alignment for the Label. By [!badge text="Default"] the Horizontal is set to `Left`.
+Specify your preferred Horizontal Alignment for the Label. By [!badge text="Default"], the Horizontal Alignment is configured to `Left`.
 
 ![Horizontal set to Left, Vertical set to Top](/assets/md-label-settings_02.png)
 
 ### Vertical
 
-Set your desired Vertical Alignment for the Label. By [!badge text="Default"] the Vertical is set to `Top`.
+Specify your preferred Vertical Alignment for the Label. By [!badge text="Default"], the Vertical Alignment is configured to `Top`.
 
 ![Horizontal set to Right, Vertical set to Bottom](/assets/md-label-settings_03.png)
 
 !!!info Info
-There are `9` possible combination for Alignment.
+There exist a total of `9` conceivable alignments for consideration.
 !!!
 
 ## Overlays
