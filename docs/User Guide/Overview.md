@@ -5,11 +5,11 @@ order: -1
 ---
 # Overview
 
-**Marker Data** is designed and developed with simplicity in mind. Users can perform most of the task and operation with minimal clicks. One aim of the application was to reducing the number of clicks.
+**Marker Data** has been meticulously crafted with a focus on simplicity, ensuring that users can effortlessly execute tasks and operations with minimal interaction. A central objective in the development of this application has been the reduction of clicks required for seamless user experience.
 
-The application is designed and developed to be as idiot-proof as possible. To the most extent, users should be able to use and understand the application without needing to refer to this website for user documentation. 
+This application has been engineered with an unwavering commitment to user-friendly design, aspiring to be effortlessly intuitive. The intention is to empower users with the ability to navigate and comprehend the application without necessitating reference to external user documentation.
 
-However, should you ever need guidance in any aspect, this website will answer your common questions and point you in the right direction.
+Notwithstanding the emphasis on user-friendly design, this website stands ready to provide comprehensive guidance should the need arise. It serves as a repository of answers to common queries, facilitating users in finding the right direction for any aspect they may seek clarification on.
 
 ## Install
 

@@ -5,7 +5,7 @@ order: -2
 ---
 # Creating VFX Database
 
-[Josh Beal](https://twitter.com/jbkilty) provides a compelling analysis, drawing a noteworthy comparison between the workflows of two prominent video editing platforms, namely **Media Composer** and **Final Cut Pro**, particularly in the context of VFX database creation. Unquestionably, Josh affirms the superiority of Final Cut Pro's methodology, attributing this advantage to the efficacy of FCPXML's metadata handling capabilities.
+[Josh Beal](https://twitter.com/jbkilty) provides a compelling analysis, drawing a noteworthy comparison between the workflows of two prominent video editing platforms, namely [Media Composer](https://www.avid.com/media-composer) and [Final Cut Pro](https://www.apple.com/final-cut-pro/), particularly in the context of VFX database creation. Unquestionably, Josh affirms the superiority of Final Cut Pro's methodology, attributing this advantage to the efficacy of FCPXML's metadata handling capabilities.
 
 [!embed](https://www.youtube.com/watch?v=Md-hNTzr5UE)
 
@@ -13,7 +13,7 @@ order: -2
 
 ### Batch exporting still frames for thumbnails & frame identification
 
-Within Final Cut Pro, the capability to extract individual still frames is present through the utilisation of the native **Save Current Frame** preset, which can be seamlessly integrated into the [share destination](https://support.apple.com/en-sg/guide/final-cut-pro/ver9fd008a21/mac) menu. While the software inherently supports the batch exportation of clips, it is noteworthy that, for still frames, the process remains constrained to a one-by-one basis. Nevertheless, a solution lies in the creation of a [Custom Compressor Setting](https://support.apple.com/en-sg/guide/compressor/cpsr52823a16/mac) tailored specifically for the batch export of still frames. It is imperative to acknowledge that despite the implementation of this customised setting, a manual process involving the transfer of desired clips into compound clips and subsequent frame selection is requisite for optimal results.
+Within Final Cut Pro, the capability to extract individual still frames is present through the utilisation of the native Save Current Frame preset, which can be seamlessly integrated into the [share destination](https://support.apple.com/en-sg/guide/final-cut-pro/ver9fd008a21/mac) menu. While the software inherently supports the batch exportation of clips, it is noteworthy that, for still frames, the process remains constrained to a one-by-one basis. Nevertheless, a solution lies in the creation of a [Custom Compressor Setting](https://support.apple.com/en-sg/guide/compressor/cpsr52823a16/mac) tailored specifically for the batch export of still frames. It is imperative to acknowledge that despite the implementation of this customised setting, a manual process involving the transfer of desired clips into compound clips and subsequent frame selection is requisite for optimal results.
 
 ![Excerpts from Josh Beal’s Video](/assets/jb-batch_export_still_frames.gif)
 
