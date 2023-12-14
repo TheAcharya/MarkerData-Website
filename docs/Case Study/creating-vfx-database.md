@@ -18,7 +18,7 @@ Within Final Cut Pro, the capability to extract individual still frames is prese
 ![Excerpts from Josh Beal’s Video](/assets/jb-batch_export_still_frames.gif)
 
 !!!info Info
-It just requires too many steps in my textbook. Consider the implications when confronted with the management of 500 visual effects shots.
+Requires too many steps in my textbook. Consider the implications when confronted with the management of 500 visual effects shots.
 !!!
 
 ### Extracting Marker information & match still’s filename

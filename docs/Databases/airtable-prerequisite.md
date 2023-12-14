@@ -36,7 +36,7 @@ In between each backslash, you will find a string that identifies the base, tabl
 ![Airtable URL Reference](/assets/airtable_url_reference.png)
 
 !!!info Info
-We only require **Base ID** and **Table ID** for **Marker Data**
+We only require **Base ID** and **Table ID** for **Marker Data**.
 !!!
 
 To know more about attachments and obtaining your Dropbox's App key, please read [Dropbox Prerequisite](/Databases/dropbox-prerequisite.md).

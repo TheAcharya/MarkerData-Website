@@ -68,6 +68,7 @@ When Clip Boundaries is enabled, **Marker Data** will include Markers that are o
 
 By [!badge text="Default"] Marker Data will always look for accompanying movie file (`.mov` or `.mp4`) in directory where the `.fcpbundle` or `.fcpxml` resides. Activating the No Media option allows **Marker Data** to circumvent the inclusion of the movie file during processing.
 
-This option is available in scenarios where :
-- User does not wish to export movie file.
-- User does not require image extraction.  
+This alternative is applicable in situations wherein:
+
+- The user expresses a preference against exporting a movie file.
+- The user does not necessitate the extraction of images.

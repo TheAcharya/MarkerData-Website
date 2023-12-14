@@ -3,7 +3,7 @@ label: Extract
 icon: browser
 order: -2
 ---
-# Main Window
+# Extract
 
 ![Extract Window](/assets/md-main.png)
 
