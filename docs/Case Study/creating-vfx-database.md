@@ -23,12 +23,12 @@ Requires too many steps in my textbook. Consider the implications when confronte
 
 ### Extracting Marker information & match still’s filename
 
-An application of notable repute, denoted as [Producer’s Best Friend](https://intelligentassistance.com/producer-s-best-friend.html), offers a sophisticated utility for Final Cut Pro practitioners. Leveraging the FCPXML file format, this tool facilitates the meticulous extraction of comprehensive metadata from any given timeline, presenting users with the capability to systematically compile this information into a structured spreadsheet. Remarkably adept in its functionality, Producer’s Best Friend stands out as an exceptional resource, particularly for the purpose of generating and extracting targeted reports derived from diverse Final Cut Pro projects.
+An application of notable repute, [Producer’s Best Friend](https://intelligentassistance.com/producer-s-best-friend.html), offers a sophisticated utility for Final Cut Pro users. Leveraging the FCPXML file format, this tool facilitates the meticulous extraction of comprehensive metadata from any given timeline, presenting users with the capability to systematically compile this information into a structured spreadsheet. Remarkably adept in its functionality, Producer’s Best Friend stands out as an exceptional resource, particularly for the purpose of generating and extracting targeted reports derived from diverse Final Cut Pro projects.
 
 ![Excerpts from Josh Beal’s Video](/assets/jb-extract_metadata.gif)
 
 !!!info Info
-Once more, the establishment of a comprehensive dataset correlating with thumbnails demands supplementary application and additional procedural measures.
+Once more, the establishment of a comprehensive dataset correlating with thumbnails demands supplementary application and additional procedural tasks.
 !!!
 
 ### Sending & Managing VFX Data Set to a Database Application
