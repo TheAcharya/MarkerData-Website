@@ -57,3 +57,12 @@ Checking Enable Subframes will **Marker Data** to include the subframes in the `
 !!!info Info
 Enable Subframes will only work for `Timecode` under Naming Mode.
 !!!
+
+### No Media
+
+By [!badge text="Default"] Marker Data will always look for accompanying movie file (`.mov` or `.mp4`) in directory where the `.fcpbundle` or `.fcpxml` resides. Activating the No Media option allows **Marker Data** to circumvent the inclusion of the movie file during processing.
+
+This alternative is applicable in situations wherein:
+
+- The user expresses a preference against exporting a movie file.
+- The user does not necessitate the extraction of images.
