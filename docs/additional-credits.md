@@ -8,7 +8,7 @@ Marker Data is also made possible because of the hard work of these amazing open
 | Library | Role |
 |---|---|
 | [TimecodeKit](https://github.com/orchetect/TimecodeKit) | SMPTE timecode library for Swift |
-| [DAWFileKit](https://github.com/orchetect/DAWFileKit) | Swift library for reading and writing common import/export file formats between popular DAW applications |
+| [DAWFileKit](https://github.com/orchetect/DAWFileKit) | Swift library for reading and writing common file formats between popular DAW and NLE applications |
 | [MIDIKit](https://github.com/orchetect/MIDIKit) | Modern multi-platform Swift CoreMIDI wrapper with MIDI 2.0 support |
 | [CodableCSV](https://github.com/dehesa/CodableCSV) | Read and write CSV files row-by-row or through Swift's Codable interface |
 | [ColorWellKit](https://github.com/jordanbaird/ColorWellKit) | An alternative to NSColorWell for Cocoa and ColorPicker for SwiftUI |
