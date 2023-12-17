@@ -5,7 +5,7 @@ order: -96
 ---
 # Frequently Asked Questions
 
-## What is the behaviour when Marker collision occurs?
+## What behavioural outcomes manifest in the event of Marker collision?
 
 In instances where Markers coincide, **Marker Data** will adeptly rectify any conflicts arising from overlapping Marker ID such as Timecode, Name, or Notes.
 
@@ -17,13 +17,19 @@ In instances where Markers coincide, **Marker Data** will adeptly rectify any co
 
 ![Unique Image Filename](assets/fcp_marker_collision_03.png)
 
-## What is the behaviour when Markers are located within Compound, Multicam and Synchronise Clips?
+## What behavioural intricacies arise when Markers are situated within a Compound, Multicam and synchronised clips?
 
 **Marker Data** is intentionally configured to disregard any markers outside the primary active timeline. This deliberate choice is particularly pertinent in scenarios involving Compound Clips, where the potential for numerous nested structures exists. Parsing markers within each nested Compound Clip could introduce undue complexity.
 
 Should a user wish to extract markers from within a Compound Clip, a straightforward approach involves double-clicking the specific Compound Clip and exporting its associated timeline. In doing so, any markers nested within that particular Compound Clip's timeline will be excluded from consideration by **Marker Data**.
 
-## Does Marker Data replaces FCPXImageExporter?
+## What behavioural outcomes manifest in the event when Markers are intentionally obscured by trimmed clips?"
+
+![Obscured Markers](assets/fcp-obscured-markers.gif)
+
+Employing a WYSIWYG methodology, Marker Data adopts an automated process wherein markers obscured within the timeline due to trimmed clips are inherently excluded.
+
+## To what extent does Marker Data supersede the functionality of FCPXImageExporter?
 
 Indeed, there are distinctions between the methodologies employed by **Marker Data** and **FCPXImageExporter** in addressing analogous challenges. **FCPXImageExporter** singularly focuses on the extraction of static images from source clips delineated by markers. This process, however, intentionally overlooks any post-effects and titles applied at both the timeline and individual clip levels.
 
@@ -59,7 +65,7 @@ In contrast, **Marker Data** specialises solely in the extraction of information
 3. In each sub folders, you will find the `*.csv` file with the accompanying images auto named.
 4. You can import the `*.csv` to any application that accepts it.
 
-## What is the appropriate workflow for naming VFX IDs?
+## What constitutes an optimal procedural methodology for the nomenclature of Visual Effects Identification (VFX IDs) within a workflow?
 
 Every project is different. But you can utilise this basic example.
 
@@ -73,15 +79,15 @@ XYZ701_150_010 - COOPER APPEARS NEAR PLANET SATURN
 - **010** is the shot number for the specific VFX shot within the scene
 - **COOPER APPEARS NEAR PLANET SATURN** is the descriptive name of the shot
 
-## Could Marker Data support DaVinci Resolve since it supports FCPXMLs?
+## To what extent does the compatibility of Marker Data with DaVinci Resolve, given its support for FCPXML?
 
 Regrettably, despite the capacity to import and export FCPXMLs within **DaVinci Resolve**, the compatibility of Marker metadata is not integrated into the FCPXML format.
 
-## Why Notion v2 Token is used instead of Notion’s official API Connections?
+## What rationale underlies the utilisation of Notion v2 Tokens in lieu of official API connections provided by Notion?
 
 The official API provided by Notion currently lacks the capability for direct image uploads and the seamless merging of page icons. Furthermore, it does not offer support for automatic linking or the creation of new entries in relation columns based on their respective values. The prospect of revisiting and updating our internal components will be considered as Notion continues to expand and enhance the functionality of their APIs.
 
-## Will other database platforms be supported?
+## Is there a contemplation for extending support to additional database platforms in the foreseeable future?
 
 At present, our primary emphasis lies in the steadfast support and enhancement of integration capabilities with Notion and Airtable—two widely acclaimed platforms embraced by users and companies across the global Film and TV industry. The development of robust internal components for both [Notion](https://github.com/TheAcharya/csv2notion-neo) and [Airtable](https://github.com/TheAcharya/Airlift) has demanded a significant investment of time and effort.
 
