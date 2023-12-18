@@ -5,9 +5,17 @@ icon: home
 order: -1
 image: /static/marker-data-social-card.png
 ---
-#
+<style>
+	@media (max-width: 959px) {
+		img.rightLogo {
+			display: none !important;
+		}
+	}
+</style>
+<img class="rightLogo" src="https://github.com/TheAcharya/MarkerData-Website/blob/main/docs/static/logo.png" align="right" style="width: 200px !important; height: 200px !important;" />
 
-![](assets/marker_data_banner.gif)
+# Marker Data
+
 
 Marker Data allows users to extract, convert and create databases from [Final Cut Pro](https://www.apple.com/final-cut-pro/)’s Maker metadata effortlessly. 
 

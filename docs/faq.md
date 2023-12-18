@@ -23,7 +23,7 @@ In instances where Markers coincide, **Marker Data** will adeptly rectify any co
 
 Should a user wish to extract markers from within a Compound Clip, a straightforward approach involves double-clicking the specific Compound Clip and exporting its associated timeline. In doing so, any markers nested within that particular Compound Clip's timeline will be excluded from consideration by **Marker Data**.
 
-## What behavioural outcomes manifest in the event when Markers are intentionally obscured by trimmed clips?"
+## What behavioural outcomes manifest in the event when Markers are intentionally obscured by trimmed clips?
 
 ![Obscured Markers](assets/fcp-obscured-markers.gif)
 
@@ -65,7 +65,7 @@ In contrast, **Marker Data** specialises solely in the extraction of information
 3. In each sub folders, you will find the `*.csv` file with the accompanying images auto named.
 4. You can import the `*.csv` to any application that accepts it.
 
-## What constitutes an optimal procedural methodology for the nomenclature of Visual Effects Identification (VFX IDs) within a workflow?
+## What constitutes an optimal methodology for the nomenclature of Visual Effects Identification (VFX IDs) within a workflow?
 
 Every project is different. But you can utilise this basic example.
 
