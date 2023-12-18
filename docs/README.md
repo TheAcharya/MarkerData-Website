@@ -12,7 +12,7 @@ image: /static/marker-data-social-card.png
 		}
 	}
 </style>
-<img class="rightLogo" src="https://github.com/TheAcharya/MarkerData-Website/blob/main/docs/static/logo.png?raw=true" align="right" style="width: 200px !important; height: 200px !important;" />
+<img class="rightLogo" src="https://github.com/TheAcharya/MarkerData-Website/blob/main/docs/static/logo.png?raw=true" align="right" style="width: 250px !important; height: 250px !important;" />
 
 # Marker Data
 
