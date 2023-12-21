@@ -24,7 +24,7 @@ outbound:
   icon: ""
 
 links:
-- text: GitHub
+- text: Start Us On GitHub
   icon: mark-github
   link: https://github.com/TheAcharya/MarkerData
   target: blank
