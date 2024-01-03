@@ -34,6 +34,8 @@ The avant-garde Marker extraction application crafted for [Final Cut Pro](https:
 
 - Notion (JSON)
 - Airtable (JSON)
+- Comma-separated values (CSV) - Compatible with spreadsheet applications
+- Tab-separated values (TSV) - Compatible with spreadsheet application
 - Standard MIDI File - Compatible with most audio DAWs
 
 ## Demo
