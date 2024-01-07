@@ -22,6 +22,13 @@ Select your desired Naming Mode.
 - **Name**
 - **Notes**
 
+### Marker Source
+
+Select your desired Marker Source.
+- **Marker** [!badge text="Default"]
+- **Marker and Captions**
+- **Caption**
+
 ### Image Format
 
 By [!badge text="Default"], the **Marker Data** application undertakes the extraction and exportation of image data in the `PNG` format, preserving still frames. Users, however, are granted the flexibility to exercise their preference by opting for either the `JPG` format or, alternatively, animated `GIFs` in the export process.
