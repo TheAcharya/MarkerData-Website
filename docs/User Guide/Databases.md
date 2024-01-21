@@ -5,7 +5,7 @@ order: -8
 ---
 # Database Settings
 
-![General Settings](/assets/md-database-settings.png)
+![Database Settings](/assets/md-database-settings.png)
 
 ## Creating Notion Database Profile
 
