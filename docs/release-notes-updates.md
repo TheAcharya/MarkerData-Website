@@ -16,3 +16,9 @@ This is the first public release of **Marker Data**!
 	display: none;
 }
 </style>
+
+<style>
+.sidebar-left {
+	display: none;
+}
+</style>
