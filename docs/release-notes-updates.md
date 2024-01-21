@@ -10,3 +10,9 @@ visibility: hidden
 - Insert Date
 
 This is the first public release of **Marker Data**!
+
+<style>
+.sidebar-right {
+	display: none;
+}
+</style>
