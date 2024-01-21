@@ -11,7 +11,7 @@ order: -4
 
 ### Destination
 
-Select your desired location by clicking on the Folder Icon. Alternatively, the Trash Icon may be utilised to reset and clear the stored path.
+Select your desired location by clicking on the Folder Icon.
 
 ### Folder Format
 
@@ -38,9 +38,18 @@ Long
 ### Profiles
 
 Select your desired Extraction Profile.
-- **Notion** [!badge text="Default"]
-- **Airtable**
+
+Extract Only (No Upload)
+
+- **CSV** [!badge text="Default"]
+- **TSV**
 - **MIDI**
+- **Airtable (No Upload)**
+- **Notion (No Upload)**
+
+Database Profiles (Upload)
+
+When you create a [Database Profile](/databases.md), you will see them listed here.
 
 ### Enable Subframes
 
