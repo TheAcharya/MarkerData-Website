@@ -11,7 +11,7 @@ order: -4
 
 ### Destination
 
-Select your desired location by clicking on the Folder Icon.
+Select your desired location by clicking on the Folder Icon. Upon right-clicking folder icon, **Marker Data** will the `Full Path` associated with said folder.
 
 ### Folder Format
 
@@ -35,20 +35,19 @@ Long
 
 ## Extraction Profile
 
+![Extraction Profile](/assets/md-general-settings-extraction-profile.png)
+
 ### Profiles
 
 Select your desired Extraction Profile.
 
-Extract Only (No Upload)
-
+- Extract Only (No Upload)
 - **CSV** [!badge text="Default"]
 - **TSV**
 - **MIDI**
-- **Airtable (No Upload)**
 - **Notion (No Upload)**
-
-Database Profiles (Upload)
-
+- **Airtable (No Upload)**
+- Database Profiles (Upload)
 When you create a [Database Profile](user-guide/databases.md), you will see them listed here.
 
 ### Enable Subframes
