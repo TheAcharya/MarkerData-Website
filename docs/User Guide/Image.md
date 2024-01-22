@@ -46,6 +46,8 @@ The selection of the `GIF` format may result in a substantial increase in the fi
 
 ### Default
 
+In the majority of workflows, the utilisation of the [!badge text="Default"] parameter within Image Size would be sufficient.
+
 ### Size (%)
 
 The [!badge text="Default"] Configuration assigns a size percentage of `100` to both the `PNG` and `JPG` Image Formats. Conversely, for the `GIF` format, the [!badge text="Default"] size percentage is established at 50. 
