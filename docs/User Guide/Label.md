@@ -38,7 +38,7 @@ Select your desired Style.
 Size is set to `30` by [!badge text="Default"].
 
 !!!info Info
-One has the ability to establish a lower size to facilitate the inclusion of a greater number of overlays.
+One has the ability to set a lower size to facilitate the inclusion of more overlays.
 !!!
 
 ### Color & Opacity
@@ -91,9 +91,11 @@ Utilise the Search function to find your desired Overlays.
 
 ![](/assets/md-label-overlays-settings-search.gif)
 
-### Available Overlays
+### Available & Selected Overlays
 
-### Selected Overlays
+In the section labeled `Available`, kindly select the desired Overlays to by clicking on them to designate them as `Selected`. The sequence in which the Overlays are chosen dictates the order in which they will be employed for burn-in purposes. To reset the `Selected` section, click the `Trash` icon.
+
+![](/assets/md-label-overlays-settings-search-selected.gif)
 
 ### Copyright:
 
