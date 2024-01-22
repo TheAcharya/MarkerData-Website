@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.759209070380">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.759209540404">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -33,11 +33,11 @@
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../static/favicon.ico" rel="icon">
-    <link href="../../resources/css/retype.css?v=3.5.0.759209070380" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.5.0.759209540404" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.759209070380" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.759209540404" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.759209070380" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.759209540404" data-turbo-eval="false" defer></script>
 
     <style>
     	/* The Acharya Logo */
@@ -343,7 +343,7 @@
         <span>Destination</span>
     </h3>
 </doc-anchor-target>
-<p>Select your desired location by clicking on the Folder Icon.</p>
+<p>Select your desired location by clicking on the Folder Icon. Upon right-clicking folder icon, <strong>Marker Data</strong> will the <code v-pre>Full Path</code> associated with said folder.</p>
 <doc-anchor-target id="folder-format">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#folder-format">#</doc-anchor-trigger>
@@ -388,6 +388,11 @@
         <span>Extraction Profile</span>
     </h2>
 </doc-anchor-target>
+<p><figure class="content-center">
+    <img src="../../assets/md-general-settings-extraction-profile.png" alt="Extraction Profile">
+    <figcaption class="caption">Extraction Profile</figcaption>
+</figure>
+</p>
 <doc-anchor-target id="profiles">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#profiles">#</doc-anchor-trigger>
@@ -395,18 +400,18 @@
     </h3>
 </doc-anchor-target>
 <p>Select your desired Extraction Profile.</p>
-<p>Extract Only (No Upload)</p>
 <ul>
+<li>Extract Only (No Upload)</li>
 <li><strong>CSV</strong> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-blue-600 bg-blue-100 h-6 px-2 text-xs rounded-md">
     <span>Default</span>
 </span></li>
 <li><strong>TSV</strong></li>
 <li><strong>MIDI</strong></li>
-<li><strong>Airtable (No Upload)</strong></li>
 <li><strong>Notion (No Upload)</strong></li>
+<li><strong>Airtable (No Upload)</strong></li>
+<li>Database Profiles (Upload)<br />
+When you create a <a href="user-guide/databases.md" class="outbound" target="_blank">Database Profile</a>, you will see them listed here.</li>
 </ul>
-<p>Database Profiles (Upload)</p>
-<p>When you create a <a href="user-guide/databases.md" class="outbound" target="_blank">Database Profile</a>, you will see them listed here.</p>
 <doc-anchor-target id="enable-subframes">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#enable-subframes">#</doc-anchor-trigger>
