@@ -55,6 +55,12 @@ On any Active Configuration, modifications to any settings prompts the display o
 
 ![Configuration Changed](/assets/md-configuration-settings_03.png)
 
+Users have three methods for updating an active configuration.
+
+1. Click `Update Active Configuration` within the Configuration settings.
+2. Go to **Marker Data**'s menu bar, click on `Update Active Configuration` under Configuration menu.
+3. Press `COMMAND + S` on your keyboard to `Update Active Configuration`. You can press `COMMAND + S` anywhere within **Marker Data**.
+
 ## Delete Configuration
 
 ## Open Configuration Folder in Finder
