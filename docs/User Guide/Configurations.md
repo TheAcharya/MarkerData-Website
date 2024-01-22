@@ -51,7 +51,7 @@ Alternatively, one may employ the `Configurations` menu located in the menu bar 
 
 ## Update Active Configuration
 
-On any Active Configuration, modifications to any settings prompts the display of a distinctive 'Changed' badge adjacent to the Configuration side panel.
+On any Active Configuration, modifications to any settings prompts the display of a `Changed` badge adjacent to the Configuration side panel.
 
 ![Configuration Changed](/assets/md-configuration-settings_06.png)
 
@@ -63,4 +63,8 @@ Users have three methods for updating an active configuration.
 
 ## Delete Configuration
 
+1. Click on the `-` button.
+2. Users will be prompted for confirmation before deletion.
+
 ## Open Configuration Folder in Finder
+
