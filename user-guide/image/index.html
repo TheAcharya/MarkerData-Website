@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.759209877356">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.759210139823">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -33,11 +33,11 @@
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../static/favicon.ico" rel="icon">
-    <link href="../../resources/css/retype.css?v=3.5.0.759209877356" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.5.0.759210139823" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.759209877356" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.759210139823" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.759209877356" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.759210139823" data-turbo-eval="false" defer></script>
 
     <style>
     	/* The Acharya Logo */
@@ -415,6 +415,24 @@
         <span>Image Size</span>
     </h2>
 </doc-anchor-target>
+<doc-anchor-target id="default">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#default">#</doc-anchor-trigger>
+        <span>Default</span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="size-">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#size-">#</doc-anchor-trigger>
+        <span>Size (%)</span>
+    </h3>
+</doc-anchor-target>
+<p>The <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-blue-600 bg-blue-100 h-6 px-2 text-xs rounded-md">
+    <span>Default</span>
+</span> Configuration assigns a size percentage of <code v-pre>100</code> to both the <code v-pre>PNG</code> and <code v-pre>JPG</code> Image Formats. Conversely, for the <code v-pre>GIF</code> format, the <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-blue-600 bg-blue-100 h-6 px-2 text-xs rounded-md">
+    <span>Default</span>
+</span> size percentage is established at 50.</p>
+<p>To illustrate, in the scenario where the original exported video file possesses dimensions of <code v-pre>1920 x 1080</code>, adjusting the Size (%) parameter to <code v-pre>50</code> would yield extracted images with dimensions reduced to <code v-pre>960 x 540</code>.</p>
 <doc-anchor-target id="width">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#width">#</doc-anchor-trigger>
@@ -433,18 +451,6 @@
 <p>By <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-blue-600 bg-blue-100 h-6 px-2 text-xs rounded-md">
     <span>Default</span>
 </span>, the height selection feature is deactivated in <strong>Marker Data</strong>, with the application automatically adopting the precise dimensions from the exported video file. Activating this option allows users to manually constrain the image height while preserving its inherent aspect ratio.</p>
-<doc-anchor-target id="size-">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#size-">#</doc-anchor-trigger>
-        <span>Size (%)</span>
-    </h3>
-</doc-anchor-target>
-<p>The <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-blue-600 bg-blue-100 h-6 px-2 text-xs rounded-md">
-    <span>Default</span>
-</span> Configuration assigns a size percentage of <code v-pre>100</code> to both the <code v-pre>PNG</code> and <code v-pre>JPG</code> Image Formats. Conversely, for the <code v-pre>GIF</code> format, the <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-blue-600 bg-blue-100 h-6 px-2 text-xs rounded-md">
-    <span>Default</span>
-</span> size percentage is established at 50.</p>
-<p>To illustrate, in the scenario where the original exported video file possesses dimensions of <code v-pre>1920 x 1080</code>, adjusting the Size (%) parameter to <code v-pre>50</code> would yield extracted images with dimensions reduced to <code v-pre>960 x 540</code>.</p>
 <div class="flex mb-6">
     <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-300"></div>
     <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
