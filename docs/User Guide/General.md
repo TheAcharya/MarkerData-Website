@@ -48,7 +48,7 @@ Select your desired Extraction Profile.
 - **Notion (No Upload)**
 - **Airtable (No Upload)**
 - Database Profiles (Upload)
-When you create a [Database Profile](/user-guide/databases.md), you will see them listed here.
+When you create a [Database Profile](/user-guide/databases), you will see them listed here.
 
 ### Enable Subframes
 
