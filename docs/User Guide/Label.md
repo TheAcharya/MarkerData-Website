@@ -85,6 +85,12 @@ There exist a total of `9` conceivable alignments for consideration.
 
 ![](/assets/md-label-overlays-settings.png)
 
+### Search Overlays
+
+Utilise the Search function to find your desired Overlays.
+
+![](/assets/md-label-overlays-settings-search.gif)
+
 ### Available Overlays
 
 ### Selected Overlays

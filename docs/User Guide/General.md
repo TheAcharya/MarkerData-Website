@@ -11,7 +11,7 @@ order: -4
 
 ### Destination
 
-Select your desired location by clicking on the Folder Icon. Upon right-clicking folder icon, **Marker Data** will the `Full Path` associated with said folder.
+Select your desired location by clicking on the Folder Icon. Upon right-clicking folder icon, **Marker Data** will show the `Full Path` associated with said folder.
 
 ### Folder Format
 
