@@ -97,13 +97,13 @@ In the section labeled `Available`, kindly select the desired Overlays to by cli
 
 ![](/assets/md-label-overlays-settings-search-selected.gif)
 
-### Copyright:
+### Copyright
 
 In the Copyright field, user has the option to input personalised text, such as user's name or the name of their production company. The Copyright field will be disabled when it is empty.
 
 ![Notes, Clip Type, Clip Name and Copyright enabled](/assets/md-label-settings_04.png)
 
-### Hide Overlay Names:
+### Hide Overlay Names
 
 Enable the checkbox in order to omit Overlay Names from the burn-in process on images.
 
