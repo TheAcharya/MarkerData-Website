@@ -5,6 +5,13 @@ order: -2
 ---
 # Notion Prerequisite
 
+## Obtain your Workspace Name
+
+![Workspace Name](/assets/notion_workspace.png)
+
+1. To see your Workspace Name go to `Settings & members` at the top of the left sidebar. In the window that pops up, click on the `Settings` tab.
+2. If your Workspace name is `Acme Inc.`, you are required to copy the entire value `Acme Inc.` as such.
+
 ## Obtain your Notion's Session Token
 
 1. Login to your [Notion](https://www.notion.so/login) account via a web browser.
