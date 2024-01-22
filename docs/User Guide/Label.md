@@ -99,4 +99,8 @@ In the section labeled `Available`, kindly select the desired Overlays to by cli
 
 ### Copyright:
 
+In the Copyright field, one has the option to input personalised text, such as their name or the name of their production company. The Copyright field will be disabled when it is empty.
+
+![Notes, Clip Type, Clip Name and Copyright enabled](/assets/md-label-settings_04.png)
+
 ### Hide Overlay Names:
