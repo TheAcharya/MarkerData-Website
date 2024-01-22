@@ -11,7 +11,7 @@ order: -7
 
 ![Default Configuration](/assets/md-configuration-settings_01.png)
 
-You will not be allowed to make changes to the Default Configuration.
+Users will not be allowed to make changes to the Default Configuration.
 
 !!!info Info
 The Default Configuration serves as a comprehensive delineation of the default values and parameters pertaining to **Marker Data**. Users are required to instantiate a new Configuration in order to harness the complete functionality of **Marker Data**.
@@ -20,7 +20,7 @@ The Default Configuration serves as a comprehensive delineation of the default v
 ## Add Configuration
 
 1. Click on the `+` button.
-2. You will be prompted to enter the your Configuration Name.
+2. Users will be prompted to enter a Configuration Name.
 
 ![Default Configuration](/assets/md-configuration-settings_02.png)
 
@@ -59,7 +59,7 @@ Users have three methods for updating an active configuration.
 
 1. Click `Update Active Configuration` within the Configuration settings.
 2. Go to **Marker Data**'s menu bar, click on `Update Active Configuration` under Configuration menu.
-3. Press `COMMAND + S` on your keyboard to `Update Active Configuration`. You can press `COMMAND + S` anywhere within **Marker Data**.
+3. Press `COMMAND + S` on your keyboard to `Update Active Configuration`. Users can press `COMMAND + S` anywhere within **Marker Data**.
 
 ## Delete Configuration
 
