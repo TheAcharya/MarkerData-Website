@@ -81,6 +81,8 @@ Specify your preferred Vertical Alignment for the Label. By [!badge text="Defaul
 There exist a total of `9` conceivable alignments for consideration.
 !!!
 
+<hr>
+
 ## Overlays
 
 ![](/assets/md-label-overlays-settings.png)
@@ -93,7 +95,7 @@ Utilise the Search function to find your desired Overlays.
 
 ### Available & Selected Overlays
 
-In the section labeled `Available`, kindly select the desired Overlays to by clicking on them to designate them as `Selected`. The sequence in which the Overlays are chosen dictates the order in which they will be employed for burn-in purposes. To reset the `Selected` section, click the `Trash` icon.
+In the section labeled `Available Overlays`, select the desired Overlays by clicking on them to designate them as `Selected Overlays`. The sequence in which the Overlays are chosen dictates the order in which they will be employed for burn-in purposes. To reset the `Selected Overlays` section, click the `Trash` icon.
 
 ![](/assets/md-label-overlays-settings-search-selected.gif)
 

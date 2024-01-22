@@ -41,14 +41,15 @@ Long
 
 Select your desired Extraction Profile.
 
-- Extract Only (No Upload)
+Extract Only (No Upload)
 - **CSV** [!badge text="Default"]
 - **TSV**
 - **MIDI**
 - **Notion (No Upload)**
 - **Airtable (No Upload)**
-- Database Profiles (Upload)
-When you create a [Database Profile](/user-guide/databases), you will see them listed here.
+
+Database Profiles (Upload)
+- When you create a [Database Profile](/user-guide/databases), you will see them listed here.
 
 ### Enable Subframes
 

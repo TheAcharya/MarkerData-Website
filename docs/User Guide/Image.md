@@ -46,7 +46,7 @@ The selection of the `GIF` format may result in a substantial increase in the fi
 
 ### Default
 
-In the majority of workflows, the utilisation of the [!badge text="Default"] parameter within Image Size would be sufficient.
+In the majority of workflows, the [!badge text="Default"] parameter would be sufficient. Users have the ability to customise their image dimensions to a greater extent by opting for either the Size parameter or specifying the Width & Height values.
 
 ### Size (%)
 
