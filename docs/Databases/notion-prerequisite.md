@@ -5,7 +5,7 @@ order: -2
 ---
 # Notion Prerequisite
 
-## Obtain your Notion's Session Token:
+## Obtain your Notion's Session Token
 
 1. Login to your [Notion](https://www.notion.so/login) account via a web browser.
 2. Find and copy the entire `token_v2` value including `v02%3Auser_token_or_cookies%` from your Notion session.
@@ -39,7 +39,7 @@ Please take note that your Notion v2 Token may expire after some period of time.
 Do not share your Notion v2 Token with anyone.
 !!!
 
-## Obtain your Database URL:
+## Obtain your Database URL
 
 1. Go to your Notion Database, and right-click on the view and click **Copy link to view**
 

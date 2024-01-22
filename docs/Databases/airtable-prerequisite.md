@@ -5,7 +5,7 @@ order: -3
 ---
 # Airtable Prerequisite
 
-## Obtain your Airtable's Personal Access Token:
+## Obtain your Airtable's Personal Access Token
 
 1. Login to your [Airtable](https://airtable.com/login) account via a web browser.
 2. Go to [Personal access token](https://airtable.com/create/tokens), click the **Create new token** button to create a new personal access token.
@@ -21,7 +21,7 @@ You can grant access to any combination and number of bases and workspaces. You 
 
 6. Once your token is created, the token will only be shown to you once, it is encouraged that you to copy it to your clipboard and store it somewhere safe. While you will be able to manage it in [Personal access token](https://airtable.com/create/tokens), the sensitive token itself is not stored for security purposes.
 
-## Obtain your Airtable's Base ID & Table ID:
+## Obtain your Airtable's Base ID & Table ID
 
 1. When you have a base open in a compatible web browser, you should see a URL in the address bar that looks similar to the example below:
 
