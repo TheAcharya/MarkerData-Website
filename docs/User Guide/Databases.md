@@ -12,12 +12,12 @@ order: -8
 ![Create Notion Profile](/assets/md-database-settings_01.png)
 
 === Notion Workspace
-Enter your [Notion Workspace](/databases/notion-prerequisite#obtain-your-workspace-name) Name here. It is a required field.
+Enter your [Notion Workspace Name](/databases/notion-prerequisite#obtain-your-workspace-name) here.
 === Notion V2 Token
- Enter your [Notion V2 Token](/databases/notion-prerequisite#obtain-your-session-token) Name here. It is a required field. 
+ Enter your [Notion V2 Token](/databases/notion-prerequisite#obtain-your-session-token) here.
 === Notion Database URL
-Enter your [Notion Database URL](/databases/notion-prerequisite##obtain-your-database-url) Name here. This field is optional. In the absence of a provided Notion Database URL, **Marker Data** will upload all entries of the Marker Metadata into Notion. However, it is strongly advisable for users to duplicate the supplied Notion Template by accessing the provided link. Subsequently, users may acquire the link from their duplicated Notion Template within their Workspace.
-=== Key Column
+Enter your [Notion Database URL](/databases/notion-prerequisite##obtain-your-database-url) here. In the absence of a provided Notion Database URL, **Marker Data** will upload all entries of the Marker Metadata from Final Cut Pro into Notion. However, it is strongly advisable for users to duplicate the supplied Notion Template by accessing the provided link. Subsequently, users may acquire the link from their duplicated Notion Template within their Workspace.
+=== Rename Key Column
 Content 2
 ===
 
