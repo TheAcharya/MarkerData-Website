@@ -79,6 +79,8 @@ This alternative is applicable in situations wherein:
 
 ### Notification Frequency
 
+**Marker Data** seamlessly integrates with the native macOS Notifications framework, delivering timely alerts upon the successful completion of tasks.
+
 Select your desired Notification Frequency.
 - **Never**
 - **Only on Completion** [!badge text="Default"]
@@ -86,3 +88,6 @@ Select your desired Notification Frequency.
 
 ### Show Progress on Dock Icon
 
+![Progress Bar on Dock Icon](/assets/md-image-settings_02.gif)
+
+By [!badge text="Default"] Progress Bar is shown on **Marker Data**'s dock icon.
