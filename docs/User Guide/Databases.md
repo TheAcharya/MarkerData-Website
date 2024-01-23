@@ -18,7 +18,7 @@ Enter your [Notion Workspace Name](/databases/notion-prerequisite#obtain-your-wo
 === Notion Database URL
 Enter your [Notion Database URL](/databases/notion-prerequisite##obtain-your-database-url) here. In the absence of a provided Notion Database URL, **Marker Data** will upload all entries of the Marker Metadata from Final Cut Pro into Notion. However, it is strongly advisable for users to duplicate the supplied Notion Template by accessing the provided link. Subsequently, users may acquire the link from their duplicated Notion Template within their Workspace.
 === Rename Key Column
-Content 2
+**Marker Data** will designate the Notion's Key Column with the nomenclature of `Marker ID`. However, users retain the flexibility to establish an alternative form of Notion Database by integrating Marker Metadata from Final Cut Pro. To illustrate, users have the capability to designate their Notion's Key Column as, for instance, `Shot Code`. Upon configuring this setting in Notion, users may then input the same corresponding value in this field as `Shot Code`.
 ===
 
 ## Creating Airtable Database Profile
