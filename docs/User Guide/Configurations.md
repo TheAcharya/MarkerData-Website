@@ -68,3 +68,5 @@ Users have three methods for updating an active configuration.
 
 ## Open Configuration Folder in Finder
 
+Select the `Open Configuration Folder in Finder` link to unveil the Finder directory housing the Configuration files. Users can copy the `.json` files to another location for the purpose of creating backups and restoration of their Configuration files.
+

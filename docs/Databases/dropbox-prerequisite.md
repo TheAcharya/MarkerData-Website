@@ -7,7 +7,7 @@ order: -4
 
 Airtable's API does not allow direct uploading of attachments. In order to upload an attachment via Airtable's API, the attachment must first exist at a publicly accessible url. To mitigate this problem, **Marker Data** has integrated Dropbox into its internal Airtable client. Dropbox’s basic account offers 2GB of free storage. It should be adequate for most operations. Once you upload your attachments to Airtable, you can delete the files from your Dropbox account thereafter.
 
-## Obtain your Dropbox's App key:
+## Obtain your Dropbox's App key
 
 1. Login to your [Dropbox's App Console](https://www.dropbox.com/developers/apps) account via a web browser.
 2. Click on **Create app** button.
