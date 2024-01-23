@@ -12,7 +12,7 @@ order: -8
 ![Create Notion Profile](/assets/md-database-settings_01.png)
 
 Notion Workspace
-:	123
+:	Enter your [Notion Workspace](/databases/notion-prerequisite#obtain-your-workspace-name) Name here. It is a required field. 
 
 Notion V2 Token
 :	123
