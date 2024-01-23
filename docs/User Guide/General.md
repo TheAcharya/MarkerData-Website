@@ -11,7 +11,7 @@ order: -4
 
 ### Destination
 
-Select your desired location by clicking on the Folder Icon. Upon right-clicking folder icon, **Marker Data** will show the `Full Path` associated with said folder.
+Users can select their desired location by clicking on the Folder Icon. Upon right-clicking folder icon, **Marker Data** will show the `Full Path` associated with said folder.
 
 ### Folder Format
 
@@ -48,7 +48,7 @@ Select your desired Extraction Profile.
 	- **Notion (No Upload)**
 	- **Airtable (No Upload)**
 - Database Profiles (Upload)
-	- When you create a [Database Profile](/user-guide/databases), you will see them listed here.
+	- When users create a [Database Profile](/user-guide/databases), they will be listed here.
 
 ### Enable Subframes
 

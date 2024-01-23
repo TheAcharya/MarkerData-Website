@@ -17,7 +17,7 @@ In instances where Markers coincide, **Marker Data** will adeptly rectify any co
 
 ![Unique Image Filename](assets/fcp_marker_collision_03.png)
 
-## What behavioural intricacies arise when Markers are situated within a Compound, Multicam and synchronised clips?
+## What behavioural logic arise when Markers are situated within a Compound, Multicam and synchronised clips?
 
 **Marker Data** is intentionally configured to disregard any markers outside the primary active timeline. This deliberate choice is particularly pertinent in scenarios involving Compound Clips, where the potential for numerous nested structures exists. Parsing markers within each nested Compound Clip could introduce undue complexity.
 
@@ -49,7 +49,7 @@ Creates GIFs | Yes | No
 Burn-Ins of Labels | Yes | No
 Cost | Free & Open Source | Paid
 
-**Dependent on your Mac’s hardware. With Apple Silicon, you can get faster results.*
+**Dependent on users Mac’s hardware. With Apple Silicon, users can achieve faster results.*
 ***Rendered Timeline*
 
 ## Does Marker Data replaces Producer's Best Friend?
@@ -60,14 +60,11 @@ In contrast, **Marker Data** specialises solely in the extraction of information
 
 ## Can Marker Data's Data Set be used with other applications?
 
-1. Yes.
-2. All **Marker Data** files are stored in **Export Destination** folder.
-3. In each sub folders, you will find the `*.csv` file with the accompanying images auto named.
-4. You can import the `*.csv` to any application that accepts it.
+Within **Marker Data** , users have the option to export Data Set in two fundamental formats, namely `.csv` and `.tsv`. These exported Data Sets are located within **Export Destination** folder. Subsequently, users possess the flexibility to import either the `*.csv` or the `.tsv` files into any compatible application of their choice.
 
 ## What constitutes an optimal methodology for the nomenclature of Visual Effects Identification (VFX IDs) within a workflow?
 
-Every project is different. But you can utilise this basic example.
+Every project is different. But users can utilise this basic example.
 
 ``` VFX ID Example
 XYZ701_150_010 - COOPER APPEARS NEAR PLANET SATURN
@@ -93,7 +90,7 @@ At present, our primary emphasis lies in the steadfast support and enhancement o
 
 Within the expansive landscape of database and productivity solutions, emerging platforms such as [Coda](https://coda.io/), [Baserow](https://baserow.io/), [AppFlowy](https://appflowy.io/), and Microsoft’s [Loop](https://loop.microsoft.com/learn) are gaining prominence.
 
-Should you have specific use cases or preferences for other platforms, we encourage you to initiate a thoughtful [discussion](https://github.com/TheAcharya/MarkerData/discussions). It is essential to note that the incorporation of additional platforms will be contingent upon the availability of compatible API libraries.
+Should the user have specific use cases or preferences for other platforms, we encourage the user to initiate a [discussion](https://github.com/TheAcharya/MarkerData/discussions). It is essential to note that the incorporation of additional platforms will be contingent upon the availability of compatible API libraries.
 
 ## Could Marker Data extract and convert Final Cut Pro's Marker metadata to another format?
 

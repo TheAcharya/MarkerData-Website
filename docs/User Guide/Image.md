@@ -77,7 +77,7 @@ Users have the flexibility to designate distinct `Quality` values for the `JPG` 
 ![Quality set to 10](/assets/md-image-settings_03.jpg)
 
 !!!info Info
-To conduct a thorough analysis of file size and compression, you can right-click on the above mentioned images and subsequently save them to your local computer for comparative evaluation.
+To conduct a thorough analysis of file size and compression, users can right-click on the above mentioned images and subsequently save them for comparative evaluation.
 !!!
 
 ## GIF
@@ -99,5 +99,5 @@ We advise against configuring the Frames per Second (FPS) value to exceed `15` a
 !!!
 
 !!!info Info
-To facilitate a comprehensive file size comparison, you can right-click on the images above and save them to your local computer.
+To facilitate a comprehensive file size comparison, users can right-click on the images above and save them to their local computer.
 !!!
