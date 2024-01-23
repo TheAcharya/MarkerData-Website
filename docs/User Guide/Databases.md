@@ -12,7 +12,7 @@ order: -8
 ![Create Notion Profile](/assets/md-database-settings_01.png)
 
 1. Click on the `+` button to Create Database Profile 
-2. For Notion, click on the click on the `Notion` tab.
+2. For Notion Platform, click on the `Notion` tab.
 3. Click `Save` once values are entered.
 
 === Notion Workspace
@@ -30,7 +30,7 @@ By [!badge text="Default"] **Marker Data** will designate the Notion's Key Colum
 ![Create Airtable Profile](/assets/md-database-settings_02.png)
 
 1. Click on the `+` button to Create Database Profile 
-2. For Notion, click on the click on the `Airtable` tab.
+2. For Airtable Platform, click on the `Airtable` tab.
 3. Click `Save` once values are entered.
 
 ## Duplicate Database Profile
@@ -45,6 +45,9 @@ Through the utilisation of the `Duplicate` button, users can effortlessly genera
 
 Users have the ability to edit any Database Profile by clicking on the `Edit` button.
 
+!!!info Info
+Upon the expiration of values, such as the `Token`, upon obtaining a renewed set of Tokens, users can update their pre-existing Database Profiles. This task is accomplished by clicking the `Edit` button, followed by `Save` button.
+!!!
 
 ## Delete Database Profile
 
