@@ -11,9 +11,10 @@ order: -8
 
 ![Create Notion Profile](/assets/md-database-settings_01.png)
 
-1. Click on the `+` button to Create Database Profile 
-2. For Notion Platform, click on the `Notion` tab.
-3. Click `Save` once values are entered.
+1. Click on the `+` button to Create Database Profile.
+2. Enter a Profile Name.
+3. For Notion Platform, click on the `Notion` tab.
+4. Click `Save` once values are entered.
 
 === Notion Workspace
 Enter your [Notion Workspace Name](/databases/notion-prerequisite#obtain-your-workspace-name) here.
@@ -29,9 +30,10 @@ By [!badge text="Default"] **Marker Data** will designate the Notion's Key Colum
 
 ![Create Airtable Profile](/assets/md-database-settings_02.png)
 
-1. Click on the `+` button to Create Database Profile 
-2. For Airtable Platform, click on the `Airtable` tab.
-3. Click `Save` once values are entered.
+1. Click on the `+` button to Create Database Profile.
+2. Enter a Profile Name.
+3. For Airtable Platform, click on the `Airtable` tab.
+4. Click `Save` once values are entered.
 
 ## Duplicate Database Profile
 

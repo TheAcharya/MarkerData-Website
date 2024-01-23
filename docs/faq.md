@@ -5,7 +5,7 @@ order: -96
 ---
 # Frequently Asked Questions
 
-## What behavioural outcomes manifest in the event of Marker collision?
+## What happens when Marker collision occurs?
 
 In instances where Markers coincide, **Marker Data** will adeptly rectify any conflicts arising from overlapping Marker ID such as Timecode, Name, or Notes.
 
@@ -23,7 +23,7 @@ In instances where Markers coincide, **Marker Data** will adeptly rectify any co
 
 Should a user wish to extract markers from within a Compound Clip, a straightforward approach involves double-clicking the specific Compound Clip and exporting its associated timeline. In doing so, any markers nested within that particular Compound Clip's timeline will be excluded from consideration by **Marker Data**.
 
-## What behavioural outcomes manifest in the event when Markers are intentionally obscured by trimmed clips?
+## What behavioural logic manifest in the event when Markers are intentionally obscured by trimmed clips?
 
 ![Obscured Markers](assets/fcp-obscured-markers.gif)
 

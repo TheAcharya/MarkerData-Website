@@ -15,9 +15,9 @@ Notwithstanding the emphasis on user-friendly design, this website stands ready 
 
 ![Marker Data's DMG](/assets/md-install.png)
 
-1. Download the file to your device
-2. Select the file to open it
-3. Move the file to your applications folder
-4. Launch the app
+1. Download the file to your device.
+2. Select the file to open it.
+3. Move **Marker Data** to your Applications folder.
+4. Launch the app.
 
 ## Uninstall

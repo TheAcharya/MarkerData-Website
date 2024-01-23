@@ -21,7 +21,7 @@ order: -2
 Enable Web Inspector
 
 - If you don’t see the Develop menu in the menu bar, choose Safari, Settings, click Advanced, then select “Show features for web developers”.
-- Press `⌥ + ⌘ + i` to show Web Inspector
+- Press `⌥ + ⌘ + i` to show Web Inspector.
 
 <video controls width="1920">
   <source src="/assets/safari.mp4" type="video/mp4">
@@ -48,6 +48,6 @@ Do not share your Notion v2 Token with anyone.
 
 ## Obtain your Database URL
 
-1. Go to your Notion Database, and right-click on the view and click **Copy link to view**
+1. Go to your Notion Database, and right-click on the view and click **Copy link to view**.
 
 ![Copy Notion URL](/assets/notion_url.png)

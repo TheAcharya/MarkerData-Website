@@ -23,7 +23,7 @@ You can grant access to any combination and number of bases and workspaces. You 
 
 ## Obtain your Base ID & Table ID
 
-1. When you have a base open in a compatible web browser, you should see a URL in the address bar that looks similar to the example below:
+1. When you have a base open in a compatible web browser, you should see a URL in the address bar that looks similar to the example below.
 
 ![Airtable URL](/assets/airtable_url.jpg)
 
