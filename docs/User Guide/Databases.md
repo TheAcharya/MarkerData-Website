@@ -9,6 +9,20 @@ order: -8
 
 ## Creating Notion Database Profile
 
+![Create Notion Profile](/assets/md-database-settings_01.png)
+
+Notion Workspace
+:	123
+
+Notion V2 Token
+:	123
+
+Notion Database URL
+:	123
+
+Rename Key Column
+:	123
+
 ## Creating Airtable Database Profile
 
 ## Duplicate Database Profile
@@ -17,5 +31,9 @@ order: -8
 
 ## Delete Database Profile
 
+1. Click on the `-` button.
+2. Users will be prompted for confirmation before deletion.
+
 ## Open Database Folder in Finder
 
+Select the `Open Database Folder in Finder` link to unveil the Finder directory housing the Database Profile files. Users can copy the `.json` files to another location for the purpose of creating backups and restoration of their Database Profile files.
