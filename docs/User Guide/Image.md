@@ -50,7 +50,7 @@ In the majority of workflows, the [!badge text="Default"] parameter would be suf
 
 ### Size (%)
 
-The [!badge text="Default"] Configuration assigns a size percentage of `100` to both the `PNG` and `JPG` Image Formats. Conversely, for the `GIF` format, the [!badge text="Default"] size percentage is established at 50. 
+The [!badge text="Default"] Configuration assigns a size percentage of `100` to both the `PNG` and `JPG` Image Formats. Conversely, for the `GIF` format, the [!badge text="Default"] size percentage is established at `50`. 
 
 To illustrate, in the scenario where the original exported video file possesses dimensions of `1920 x 1080`, adjusting the Size (%) parameter to `50` would yield extracted images with dimensions reduced to `960 x 540`.
 
