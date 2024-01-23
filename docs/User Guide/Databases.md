@@ -21,11 +21,15 @@ Enter your [Notion Database URL](/databases/notion-prerequisite##obtain-your-dat
 By [!badge text="Default"] **Marker Data** will designate the Notion's Key Column with the nomenclature of `Marker ID`. However, users retain the flexibility to establish an alternative form of Notion Database by integrating Marker Metadata from Final Cut Pro. To illustrate, users have the capability to designate their Notion's Key Column as, for instance, `Shot Code`. Upon configuring this setting in Notion, users may then input the same corresponding value in this field as `Shot Code`.
 ===
 
-<hr>
-
 ## Creating Airtable Database Profile
 
 ## Duplicate Database Profile
+
+Users have the ability to duplicate any Database Profile by clicking on the `Duplicate` button.
+
+!!!info Info
+Through the utilisation of the `Duplicate` button, users can effortlessly generate numerous Database Profiles. The sole prerequisite is the substitution of the Database URL for Notion or the Base ID and Table ID for Airtable, thereby facilitating the quick replication of Database Profiles.
+!!!
 
 ## Edit Database Profile
 
