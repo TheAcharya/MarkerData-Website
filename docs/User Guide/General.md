@@ -41,15 +41,14 @@ Long
 
 Select your desired Extraction Profile.
 
-Extract Only (No Upload)
-- **CSV** [!badge text="Default"]
-- **TSV**
-- **MIDI**
-- **Notion (No Upload)**
-- **Airtable (No Upload)**
-
-Database Profiles (Upload)
-- When you create a [Database Profile](/user-guide/databases), you will see them listed here.
+- Extract Only (No Upload)
+	- **CSV** [!badge text="Default"]
+	- **TSV**
+	- **MIDI**
+	- **Notion (No Upload)**
+	- **Airtable (No Upload)**
+- Database Profiles (Upload)
+	- When you create a [Database Profile](/user-guide/databases), you will see them listed here.
 
 ### Enable Subframes
 
@@ -75,3 +74,15 @@ This alternative is applicable in situations wherein:
 
 - The user expresses a preference against exporting a movie file.
 - The user does not necessitate the extraction of images.
+
+## Progress Reporting
+
+### Notification Frequency
+
+Select your desired Notification Frequency.
+- **Never**
+- **Only on Completion** [!badge text="Default"]
+- **All Steps**
+
+### Show Progress on Dock Icon
+
