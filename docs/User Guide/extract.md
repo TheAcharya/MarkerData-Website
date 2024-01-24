@@ -14,5 +14,5 @@ Export your timeline from Final cut Pro in `.mov` or `.mp4`.  Place it in the sa
 !!!
 
 !!!info Info
-Export Profile is tied to the corresponding preference in the [General Settings](/user-guide/general). Upon modifying this option, it is imperative to execute the keyboard command `COMMAND + S` to effectuate `Update Active Configuration` before embarking on any subsequent tasks.
+Export Profile is tied to the corresponding preference in the [General Settings](/user-guide/general#profiles). Upon modifying this option, it is imperative to execute the keyboard command `COMMAND + S` to effectuate `Update Active Configuration` before embarking on any subsequent tasks.
 !!!
