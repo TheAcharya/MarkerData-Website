@@ -17,13 +17,13 @@ In instances where Markers coincide, **Marker Data** will adeptly rectify any co
 
 ![Unique Image Filename](assets/fcp_marker_collision_03.png)
 
-## What behavioural logic arise when Markers are situated within a Compound, Multicam and synchronised clips?
+## What happens when Markers are situated within a Compound, Multicam and synchronised clips?
 
 **Marker Data** is intentionally configured to disregard any markers outside the primary active timeline. This deliberate choice is particularly pertinent in scenarios involving Compound Clips, where the potential for numerous nested structures exists. Parsing markers within each nested Compound Clip could introduce undue complexity.
 
-Should a user wish to extract markers from within a Compound Clip, a straightforward approach involves double-clicking the specific Compound Clip and exporting its associated timeline. In doing so, any markers nested within that particular Compound Clip's timeline will be excluded from consideration by **Marker Data**.
+Should you wish to extract markers from within a Compound Clip, a straightforward approach involves double-clicking the specific Compound Clip and exporting its associated timeline. In doing so, any markers nested within that particular Compound Clip's timeline will be excluded from consideration by **Marker Data**.
 
-## What behavioural logic manifest in the event when Markers are intentionally obscured by trimmed clips?
+## What behavioural logic arise in the event when Markers are intentionally obscured by trimmed clips?
 
 ![Obscured Markers](assets/fcp-obscured-markers.gif)
 
@@ -49,7 +49,7 @@ Creates GIFs | Yes | No
 Burn-Ins of Labels | Yes | No
 Cost | Free & Open Source | Paid
 
-**Dependent on users Mac’s hardware. With Apple Silicon, users can achieve faster results.*
+**Dependent on your Mac’s hardware. With Apple Silicon, your can achieve faster results.*
 ***Rendered Timeline*
 
 ## Does Marker Data replaces Producer's Best Friend?
@@ -60,11 +60,11 @@ In contrast, **Marker Data** specialises solely in the extraction of information
 
 ## Can Marker Data's Data Set be used with other applications?
 
-Within **Marker Data** , users have the option to export Data Set in two fundamental formats, namely `.csv` and `.tsv`. These exported Data Sets are located within **Export Destination** folder. Subsequently, users possess the flexibility to import either the `*.csv` or the `.tsv` files into any compatible application of their choice.
+Within **Marker Data** , you have the option to export Data Set in two fundamental formats, namely `.csv` and `.tsv`. These exported Data Sets are located within **Export Destination** folder. Subsequently, you possess the flexibility to import either the `.csv` or the `.tsv` files into any compatible application of your choice.
 
 ## What constitutes an optimal methodology for the nomenclature of Visual Effects Identification (VFX IDs) within a workflow?
 
-Every project is different. But users can utilise this basic example.
+Every project is different. But you can utilise this basic example.
 
 ``` VFX ID Example
 XYZ701_150_010 - COOPER APPEARS NEAR PLANET SATURN
@@ -90,7 +90,7 @@ At present, our primary emphasis lies in the steadfast support and enhancement o
 
 Within the expansive landscape of database and productivity solutions, emerging platforms such as [Coda](https://coda.io/), [Baserow](https://baserow.io/), [AppFlowy](https://appflowy.io/), and Microsoft’s [Loop](https://loop.microsoft.com/learn) are gaining prominence.
 
-Should the user have specific use cases or preferences for other platforms, we encourage the user to initiate a [discussion](https://github.com/TheAcharya/MarkerData/discussions). It is essential to note that the incorporation of additional platforms will be contingent upon the availability of compatible API libraries.
+Should you have specific use cases or preferences for other platforms, we encourage you to initiate a [discussion](https://github.com/TheAcharya/MarkerData/discussions). It is essential to note that the incorporation of additional platforms will be contingent upon the availability of compatible API libraries.
 
 ## Could Marker Data extract and convert Final Cut Pro's Marker metadata to another format?
 

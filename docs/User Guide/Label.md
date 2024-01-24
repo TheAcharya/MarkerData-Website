@@ -11,7 +11,7 @@ order: -6
 
 ### Typeface
 
-**Marker Data** allows users to select different fonts for the label appearance.
+**Marker Data** allows you to select different fonts for the label appearance.
 
 !!!info Info
 Deliberately, we have constrained the options for Typeface selection. We posit that the available Typeface choices are sufficiently comprehensive for burn-in purposes. Additionally, these fonts are integral components of the macOS system.
@@ -26,7 +26,7 @@ Select your desired Typeface.
 
 ### Style
 
-Users have the option to choose their favoured Style when determining the Typeface for their selection.
+You have the option to choose your favoured Style when determining the Typeface for your selection.
 
 Select your desired Style.
 - **Regular** [!badge text="Default"]
@@ -67,13 +67,13 @@ The activation of Stroke Size enhances legibility, particularly in the context o
 
 ### Horizontal
 
-User can specify their preferred Horizontal Alignment for the Label. By [!badge text="Default"], the Horizontal Alignment is configured to `Left`.
+You can specify your preferred Horizontal Alignment for the Label. By [!badge text="Default"], the Horizontal Alignment is configured to `Left`.
 
 ![Horizontal set to Left, Vertical set to Top](/assets/md-label-settings_02.png)
 
 ### Vertical
 
-User can specify their preferred Vertical Alignment for the Label. By [!badge text="Default"], the Vertical Alignment is configured to `Top`.
+You can specify your preferred Vertical Alignment for the Label. By [!badge text="Default"], the Vertical Alignment is configured to `Top`.
 
 ![Horizontal set to Right, Vertical set to Bottom](/assets/md-label-settings_03.png)
 
@@ -89,7 +89,7 @@ There exist a total of `9` conceivable alignments for consideration.
 
 ### Search Overlays
 
-Users can utilise the Search function to find their desired Overlays.
+You can utilise the Search function to find your desired Overlays.
 
 ![](/assets/md-label-overlays-settings-search.gif)
 
@@ -101,7 +101,7 @@ In the section labeled `Available Overlays`, select the desired Overlays by clic
 
 ### Copyright
 
-In the Copyright field, user has the option to input personalised text, such as user's name or the name of their production company. The Copyright field will be disabled when it is empty.
+In the Copyright field, you has the option to input personalised text, such as your name or the name of your production company. The Copyright field will be disabled when it is empty.
 
 ![Notes, Clip Type, Clip Name and Copyright enabled](/assets/md-label-settings_04.png)
 

@@ -11,16 +11,16 @@ order: -7
 
 ![Default Configuration](/assets/md-configuration-settings_01.png)
 
-Users will not be allowed to make changes to the Default Configuration.
+You will not be allowed to make changes to the Default Configuration.
 
 !!!info Info
-The Default Configuration serves as a comprehensive delineation of the default values and parameters pertaining to **Marker Data**. Users are required to instantiate a new Configuration in order to harness the complete functionality of **Marker Data**.
+The Default Configuration serves as a comprehensive delineation of the default values and parameters pertaining to **Marker Data**. You are required to create a new Configuration in order to utilise the complete functionality of **Marker Data**.
 !!!
 
 ## Add Configuration
 
 1. Click on the `+` button.
-2. Users will be prompted to enter a Configuration Name.
+2. You will be prompted to enter a Configuration Name.
 
 ![Default Configuration](/assets/md-configuration-settings_02.png)
 
@@ -55,18 +55,18 @@ On any Active Configuration, modifications to any settings prompts the display o
 
 ![Configuration Changed](/assets/md-configuration-settings_06.png)
 
-Users have three methods for updating an active configuration.
+You have three methods for updating an active configuration.
 
 1. Click `Update Active Configuration` within the Configuration settings.
 2. Go to **Marker Data**'s menu bar, click on `Update Active Configuration` under Configuration menu.
-3. Press `COMMAND + S` on your keyboard to `Update Active Configuration`. Users can press `COMMAND + S` anywhere within **Marker Data**.
+3. Press `COMMAND + S` on your keyboard to `Update Active Configuration`. You can press `COMMAND + S` anywhere within **Marker Data**.
 
 ## Delete Configuration
 
 1. Click on the `-` button.
-2. Users will be prompted for confirmation before deletion.
+2. You will be prompted for confirmation before deletion.
 
 ## Open Configuration Folder in Finder
 
-Select the `Open Configuration Folder in Finder` link to unveil the Finder directory housing the Configuration files. Users can copy the `.json` files to another location for the purpose of creating backups and restoration of their Configuration files.
+Select the `Open Configuration Folder in Finder` link to unveil the Finder directory housing the Configuration files. You can copy the `.json` files to another location for the purpose of creating backups and restoration of your Configuration files.
 

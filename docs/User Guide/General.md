@@ -11,11 +11,11 @@ order: -4
 
 ### Destination
 
-Users can select their desired location by clicking on the Folder Icon. Upon right-clicking folder icon, **Marker Data** will show the `Full Path` associated with said folder.
+You can select your desired location by clicking on the Folder Icon. Upon right-clicking folder icon, **Marker Data** will show the `Full Path` associated with said folder.
 
 ### Folder Format
 
-The Folder Format feature affords the user the capability to designate a folder naming scheme of their preference. In order to mitigate conflicts and potential overwrites of previously generated files, both the `Medium` and `Long` Folder Formats incorporate the inclusion of the `Current Date` and `Current Time` within the nomenclature. Consequently, each extraction yields a distinct and uniquely identified result.
+The Folder Format feature allows you the capability to designate a folder naming scheme of your preference. In order to mitigate conflicts and potential overwrites of previously generated files, both the `Medium` and `Long` Folder Formats incorporate the inclusion of the `Current Date` and `Current Time` within the nomenclature. Consequently, each extraction yields a distinct and uniquely identified result.
 
 Select your desired Folder Format.
 - **Short**
@@ -48,13 +48,13 @@ Select your desired Extraction Profile.
 	- **Notion (No Upload)**
 	- **Airtable (No Upload)**
 - Database Profiles (Upload)
-	- When users create a [Database Profile](/user-guide/databases), they will be listed here.
+	- When you create a [Database Profile](/user-guide/databases), it will be listed here.
 
 ### Enable Subframes
 
 ![Final Cut Pro's Time Display](/assets/fcp-subframes.png)
 
-**Final Cut Pro** allows the user to view timecode at the subframe level.
+**Final Cut Pro** allows the you to view timecode at the subframe level.
 
 !!!info Info
 A subframe has 1/80 the duration of a video frame and is a more precise unit of reference when viewing or editing audio waveforms that are zoomed in to the sample level.
@@ -72,8 +72,8 @@ By [!badge text="Default"] Marker Data will always look for accompanying movie f
 
 This alternative is applicable in situations wherein:
 
-- The user expresses a preference against exporting a movie file.
-- The user does not necessitate the extraction of images.
+- You do not require exporting a movie file.
+- You do not require extraction of images.
 
 ## Progress Reporting
 
@@ -87,7 +87,5 @@ Select your desired Notification Frequency.
 - **All Steps**
 
 ### Show Progress on Dock Icon
-
-![Progress Bar on Dock Icon](/assets/md-image-settings_02.gif)
 
 By [!badge text="Default"] Progress Bar is shown on **Marker Data**'s dock icon.
