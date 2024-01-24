@@ -18,6 +18,6 @@ Notwithstanding the emphasis on user-friendly design, this website stands ready 
 1. Download the file to your device.
 2. Select the file to open it.
 3. Move **Marker Data** to your Applications folder.
-4. Launch the app.
+4. Launch **Marker Data**.
 
 ## Uninstall
