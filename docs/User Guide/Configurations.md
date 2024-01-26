@@ -41,7 +41,7 @@ At any given time, only a single Configuration may be designated as active.
 1. Select your desired Configuration.
 2. Click on the `Make Active` button.
 
-Alternatively, one may employ the `Configurations` menu located in the menu bar to seamlessly switch between Configurations.
+Alternatively, you can click on the `Configurations` menu located in the menu bar to seamlessly switch between Configurations.
 
 1. Click on the `Configurations` menu.
 
