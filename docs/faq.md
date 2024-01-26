@@ -54,13 +54,13 @@ Cost | Free & Open Source | Paid
 
 ## Does Marker Data replaces Producer's Best Friend?
 
-Contrary to negation, **Producer’s Best Friend** serves as a complement rather than a contradiction. It stands as the optimal application for crafting comprehensive spreadsheet reports compatible with platforms such as Numbers, Excel, Preview, and others. This versatile tool adeptly encompasses diverse elements, including Video Clips, Audio Clips, Titles, Generators, Markers, Keywords, Effects, and Transitions.
+No. Contrary to negation, **Producer’s Best Friend** serves as a complement rather than a contradiction. It stands as the optimal application for crafting comprehensive spreadsheet reports compatible with platforms such as Numbers, Excel, Preview, and others. This versatile tool adeptly encompasses diverse elements, including Video Clips, Audio Clips, Titles, Generators, Markers, Keywords, Effects, and Transitions.
 
 In contrast, **Marker Data** specialises solely in the extraction of information pertinent to markers and their associated metadata. It confines its focus to this specific domain, providing a nuanced and refined functionality distinct from the broader spectrum covered by Producer’s Best Friend.
 
 ## Can Marker Data's Data Set be used with other applications?
 
-Within **Marker Data** , you have the option to export Data Set in two fundamental formats, namely `.csv` and `.tsv`. These exported Data Sets are located within **Export Destination** folder. Subsequently, you possess the flexibility to import either the `.csv` or the `.tsv` files into any compatible application of your choice.
+Yes. Within **Marker Data** , you have the option to export Data Set in two fundamental formats, namely `.csv` and `.tsv`. These exported Data Sets are located within **Export Destination** folder. Subsequently, you possess the flexibility to import either the `.csv` or the `.tsv` files into any compatible application of your choice.
 
 ## What constitutes an optimal methodology for the nomenclature of Visual Effects Identification (VFX IDs) within a workflow?
 
