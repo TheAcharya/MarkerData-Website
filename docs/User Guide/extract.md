@@ -1,6 +1,6 @@
 ---
 label: Extract
-icon: browser
+icon: home
 order: -2
 ---
 # Extract
