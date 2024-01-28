@@ -1,6 +1,6 @@
 ---
-label: Recent
+label: Queue
 icon: clock
 order: -3
 ---
-# Recent
+# Queue
