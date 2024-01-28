@@ -35,7 +35,7 @@ Long
 
 ## Extraction Profile
 
-![Extraction Profile](/assets/md-general-settings-extraction-profile.png)
+![Extraction Profiles](/assets/md-general-settings-extraction-profile.png)
 
 ### Profiles
 
@@ -70,7 +70,7 @@ Enable Subframes will only work for `Timecode` under Naming Mode.
 
 By [!badge text="Default"] Marker Data will always look for accompanying movie file (`.mov` or `.mp4`) in directory where the `.fcpxmld` or `.fcpxml` resides. Activating the No Media option allows **Marker Data** to circumvent the inclusion of the movie file during processing.
 
-This alternative is applicable in situations wherein:
+This option is applicable in situations wherein:
 
 - You do not require exporting a movie file.
 - You do not require extraction of images.
