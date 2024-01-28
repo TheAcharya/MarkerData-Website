@@ -1,6 +1,6 @@
 ---
 label: Queue
-icon: clock
+icon: upload
 order: -3
 ---
 # Queue
