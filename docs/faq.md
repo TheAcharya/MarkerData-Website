@@ -84,11 +84,9 @@ Regrettably, despite the capacity to import and export FCPXMLs within **DaVinci 
 
 The official API provided by Notion currently lacks the capability for direct image uploads and the seamless merging of page icons. Furthermore, it does not offer support for automatic linking or the creation of new entries in relation columns based on their respective values. The prospect of revisiting and updating our internal components will be considered as Notion continues to expand and enhance the functionality of their APIs.
 
-## Is there a contemplation for extending support to additional database platforms in the foreseeable future?
+## Could other database platforms be supported in the foreseeable future?
 
 At present, our primary emphasis lies in the steadfast support and enhancement of integration capabilities with Notion and Airtable—two widely acclaimed platforms embraced by users and companies across the global Film and TV industry. The development of robust internal components for both [Notion](https://github.com/TheAcharya/csv2notion-neo) and [Airtable](https://github.com/TheAcharya/Airlift) has demanded a significant investment of time and effort.
-
-Within the expansive landscape of database and productivity solutions, emerging platforms such as [Coda](https://coda.io/), [Baserow](https://baserow.io/), [AppFlowy](https://appflowy.io/), and Microsoft’s [Loop](https://loop.microsoft.com/learn) are gaining prominence.
 
 Should you have specific use cases or preferences for other platforms, we encourage you to initiate a [discussion](https://github.com/TheAcharya/MarkerData/discussions). It is essential to note that the incorporation of additional platforms will be contingent upon the availability of compatible API libraries.
 
