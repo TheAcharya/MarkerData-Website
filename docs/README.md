@@ -48,9 +48,9 @@ The avant-garde Marker extraction application crafted for [Final Cut Pro](https:
 
 ![Image Settings](/assets/md-image-settings.png)
 
-![Label-Appearance Settings](/assets/md-label-settings.png)
+![Label - Appearance Settings](/assets/md-label-settings.png)
 
-![Label-Overlays Settings](/assets/md-label-overlays-settings.png)
+![Label - Overlays Settings](/assets/md-label-overlays-settings.png)
 
 ![Configuration Settings](/assets/md-configuration-settings.png)
 
