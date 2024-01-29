@@ -5,9 +5,9 @@ order: -10
 ---
 # Workflow Extension
 
-## Extract
-
 ![Workflow Extension - Extract](/assets/md-general-settings.png)
+
+## Extract
 
 ## Roles
 
