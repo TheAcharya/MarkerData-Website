@@ -75,7 +75,13 @@ This option is applicable in situations wherein:
 - You do not require exporting a movie file.
 - You do not require extraction of images.
 
-## Progress Reporting
+<hr>
+
+## Notification
+
+![](/assets/md-general-settings-notifications.png)
+
+### Progress Reporting
 
 ### Notification Frequency
 
@@ -89,3 +95,9 @@ Select your desired Notification Frequency.
 ### Show Progress on Dock Icon
 
 By [!badge text="Default"] Progress Bar is shown on **Marker Data**'s dock icon.
+
+<hr>
+
+## Roles
+
+![](/assets/md-general-settings-roles.png)
