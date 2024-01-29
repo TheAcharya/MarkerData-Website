@@ -81,8 +81,6 @@ This option is applicable in situations wherein:
 
 ![](/assets/md-general-settings-notifications.png)
 
-### Progress Reporting
-
 ### Notification Frequency
 
 **Marker Data** seamlessly integrates with the native macOS Notifications framework, delivering timely alerts upon the successful completion of tasks.

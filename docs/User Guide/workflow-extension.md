@@ -7,4 +7,8 @@ order: -10
 
 ## Extract
 
+![Workflow Extension - Extract](/assets/md-general-settings.png)
+
 ## Roles
+
+![Workflow Extension - Roles](/assets/md-general-settings.png)
