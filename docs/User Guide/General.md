@@ -77,7 +77,7 @@ This option is applicable in situations wherein:
 
 <hr>
 
-## Notification
+## Progress Reporting
 
 ![](/assets/md-general-settings-notifications.png)
 
