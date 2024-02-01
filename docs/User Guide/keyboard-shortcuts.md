@@ -13,10 +13,10 @@ Some keyboard shortcuts can be changed in System Settings (or System Preferences
 
 | Action | Shortcut |
 |---|---|
-| Extract | `E` |
-| General | `G` |
-| Image | `I` |
-| Label | `L` |
-| Configuration | `C` |
-| Databases | `D` |
+| [Extract](/user-guide/extract) | `E` |
+| [General](/user-guide/general) | `G` |
+| [Image](/user-guide/image) | `I` |
+| [Label](/user-guide/label) | `L` |
+| [Configuration](/user-guide/configuration) | `C` |
+| [Database](/user-guide/databases) | `D` |
 | About | `A`|
