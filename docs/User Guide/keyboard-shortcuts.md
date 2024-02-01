@@ -11,6 +11,8 @@ You can use keyboard shortcuts to quickly accomplish Common tasks in **Marker Da
 Some keyboard shortcuts can be changed in System Settings (or System Preferences) and may not match what is listed here.
 !!!
 
+## Main Application
+
 | Action | Shortcut |
 |---|---|
 | [Extract](/user-guide/extract) | `E` |
@@ -20,3 +22,9 @@ Some keyboard shortcuts can be changed in System Settings (or System Preferences
 | [Configuration](/user-guide/configuration) | `C` |
 | [Database](/user-guide/databases) | `D` |
 | About | `A`|
+
+## Configuration
+
+| Action | Shortcut |
+|---|---|
+| [Update Active Configuration](/user-guide/configuration/#update-active-configuration) | `⌘` `s` |
