@@ -1,9 +1,9 @@
 ---
-label: Shortcuts
+label: Keyboard Shortcuts
 icon: key-asterisk
 order: -11
 ---
-# Shortcuts
+# Keyboard Shortcuts
 
 You can use keyboard shortcuts to quickly accomplish Common tasks in **Marker Data**. To use a keyboard shortcut, press all the keys in the shortcut at the same time.
 
