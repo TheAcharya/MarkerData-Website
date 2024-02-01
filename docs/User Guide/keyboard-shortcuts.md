@@ -19,12 +19,12 @@ Some keyboard shortcuts can be changed in System Settings (or System Preferences
 | [General](/user-guide/general) | `G` |
 | [Image](/user-guide/image) | `I` |
 | [Label](/user-guide/label) | `L` |
-| [Configuration](/user-guide/configuration) | `C` |
-| [Database](/user-guide/databases) | `D` |
+| [Configurations](/user-guide/configurations) | `C` |
+| [Databases](/user-guide/databases) | `D` |
 | About | `A`|
 
 ## Configuration
 
 | Action | Shortcut |
 |---|---|
-| [Update Active Configuration](/user-guide/configuration#update-active-configuration) | `⌘` `s` |
+| [Update Active Configuration](/user-guide/configurations/#update-active-configuration) | `⌘` `s` |
