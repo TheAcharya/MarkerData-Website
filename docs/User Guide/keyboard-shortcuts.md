@@ -27,4 +27,4 @@ Some keyboard shortcuts can be changed in System Settings (or System Preferences
 
 | Action | Shortcut |
 |---|---|
-| [Update Active Configuration](/user-guide/configuration/#update-active-configuration) | `⌘` `s` |
+| [Update Active Configuration](/user-guide/configuration#update-active-configuration) | `⌘` `s` |
