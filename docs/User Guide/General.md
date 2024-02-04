@@ -98,7 +98,7 @@ By [!badge text="Default"] Progress Bar is shown on **Marker Data**'s dock icon.
 
 ![](/assets/md-general-settings-notifications_macOS.png)
 
-Click on `Open macOS Notification Settings` to open macOS Notification Settings. Navigate to **Marker Data** to manage notification settings.
+Select the `Open macOS Notification Settings` link to open macOS Notification Settings. Navigate to **Marker Data** to manage notification settings.
 
 <hr>
 
