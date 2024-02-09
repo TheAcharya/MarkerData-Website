@@ -27,4 +27,10 @@ Some keyboard shortcuts can be changed in System Settings (or System Preferences
 
 | Action | Shortcut |
 |---|---|
-| [Update Active Configuration](/user-guide/configurations/#update-active-configuration) | `⌘` `s` |
+| [Update Active Configuration](/user-guide/configurations/#update-active-configuration) | `⌘` `S` |
+
+## Databases
+
+| Action | Shortcut |
+|---|---|
+| Clear Merge Only Selection | `⇧` `⌘` `D` |
