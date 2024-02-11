@@ -17,7 +17,7 @@ What if the intricate tasks of managing and organising Final Cut Pro elements co
 
 - Delivering a nearly seamless experience with a **near-single-click** functionality, post initial setup, is a paramount objective.
 - Facilitate a streamlined and consecutive integration with native uploading options for both Airtable and Notion platforms.
-- Provide the versatility to extract both PNGs and animated GIFs, with a deliberate emphasis on GIFs owing to their enhanced frame identification capabilities, supported seamlessly by both Notion and Airtable.
+- Provide the versatility to extract both PNGs and animated GIFs, with a deliberate emphasis on GIFs owing to their enhanced frame identification capabilities, supported by both Notion and Airtable.
 - Incorporate native Burn-In options for labels.
 - Emphasise self-sufficiency by eliminating the necessity for additional applications, offering an all-encompassing solution within the application itself.
 - Ensure the portability and self-containment of the exported Data Set, enhancing convenience and accessibility.
