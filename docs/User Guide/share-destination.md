@@ -5,7 +5,7 @@ order: -9
 ---
 # Share Destination
 
-![Share Destination](/assets/md-main.png)
+![Share Destination](/assets/md-main-share.png)
 
 ## Install Share Extension
 
