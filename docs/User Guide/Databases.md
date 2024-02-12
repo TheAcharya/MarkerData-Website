@@ -41,7 +41,7 @@ By [!badge text="Default"] **Marker Data** will designate the Notion's Key Colum
 Merge Only offers users selectively merge or update individual columns within a Notion Database. By [!badge text="Default"], the column selection feature of Merge Only remains inactive. The utilisation of Merge Only is only possible when Notion Database URL is provided.
 
 !!!info Info
-Merge Only is currently only exclusive to Notion Profile.
+The utilisation of the 'Merge Only' column feature is presently confined exclusive to the Notion Profile.
 !!!
 
 ===
