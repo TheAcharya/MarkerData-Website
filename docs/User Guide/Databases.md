@@ -16,13 +16,13 @@ order: -8
 3. For Notion Platform, click on the `Notion` tab.
 4. Click `Save` once values are entered.
 
-=== Notion Workspace
+===- Notion Workspace
 Enter your [Notion Workspace Name](/databases/notion-prerequisite#obtain-your-workspace-name) here.
-=== Notion V2 Token
+===- Notion V2 Token
  Enter your [Notion V2 Token](/databases/notion-prerequisite#obtain-your-session-token) here.
-=== Notion Database URL
+===- Notion Database URL
 Enter your [Notion Database URL](/databases/notion-prerequisite##obtain-your-database-url) here. In the absence of a provided Notion Database URL, **Marker Data** will upload all entries of the Marker Metadata from Final Cut Pro into Notion. However, it is strongly advised that you to duplicate the supplied Notion Template by accessing the provided link. Subsequently, you can acquire the link from your duplicated Notion Template within your Workspace.
-=== Rename Key Column
+===- Rename Key Column
 By [!badge text="Default"] **Marker Data** will designate the Notion's Key Column with the nomenclature of `Marker ID`. However, you retain the flexibility to establish an alternative form of Notion Database by integrating Marker Metadata from Final Cut Pro. To illustrate, you have the capability to designate your Notion's Key Column as, for instance, `Shot Code`. Upon configuring this setting in Notion, you may then input the same corresponding value in this field as `Shot Code`.
 ===
 
