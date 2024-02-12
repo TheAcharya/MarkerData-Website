@@ -30,6 +30,9 @@ Enter your [Notion Database URL](/databases/notion-prerequisite##obtain-your-dat
 By [!badge text="Default"] **Marker Data** will designate the Notion's Key Column with the nomenclature of `Marker ID`. However, you retain the flexibility to establish an alternative form of Notion Database by integrating Marker Metadata from Final Cut Pro. To illustrate, you have the capability to designate your Notion's Key Column as, for instance, `Shot Code`. Upon configuring this setting in Notion, you may then input the same corresponding value in this field as `Shot Code`.
 === Merge Only
 Merge Only offers users selectively merge or update individual columns within a Notion Database. By [!badge text="Default"], the column selection feature of Merge Only remains inactive. The utilisation of Merge Only is only possible when Notion Database URL is provided.
+!!!info Info
+Merge Only is currently
+!!!
 ===
 
 ## Creating Airtable Database Profile
