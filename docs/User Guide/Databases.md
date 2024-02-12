@@ -15,6 +15,10 @@ Delve deeper into the distinctions and parallels between Notion and Airtable [he
 
 ![Create Notion Profile](/assets/md-database-settings_01.png)
 
+!!!info Info
+For Notion Profile, it is strongly advised that users utilise the provided Notion Template.
+!!!
+
 1. Click on the `+` button to Create Database Profile.
 2. Enter a Profile Name.
 3. For Notion Platform, click on the `Notion` tab.
@@ -49,6 +53,10 @@ The utilisation of the 'Merge Only' column feature is presently confined exclusi
 ## Creating Airtable Database Profile
 
 ![Create Airtable Profile](/assets/md-database-settings_02.png)
+
+!!!info Info
+For Airtable Profile, it is imperative to underscore that users are mandated to utilise the provided Airtable Template.
+!!!
 
 1. Click on the `+` button to Create Database Profile.
 2. Enter a Profile Name.
