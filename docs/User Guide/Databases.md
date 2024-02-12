@@ -5,6 +5,10 @@ order: -8
 ---
 # Database Settings
 
+!!!info Info
+Learn more about the differences and similarities between Notion and Airtable [here](/databases/database-platforms).
+!!!
+
 ![Database Settings](/assets/md-database-settings.png)
 
 ## Creating Notion Database Profile
