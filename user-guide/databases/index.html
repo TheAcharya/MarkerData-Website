@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.761055289822">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.761055402722">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -33,11 +33,11 @@
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../static/favicon.ico" rel="icon">
-    <link href="../../resources/css/retype.css?v=3.5.0.761055289822" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.5.0.761055402722" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.761055289822" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.761055402722" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.761055289822" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.761055402722" data-turbo-eval="false" defer></script>
 
     <style>
     	/* The Acharya Logo */
@@ -404,7 +404,7 @@
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Info</h5>
-<p>Merge Only is currently</p>
+<p>Merge Only is currently only exclusive to Notion Profile.</p>
         </div>
     </div>
 </div>
@@ -428,25 +428,25 @@
 <li>Click <code v-pre>Save</code> once values are entered.</li>
 </ol>
 <doc-panels>
-   <doc-panel id="airtable-token">
+   <doc-panel id="airtable-token" collapsed>
        <template #title>Airtable Token</template>
 <p>Enter your <a href="../../databases/airtable-prerequisite/#obtain-your-workspace-name">Airtable Token</a> here.</p>
    </doc-panel>
-   <doc-panel id="airtable-base-id">
+   <doc-panel id="airtable-base-id" collapsed>
        <template #title>Airtable Base ID</template>
 <p>Enter your <a href="../../databases/airtable-prerequisite/#obtain-your-base-id--table-id">Airtable Base ID</a> here.</p>
    </doc-panel>
-   <doc-panel id="airtable-table-id">
+   <doc-panel id="airtable-table-id" collapsed>
        <template #title>Airtable Table ID</template>
 <p>Enter your <a href="../../databases/airtable-prerequisite/#obtain-your-base-id--table-id">Airtable Table ID</a> here.</p>
    </doc-panel>
-   <doc-panel id="rename-key-column">
+   <doc-panel id="rename-key-column" collapsed>
        <template #title>Rename Key Column</template>
 <p>By <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-blue-600 bg-blue-100 h-6 px-2 text-xs rounded-md">
     <span>Default</span>
 </span> <strong>Marker Data</strong> will designate the Airtable&#x27;s Key Column with the nomenclature of <code v-pre>Marker ID</code>. However, you retain the flexibility to establish an alternative form of Airtable Database by integrating Marker Metadata from Final Cut Pro. To illustrate, you have the capability to designate your Airtable&#x27;s Key Column as, for instance, <code v-pre>Shot Code</code>. Upon configuring this setting in Notion, you may then input the same corresponding value in this field as <code v-pre>Shot Code</code>.</p>
    </doc-panel>
-   <doc-panel id="dropbox-app-key">
+   <doc-panel id="dropbox-app-key" collapsed>
        <template #title>Dropbox App Key</template>
 <p>Enter your <a href="../../databases/dropbox-prerequisite/">Dropbox App Key</a> here. Setting up Dropbox integration is a one-time process. Whenever you duplicate or create a new Airtable Database Profile, the <strong>Marker Data</strong> feature will automatically utilise the pre-existing Dropbox App Key. If there arises a necessity to modify or refresh your Dropbox App Key, simply input the new value into the Dropbox App Key field and proceed accordingly.</p>
    </doc-panel>
