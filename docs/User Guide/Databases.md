@@ -45,6 +45,8 @@ Enter your [Airtable Token](/databases/airtable-prerequisite#obtain-your-workspa
 Enter your [Airtable Table ID](/databases/airtable-prerequisite#obtain-your-base-id--table-id) here.
 === Rename Key Column
 By [!badge text="Default"] **Marker Data** will designate the Airtable's Key Column with the nomenclature of `Marker ID`. However, you retain the flexibility to establish an alternative form of Airtable Database by integrating Marker Metadata from Final Cut Pro. To illustrate, you have the capability to designate your Airtable's Key Column as, for instance, `Shot Code`. Upon configuring this setting in Notion, you may then input the same corresponding value in this field as `Shot Code`.
+=== Dropbox App Key
+Enter your [Dropbox App Key](/databases/dropbox-prerequisite) here.
 ===
 
 ## Duplicate Database Profile
