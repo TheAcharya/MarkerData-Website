@@ -75,6 +75,18 @@ This option is applicable in situations wherein:
 - You do not require exporting a movie file.
 - You do not require extraction of images.
 
+### Open Files and Folders Access
+
+Select the `Open Files and Folders Access` link to open macOS's Files and Folders Access Settings.
+
+### Open Full Disk Access
+
+Select the `Open Full Disk Access` link to open macOS's Full Disk Access Settings.
+
+!!!info Info
+Due to stringent security protocols implemented within macOS, you will encounter a prompt necessitating your authorisation to grant Files and Folders Access to **Marker Data** upon initial extraction. In the eventuality of managing multiple Configurations with varying `Export Destination` settings scattered across our local drive, it is advisable to confer **Marker Data** with Full Disk Access privileges."
+!!!
+
 <hr>
 
 ## Progress Reporting
