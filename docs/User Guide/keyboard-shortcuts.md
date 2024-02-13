@@ -28,6 +28,7 @@ Some keyboard shortcuts can be changed in System Settings (or System Preferences
 | Action | Shortcut |
 |---|---|
 | [Update Active Configuration](/user-guide/configurations/#update-active-configuration) | `⌘` `S` |
+| Discard Changes | ⌘` `Z` |
 
 ## Databases
 
