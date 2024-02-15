@@ -44,6 +44,8 @@ The avant-garde Marker extraction application crafted for [Final Cut Pro](https:
 
 ![Main Extract Window](/assets/md-main-share.png)
 
+![Queue Window](/assets/md-queue.png)
+
 ![General Settings](/assets/md-general-settings.png)
 
 ![Image Settings](/assets/md-image-settings.png)
