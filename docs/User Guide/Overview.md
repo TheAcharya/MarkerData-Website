@@ -21,3 +21,10 @@ Notwithstanding the emphasis on user-friendly design, this website stands ready 
 4. Launch **Marker Data**.
 
 ## Uninstall
+
+![Uninstall Marker Data](/assets/md-uninstall.png)
+
+1. Double click on `Uninstall Marker Data.app`.
+2. Click on `Uninstall Marker Data`.
+3. You will be promoted to enter your password.
+4. Click to `OK` to continue.
