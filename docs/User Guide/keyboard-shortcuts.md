@@ -16,6 +16,7 @@ Some keyboard shortcuts can be changed in System Settings (or System Preferences
 | Action | Shortcut |
 |---|---|
 | [Extract](/user-guide/extract) | `E` |
+| [Queue](/user-guide/queue) | `Q` |
 | [General](/user-guide/general) | `G` |
 | [Image](/user-guide/image) | `I` |
 | [Label](/user-guide/label) | `L` |
