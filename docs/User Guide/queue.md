@@ -7,11 +7,11 @@ order: -3
 
 ![Queue Window](/assets/md-queue.png)
 
-The Queue window feature by **Marker Data** presents a sophisticated solution, empowering users to efficiently manage multiple Data Sets destined for various database and platform endpoints, including [Notion](https://www.notion.so/) and/or [Airtable](https://www.airtable.com/). This functionality enables consecutive queuing of Data Sets for seamless uploading, thereby streamlining the process of data dissemination. Notably, users have the flexibility to customise Database Profiles for each individual Data Set, tailoring the upload parameters to suit specific destination requirements. Such nuanced control fosters a refined approach to data management, allowing for optimal organisation and integration within diverse database ecosystems. This level of customisation underscores **Marker Data**’s commitment to facilitating precise and tailored data handling solutions, empowering users to leverage their data effectively across disparate platforms.
+**Marker Data**'s Queue feature presents a sophisticated solution, empowering users to efficiently manage multiple Data Sets destined for various database and platform endpoints; [Notion](https://www.notion.so/) and/or [Airtable](https://www.airtable.com/). This functionality enables consecutive queuing of Data Sets for seamless uploading, thereby streamlining the process of data dissemination. Notably, users have the flexibility to customise Database Profiles for each individual Data Set, tailoring the upload parameters to suit specific destination requirements. Such nuanced control fosters a refined approach to data management, allowing for optimal organisation and integration within diverse database ecosystems. This level of customisation underscores **Marker Data**’s commitment to facilitating precise and tailored data handling solutions, empowering users to leverage their data effectively across disparate platforms.
 
 **Marker Data**'s Queue functionality accommodates 3 distinct scenarios.
 
-## Scenario 1 - No Upload Initially
+## Scenario 1 - No Initial Upload
 
 When grappling with the complexities of a sizeable project, managing multiple timelines can prove to be a daunting task, particularly when faced with the necessity of uploading each timeline individually from Final Cut Pro. In such instances, the utilisation of the `Notion (No Upload)` or `Airtable (No Upload)` profile within the [General Setting](/user-guide/general/#profiles) of **Marker Data** provides an elegant solution. By employing this profile, users can streamline their workflow by pre-extracting all pertinent data to an [Export Destination](/user-guide/general/#export-destination) of their preference, thus alleviating the burden of individual uploads.
 
@@ -38,5 +38,12 @@ The upload process adheres to API constraints, necessitating a sequential transf
 !!!
 
 ## Scenario 2 - Uploading Existing Data Sets
+
+In the scenario where **Marker Data** has been deployed onto additional computers, the duplication of Data Sets from one system to another is easily achievable. These Data Sets may be selectively copied within an existing [Export Destination](/user-guide/general/#export-destination), or alternatively, a new [Configurations](/user-guide/configurations) can be created to accommodate them. **Marker Data** will automatically load and list Data Set in Queue Window.
+
+![Queue Window](/assets/md-queue-02.gif)
+
+- You have the option to manually load the Data Set by pressing `Load from Export Destination`.
+- When `Delete Folder After Upload` is enabled, those Data Set that have been assigned with [Database Profiles](/user-guide/databases), will be deleted upon successful upload. 
 
 ## Scenario 3 - Drag & Drop Specific Data Sets
