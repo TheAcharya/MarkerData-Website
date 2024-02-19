@@ -13,7 +13,18 @@ The Queue Window feature by **Marker Data** presents a sophisticated solution, e
 
 ## Scenario 1 - No Upload Initially
 
+1. Ensure that you have created and setup your desired [Database Profiles](/user-guide/databases).
+2. Under [General Setting](user-guide/general/#profiles), depending on the platform of your choice, select `Notion (No Upload)` or `Airtable (No Upload)`.
+
+!!!info Info
+If you happen to utilise both Notion and Airtable platforms, you have the flexibility to switch between `Notion (No Upload)` or `Airtable (No Upload)` prior to dispatching your project to **Marker Data**'s designated Share Destination.
+!!!
+
 <video controls width="1920">
   <source src="/assets/md-queue-01.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
+
+## Scenario 2 - Uploading Existing Data Sets
+
+## Scenario 2 - Drag & Drop Specific Data Sets
