@@ -48,4 +48,4 @@ In the scenario where **Marker Data** has been deployed onto additional computer
 
 ## Scenario 3 - Drag & Drop Specific Data Sets
 
-![Drag & Drop to Queue Window](/assets/md-queue-02.gif)
+![Drag & Drop to Queue Window](/assets/md-queue-03.gif)
