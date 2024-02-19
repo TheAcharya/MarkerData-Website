@@ -17,17 +17,17 @@ When grappling with the complexities of a sizeable project, managing multiple ti
 
 This approach seamlessly integrates with **Marker Data**'s Queue system, consolidating all extracted Data Sets within a single, centralised Queue window. Here, users are can assign specific [Database Profiles](/user-guide/databases) to each individual Data Set prior to initiating the upload sequence with the simple click of the `Start Upload` button.
 
+<video controls width="1920">
+  <source src="/assets/md-queue-01.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
 1. Ensure that you have created and setup your desired [Database Profiles](/user-guide/databases).
 2. Under [General Setting](/user-guide/general/#profiles), depending on the platform of your choice, select `Notion (No Upload)` or `Airtable (No Upload)`.
 
 !!!info Info
 If you happen to utilise both Notion and Airtable platforms, you have the flexibility to switch between `Notion (No Upload)` or `Airtable (No Upload)` prior to dispatching your project to **Marker Data**'s designated Share Destination.
 !!!
-
-<video controls width="1920">
-  <source src="/assets/md-queue-01.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video>
 
 3. Once all of your extraction are completed, the Data Sets will be listed in Queue window.
 4. For each of your Data Set, assign your desired [Database Profile](/user-guide/databases) under `Upload Destination` column.
@@ -47,5 +47,7 @@ In the scenario where **Marker Data** has been deployed onto additional computer
 - When `Delete Folder After Upload` is enabled, those Data Set that have been assigned with [Database Profiles](/user-guide/databases), will be deleted upon successful upload. 
 
 ## Scenario 3 - Drag & Drop Specific Data Sets
+
+**Marker Data** possesses the capability to discerningly list extracted Data Sets into the Queue window via the intuitive action of Drag & Drop.
 
 ![Drag & Drop to Queue Window](/assets/md-queue-03.gif)
