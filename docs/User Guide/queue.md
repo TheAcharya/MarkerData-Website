@@ -41,9 +41,11 @@ The upload process adheres to API constraints, necessitating a sequential transf
 
 In the scenario where **Marker Data** has been deployed onto additional computers, the duplication of Data Sets from one system to another is easily achievable. These Data Sets may be selectively copied within an existing [Export Destination](/user-guide/general/#export-destination), or alternatively, a new [Configurations](/user-guide/configurations) can be created to accommodate them. **Marker Data** will automatically load and list Data Set in Queue Window.
 
-![Queue Window](/assets/md-queue-02.gif)
+![Load from Export Destination](/assets/md-queue-02.gif)
 
 - You have the option to manually load the Data Set by pressing `Load from Export Destination`.
 - When `Delete Folder After Upload` is enabled, those Data Set that have been assigned with [Database Profiles](/user-guide/databases), will be deleted upon successful upload. 
 
 ## Scenario 3 - Drag & Drop Specific Data Sets
+
+![Drag & Drop to Queue Window](/assets/md-queue-02.gif)
