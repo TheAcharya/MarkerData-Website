@@ -33,7 +33,7 @@ Employing a WYSIWYG methodology, Marker Data adopts an automated process wherein
 
 Indeed, there are distinctions between the methodologies employed by **Marker Data** and **FCPXImageExporter** in addressing analogous challenges. **FCPXImageExporter** singularly focuses on the extraction of static images from source clips delineated by markers. This process, however, intentionally overlooks any post-effects and titles applied at both the timeline and individual clip levels.
 
-In contrast, **Marker Data** adopts a comprehensive strategy by harnessing the output of the rendered timeline, alongside its associated FCPXML, to generate thumbnails encompassing both stills and GIFs. Additionally, the utilisation of a `.json` format contributes to the creation of an all-encompassing data set.
+In contrast, **Marker Data** adopts a comprehensive strategy by harnessing the output of the rendered timeline, alongside its associated FCPXML, to generate thumbnails encompassing both stills and GIFs. Additionally, the utilisation of a `.json` format contributes to the creation of an all-encompassing Data set.
 
 Comparison matrix between **Marker Data** and **FCPXImageExporter.**
 
