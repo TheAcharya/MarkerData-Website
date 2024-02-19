@@ -29,7 +29,7 @@ If you happen to utilise both Notion and Airtable platforms, you have the flexib
 Your browser does not support the video tag.
 </video>
 
-3. Once all of our extraction are completed, the Data Sets will be listed in Queue window.
+3. Once all of your extraction are completed, the Data Sets will be listed in Queue window.
 4. For each of your Data Set, assign your desired [Database Profile](/user-guide/databases) under `Upload Destination` column.
 5. Press `Start Upload` to commence upload.
 
