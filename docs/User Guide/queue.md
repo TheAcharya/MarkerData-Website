@@ -7,7 +7,7 @@ order: -3
 
 ![Queue Window](/assets/md-queue.png)
 
-The Queue Window feature by **Marker Data** presents a sophisticated solution, empowering users to efficiently manage multiple Data Sets destined for various database and platform endpoints, including [Notion](https://www.notion.so/) and/or [Airtable](https://www.airtable.com/). This functionality enables consecutive queuing of Data Sets for seamless uploading, thereby streamlining the process of data dissemination. Notably, users have the flexibility to customise Database Profiles for each individual Data Set, tailoring the upload parameters to suit specific destination requirements. Such nuanced control fosters a refined approach to data management, allowing for optimal organisation and integration within diverse database ecosystems. This level of customisation underscores **Marker Data**’s commitment to facilitating precise and tailored data handling solutions, empowering users to leverage their data effectively across disparate platforms.
+The Queue window feature by **Marker Data** presents a sophisticated solution, empowering users to efficiently manage multiple Data Sets destined for various database and platform endpoints, including [Notion](https://www.notion.so/) and/or [Airtable](https://www.airtable.com/). This functionality enables consecutive queuing of Data Sets for seamless uploading, thereby streamlining the process of data dissemination. Notably, users have the flexibility to customise Database Profiles for each individual Data Set, tailoring the upload parameters to suit specific destination requirements. Such nuanced control fosters a refined approach to data management, allowing for optimal organisation and integration within diverse database ecosystems. This level of customisation underscores **Marker Data**’s commitment to facilitating precise and tailored data handling solutions, empowering users to leverage their data effectively across disparate platforms.
 
 **Marker Data**'s Queue functionality accommodates 3 distinct scenarios.
 
@@ -29,6 +29,14 @@ If you happen to utilise both Notion and Airtable platforms, you have the flexib
 Your browser does not support the video tag.
 </video>
 
+3. Once all of our extraction are completed, the Data Sets will be listed in Queue window.
+4. For each of your Data Set, assign your desired [Database Profile](/user-guide/databases) under `Upload Destination` column.
+5. Press `Start Upload` to commence upload.
+
+!!!info Info
+The upload process adheres to API constraints, necessitating a sequential transfer of individual Data Sets. Consequently, the speed of upload is subject to several variables, including the user's network connection type, geographic location, and the efficiency of the platform's servers.
+!!!
+
 ## Scenario 2 - Uploading Existing Data Sets
 
-## Scenario 2 - Drag & Drop Specific Data Sets
+## Scenario 3 - Drag & Drop Specific Data Sets
