@@ -40,9 +40,9 @@ The avant-garde Marker extraction application crafted for [Final Cut Pro](https:
 
 ## Demo
 
-## Screenshot
-
 ![Queue Window in Action](/assets/md-queue-01.gif)
+
+## Screenshot
 
 ![Main Extract Window](/assets/md-main-share.png)
 
