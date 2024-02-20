@@ -28,3 +28,4 @@ Notwithstanding the emphasis on user-friendly design, this website stands ready 
 2. Click on `Uninstall Marker Data`.
 3. You will be promoted to enter your password.
 4. Click to `OK` to continue.
+5. `Uninstall Marker Data.app` will create a log file named `Marker-Data_Uninstall_Log.txt` on your Desktop.
