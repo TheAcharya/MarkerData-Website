@@ -109,3 +109,9 @@ Upon the expiration of values, such as the `Token`, upon obtaining a renewed set
 ## Open Database Folder in Finder
 
 Select the `Open Database Folder in Finder` link to unveil the Finder directory housing the Database Profile files. You can copy the `.json` files to another location for the purpose of creating backups and restoration of your Database Profile files.
+
+## Notion Template
+
+[!button variant="primary" icon="link-external" iconAlign="right" text="Marker Data Template"](https://theacharya.co/)
+
+## Airtable Template
