@@ -39,7 +39,7 @@ Airtable also offers robust automation capabilities through its built-in automat
 
 ## Airtable vs Notion
 
-![](https://unito.io/wp-content/uploads/2023/05/Airtable-vs-Notion-header.png)
+![](/assets/airtable-vs-notion.png)
 
 Airtable and Notion are both powerful tools for organising and managing information, but they have some key differences in terms of their functionality and focus.
 
