@@ -10,7 +10,7 @@ order: -1
 1. [Create Your Notion Database Profile](/user-guide/databases/#creating-notion-database-profile).
 
 !!!info Info
-`Rename Key Column` and `Merge Only` options will not be used for this demonstration.
+`Rename Key Column` and `Merge Only` will not be used for this demonstration.
 !!!
 
 2. Duplicate Notion's [Marker Data Template](/user-guide/databases/#notion-template) in to your Notion account.
