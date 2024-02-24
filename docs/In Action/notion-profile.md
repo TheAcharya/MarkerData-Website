@@ -44,7 +44,12 @@ You possess the liberty to tailor the [Marker Data Template](/user-guide/databas
 Your browser does not support the video tag.
 </video>
 
+1. Select `Marker Data Source` or `Marker Data H.264` from [Final Cut Pro's Share menu](user-guide/share-destination/).
+2. **Marker Data** will start to perform its task.
+
 ## Updating Specific Column Data
+
+In the event that you seek to update and merge select column data, you may employ the 'Merge only' option. In this example, our focus is solely on updating the `Notes` column. Nevertheless, it is imperative to also enable the `Icon Image` option to ensure the page icons of individual Notion entries remain intact. Otherwise, page icon will be empty.
 
 <video controls width="1920">
   <source src="/assets/md-send-to-notion-04.mp4" type="video/mp4">
