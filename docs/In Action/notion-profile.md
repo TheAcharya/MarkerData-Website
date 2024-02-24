@@ -10,7 +10,7 @@ order: -1
 1. [Create Your Notion Database Profile](/user-guide/databases/#creating-notion-database-profile).
 
 !!!info Info
-`Rename Key Column` and `Merge Only` will not be used for this demonstration.
+`Rename Key Column` option will not be used for this demonstration.
 !!!
 
 2. Duplicate Notion's [Marker Data Template](/user-guide/databases/#notion-template) in to your Notion account.
@@ -37,9 +37,16 @@ You possess the liberty to tailor the [Marker Data Template](/user-guide/databas
 5. Select your desired [Overlays](/user-guide/label/#overlays).
 6. Return back to Configurations to [Update Active Configuration](/user-guide/configurations/#update-active-configuration)
 
-## Final Cut Pro
+## Final Cut Pro to Notion
 
 <video controls width="1920">
   <source src="/assets/md-send-to-notion-03.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
+## Updating Specific Column Data
+
+<video controls width="1920">
+  <source src="/assets/md-send-to-notion-04.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
