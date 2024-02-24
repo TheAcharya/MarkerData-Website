@@ -42,11 +42,17 @@ The avant-garde Marker extraction application crafted for [Final Cut Pro](https:
 
 ==- Send to Notion
 
-![](/assets/md-send-to-notion-03.gif)
+<video controls width="1920">
+  <source src="/assets/md-send-to-notion-03.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
 
 ==- Queue in Action
 
-![](/assets/md-queue-01.gif)
+<video controls width="1920">
+  <source src="/assets/md-queue-01.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
 
 ===
 
