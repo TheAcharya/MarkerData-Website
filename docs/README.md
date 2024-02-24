@@ -40,6 +40,10 @@ The avant-garde Marker extraction application crafted for [Final Cut Pro](https:
 
 ## Demo
 
+==- Send to Notion
+
+![](/assets/md-send-to-notion-03.gif)
+
 ==- Queue in Action
 
 ![](/assets/md-queue-01.gif)

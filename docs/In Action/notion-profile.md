@@ -39,3 +39,7 @@ You possess the liberty to tailor the [Marker Data Template](/user-guide/databas
 
 ## Final Cut Pro
 
+<video controls width="1920">
+  <source src="/assets/md-send-to-notion-03.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
