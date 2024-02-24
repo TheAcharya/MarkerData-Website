@@ -44,7 +44,7 @@ You possess the liberty to tailor the [Marker Data Template](/user-guide/databas
 Your browser does not support the video tag.
 </video>
 
-
+<br>
 
 1. Select `Marker Data Source` or `Marker Data H.264` from [Final Cut Pro's Share menu](user-guide/share-destination/).
 2. **Marker Data** will start to perform its task.

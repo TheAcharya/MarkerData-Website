@@ -22,6 +22,8 @@ This approach seamlessly integrates with **Marker Data**'s Queue system, consoli
 Your browser does not support the video tag.
 </video>
 
+<br>
+
 1. Ensure that you have created and setup your desired [Database Profiles](/user-guide/databases).
 2. Under [General Setting](/user-guide/general/#profiles), depending on the platform of your choice, select `Notion (No Upload)` or `Airtable (No Upload)`.
 
