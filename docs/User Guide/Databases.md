@@ -83,6 +83,8 @@ By [!badge text="Default"] **Marker Data** will designate the Airtable's Key Col
 
 Enter your [Dropbox App Key](/databases/dropbox-prerequisite) here. Setting up Dropbox integration is a one-time process. Whenever you duplicate or create a new Airtable Database Profile, the **Marker Data** feature will automatically utilise the pre-existing Dropbox App Key. If there arises a necessity to modify or refresh your Dropbox App Key, simply input the new value into the Dropbox App Key field and proceed accordingly.
 
+![Dropbox Setup](/assets/md-database-settings_dropbox.gif)
+
 ===
 
 ## Duplicate Database Profile
