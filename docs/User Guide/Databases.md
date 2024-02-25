@@ -116,13 +116,11 @@ Select the `Open Database Folder in Finder` link to unveil the Finder directory 
 
 | Preview | Template Link |
 |---|---|
-| [Update Active Configuration](/user-guide/configurations/#update-active-configuration) | [!button variant="primary" target="blank" icon="link-external" text="Marker Data Template"](https://theacharya.co/) |
-| Discard Changes | [!button variant="primary" target="blank" icon="link-external" text="Frame Library Template"](https://theacharya.co/) |
-
-[!button variant="primary" target="blank" icon="link-external" text="Marker Data Template"](https://theacharya.co/)
-
-[!button variant="primary" target="blank" icon="link-external" text="Frame Library Template"](https://theacharya.co/)
+| Image | [!button variant="primary" target="blank" icon="link-external" text="Marker Data Template"](https://theacharya.co/) |
+| Image | [!button variant="primary" target="blank" icon="link-external" text="Frame Library Template"](https://theacharya.co/) |
 
 ## Airtable Template
 
-[!button variant="primary" target="blank" icon="link-external" text="Marker Data Template"](https://theacharya.co/)
+| Preview | Template Link |
+|---|---|
+| Image | [!button variant="primary" target="blank" icon="link-external" text="Marker Data Template"](https://theacharya.co/) |
