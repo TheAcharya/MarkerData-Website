@@ -24,6 +24,12 @@ Some keyboard shortcuts can be changed in System Settings (or System Preferences
 | [Databases](/user-guide/databases) | `D` |
 | About | `A`|
 
+## Extract
+
+| Action | Shortcut |
+|---|---|
+| Choose File | `⌘` `O` |
+
 ## Configuration
 
 | Action | Shortcut |
