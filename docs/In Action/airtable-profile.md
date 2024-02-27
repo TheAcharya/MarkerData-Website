@@ -44,7 +44,7 @@ It is presumed that you have acquired and inputted your [Airtable Personal Acces
 ## Final Cut Pro to Airtable
 
 <video controls width="1920">
-  <source src="/assets/md-send-to-notion-03.mp4" type="video/mp4">
+  <source src="/assets/md-send-to-airtable-03.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 

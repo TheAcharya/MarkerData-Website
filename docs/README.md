@@ -47,6 +47,13 @@ The avant-garde Marker extraction application crafted for [Final Cut Pro](https:
 Your browser does not support the video tag.
 </video>
 
+==- Send to Notion
+
+<video controls width="1920">
+  <source src="/assets/md-send-to-airtable-03.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
 ==- Queue in Action
 
 <video controls width="1920">
