@@ -103,6 +103,10 @@ It is advisable to ensure prior login to your Dropbox Account has been completed
 12. Once `Done` appears on the Terminal session, you can close your Terminal window.
 13. You will see `Dropbox configured` text on your Airtable Database Profile window.
 
+!!!info Info
+Upon initial utilisation, **Marker Data** will create a directory titled `Marker Data` within the root of your Dropbox and proceed to upload accordingly.
+!!!
+
 ===
 
 ## Duplicate Database Profile

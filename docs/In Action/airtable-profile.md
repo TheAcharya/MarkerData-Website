@@ -41,4 +41,14 @@ It is presumed that you have acquired and inputted your [Airtable Personal Acces
 5. Select your desired [Overlays](/user-guide/label/#overlays).
 6. Return back to Configurations to [Update Active Configuration](/user-guide/configurations/#update-active-configuration)
 
-## Final Cut Pro to Notion
+## Final Cut Pro to Airtable
+
+<video controls width="1920">
+  <source src="/assets/md-send-to-notion-03.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
+<br>
+
+1. Select `Marker Data Source` or `Marker Data H.264` from [Final Cut Pro's Share menu](user-guide/share-destination/).
+2. **Marker Data** will start to perform its task.
