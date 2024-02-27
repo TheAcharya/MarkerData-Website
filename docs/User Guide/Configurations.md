@@ -11,7 +11,7 @@ order: -7
 
 ![Default Configuration](/assets/md-configuration-settings_01.png)
 
-You will not be allowed to make changes to the Default Configuration.
+You will not be allowed to delete or make changes to the Default Configuration.
 
 !!!info Info
 The Default Configuration serves as a comprehensive delineation of the default values and parameters pertaining to **Marker Data**. You are required to create a new Configuration in order to utilise the complete functionality of **Marker Data**.
