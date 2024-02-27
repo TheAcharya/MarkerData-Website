@@ -22,6 +22,10 @@ You possess the liberty to tailor the [Marker Data Template](/user-guide/databas
 3. [Obtain your Database URL](/databases/notion-prerequisite/#obtain-your-database-url) by going to your Notion Database, and right-click on the view and click **Copy link to view**.
 4. Paste the URL into `Notion Database URL` field.
 
+!!!info Info
+It is presumed that you have acquired and inputted your [Notion V2 Token](/databases/notion-prerequisite/#obtain-your-session-token).
+!!!
+
 ![Paste the URL](/assets/md-send-to-notion-01.png)
 
 5. Click `Save` once values are entered.
