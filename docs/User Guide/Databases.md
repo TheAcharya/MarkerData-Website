@@ -85,6 +85,24 @@ Enter your [Dropbox App Key](/databases/dropbox-prerequisite) here. Setting up D
 
 ![Dropbox Setup](/assets/md-database-settings_dropbox.gif)
 
+!!!info Info
+It is advisable to ensure prior login to your Dropbox Account has been completed.
+!!!
+
+1. Ensure that all prescribed steps [delineated here](/databases/dropbox-prerequisite) have been completed.
+2. Copy your App Key.
+3. Paste it in the `Dropbox App Key` field.
+4. Press `Continue`.
+5. **Marker Data** will launch Terminal.
+6. Highlight the full URL, right-click to `Open Link`.
+7. Your default browser will be launched with the URL.
+8. Click `Continue` and click `Allow`.
+9. Copy your unique `Authorisation code`.
+10. Return back to the Terminal session, and paste the `Authorisation code`.
+11. Press `Enter` on your keyboard.
+12. Once `Done` appears on the Terminal session, you can close your Terminal window.
+13. You will see `Dropbox configured` text on your Airtable Database Profile window.
+
 ===
 
 ## Duplicate Database Profile
