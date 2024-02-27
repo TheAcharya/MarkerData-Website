@@ -31,3 +31,14 @@ It is presumed that you have acquired and inputted your [Airtable Personal Acces
 5. Click `Save` once values are entered.
 
 ## Configuration
+
+![Paste the URL](/assets/md-send-to-airtable-02.gif)
+
+1. [Create Your Configuration](/user-guide/configurations/#add-configuration).
+2. You can select your desired Export Destination by clicking on the [Folder Icon](/user-guide/general/#export-destination).
+3. You can select your Airtable Database Profile as your [Extraction Profile](/user-guide/general/#extraction-profile).
+4. You can set [Image Format](/user-guide/image/#image-format) to `GIF`.
+5. Select your desired [Overlays](/user-guide/label/#overlays).
+6. Return back to Configurations to [Update Active Configuration](/user-guide/configurations/#update-active-configuration)
+
+## Final Cut Pro to Notion
