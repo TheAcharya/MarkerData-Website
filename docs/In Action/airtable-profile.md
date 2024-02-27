@@ -19,7 +19,7 @@ order: -2
 You possess the liberty to tailor the [Marker Data Template](/user-guide/databases/#airtable-template) to suit your preferences, affording you the opportunity to incorporate additional [Airtable field types](https://support.airtable.com/docs/field-type-overview) as per your discretion. While it is recommended to refrain from the removal of existing field types, should such an inclination arise, it is imperative to note that **Marker Data** will disregard any field types that have been deleted.
 !!!
 
-3. [Obtain your Base ID and Table ID](/databases/airtable-prerequisite/) by going to your browser's address bar.
+3. [Obtain your Base ID and Table ID](/databases/airtable-prerequisite/#obtain-your-base-id--table-id) by going to your browser's address bar.
 4. Paste Base ID and Table ID into `Airtable Base ID` and  `Airtable Table ID` field respectively.
 
 !!!info Info
