@@ -44,7 +44,7 @@ The Acharya is an independent production company based in Singapore founded by [
 
 The Film and TV Industry heavily depends on both hardware and software technologies. In the realm of software, they can range from NLEs to plugins and even companion applications. One of our core tenet’s is to solve problems in real-world production environments. We like to conjure unique workflows that can save precious time.
 
-While we are not a software development company, we love to build software with like-minded individuals to solve problems and enhance our production workflows. Our tools and libraries are open-source whenever possible.
+In our pursuit of innovation within the realm of independent filmmaking, we extend an invitation to partner with us in our software endeavours. While we do not specialise exclusively in software development, our passion lies in the collaborative creation of solutions to augment production workflows and address industry challenges. Embracing an ethos of openness, we actively advocate for the open-source ethos, rendering our tools and libraries accessible to all.
 
 <html>
 <head>
