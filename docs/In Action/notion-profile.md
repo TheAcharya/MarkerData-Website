@@ -26,7 +26,7 @@ You possess the liberty to tailor the [Marker Data Template](/user-guide/databas
 It is presumed that you have acquired and inputted your [Notion V2 Token](/databases/notion-prerequisite/#obtain-your-session-token).
 !!!
 
-![Paste the URL](/assets/md-send-to-notion-01.png)
+![Paste URL](/assets/md-send-to-notion-01.png)
 
 5. Click `Save` once values are entered.
 

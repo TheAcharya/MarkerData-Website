@@ -32,7 +32,7 @@ It is presumed that you have acquired and inputted your [Airtable Personal Acces
 
 ## Configuration
 
-![Paste the URL](/assets/md-send-to-airtable-02.gif)
+![Paste Base ID and Table ID](/assets/md-send-to-airtable-02.gif)
 
 1. [Create Your Configuration](/user-guide/configurations/#add-configuration).
 2. You can select your desired Export Destination by clicking on the [Folder Icon](/user-guide/general/#export-destination).
