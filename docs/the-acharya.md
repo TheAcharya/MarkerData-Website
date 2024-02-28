@@ -42,9 +42,7 @@ order: -99
 
 The Acharya is an independent production company based in Singapore founded by [Vigneswaran Rajkumar](https://vigneswaranrajkumar.com/). Its current relentless pursuit is to develop and produce feature films for a distinctive global audience. With an unequivocal focus on Asian Cinema, it is engaged to bridge production opportunities and collaboration of various artistic disciplines in Asian and International landscape.
 
-The Film and TV Industry heavily depends on both hardware and software technologies. In the realm of software, they can range from NLEs to plugins and even companion applications. One of our core tenet’s is to solve problems in real-world production environments. We like to conjure unique workflows that can save precious time.
-
-In our pursuit of innovation within the realm of independent filmmaking, we extend an invitation to partner with us in our software endeavours. While we do not specialise exclusively in software development, our passion lies in the collaborative creation of solutions to augment production workflows and address industry challenges. Embracing an ethos of openness, we actively advocate for the open-source ethos, rendering our tools and libraries accessible to all.
+While we do not specialise exclusively in software development, our passion lies in the collaborative creation of solutions to augment production workflows and address industry challenges. Embracing an ethos of openness, we actively advocate for the open-source ethos, rendering our tools and libraries accessible to all.
 
 <html>
 <head>
