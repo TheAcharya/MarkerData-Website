@@ -62,6 +62,8 @@ In the event that you seek to update and merge select column data, you may emplo
 Your browser does not support the video tag.
 </video>
 
+<br>
+
 !!!info Info
 The utilisation of the 'Merge Only' column feature is presently confined exclusive to the Notion Database Profile.
 !!!
