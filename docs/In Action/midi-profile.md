@@ -3,6 +3,8 @@ label: Sending to Logic Pro
 icon: video
 order: -3
 ---
+# Sending to Logic Pro
+
 ## Configuration
 
 ![Create Configuration for MIDI](/assets/md-send-to-midi-01.gif)

@@ -54,6 +54,13 @@ Your browser does not support the video tag.
 Your browser does not support the video tag.
 </video>
 
+==- Send to Logic Pro
+
+<video controls width="1920">
+  <source src="/assets/md-send-to-midi-02.mp" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
 ==- Queue in Action
 
 <video controls width="1920">
