@@ -30,7 +30,7 @@ It is presumed that you have acquired and inputted your [Notion V2 Token](/datab
 
 5. Click `Save` once values are entered.
 
-## Configuration
+## Configuration Setup
 
 ![Paste the URL](/assets/md-send-to-notion-02.gif)
 

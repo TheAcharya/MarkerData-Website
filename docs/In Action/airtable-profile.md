@@ -30,7 +30,7 @@ It is presumed that you have acquired and inputted your [Airtable Personal Acces
 
 5. Click `Save` once values are entered.
 
-## Configuration
+## Configuration Setup
 
 ![Paste Base ID and Table ID](/assets/md-send-to-airtable-02.gif)
 
