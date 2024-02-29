@@ -5,6 +5,8 @@ order: -1
 ---
 # Sending to Notion
 
+![](/assets/content-banner-notion.png)
+
 ## Notion Database Profile
 
 1. [Create Your Notion Database Profile](/user-guide/databases/#creating-notion-database-profile).

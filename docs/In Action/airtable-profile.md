@@ -5,6 +5,8 @@ order: -2
 ---
 # Sending to Airtable
 
+![](/assets/content-banner-airtable.png)
+
 ## Airtable Database Profile
 
 1. [Create Your Airtable Database Profile](/user-guide/databases/#creating-airtable-database-profile).

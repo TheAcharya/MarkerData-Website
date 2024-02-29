@@ -5,6 +5,8 @@ order: -3
 ---
 # Sending to Logic Pro
 
+![](/assets/content-banner-logic-pro.png)
+
 ## Configuration Setup
 
 ![Create Configuration for MIDI](/assets/md-send-to-midi-01.gif)
