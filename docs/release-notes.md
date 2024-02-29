@@ -5,7 +5,7 @@ order: -99
 ---
 # Release Notes
 
-### 1.0.0 (Build Number)
+### 1.0.0 (1)
 **🎉 Released:**
 - Insert Date
 
