@@ -16,7 +16,7 @@ order: -3
 3. You can select your MIDI as your [Extraction Profile](/user-guide/general/#extraction-profile).
 4. Return back to Configurations to [Update Active Configuration](/user-guide/configurations/#update-active-configuration)
 
-# Final Cut Pro to Logic Pro
+## Final Cut Pro to Logic Pro
 
 <video controls width="1920">
   <source src="/assets/md-send-to-midi-02.mp4" type="video/mp4">
