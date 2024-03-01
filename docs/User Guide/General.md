@@ -127,3 +127,15 @@ Select the `Open macOS Notification Settings` link to open macOS Notification Se
 ## Updates
 
 ![](/assets/md-general-settings-updates.png)
+
+### Check for Updates
+
+Pressing `Check for Updates` button would check for the latest release for **Marker Data**.
+
+### Automatically check for updates
+
+You can enable `Automatically check for updates` to automatically check for the latest release for **Marker Data**.
+
+### Automatically download updates
+
+Enabling `Automatically download updates` would automatically download for the latest release of **Marker Data**.
