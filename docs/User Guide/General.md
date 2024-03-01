@@ -89,7 +89,13 @@ Due to stringent security protocols implemented within macOS, you will encounter
 
 <hr>
 
-## Progress Reporting
+## Roles
+
+![](/assets/md-general-settings-roles.png)
+
+<hr>
+
+## Notification
 
 ![](/assets/md-general-settings-notifications.png)
 
@@ -118,6 +124,6 @@ Select the `Open macOS Notification Settings` link to open macOS Notification Se
 
 <hr>
 
-## Roles
+## Updates
 
-![](/assets/md-general-settings-roles.png)
+![](/assets/md-general-settings-updates.png)
