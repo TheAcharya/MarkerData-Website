@@ -29,6 +29,7 @@ The avant-garde Marker extraction application crafted for [Final Cut Pro](https:
 - Versatile features for batch burning-in labels, embedding comprehensive metadata of each Marker onto stills or animated GIFs.
 - Allows the creation of multiple configurations tailored to diverse project requirements.
 - Harnesses the potential to utilise Captions as Markers, adding a layer of flexibility.
+- Application is Notarised by Apple.
 
 ## Available Extract Profiles
 
