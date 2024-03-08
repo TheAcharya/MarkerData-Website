@@ -29,6 +29,7 @@ Some keyboard shortcuts can be changed in System Settings (or System Preferences
 | Action | Shortcut |
 |---|---|
 | Choose File | `⌘` `O` |
+| Clean Cache | `⌘` `K` |
 
 ## Configuration
 
