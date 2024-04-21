@@ -79,7 +79,9 @@ Your browser does not support the video tag.
 
 ![General Settings](/assets/md-general-settings.png)
 
-![Image Settings](/assets/md-image-settings.png)
+![Image Settings - Extraction](/assets/md-image-settings.png)
+
+![Image Settings - Swatch](/assets/md-image-settings-swatch.png)
 
 ![Label - Appearance Settings](/assets/md-label-settings.png)
 
