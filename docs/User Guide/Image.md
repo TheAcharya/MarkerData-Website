@@ -110,6 +110,8 @@ To facilitate a comprehensive file size comparison, you can right-click on the i
 
 ### Enable Swatch
 
+Enable the checkbox in order to embed colour Swatch into extracted images.
+
 ### Algorithm
 
 Select your desired Swatch Algorithm.
