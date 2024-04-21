@@ -115,15 +115,24 @@ Enable the checkbox in order to embed colour Swatch into extracted images.
 ### Algorithm
 
 Select your desired Swatch Algorithm.
+- **Euclidean**
+- **CIE76** [!badge text="Default"]
+- **CIE94**
+- **CIEDE2000**
+- **CMC**
 
 | Algorithm | Definition |
 |---|---|
 | Euclidean | Computes the Euclidean [distance](https://en.wikipedia.org/wiki/Color_difference) in RGB colour space. |
-| CIE76 [!badge text="Default"] | CIE76 algorithm calculates difference in Lab colour space. |
+| CIE76 | CIE76 algorithm calculates difference in Lab colour space. |
 | CIE94 | CIE94 algorithm is an improvement of CIE76, it calculates the difference in the Lab colour space. Slightly slower than CIE76. |
 | CIEDE2000 | CIEDE2000 algorithm is the most accurate colour comparison algorithm in the Lab colour space. It is significantly slower than its predecessors. |
 | CMC | CMC algorithm calculates the difference in the LHS (Luminance, Chroma, Hue) colour space. |
 
 ### Exclude Black
 
+Enable the checkbox to ignore `Black` from Swatch.
+
 ### Exclude White
+
+Enable the checkbox to ignore `White` from Swatch.
