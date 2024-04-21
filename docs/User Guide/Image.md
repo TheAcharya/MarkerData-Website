@@ -110,7 +110,11 @@ To facilitate a comprehensive file size comparison, you can right-click on the i
 
 ### Enable Swatch
 
-Enable the checkbox to embed colour Swatch into extracted images.
+Enable the checkbox to embed colour Swatch Palette into extracted images.
+
+!!!info Info
+When `GIF` as Image Format, Swatch Palettes will be extracted as a separate `.jpg` file.
+!!!
 
 ### Algorithm
 
