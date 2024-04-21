@@ -101,3 +101,32 @@ We advise against configuring the Frames per Second (FPS) value to exceed `15` a
 !!!info Info
 To facilitate a comprehensive file size comparison, you can right-click on the images above and save them to your local computer.
 !!!
+
+<hr>
+
+## Swatch
+
+![](/assets/md-image-settings-swatch.png)
+
+### Enable Swatch
+
+### Algorithm
+
+Select your desired Swatch Algorithm.
+- **Euclidean**
+- **CIE76** [!badge text="Default"]
+- **CIE94**
+- **CIEDE2000**
+- **CMC**
+
+| Algorithm | Definition |
+|---|---|
+| Euclidean | Computes the Euclidean distance in RGB colour space. |
+| CIE76 | CIE76 algorithm calculates difference in Lab colour space. |
+| CIE94 | CIE94 algorithm is an improvement of CIE76, it calculates the difference in the Lab colour space. Slightly slower than CIE76. |
+| CIEDE2000 | CIEDE2000 algorithm is the most accurate colour comparison algorithm in the Lab colour space. It is significantly slower than its predecessors. |
+| CMC | CMC algorithm calculates the difference in the LHS (Luminance, Chroma, Hue) colour space. |
+
+### Exclude Black
+
+### Exclude White
