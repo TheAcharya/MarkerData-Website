@@ -142,6 +142,14 @@ Select your desired Swatch Algorithm.
 
 ===
 
+!!!info Info
+The sequence and presentation of results on the colour strip may vary with each iteration owing to the inherent randomness of the algorithm.
+!!!
+
+!!!info Info
+The swatch strip can accommodate a maximum of 14 colour chips. However, the actual number displayed may be fewer, depending on the dominant colours within the image and their proximity to one another. If the delta between colours are minimal, the algorithm may amalgamate similar shades into a single representation, resulting in fewer than 14 distinct colours on the swatch strip.
+!!!
+
 ### Exclude Black
 
 Enable the checkbox to ignore `Black` from Swatch.
