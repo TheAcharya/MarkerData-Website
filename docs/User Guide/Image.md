@@ -119,39 +119,26 @@ When `GIF` as Image Format, Swatch Palettes will be extracted as a separate `.jp
 ### Algorithm
 
 Select your desired Swatch Algorithm.
-- **Euclidean**
-- **CIE76** [!badge text="Default"]
-- **CIE94**
-- **CIEDE2000**
-- **CMC**
-
-| Algorithm | Definition |
-|---|---|
-| Euclidean | Computes the Euclidean [distance](https://en.wikipedia.org/wiki/Color_difference) in RGB colour space. |
-| CIE76 | CIE76 algorithm calculates difference in Lab colour space. |
-| CIE94 | CIE94 algorithm is an improvement of CIE76, it calculates the difference in the Lab colour space. Slightly slower than CIE76. |
-| CIEDE2000 | CIEDE2000 algorithm is the most accurate colour comparison algorithm in the Lab colour space. It is significantly slower than its predecessors. |
-| CMC | CMC algorithm calculates the difference in the LHS (Luminance, Chroma, Hue) colour space. |
 
 ==- Euclidean
 
-Euclidean algorithm calculates difference in RGB colour space.
+[Euclidean](https://en.wikipedia.org/wiki/Color_difference#Euclidean) algorithm calculates difference in RGB colour space.
 
 ==- CIE76 [!badge text="Default"]
 
-CIE76 algorithm calculates difference in Lab colour space
+[CIE76](https://en.wikipedia.org/wiki/Color_difference#CIE76) algorithm calculates difference in Lab colour space
 
 ==- CIE94
 
-CIE94 algorithm is an improvement of CIE76, it calculates the difference in the Lab colour space. Slightly slower than CIE76.
+[CIE94](https://en.wikipedia.org/wiki/Color_difference#CIE94) algorithm is an improvement of CIE76, it calculates the difference in the Lab colour space. Slightly slower than CIE76.
 
 ==- CIEDE2000
 
-CIEDE2000 algorithm is the most accurate colour comparison algorithm in the Lab colour space. It is significantly slower than its predecessors.
+[CIEDE2000](https://en.wikipedia.org/wiki/Color_difference#CIEDE2000) algorithm is the most accurate colour comparison algorithm in the Lab colour space. It is significantly slower than its predecessors.
 
 ==- CMC
 
-CMC algorithm calculates the difference in the HCL (Hue, Chroma, Luminance) colour space.
+[CMC](https://en.wikipedia.org/wiki/Color_difference#CMC_l:c_(1984)) algorithm calculates the difference in the HCL (Hue, Chroma, Luminance) colour space.
 
 ===
 
