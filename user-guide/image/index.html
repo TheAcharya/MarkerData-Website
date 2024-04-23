@@ -5,7 +5,7 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.767149165392">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.767149601133">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -35,11 +35,11 @@
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../static/favicon.ico" rel="icon">
-    <link href="../../resources/css/retype.css?v=3.5.0.767149165392" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.5.0.767149601133" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.767149165392" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.767149601133" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.767149165392" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.767149601133" data-turbo-eval="false" defer></script>
 
     <style>
     	/* The Acharya Logo */
@@ -639,69 +639,28 @@
     </h3>
 </doc-anchor-target>
 <p>Select your desired Swatch Algorithm.</p>
-<ul>
-<li><strong>Euclidean</strong></li>
-<li><strong>CIE76</strong> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-blue-600 bg-blue-100 h-6 px-2 text-xs rounded-md">
-    <span>Default</span>
-</span></li>
-<li><strong>CIE94</strong></li>
-<li><strong>CIEDE2000</strong></li>
-<li><strong>CMC</strong></li>
-</ul>
-<div class="table-wrapper scrollbar overflow-hidden">
-<table class="comfortable">
-<thead>
-<tr>
-<th>Algorithm</th>
-<th>Definition</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Euclidean</td>
-<td>Computes the Euclidean <a href="https://en.wikipedia.org/wiki/Color_difference" class="outbound" target="_blank">distance</a> in RGB colour space.</td>
-</tr>
-<tr>
-<td>CIE76</td>
-<td>CIE76 algorithm calculates difference in Lab colour space.</td>
-</tr>
-<tr>
-<td>CIE94</td>
-<td>CIE94 algorithm is an improvement of CIE76, it calculates the difference in the Lab colour space. Slightly slower than CIE76.</td>
-</tr>
-<tr>
-<td>CIEDE2000</td>
-<td>CIEDE2000 algorithm is the most accurate colour comparison algorithm in the Lab colour space. It is significantly slower than its predecessors.</td>
-</tr>
-<tr>
-<td>CMC</td>
-<td>CMC algorithm calculates the difference in the LHS (Luminance, Chroma, Hue) colour space.</td>
-</tr>
-</tbody>
-</table>
-</div>
 <doc-panels>
    <doc-panel id="euclidean" collapsed>
        <template #title>Euclidean</template>
-<p>Euclidean algorithm calculates difference in RGB colour space.</p>
+<p><a href="https://en.wikipedia.org/wiki/Color_difference#Euclidean" class="outbound" target="_blank">Euclidean</a> algorithm calculates difference in RGB colour space.</p>
    </doc-panel>
    <doc-panel id="cie76-badge-text-default" collapsed>
        <template #title>CIE76 <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-blue-600 bg-blue-100 h-6 px-2 text-xs rounded-md">
     <span>Default</span>
 </span></template>
-<p>CIE76 algorithm calculates difference in Lab colour space</p>
+<p><a href="https://en.wikipedia.org/wiki/Color_difference#CIE76" class="outbound" target="_blank">CIE76</a> algorithm calculates difference in Lab colour space</p>
    </doc-panel>
    <doc-panel id="cie94" collapsed>
        <template #title>CIE94</template>
-<p>CIE94 algorithm is an improvement of CIE76, it calculates the difference in the Lab colour space. Slightly slower than CIE76.</p>
+<p><a href="https://en.wikipedia.org/wiki/Color_difference#CIE94" class="outbound" target="_blank">CIE94</a> algorithm is an improvement of CIE76, it calculates the difference in the Lab colour space. Slightly slower than CIE76.</p>
    </doc-panel>
    <doc-panel id="ciede2000" collapsed>
        <template #title>CIEDE2000</template>
-<p>CIEDE2000 algorithm is the most accurate colour comparison algorithm in the Lab colour space. It is significantly slower than its predecessors.</p>
+<p><a href="https://en.wikipedia.org/wiki/Color_difference#CIEDE2000" class="outbound" target="_blank">CIEDE2000</a> algorithm is the most accurate colour comparison algorithm in the Lab colour space. It is significantly slower than its predecessors.</p>
    </doc-panel>
    <doc-panel id="cmc" collapsed>
        <template #title>CMC</template>
-<p>CMC algorithm calculates the difference in the HCL (Hue, Chroma, Luminance) colour space.</p>
+<p><a href="https://en.wikipedia.org/wiki/Color_difference#CMC_l:c_(1984)" class="outbound" target="_blank">CMC</a> algorithm calculates the difference in the HCL (Hue, Chroma, Luminance) colour space.</p>
    </doc-panel>
 </doc-panels>
 <doc-anchor-target id="exclude-black">
