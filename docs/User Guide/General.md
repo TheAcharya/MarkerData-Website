@@ -45,6 +45,7 @@ Select your desired Extraction Profile.
 	- **CSV** [!badge text="Default"]
 	- **TSV**
 	- **MIDI**
+	- **YouTube Chapters**
 	- **Notion (No Upload)**
 	- **Airtable (No Upload)**
 - Database Profiles (Upload)
