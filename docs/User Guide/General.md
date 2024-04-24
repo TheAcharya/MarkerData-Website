@@ -60,11 +60,15 @@ Select your desired Extraction Profile.
 A subframe has 1/80 the duration of a video frame and is a more precise unit of reference when viewing or editing audio waveforms that are zoomed in to the sample level.
 !!!
 
-Checking Enable Subframes will **Marker Data** to include the subframes in the `Marker ID`.
+Checking Enable Subframes will allow **Marker Data** to include the subframes in the `Marker ID`.
 
 !!!info Info
 Enable Subframes will only work for `Timecode` under Naming Mode.
 !!!
+
+### Include Disabled Clips
+
+Checking Include Disabled Clips will allow **Marker Data** to include markers from disabled clips.
 
 ### No Media
 
