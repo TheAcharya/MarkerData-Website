@@ -70,9 +70,9 @@ Enable Subframes will only work for `Timecode` under Naming Mode.
 
 Checking Include Disabled Clips will allow **Marker Data** to include markers from disabled clips.
 
-### No Media
+### Skip Image Generation
 
-By [!badge text="Default"] Marker Data will always look for accompanying movie file (`.mov` or `.mp4`) in directory where the `.fcpxmld` or `.fcpxml` resides. Activating the No Media option allows **Marker Data** to circumvent the inclusion of the movie file during processing.
+By [!badge text="Default"] Marker Data will always look for accompanying movie file (`.mov` or `.mp4`) in directory where the `.fcpxmld` or `.fcpxml` resides. Activating the Skip Image Generation option allows **Marker Data** to circumvent the inclusion of the movie file during processing.
 
 This option is applicable in situations wherein:
 
