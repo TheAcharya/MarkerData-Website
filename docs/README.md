@@ -64,6 +64,13 @@ Your browser does not support the video tag.
 Your browser does not support the video tag.
 </video>
 
+==- Create YouTube Chapters
+
+<video controls width="1920">
+  <source src="/assets/md-send-to-youtube-02.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
 ==- Queue in Action
 
 <video controls width="1920">
