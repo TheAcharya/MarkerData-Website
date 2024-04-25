@@ -5,7 +5,7 @@ order: -4
 ---
 # Creating YouTube Chapters Markers
 
-![](/assets/content-banner-notion.png)
+![](/assets/content-banner-youtube.png)
 
 ## Configuration Setup
 
@@ -17,3 +17,16 @@ order: -4
 4. Return back to Configurations to [Update Active Configuration](/user-guide/configurations/#update-active-configuration)
 
 ## Final Cut Pro to YouTube Chapters Markers
+
+<video controls width="1920">
+  <source src="/assets/md-send-to-youtube-02.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
+<br>
+
+1. Click the `Extensions` button on the left side of the **Final Cut Pro**’s toolbar and select **Marker Data**'s Workflow Extension.
+2. Drag your desired timeline to Workflow Extension's Extract Tab.
+3. **Marker Data** will launch to commence extraction and conversion.
+4. **Marker Data** will create `.txt` file with YouTube compatible chapters markers.
+5. You can copy and paste the Chapters Markers from the `.txt` into your [YouTube Studio](https://support.google.com/youtube/answer/9884579?hl=en)
