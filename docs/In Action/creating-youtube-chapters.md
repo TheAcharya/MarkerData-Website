@@ -29,4 +29,4 @@ Your browser does not support the video tag.
 2. Drag your desired timeline to Workflow Extension's Extract Tab.
 3. **Marker Data** will launch to commence extraction and conversion.
 4. **Marker Data** will create `.txt` file with YouTube compatible chapters markers.
-5. You can copy and paste the Chapters Markers from the `.txt` into your [YouTube Studio](https://support.google.com/youtube/answer/9884579?hl=en)
+5. You can copy and paste the Chapters Markers from the `.txt` file into your appropriate video within you [YouTube Studio](https://support.google.com/youtube/answer/9884579?hl=en).
