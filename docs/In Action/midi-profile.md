@@ -13,7 +13,7 @@ order: -3
 
 1. [Create Your Configuration](/user-guide/configurations/#add-configuration).
 2. You can select your desired Export Destination by clicking on the [Folder Icon](/user-guide/general/#export-destination).
-3. You can select your MIDI as your [Extraction Profile](/user-guide/general/#extraction-profile).
+3. You can select MIDI as your [Extraction Profile](/user-guide/general/#extraction-profile).
 4. Return back to Configurations to [Update Active Configuration](/user-guide/configurations/#update-active-configuration)
 
 ## Final Cut Pro to Logic Pro
