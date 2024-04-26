@@ -124,21 +124,31 @@ Select your desired Swatch Algorithm.
 
 [Euclidean](https://en.wikipedia.org/wiki/Color_difference#Euclidean) algorithm calculates difference in RGB colour space.
 
+![Euclidean](/assets/swatch-Euclidean.png)
+
 ==- CIE76 [!badge text="Default"]
 
 [CIE76](https://en.wikipedia.org/wiki/Color_difference#CIE76) algorithm calculates difference in Lab colour space
+
+![CIE76](/assets/swatch-CIE76.png)
 
 ==- CIE94
 
 [CIE94](https://en.wikipedia.org/wiki/Color_difference#CIE94) algorithm is an improvement of CIE76, it calculates the difference in the Lab colour space. Slightly slower than CIE76.
 
+![CIE94](/assets/swatch-CIE94.png)
+
 ==- CIEDE2000
 
 [CIEDE2000](https://en.wikipedia.org/wiki/Color_difference#CIEDE2000) algorithm is the most accurate colour comparison algorithm in the Lab colour space. It is significantly slower than its predecessors.
 
+![CIEDE2000](/assets/swatch-CIEDE2000.png)
+
 ==- CMC
 
 [CMC](https://en.wikipedia.org/wiki/Color_difference#CMC_l:c_(1984)) algorithm calculates the difference in the HCL (Hue, Chroma, Luminance) colour space.
+
+![CMC](/assets/swatch-CMC.png)
 
 ===
 
