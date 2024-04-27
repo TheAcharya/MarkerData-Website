@@ -1,9 +1,9 @@
 ---
-label: Personal Frame Library
+label: Personal Shot Library
 icon: file
 order: -4
 ---
-# Personal Frame library
+# Personal Shot library
 
 [!embed](https://www.youtube.com/watch?v=_3_QMq3n4d8)
 
@@ -15,6 +15,6 @@ The platform’s organisational schema extends beyond mere categorisations, enco
 
 The primary limitation of the platform lies in its restriction on enabling users to download the metadata sets associated with their image decks in formats such as `.json` or `.csv`. Presently, users are only provided with export options in the form of `.pdf` files or `.zip` archives containing their image decks. It appears that the proprietors of ShotDeck aim to retain and lock users within their platform by deliberately omitting the provision for exporting metadata, thereby preventing users from seamlessly importing this data into alternative personal databases.
 
-Imagine a scenario where users have the ability to effortlessly curate their own bespoke frame decks from a library of movie clips—a personalised library of cinematic moments. In a landscape where subscriptions to versatile platforms such as Notion or Airtable are prevalent, the question arises: why commit to additional enduring expenses when one can harness the expansive functionalities intrinsic to these platforms? Furthermore, the robust features inherent in any database transcend the capabilities of a specialised frame library like ShotDeck. Although ShotDeck boasts a vast collection of thousands of images, the distinct advantages of cultivating and maintaining a personalised frame database remain unparalleled.
+Imagine a scenario where users have the ability to effortlessly curate their own bespoke frame decks from a library of movie clips—a personalised library of cinematic moments. In a landscape where subscriptions to versatile platforms such as Notion or Airtable are prevalent, the question arises: why commit to additional enduring expenses when one can harness the expansive functionalities intrinsic to these platforms? Furthermore, the robust features inherent in any database transcend the capabilities of a specialised frame library like ShotDeck. Although ShotDeck boasts a vast collection of thousands of images, the distinct advantages of cultivating and maintaining a personalised shot database remain unparalleled.
 
-**In light of these considerations, could we make this personalised frame library a reality?**
+**In light of these considerations, could we make this personalised shot library a reality?**
