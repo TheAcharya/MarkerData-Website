@@ -31,9 +31,9 @@ Employing a WYSIWYG methodology, Marker Data adopts an automated process wherein
 
 ## To what extent does Marker Data supersede the functionality of FCPXImageExporter?
 
-Indeed, there are distinctions between the methodologies employed by **Marker Data** and **FCPXImageExporter** in addressing analogous challenges. **FCPXImageExporter** singularly focuses on the extraction of static images from source clips delineated by markers. This process, however, intentionally overlooks any post-effects and titles applied at both the timeline and individual clip levels.
+**FCPXImageExporter** singularly focuses on the extraction of static images from source clips delineated by markers. This process, however, intentionally overlooks any post-effects and titles applied at both the timeline and individual clip levels.
 
-In contrast, **Marker Data** adopts a comprehensive strategy by harnessing the output of the rendered timeline, alongside its associated FCPXML, to generate thumbnails encompassing both stills and GIFs. Additionally, the utilisation of a `.json` format contributes to the creation of an all-encompassing Data Set.
+In contrast, **Marker Data** adopts a comprehensive strategy by harnessing the output of the rendered timeline, alongside its associated FCPXML, to generate thumbnails encompassing both stills and GIFs. Additionally, the utilisation of a `.csv`, `.tsv` or `.json` format contributes to the creation of an all-encompassing Data Set.
 
 Comparison matrix between **Marker Data** and **FCPXImageExporter.**
 
@@ -92,7 +92,7 @@ Should you have specific use cases or preferences for other platforms, we encour
 
 ## Could Marker Data extract and convert Final Cut Pro's Marker metadata to another format?
 
-Certainly, such an endeavour is within our purview. As we continue to refine and advance our Library, the augmentation of [Profiles](https://github.com/TheAcharya/MarkersExtractor/issues?q=is%3Aissue+is%3Aopen+label%3Aprofiles) is a definite consideration for future enhancements.
+Certainly, such an endeavour is within our purview. As we continue to refine and advance our Library, the augmentation of [Profiles](https://github.com/TheAcharya/MarkersExtractor/issues?q=is%3Aissue+is%3Aopen+label%3Aprofiles) is a definite consideration for future.
 
 ## What is Marker Data's Privacy Policy?
 
@@ -100,5 +100,5 @@ Certainly, such an endeavour is within our purview. As we continue to refine and
 
 ## Why is Maker Data free?
 
-The decision to offer **Marker Data** free of charge stems from a commitment to democratising access within the filmmaking community. Unlike many software solutions that impose subscription models or steep perpetual license fees, **Marker Data** prioritises inclusivity. Whether one is a burgeoning student filmmaker or a seasoned professional embarking on a feature project, **Marker Data** stands as a readily accessible resource. By removing financial barriers, the aim is to ensure that all individuals can benefit from its features without concern for monetary constraints. Moreover, by fostering a culture of contribution and support, users are encouraged to engage with **Marker Data** and, if they find value in its offerings can choose to contribute as sponsors. Ultimately, this approach not only facilitates seamless integration into Final Cut Pro workflows but also fosters a sense of community and collaboration within the filmmaking sphere. But you can [sponsor](https://github.com/sponsors/TheAcharya) us if you find **Marker Data** useful or would like to see more features added.
+The decision to offer **Marker Data** free of charge stems from a commitment to democratising access within the filmmaking community. Unlike many software solutions that impose subscription models or steep perpetual license fees, **Marker Data** prioritises inclusivity. Whether one is a burgeoning student filmmaker or a seasoned professional embarking on a feature project, **Marker Data** stands as a readily accessible resource. By removing financial barriers, the aim is to ensure that all individuals can benefit from its features without concern for monetary constraints. Moreover, by fostering a culture of contribution and support, users are encouraged to engage with **Marker Data** and, if they find value in its offerings can choose to contribute as sponsors. Ultimately, this approach not only facilitates seamless integration into Final Cut Pro workflows but also fosters a sense of community and collaboration within the filmmaking sphere. You can [sponsor](https://github.com/sponsors/TheAcharya) us if you find **Marker Data** useful or would like to see more features added.
 
