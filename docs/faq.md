@@ -54,7 +54,7 @@ Cost | Free & Open Source | Paid
 
 ## Does Marker Data replaces Producer's Best Friend?
 
-No. Contrary to negation, **Producer’s Best Friend** serves as a complement rather than a contradiction. It stands as the optimal application for crafting comprehensive spreadsheet reports compatible with platforms such as Numbers, Excel, Preview, and others. This versatile tool adeptly encompasses diverse elements, including Video Clips, Audio Clips, Titles, Generators, Markers, Keywords, Effects, and Transitions.
+No. Contrary to negation, **Producer’s Best Friend** serves as a complement rather than a replacement. It stands as the optimal application for crafting comprehensive spreadsheet reports compatible with platforms such as Numbers, Excel, Preview, and others. This versatile tool adeptly encompasses diverse elements, including Video Clips, Audio Clips, Titles, Generators, Markers, Keywords, Effects, and Transitions.
 
 In contrast, **Marker Data** specialises solely in the extraction of information pertinent to markers and their associated metadata. It confines its focus to this specific domain, providing a nuanced and refined functionality distinct from the broader spectrum covered by Producer’s Best Friend.
 
