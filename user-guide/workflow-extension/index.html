@@ -5,7 +5,7 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.767849848860">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.767854864234">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -35,11 +35,11 @@
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../static/favicon.ico" rel="icon">
-    <link href="../../resources/css/retype.css?v=3.5.0.767849848860" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.5.0.767854864234" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.767849848860" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.767854864234" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.767849848860" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.767854864234" data-turbo-eval="false" defer></script>
 
     <style>
     	/* The Acharya Logo */
@@ -395,7 +395,44 @@
     <figcaption class="caption">Workflow Extension - Roles</figcaption>
 </figure>
 </p>
-<p>Within the refined capabilities of <strong>Marker Data</strong>, users are empowered to make specific <code v-pre>Role</code> selection during the extraction process. By dragging and dropping the desired project from the  <strong>Final Cut Pro</strong>’s <code v-pre>Browser</code> into the Roles Tab within the <code v-pre>Workflow Extension</code>, <strong>Marker Data</strong> would retrieve metadata associated with the designated <code v-pre>Roles</code>. Subsequently you can <code v-pre>Enable</code> or <code v-pre>Disable</code> <code v-pre>Roles</code> based on their preferences. The extraction process can then be started through either <strong>Marker Data</strong>’s <a href="/user-guide/share-destination">Share Destination</a> or the <a href="/user-guide/workflow-extension/#extract">Extract Tab</a> within this Workflow Extension.</p>
+<p>Within the refined capabilities of <strong>Marker Data</strong>, users are empowered to make specific <code v-pre>Role</code> selection during the extraction process. By dragging and dropping the desired project from the  <strong>Final Cut Pro</strong>’s <code v-pre>Browser</code> into the Roles Tab within the <code v-pre>Workflow Extension</code>, <strong>Marker Data</strong> would retrieve metadata associated with the designated <code v-pre>Roles</code>. Subsequently you can <code v-pre>Enable</code> or <code v-pre>Disable</code> <code v-pre>Roles</code> based on their preferences.</p>
+<p>The extraction process can then be started through either <strong>Marker Data</strong>’s <a href="/user-guide/share-destination">Share Destination</a> or the <a href="/user-guide/workflow-extension/#extract">Extract Tab</a> within this Workflow Extension.</p>
+<p>By <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-blue-600 bg-blue-100 h-6 px-2 text-xs rounded-md">
+    <span>Default</span>
+</span>, <strong>Marker Data</strong> extracts all roles. However, the Role tab permits targeted extractions based on your specific role selections. Workflow Extension&#x27;s Role tab is always synchronised with the <a href="/user-guide/general/#roles">Roles tab of the General Settings</a>. Should you wish to save your roles selection, you may perform <a href="/user-guide/configurations/#update-active-configuration">Update Active Configuration</a> to preserve your choices.</p>
+<video controls width="1920">
+  <source src="/assets/md-workflow-extension-roles.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<br>
+<doc-anchor-target id="clear">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#clear">#</doc-anchor-trigger>
+        <span>Clear</span>
+    </h3>
+</doc-anchor-target>
+<p>The <code v-pre>Clear</code> button removes any existing Roles that have been retrieved.</p>
+<doc-anchor-target id="refresh">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#refresh">#</doc-anchor-trigger>
+        <span>Refresh</span>
+    </h3>
+</doc-anchor-target>
+<p><code v-pre>Workflow Extension</code> automatically synchronises role selections with the <a href="/user-guide/general/#roles">Roles tab of the General Settings</a>. However, delays in synchronisation may occur in large and complex projects (Timelines). In such instances, you may use the <code v-pre>Refresh</code> button to initiate and enforce a manual synchronisation.</p>
+<doc-anchor-target id="enable-all">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#enable-all">#</doc-anchor-trigger>
+        <span>Enable All</span>
+    </h3>
+</doc-anchor-target>
+<p>Pressing <code v-pre>Enable All</code> will check all roles selection.</p>
+<doc-anchor-target id="disable-all">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#disable-all">#</doc-anchor-trigger>
+        <span>Disable All</span>
+    </h3>
+</doc-anchor-target>
+<p>Pressing <code v-pre>Disable All</code> will uncheck all roles selection.</p>
 
                                 
                                 <!-- Required only on API pages -->
