@@ -100,6 +100,13 @@ Due to stringent security protocols implemented within macOS, you will encounter
 
 By [!badge text="Default"], **Marker Data** extracts all roles. However, the Role tab permits targeted extractions based on your specific role selections. The Role tab is always synchronised with the [Roles tab of the Workflow Extension](/user-guide/workflow-extension/#roles). Should you wish to save your roles selection, you may perform [Update Active Configuration](/user-guide/configurations/#update-active-configuration) to preserve your choices.
 
+<video controls width="1920">
+  <source src="/assets/md-general-settings-roles.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
+<br>
+
 ### Clear
 
 The `Clear` button removes any existing Roles that have been retrieved.
