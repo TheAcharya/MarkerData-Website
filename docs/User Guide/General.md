@@ -98,6 +98,24 @@ Due to stringent security protocols implemented within macOS, you will encounter
 
 ![](/assets/md-general-settings-roles.png)
 
+By [!badge text="Default"], **Marker Data** extracts all roles. However, the Role tab permits targeted extractions based on your specific role selections. The Role tab is always synchronised with the [Roles tab of the Workflow Extension](/user-guide/workflow-extension/#roles). Should you wish to save your roles selection, you may perform [Update Active Configuration](/user-guide/configurations/#update-active-configuration) to preserve your choices.
+
+### Clear
+
+The `Clear` button removes any existing Roles that have been retrieved.
+
+### Refresh
+
+**Marker Data** automatically synchronises role selections with the [Workflow Extension’s Roles tab](/user-guide/workflow-extension/#roles). However, delays in synchronisation may occur in large and complex projects (Timelines). In such instances, you may use the `Refresh` button to initiate and enforce a manual synchronisation.
+
+### Enable All
+
+Pressing `Enable All` will check all roles selection.
+
+### Disable All
+
+Pressing `Disable All` will uncheck all roles selection.
+
 <hr>
 
 ## Notification
