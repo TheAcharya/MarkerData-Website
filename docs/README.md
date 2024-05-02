@@ -71,6 +71,13 @@ Your browser does not support the video tag.
 Your browser does not support the video tag.
 </video>
 
+==- Utilising Workflow Extension
+
+<video controls width="1920">
+  <source src="/assets/md-workflow-extension-roles.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
 ==- Queue in Action
 
 <video controls width="1920">
