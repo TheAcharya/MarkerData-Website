@@ -29,6 +29,10 @@ Select your desired Marker Source.
 - **Marker and Captions**
 - **Caption**
 
+!!!warning Warning
+An error occurs during the extraction process when the `Naming Mode` is configured to `Notes`. This setting is incompatible with the `Marker Source` option when it is set to either `Marker and Captions` or `Captions`.
+!!!
+
 ### Image Format
 
 By [!badge text="Default"], the **Marker Data** application undertakes the extraction and exportation of image data in the `PNG` format, preserving still frames. You have the flexibility to opt for either the `JPG` format or, alternatively, animated `GIFs` in the export process.
