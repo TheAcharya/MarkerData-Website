@@ -71,6 +71,15 @@ Enable Subframes will only work for `Timecode` under Naming Mode.
 
 Checking Include Disabled Clips will allow **Marker Data** to include markers from disabled clips.
 
+### Use Chapter Marker Pin Image
+
++++ Disabled
+![Chapter Marker](/assets/md-general-settings-pin-1.png)
++++ Enable
+![Chapter Marker Pin](/assets/md-general-settings-pin-2.png)
++++
+
+
 ### Skip Image Generation
 
 By [!badge text="Default"] Marker Data will always look for accompanying movie file (`.mov` or `.mp4`) in directory where the `.fcpxmld` or `.fcpxml` resides. Activating the Skip Image Generation option allows **Marker Data** to circumvent the inclusion of the movie file during processing.
