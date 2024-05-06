@@ -171,3 +171,7 @@ Enable the checkbox to ignore `Black` from Swatch.
 ### Exclude White
 
 Enable the checkbox to ignore `White` from Swatch.
+
+### Exclude Grey
+
+Enable the checkbox to ignore `Grey` from Swatch.

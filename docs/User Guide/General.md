@@ -73,12 +73,17 @@ Checking Include Disabled Clips will allow **Marker Data** to include markers fr
 
 ### Use Chapter Marker Pin Image
 
-+++ Disabled
+Enabling the Use Chapter Marker Pin Image feature permits the Chapter Marker to utilise the location of the Chapter Pin for image extraction.
+
+!!!info Info
+In both states, chapter markers's timecode would be identical on both image labels and in the data set. When 'Use Chapter Marker Pin Image' is Enable, only the image will change.
+!!!
+
++++ Use Chapter Marker Pin Image (Disable)
 ![Chapter Marker](/assets/md-general-settings-pin-1.png)
-+++ Enable
++++ Use Chapter Marker Pin Image (Enable)
 ![Chapter Marker Pin](/assets/md-general-settings-pin-2.png)
 +++
-
 
 ### Skip Image Generation
 
