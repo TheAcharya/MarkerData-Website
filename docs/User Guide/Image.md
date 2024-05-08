@@ -164,14 +164,24 @@ The sequence and presentation of results on the colour strip may vary with each 
 The swatch strip can accommodate a maximum of 14 colour chips. However, the actual number displayed may be fewer, depending on the dominant colours within the image and their proximity to one another. If the delta between colours are minimal, the algorithm may amalgamate similar shades into a single representation, resulting in fewer than 14 distinct colours on the swatch strip.
 !!!
 
+### Accuracy
+
+Select your desired Accuracy.
+- **Low**
+- **Fair**
+- **High** [!badge text="Default"]
+- **Best**
+
+Adjusting the Accuracy setting impacts the swatch analysis during image extraction. Selecting `Low` accelerates the analysis process, albeit at the cost of precision. Conversely, opting for `Best` ensures a higher degree of accuracy, though this choice extends the processing time required for image extraction.
+
 ### Exclude Black
 
 Enable the checkbox to ignore `Black` from Swatch.
 
-### Exclude White
-
-Enable the checkbox to ignore `White` from Swatch.
-
 ### Exclude Grey
 
 Enable the checkbox to ignore `Grey` from Swatch.
+
+### Exclude White
+
+Enable the checkbox to ignore `White` from Swatch.
