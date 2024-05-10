@@ -136,7 +136,9 @@ Select the `Open Database Folder in Finder` link to unveil the Finder directory 
 
 ## Notion Template
 
--![Marker Data Template](/assets/md-template-01.png){width=640} -![Shot Library Template](/assets/md-template-01.png){width=640}
+-![Marker Data Template](/assets/md-template-01.png){width=320}
+
+-![Shot Library Template](/assets/md-template-01.png){width=320}
 
 [!button icon="/assets/notion-logo.svg" text="Marker Data Template"](https://theacharya.co/)
 
