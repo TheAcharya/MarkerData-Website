@@ -143,7 +143,7 @@ Preview   | Link
 
 | Preview | Link |
 |---|---|
-| -![Marker Data Template](/assets/md-template-01.png){width=320} | Link |
-| -![Shot Library Template](/assets/md-template-01.png){width=320} | Link |
+| ![Marker Data Template](/assets/md-template-01.png){width=320} | Link |
+| ![Shot Library Template](/assets/md-template-01.png){width=320} | Link |
 
 ## Airtable Template
