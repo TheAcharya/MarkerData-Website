@@ -37,11 +37,25 @@ It is presumed that you have acquired and inputted your [Notion V2 Token](/datab
 1. [Create Your Configuration](/user-guide/configurations/#add-configuration).
 2. You can select your desired Export Destination by clicking on the [Folder Icon](/user-guide/general/#export-destination).
 3. You can select your Notion Database Profile as your [Extraction Profile](/user-guide/general/#extraction-profile).
-4. You can set [Image Format](/user-guide/image/#image-format) to `GIF`.
-5. Select your desired [Overlays](/user-guide/label/#overlays).
-6. Return back to Configurations to [Update Active Configuration](/user-guide/configurations/#update-active-configuration)
+4. Set [Naming Mode](/user-guide/image/#naming-mode) to `Name`.
+5. You can set [Image Format](/user-guide/image/#image-format) to `GIF`.
+6. Enable [Swatch](/user-guide/image/#swatch).
+7. Select your desired [Overlays](/user-guide/label/#overlays) (Optional).
+8. Return back to Configurations to [Update Active Configuration](/user-guide/configurations/#update-active-configuration)
 
 ## Final Cut Pro to Notion
+
+<video controls width="1920">
+  <source src="/assets/md-creating-shot-library-02.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
+<br>
+
+1. Add markers to your desired shots.
+2. Ensure each marker has a unique name.
+3. Select `Marker Data Source` or `Marker Data H.264` from [Final Cut Pro's Share menu](user-guide/share-destination/).
+4. **Marker Data** will start to perform its task.
 
 ## Afterthoughts
 
