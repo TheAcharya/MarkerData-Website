@@ -53,7 +53,7 @@ Your browser does not support the video tag.
 <br>
 
 1. Add markers to your desired shots.
-2. Ensure each marker has a unique name.
+2. Ensure each marker has an identifiable unique name.
 3. Select `Marker Data Source` or `Marker Data H.264` from [Final Cut Pro's Share menu](user-guide/share-destination/).
 4. **Marker Data** will start to perform its task.
 
@@ -64,3 +64,5 @@ This bespoke creation of the Shot Library Database is distinctively tailored to 
 Commercial solutions generally alleviate the burden of organisation, tagging, cataloging, and curation, yet this convenience is reflected in the cost passed onto the user. These platforms allow users to dedicate their time primarily to searching and selecting the precise shots needed for their projects.
 
 Moreover, many of these platforms bind users within their ecosystem, lacking any functionality for data exportation. They do not provide APIs that would permit the integration of image sets into a user’s own database, thus limiting flexibility and control over personal data.
+
+Through the meticulous process of manual tagging, organisation, and in-depth research associated with each cinematic frame, individuals inevitably acquire a profound understanding of the intricate elements comprising frame composition, lighting dynamics, and the art of shot design. This journey of exploration not only enhances one's technical proficiency but also cultivates a nuanced appreciation for the visual storytelling nuances inherent to the craft. Such immersive engagement serves as an indispensable asset for directors and cinematographers alike, elevating their ability to conceive, articulate, and execute cinematic visions with precision and artistic finesse.
