@@ -43,7 +43,7 @@ It is presumed that you have acquired and inputted your [Notion V2 Token](/datab
 5. Select your desired [Overlays](/user-guide/label/#overlays).
 6. Return back to Configurations to [Update Active Configuration](/user-guide/configurations/#update-active-configuration)
 
-## Final Cut Pro to Notion
+## Final Cut Pro to Notion (Marker Data Template)
 
 <video controls width="1920">
   <source src="/assets/md-send-to-notion-03.mp4" type="video/mp4">

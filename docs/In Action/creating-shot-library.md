@@ -32,7 +32,7 @@ It is presumed that you have acquired and inputted your [Notion V2 Token](/datab
 
 ## Configuration Setup
 
-![Paste the URL](/assets/md-send-to-notion-02.gif)
+![Paste the URL](/assets/md-creating-shot-library-02.gif)
 
 1. [Create Your Configuration](/user-guide/configurations/#add-configuration).
 2. You can select your desired Export Destination by clicking on the [Folder Icon](/user-guide/general/#export-destination).
@@ -43,10 +43,10 @@ It is presumed that you have acquired and inputted your [Notion V2 Token](/datab
 7. Select your desired [Overlays](/user-guide/label/#overlays) (Optional).
 8. Return back to Configurations to [Update Active Configuration](/user-guide/configurations/#update-active-configuration)
 
-## Final Cut Pro to Notion
+## Final Cut Pro to Notion (Shot Library Template)
 
 <video controls width="1920">
-  <source src="/assets/md-creating-shot-library-02.mp4" type="video/mp4">
+  <source src="/assets/md-creating-shot-library-03.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 
