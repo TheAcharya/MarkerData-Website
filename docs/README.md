@@ -71,6 +71,13 @@ Your browser does not support the video tag.
 Your browser does not support the video tag.
 </video>
 
+==- Creating Shot Library
+
+<video controls width="1920">
+  <source src="/assets/md-creating-shot-library-03.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
 ==- Utilising Workflow Extension
 
 <video controls width="1920">
@@ -115,6 +122,7 @@ Runs natively on both Apple silicon and Intel-based Mac computers
 
 ## Use Cases
 - Marker Notes Database
+- Shot Library Database
 - VFX Database
 - ADR Database
 - Stock footage Database
