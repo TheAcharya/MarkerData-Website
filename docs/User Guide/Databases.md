@@ -136,10 +136,10 @@ Select the `Open Database Folder in Finder` link to unveil the Finder directory 
 
 ## Notion Template
 
-[target="blank" ![](/assets/template-banner-01.png)](https://theacharya.co/)
+[![](/assets/template-banner-01.png)](https://theacharya.co/){target="_blank"}
 
-[target="blank" ![](/assets/template-banner-01.png)](https://theacharya.co/)
+[![](/assets/template-banner-01.png)](https://theacharya.co/){target="_blank"}
 
 ## Airtable Template
 
-[target="blank" ![](/assets/template-banner-01.png)](https://theacharya.co/)
+[![](/assets/template-banner-01.png)](https://theacharya.co/){target="_blank"}
