@@ -80,7 +80,7 @@ XYZ701_150_010 - COOPER APPEARS NEAR PLANET SATURN
 
 Regrettably, despite the capacity to import and export FCPXMLs within **DaVinci Resolve**, the compatibility of Marker metadata is not integrated into the FCPXML format.
 
-## What rationale underlies the utilisation of Notion v2 Tokens in lieu of official API connections provided by Notion?
+## What rationale underlies the utilisation of Notion v2 Tokens in lieu of official API provided by Notion?
 
 The official API provided by Notion currently lacks the capability for direct image uploads and the seamless merging of page icons. Furthermore, it does not offer support for automatic linking or the creation of new entries in relation columns based on their respective values. The prospect of revisiting and updating our internal components will be considered as Notion continues to expand and enhance the functionality of their APIs.
 
