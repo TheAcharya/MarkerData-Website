@@ -138,8 +138,8 @@ Select the `Open Database Folder in Finder` link to unveil the Finder directory 
 
 [![](/assets/template-banner-01.png)](https://theacharya.co/){target="_blank"}
 
-[![](/assets/template-banner-01.png)](https://theacharya.co/){target="_blank"}
+[![](/assets/template-banner-02.png)](https://theacharya.co/){target="_blank"}
 
 ## Airtable Template
 
-[![](/assets/template-banner-01.png)](https://theacharya.co/){target="_blank"}
+[![](/assets/template-banner-03.png)](https://www.airtable.com/universe/expzYnCE6yMri18UM/marker-data){target="_blank"}
