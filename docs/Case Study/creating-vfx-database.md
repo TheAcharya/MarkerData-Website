@@ -5,7 +5,7 @@ order: -2
 ---
 # Creating VFX Database
 
-[Josh Beal](https://twitter.com/jbkilty) provides a compelling analysis, drawing a noteworthy comparison between the workflows of two prominent video editing platforms, namely [Media Composer](https://www.avid.com/media-composer) and [Final Cut Pro](https://www.apple.com/final-cut-pro/), particularly in the context of VFX database creation. Unquestionably, Josh affirms the superiority of Final Cut Pro's methodology, attributing this advantage to the efficacy of FCPXML's metadata handling capabilities.
+[Josh Beal](https://www.jkbedit.com) provides a compelling analysis, drawing a noteworthy comparison between the workflows of two prominent video editing platforms, namely [Media Composer](https://www.avid.com/media-composer) and [Final Cut Pro](https://www.apple.com/final-cut-pro/), particularly in the context of VFX database creation. Unquestionably, Josh affirms the superiority of Final Cut Pro's methodology, attributing this advantage to the efficacy of FCPXML's metadata handling capabilities.
 
 [!embed](https://www.youtube.com/watch?v=Md-hNTzr5UE)
 
