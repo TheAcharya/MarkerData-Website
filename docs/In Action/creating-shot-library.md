@@ -14,6 +14,10 @@ order: -5
 2. Duplicate Notion's [Shot Library Template](/user-guide/databases/#notion-template) in to your Notion account.
 
 !!!info Info
+Given the structural design of Airtable, implementing and utilising a Shot Library is impractical. Airtable treats each entry as a record, whereas Notion treats each entry as a page. Consequently, Notion is the preferred platform for a Shot Library. Notion allows users to add text, embed images, and include links within each page entry, providing greater flexibility and functionality that is not possible in Airtable. Therefore, this Shot Library Template is exclusively designed for use with Notion.
+!!!
+
+!!!info Info
 You possess the liberty to tailor the [Shot Library Template](/user-guide/databases/#notion-template) to suit your preferences, affording you the opportunity to incorporate additional [Notion Database properties](https://www.notion.so/help/database-properties) as per your discretion.
 !!!
 

@@ -60,7 +60,11 @@ In contrast, **Marker Data** specialises solely in the extraction of information
 
 ## Can Marker Data's Data Set be used with other applications?
 
-Yes. Within **Marker Data** , you have the option to export Data Set in two fundamental formats, namely `.csv` and `.tsv`. These exported Data Sets are located within **Export Destination** folder. Subsequently, you possess the flexibility to import either the `.csv` or the `.tsv` files into any compatible application of your choice.
+Yes. Within **Marker Data**, you have the option to export Data Set in two fundamental formats, namely `.csv` and `.tsv`. These exported Data Sets are located within **Export Destination** folder. Subsequently, you possess the flexibility to import either the `.csv` or the `.tsv` files into any compatible application of your choice.
+
+## Will it be possible to extract and upload only specific column data?
+
+**Marker Data** is designed to always extract and upload all column data. However, during the upload process, **Marker Data** will internally verify the table schema of the destination database (either Notion or Airtable) against the manifest `.json` file. If any column has been removed in Notion or Airtable, **Marker Data** will automatically skip uploading that column. Therefore, it is recommended to customise your database directly in Notion or Airtable rather than editing the .json file. Users can easily duplicate the provided [templates](/user-guide/databases/#notion-template) and modify it according to their preferences.
 
 ## What constitutes an optimal methodology for the nomenclature of Visual Effects Identification (VFX IDs) within a workflow?
 
