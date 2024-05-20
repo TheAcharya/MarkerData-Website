@@ -10,18 +10,20 @@ We would greatly appreciate your support in sharing and promoting **Marker Data*
 
 [!file Press Kit](/static/sample.txt)
 
+# User's Quotes
+
 <style>
-	.sample {
-		text-align: center;
-		color: #1956AF;
+	.quote {
+		text-align: left;
+		color: #FFFFFF;
 		border-radius: 10px;
-		background-color: #E1EDFF;
-		border: 1px solid #1956AF;
-		padding-top: 20px;
-		margin-bottom: 20px;
+		background-color: #5e5cde;
+		border: 0px solid #5e5cde;
+		padding-top: 10px;
+		margin-bottom: 10px;
 	}
 </style>
-:::sample
+:::quote
 This text is wrapped in a Container component and has a custom css `class` applied.
 :::
 
