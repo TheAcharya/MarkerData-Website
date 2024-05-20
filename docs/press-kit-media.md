@@ -18,7 +18,7 @@ We would greatly appreciate your support in sharing and promoting **Marker Data*
 		color: #FFFFFF;
 		border-radius: 10px;
 		background-color: #5e5cde;
-		border: 0px solid #5e5cde;
+		border: 2px solid #5e5cde;
 		padding-top: 20px;
 		padding-left: 40px;
 		margin-bottom: 20px;
