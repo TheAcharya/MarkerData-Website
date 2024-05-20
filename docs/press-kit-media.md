@@ -25,9 +25,9 @@ We would greatly appreciate your support in sharing and promoting **Marker Data*
 	}
 </style>
 :::quote
-This text is wrapped in a Container component and has a custom css `class` applied.
+_“The quick brown fox jumps over the lazy dog”_<br />
+**Name** <font size="2">- _Role_</font>
 :::
-
 
 # Trivia
 
