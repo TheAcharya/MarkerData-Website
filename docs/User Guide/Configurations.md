@@ -34,12 +34,16 @@ Identical Configuration Names are disallowed, and attempts to do so will elicit 
 
 ## Make Active Configuration
 
+### Method 1
+
 At any given time, only a single Configuration may be designated as active.
 
 ![Active Configuration](/assets/md-configuration-settings_04.gif)
 
 1. Select your desired Configuration.
 2. Click on the `Make Active` button.
+
+### Method 2
 
 Alternatively, you can click on the `Configurations` menu located in the menu bar to seamlessly switch between Configurations.
 
@@ -49,11 +53,21 @@ Alternatively, you can click on the `Configurations` menu located in the menu ba
 
 2. Click on your desired Configuration to `Make Active`.
 
+### Method 3
+
+You can also click on the `Quick Configurations Selector` menu located on the top-right corner of **Marker Data**.
+
+1. Click on the `Quick Configurations Selector` menu.
+
+![Quick Configurations Selector](/assets/md-configuration-settings_06.gif)
+
+2. Click on your desired Configuration to `Make Active`.
+
 ## Update Active Configuration
 
 On any Active Configuration, modifications to any settings prompts the display of a `Changed` badge adjacent to the Configuration side panel.
 
-![Configuration Changed](/assets/md-configuration-settings_06.png)
+![Configuration Changed](/assets/md-configuration-settings_07.png)
 
 You have three methods for updating an active configuration.
 
