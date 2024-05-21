@@ -52,7 +52,7 @@ Take note of the timecode of the earliest marker for reference later.
 5. Switch to the existing Project session you want to transfer the Markers into.
 
 !!!info Info
-Go to Logic Pro's `Synchronization` options under `File`, `Project Settings`. Ensure that `Bar Position <first bar>` is set to a timecode that is equal to or earlier than the first marker's timecode. Also ensure that Frame Rate matches with Final Cut Pro's project Frame Rate.
+Go to Logic Pro's `Synchronization` options under `File`, `Project Settings`. Ensure that `Bar Position <first bar>` is set to a timecode that is equal to or earlier than the first marker's timecode. Also ensure that Frame Rate matches with Final Cut Pro's timeline Frame Rate.
 !!!
 
 

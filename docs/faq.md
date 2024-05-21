@@ -5,6 +5,10 @@ order: -96
 ---
 # Frequently Asked Questions
 
+## What kind of timelines are supported in Marker Data?
+
+**Marker Data** facilitates extraction from any conceivable timeline such as Projects and Compound Clips.
+
 ## What happens when Marker collision occurs?
 
 In instances where Markers coincide, **Marker Data** will adeptly rectify any conflicts arising from overlapping Marker ID such as Timecode, Name, or Notes.
@@ -17,7 +21,7 @@ In instances where Markers coincide, **Marker Data** will adeptly rectify any co
 
 ![Unique Image Filename](assets/fcp_marker_collision_03.png)
 
-## What happens when Markers are situated within a Compound, Multicam and synchronised clips?
+## What happens when Markers are situated within a Nested Compound, Multicam and synchronised clips?
 
 **Marker Data** is intentionally configured to disregard any markers outside the primary active timeline. This deliberate choice is particularly pertinent in scenarios involving Compound Clips, where the potential for numerous nested structures exists. Parsing markers within each nested Compound Clip could introduce undue complexity.
 

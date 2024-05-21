@@ -13,7 +13,7 @@ order: -3
 
 ## Scenario 1 - No Initial Upload
 
-When grappling with the complexities of a sizeable project, managing multiple timelines can prove to be a daunting task, particularly when faced with the necessity of uploading each timeline individually from Final Cut Pro. In such instances, the utilisation of the `Notion (No Upload)` or `Airtable (No Upload)` profile within the [General Setting](/user-guide/general/#profiles) of **Marker Data** provides an elegant solution. By employing this profile, users can streamline their workflow by pre-extracting all pertinent data to an [Export Destination](/user-guide/general/#export-destination) of their preference, thus alleviating the burden of individual uploads.
+When grappling with the complexities of a sizeable timeline, managing multiple timelines can prove to be a daunting task, particularly when faced with the necessity of uploading each timeline individually from Final Cut Pro. In such instances, the utilisation of the `Notion (No Upload)` or `Airtable (No Upload)` profile within the [General Setting](/user-guide/general/#profiles) of **Marker Data** provides an elegant solution. By employing this profile, users can streamline their workflow by pre-extracting all pertinent data to an [Export Destination](/user-guide/general/#export-destination) of their preference, thus alleviating the burden of individual uploads.
 
 This approach seamlessly integrates with **Marker Data**'s Queue system, consolidating all extracted Data Sets within a single, centralised Queue window. Here, users are can assign specific [Database Profiles](/user-guide/databases) to each individual Data Set prior to initiating the upload sequence with the simple click of the `Start Upload` button.
 
@@ -28,7 +28,7 @@ Your browser does not support the video tag.
 2. Under [General Setting](/user-guide/general/#profiles), depending on the platform of your choice, select `Notion (No Upload)` or `Airtable (No Upload)`.
 
 !!!info Info
-If you happen to utilise both Notion and Airtable platforms, you have the flexibility to switch between `Notion (No Upload)` or `Airtable (No Upload)` prior to dispatching your project to **Marker Data**'s designated Share Destination.
+If you happen to utilise both Notion and Airtable platforms, you have the flexibility to switch between `Notion (No Upload)` or `Airtable (No Upload)` prior to dispatching your timeline to **Marker Data**'s designated Share Destination.
 !!!
 
 3. Once all of your extraction are completed, the Data Sets will be listed in Queue window.

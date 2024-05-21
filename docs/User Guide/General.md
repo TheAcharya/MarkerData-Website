@@ -127,7 +127,7 @@ The `Clear` button removes any existing Roles that have been retrieved.
 
 ### Refresh
 
-**Marker Data** automatically synchronises role selections with the [Workflow Extension’s Roles tab](/user-guide/workflow-extension/#roles). However, delays in synchronisation may occur in large and complex projects (Timelines). In such instances, you may use the `Refresh` button to initiate and enforce a manual synchronisation.
+**Marker Data** automatically synchronises role selections with the [Workflow Extension’s Roles tab](/user-guide/workflow-extension/#roles). However, delays in synchronisation may occur in large and complex timelines. In such instances, you may use the `Refresh` button to initiate and enforce a manual synchronisation.
 
 ### Enable All
 

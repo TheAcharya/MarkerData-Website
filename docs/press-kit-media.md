@@ -10,7 +10,9 @@ We would greatly appreciate your support in sharing and promoting **Marker Data*
 
 [!file Press Kit](/static/sample.txt)
 
-# User's Quotes
+Feel free to reach out directly [here](https://theacharya.co/contact).
+
+## User's Quotes & Reviews
 
 <style>
 	.quote {
@@ -25,11 +27,11 @@ We would greatly appreciate your support in sharing and promoting **Marker Data*
 	}
 </style>
 :::quote
-***“The quick brown fox jumps over the lazy dog”***<br />
-**Name** <font size="2">- _Role_</font>
+***“Marker Data is probably one of the best looking and most powerful FCPX related tools out there, period!”***<br />
+**Chris Hocking** <font size="2">- _Director & Co-Founder of [LateNite Films](https://latenitefilms.com)_</font>
 :::
 
-# Trivia
+## Trivia
 
 - **Marker Data** is the inaugural macOS application developed by The Acharya.
 - The development of **Marker Data**, encompassing all underlying libraries, tools, and technologies, spanned approximately three years from conception to completion.

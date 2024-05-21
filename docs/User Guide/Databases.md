@@ -40,6 +40,10 @@ Enter your [Notion Database URL](/databases/notion-prerequisite##obtain-your-dat
 
 By [!badge text="Default"] **Marker Data** will designate the Notion's Key Column with the nomenclature of `Marker ID`. However, you retain the flexibility to establish an alternative form of Notion Database by integrating Marker Metadata from Final Cut Pro. To illustrate, you have the capability to designate your Notion's Key Column as, for instance, `Shot Code`. Upon configuring this setting in Notion, you may then input the same corresponding value in this field as `Shot Code`.
 
+!!!warning Warning
+Please do not enter `Marker ID` into this field. `Marker ID` is the default key column and cannot be used in this field.
+!!!
+
 ==- Merge Only
 
 Merge Only offers users selectively merge or update individual columns within a Notion Database. By [!badge text="Default"], the column selection feature of Merge Only remains inactive. The utilisation of Merge Only is only possible when Notion Database URL is provided.
@@ -78,6 +82,10 @@ Enter your [Airtable Table ID](/databases/airtable-prerequisite#obtain-your-base
 ==- Rename Key Column
 
 By [!badge text="Default"] **Marker Data** will designate the Airtable's Key Column with the nomenclature of `Marker ID`. However, you retain the flexibility to establish an alternative form of Airtable Database by integrating Marker Metadata from Final Cut Pro. To illustrate, you have the capability to designate your Airtable's Key Column as, for instance, `Shot Code`. Upon configuring this setting in Notion, you may then input the same corresponding value in this field as `Shot Code`.
+
+!!!warning Warning
+Please do not enter `Marker ID` into this field. `Marker ID` is the default key column and cannot be used in this field.
+!!!
 
 ==- Dropbox App Key
 
