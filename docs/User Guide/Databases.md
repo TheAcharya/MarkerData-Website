@@ -34,7 +34,11 @@ Enter your [Notion V2 Token](/databases/notion-prerequisite#obtain-your-session-
 
 ==- Notion Database URL
 
-Enter your [Notion Database URL](/databases/notion-prerequisite##obtain-your-database-url) here. In the absence of a provided Notion Database URL, **Marker Data** will upload all entries of the Marker Metadata from Final Cut Pro into Notion. However, it is strongly advised that you to duplicate the supplied Notion Template by accessing the provided link. Subsequently, you can acquire the link from your duplicated Notion Template within your Workspace.
+Enter your [Notion Database URL](/databases/notion-prerequisite##obtain-your-database-url) here. In the absence of a provided Notion Database URL, **Marker Data** will upload all entries of the Marker Metadata from Final Cut Pro into Notion.
+
+!!!info Info
+It is strongly advised that you to duplicate the supplied [Marker Data Template](/databases/#notion-template). Subsequently, you can acquire the link from your duplicated Notion Template within your Workspace.
+!!!
 
 ==- Rename Key Column
 
@@ -73,11 +77,19 @@ Enter your [Airtable Token](/databases/airtable-prerequisite#obtain-your-workspa
 
 ==- Airtable Base ID
 
- Enter your [Airtable Base ID](/databases/airtable-prerequisite#obtain-your-base-id--table-id) here.
+Enter your [Airtable Base ID](/databases/airtable-prerequisite#obtain-your-base-id--table-id) here.
+
+!!!info Info
+It is strongly advised that you to duplicate the supplied [Marker Data Template](/databases/#airtable-template). Subsequently, you can acquire the Base ID from your duplicated Airtable Template within your Workspace.
+!!!
  
 ==- Airtable Table ID
 
 Enter your [Airtable Table ID](/databases/airtable-prerequisite#obtain-your-base-id--table-id) here.
+
+!!!info Info
+It is strongly advised that you to duplicate the supplied [Marker Data Template](/databases/#airtable-template). Subsequently, you can acquire the Table ID from your duplicated Airtable Template within your Workspace.
+!!!
 
 ==- Rename Key Column
 
