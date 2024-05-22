@@ -22,7 +22,8 @@ Feel free to reach out directly [here](https://theacharya.co/contact).
 		background-color: #5e5cde;
 		border: 2px solid #5e5cde;
 		padding-top: 20px;
-		padding-left: 40px;
+		padding-left: 20px;
+		padding-roght: 20px;
 		margin-bottom: 20px;
 	}
 </style>
