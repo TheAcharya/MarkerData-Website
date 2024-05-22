@@ -23,17 +23,8 @@ Feel free to reach out directly [here](https://theacharya.co/contact).
 		border: 2px solid #5e5cde;
 		padding-top: 20px;
 		padding-left: 20px;
-		padding-right: 20px;
+		padding-roght: 20px;
 		margin-bottom: 20px;
-	}
-	
-	.quote a {
-		color: #FFFFFF;
-		text-decoration: none;
-	}
-	
-	.quote a:hover {
-		text-decoration: underline; /* Optional: underline on hover */
 	}
 </style>
 :::quote
