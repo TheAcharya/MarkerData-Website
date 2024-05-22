@@ -23,13 +23,22 @@ Feel free to reach out directly [here](https://theacharya.co/contact).
 		border: 2px solid #5e5cde;
 		padding-top: 20px;
 		padding-left: 20px;
-		padding-roght: 20px;
+		padding-right: 20px;
 		margin-bottom: 20px;
+	}
+	
+	.quote a {
+		color: #FFFFFF;
+		text-decoration: none;
+	}
+	
+	.quote a:hover {
+		text-decoration: underline; /* Optional: underline on hover */
 	}
 </style>
 :::quote
 ***“Marker Data is probably one of the best looking and most powerful FCPX related tools out there, period!”***<br />
-**Chris Hocking** <font size="2">- _Director & Co-Founder of LateNite Films_</font>
+**[Chris Hocking](https://x.com/chrisatlatenite)** <font size="2">- _Director & Co-Founder of [LateNite Films](https://latenitefilms.com)_</font>
 :::
 
 ## Trivia
