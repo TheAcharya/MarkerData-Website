@@ -9,6 +9,10 @@ order: -96
 
 **Marker Data** facilitates extraction from any conceivable timeline such as Projects and Compound Clips.
 
+## What distinguishes extraction through the Share Destination from extraction via the Workflow Extension?
+
+Extraction through the [Share Destination](/user-guide/share-destination) encompasses both Marker metadata and images, whereas extraction via the [Workflow Extension](/user-guide/workflow-extension/#extract) is limited to Marker metadata and does not include images.
+
 ## What happens when Marker collision occurs?
 
 In instances where Markers coincide, **Marker Data** will adeptly rectify any conflicts arising from overlapping Marker ID such as Timecode, Name, or Notes.
