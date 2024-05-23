@@ -34,12 +34,12 @@ Your browser does not support the video tag.
 ===
 
 ==- Brave, Chrome or Edge
-Go to Setting, Privacy and security
+1. Press `⌥ + ⌘ + i` to show Developer Tools.
+2. Go to `Application Tab`.
+3. Copy and obtain your `token_v2`.
 
-<video controls width="1920">
-  <source src="/assets/brave.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video>
+![Developer Tools](/assets/brave.png)
+
 ===
 
 !!!info Info
