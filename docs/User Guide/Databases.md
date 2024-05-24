@@ -158,14 +158,14 @@ Select the `Open Database Folder in Finder` link to unveil the Finder directory 
 
 [![](/assets/template-banner-01.png)](https://soothsayer.notion.site/509f0a7f6eb742579160569a43116227?v=fc1eb1226b4345feb63a43a70c58c99a&pvs=4){target="_blank"}
 
-[!ref icon="paper-airplane" text="Sending to Notion"](/in-action/notion-profile.md)
+[!ref icon="paper-airplane" text="Sending to Notion"](/in-action/notion-profile)
 
 [![](/assets/template-banner-02.png)](https://soothsayer.notion.site/25939547200e4cbe85bffe5be9d84c14?v=b36de86c42774f4cb1185b862200b492&pvs=4){target="_blank"}
 
-[!ref icon="paper-airplane" text="Creating Shot Library"](/in-action/notion-profile.md)
+[!ref icon="paper-airplane" text="Creating Shot Library"](/in-action/notion-profile)
 
 ## Airtable Template
 
 [![](/assets/template-banner-03.png)](https://www.airtable.com/universe/expzYnCE6yMri18UM/marker-data){target="_blank"}
 
-[!ref icon="paper-airplane" text="Sending to Airtable"](/in-action/airtable-profile.md)
+[!ref icon="paper-airplane" text="Sending to Airtable"](/in-action/airtable-profile)
