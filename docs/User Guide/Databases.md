@@ -162,7 +162,7 @@ Select the `Open Database Folder in Finder` link to unveil the Finder directory 
 
 [![](/assets/template-banner-02.png)](https://soothsayer.notion.site/25939547200e4cbe85bffe5be9d84c14?v=b36de86c42774f4cb1185b862200b492&pvs=4){target="_blank"}
 
-[!ref icon="paper-airplane" text="Creating Shot Library"](/in-action/notion-profile)
+[!ref icon="paper-airplane" text="Creating Shot Library"](/in-action/creating-shot-library)
 
 ## Airtable Template
 
