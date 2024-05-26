@@ -36,7 +36,7 @@ Feel free to reach out directly [here](https://theacharya.co/contact).
 :::quote
 ***“It’s a beautifully built app.”***<br />
 
-**[Josh Beal](https://x.com/jbkilty)** <font size="2">- _Editor_</font>
+**[Josh Beal](https://www.jkbedit.com)** <font size="2">- _Editor_</font>
 :::
 
 ## Trivia

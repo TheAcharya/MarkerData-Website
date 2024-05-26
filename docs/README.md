@@ -126,7 +126,7 @@ Runs natively on both Apple silicon and Intel-based Mac computers
 - Shot Library Database
 - VFX Database
 - ADR Database
-- Stock footage Database
+- Stock Footage Database
 - Music Cue Sheet Database
 - Colourist’s Notes Database
 - Client Review & Tracking Database
