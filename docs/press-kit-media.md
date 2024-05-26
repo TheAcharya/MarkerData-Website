@@ -33,6 +33,7 @@ Feel free to reach out directly [here](https://theacharya.co/contact).
 **[Chris Hocking](https://x.com/chrisatlatenite)** <font size="2">- _Director & Co-Founder of LateNite Films_</font>
 :::
 
+:::quote
 ***“It’s a beautifully built app.”***<br />
 
 **[Josh Beal](https://x.com/jbkilty)** <font size="2">- _Editor_</font>
