@@ -30,7 +30,12 @@ Feel free to reach out directly [here](https://theacharya.co/contact).
 :::quote
 ***“Marker Data is probably one of the best looking and most powerful FCPX related tools out there, period!”***<br />
 
-**Chris Hocking** <font size="2">- _Director & Co-Founder of LateNite Films_</font>
+**[Chris Hocking](https://x.com/chrisatlatenite)** <font size="2">- _Director & Co-Founder of LateNite Films_</font>
+:::
+
+***“It’s a beautifully built app.”***<br />
+
+**[Josh Beal](https://x.com/jbkilty)** <font size="2">- _Editor_</font>
 :::
 
 ## Trivia
