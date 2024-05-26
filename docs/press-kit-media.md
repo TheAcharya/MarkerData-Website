@@ -19,8 +19,8 @@ Feel free to reach out directly [here](https://theacharya.co/contact).
 		text-align: left;
 		color: #FFFFFF;
 		border-radius: 10px;
-		background-color: #5e5cde;
-		border: 2px solid #5e5cde;
+		background-color: #000000;
+		border: 2px solid #000000;
 		padding-top: 20px;
 		padding-left: 20px;
 		padding-roght: 20px;
