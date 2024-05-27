@@ -12,7 +12,7 @@ We would greatly appreciate your support in sharing and promoting **Marker Data*
 
 Feel free to reach out directly [here](https://theacharya.co/contact).
 
-## User's Quotes & Reviews
+## What Users Say
 
 <style>
 	.quote {
@@ -23,7 +23,7 @@ Feel free to reach out directly [here](https://theacharya.co/contact).
 		border: 2px solid #000000;
 		padding-top: 20px;
 		padding-left: 20px;
-		padding-roght: 20px;
+		padding-right: 20px;
 		margin-bottom: 20px;
 	}
 </style>
