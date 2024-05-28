@@ -34,7 +34,7 @@ Feel free to reach out directly [here](https://theacharya.co/contact).
 :::
 
 :::quote
-***“It’s a beautifully built app.”***<br />
+***“A thoughtfully built and powerful tool for interfacing between Final Cut and  just about any database.”***<br />
 
 **[Josh Beal](https://www.jkbedit.com)** <font size="2">- _Editor_</font>
 :::
