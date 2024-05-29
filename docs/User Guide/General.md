@@ -44,6 +44,7 @@ Select your desired Extraction Profile.
 - Extract Only (No Upload)
 	- **CSV** [!badge text="Default"]
 	- **TSV**
+	- **Excel**
 	- **MIDI**
 	- **YouTube Chapters**
 	- **Notion (No Upload)**
