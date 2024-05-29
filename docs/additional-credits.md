@@ -16,4 +16,6 @@ Marker Data is also made possible because of the hard work of these amazing open
 | [ShareDestinationKit](https://github.com/latenitefilms/ShareDestinationKit) | Receiving Media and Data Through a Custom Share Destination in Swift |
 | [DominantColors](https://github.com/DenDmitriev/DominantColors) | Extractor dominant colours from image |
 | [GrabShot](https://github.com/DenDmitriev/GrabShot) | An application for capturing frames from videos and extracting colors. |
+| [xlsxwriter](https://github.com/TheAcharya/xlsxwriter) | Swift library for writing Excel XLSX files. |
+| [libxlsxwriter](https://github.com/TheAcharya/libxlsxwriter) | A C library for creating Excel XLSX files. |
 | [SiriWave](https://github.com/kopiro/siriwave) | Siri wave-form animation replicated in a JS library |
