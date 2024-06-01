@@ -1,6 +1,6 @@
 ---
 label: Welcome
-description: Marker Data allows users to extract, convert & create databases from Final Cut Pro’s maker metadata. 
+description: Marker Data allows users to extract, convert & create databases from Final Cut Pro’s marker metadata. 
 icon: home
 order: -1
 image: /static/marker-data-social-card.png
