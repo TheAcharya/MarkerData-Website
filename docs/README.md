@@ -16,7 +16,7 @@ image: /static/marker-data-social-card.png
 
 # Marker Data
 
-The avant-garde Marker extraction application crafted for [Final Cut Pro](https://www.apple.com/final-cut-pro/). It allows users to extract, convert and create databases from Final Cut Pro’s Maker metadata effortlessly. 
+The avant-garde Marker extraction application crafted for [Final Cut Pro](https://www.apple.com/final-cut-pro/). It allows users to extract, convert and create databases from Final Cut Pro’s Marker metadata effortlessly. 
 
 ## Core Features
 
