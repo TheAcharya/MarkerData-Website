@@ -44,3 +44,4 @@ Feel free to reach out directly [here](https://theacharya.co/contact).
 - **Marker Data** is the inaugural macOS application developed by The Acharya.
 - The development of **Marker Data**, encompassing all underlying libraries, tools, and technologies, spanned approximately three years from conception to completion.
 - **Marker Data** is the first open-source application for Final Cut Pro to integrate both Workflow Extension and Share Destination features.
+- **Marker Data** is the first application to seamlessly integrate a non-linear editing (NLE) system with database platforms such as Notion and Airtable.
