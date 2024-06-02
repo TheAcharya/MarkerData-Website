@@ -35,6 +35,7 @@ Some keyboard shortcuts can be changed in System Settings (or System Preferences
 
 | Action | Shortcut |
 |---|---|
+| [Duplicate Configuration](/user-guide/configurations/#duplicate-configuration) | `⌘` `D` |
 | [Update Active Configuration](/user-guide/configurations/#update-active-configuration) | `⌘` `S` |
 | Discard Changes | `⌘` `Z` |
 

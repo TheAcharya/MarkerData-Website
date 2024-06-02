@@ -65,10 +65,20 @@ You can also click on the `Quick Configurations Selector` menu located on the to
 
 ## Duplicate Configuration
 
+### Method 1
+
 You have the ability to duplicate any Configuration by clicking on the `Duplicate` button.
 
+### Method 2
+
+Alternatively, you can press `⌘` `D` on your keyboard to `Duplicate` the selected Configuration.
+
+### Method 3
+
+Select the Configuration, right-click and select `Duplicate`.
+
 !!!info Info
-Through the utilisation of the `Duplicate` button, you can effortlessly generate numerous Configurations with various settings applied.
+Through the utilisation of the `Duplicate` function, you can effortlessly generate numerous Configurations with various settings applied.
 !!!
 
 ## Update Active Configuration
@@ -79,9 +89,17 @@ On any Active Configuration, modifications to any settings prompts the display o
 
 You have three methods for updating an active configuration.
 
-1. Click `Update Active Configuration` within the Configuration settings.
-2. Go to **Marker Data**'s menu bar, click on `Update Active Configuration` under Configuration menu.
-3. Press `⌘` `s` on your keyboard to `Update Active Configuration`. You can press `⌘` `s` anywhere within **Marker Data**.
+### Method 1
+
+Click `Update Active Configuration` within the Configuration settings.
+
+### Method 2
+
+Go to **Marker Data**'s menu bar, click on `Update Active Configuration` under Configuration menu.
+
+### Method 3
+
+Press `⌘` `s` on your keyboard to `Update Active Configuration`. You can press `⌘` `s` anywhere within **Marker Data**.
 
 ## Delete Configuration
 
