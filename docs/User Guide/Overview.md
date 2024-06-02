@@ -20,6 +20,10 @@ Notwithstanding the emphasis on user-friendly design, this website stands ready 
 3. Move **Marker Data** to your Applications folder.
 4. Launch **Marker Data**.
 
+!!!warning Warning
+**Marker Data** must be installed in the Applications folder to run correctly. Running the application outside of this designated directory would result in functionality issues.
+!!!
+
 ## Uninstall
 
 ![Uninstall Marker Data](/assets/md-uninstall.png)

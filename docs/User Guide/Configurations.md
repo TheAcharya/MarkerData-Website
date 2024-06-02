@@ -63,6 +63,14 @@ You can also click on the `Quick Configurations Selector` menu located on the to
 
 2. Click on your desired Configuration to `Make Active`.
 
+## Duplicate Configuration
+
+You have the ability to duplicate any Configuration by clicking on the `Duplicate` button.
+
+!!!info Info
+Through the utilisation of the `Duplicate` button, you can effortlessly generate numerous Configurations with various settings applied.
+!!!
+
 ## Update Active Configuration
 
 On any Active Configuration, modifications to any settings prompts the display of a `Changed` badge adjacent to the Configuration side panel.
