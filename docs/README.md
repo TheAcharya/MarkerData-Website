@@ -23,7 +23,7 @@ The avant-garde Marker extraction application crafted for [Final Cut Pro](https:
 - Written in Apple Swift language and SwiftUI framework.
 - Integrates with Final Cut Pro, boasting a native Share Destination & Workflow Extension.
 - Precise extraction of Markers, ensuring an accurate representation of metadata.
-- Native integration with renowned databases such as [Airtable](https://www.airtable.com) and [Notion](https://www.notion.so).
+- Native integration with renowned databases such as [Notion](https://www.notion.so) and [Airtable](https://www.airtable.com).
 - Effortlessly synchronise Final Cut Pro's Marker metadata to cloud databases with a single click.
 - Functionality allowing batch extraction and rendering of stills or animated GIFs based on each Marker's timecode.
 - Versatile features for batch burning-in labels, embedding comprehensive metadata of each Marker onto stills or animated GIFs.
