@@ -23,7 +23,7 @@ Notwithstanding the emphasis on user-friendly design, this website stands ready 
 
 ## Onboarding
 
-It is imperative to review Marker Data’s Onboarding Screen to familiarise yourself with its key features and the necessary initial steps required before using the application.
+It is imperative to review Marker Data’s Onboarding Screen to familiarise yourself with its key features and perform necessary initial steps before using the application.
 
 ![Marker Data's Onboarding Screen](/assets/md-onboarding.gif)
 
