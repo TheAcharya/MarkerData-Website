@@ -21,6 +21,12 @@ Notwithstanding the emphasis on user-friendly design, this website stands ready 
 4. Launch **Marker Data**.
 5. Setup your first [Configuration](/user-guide/configurations).
 
+## Onboarding
+
+It is imperative to review Marker Data’s Onboarding Screen to familiarise yourself with its key features and the necessary initial steps required before using the application.
+
+![Marker Data's Onboarding Screen](/assets/md-onboarding.gif)
+
 !!!warning Warning
 **Marker Data** must be installed in the Applications folder to run correctly. Running the application outside of this designated directory would result in functionality issues.
 !!!
