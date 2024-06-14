@@ -45,6 +45,12 @@ Feel free to reach out directly [here](https://theacharya.co/contact).
 **[Sam Pluemacher](https://www.imdb.com/name/nm10223233/)** <font size="2">- _Assistant Editor on Netflix's Blood Red Sky_</font>
 :::
 
+:::quote
+***“Marker Data is the easiest way to extract notes, chapter timing data and reference images from a Final Cut Pro timeline.”***<br />
+
+**[Iain Anderson](https://iain-anderson.com/)** <font size="2">- _Author of Final Cut Pro Efficient Editing_</font>
+:::
+
 ## Trivia
 
 - **Marker Data** is the inaugural macOS application developed by The Acharya.
