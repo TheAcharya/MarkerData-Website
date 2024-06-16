@@ -11,8 +11,24 @@ Final Cut Pro stands out as a radically different NLE primarily because of its e
 
 I strongly feel the users of Final Cut Pro have a unique mind than users of other NLEs. No doubt the [Art of Cut](https://www.amazon.com/Art-Cut-Steve-Hullfish/dp/113823866X) remains the same. Because of the radical approach, Final Cut Pro users address their edits in a more visual and aural manner than the users of other NLEs.
 
-> _“Changing the tool will also affect the way that you approach the edit and when you change the way you approach the edit, you shake off old rust and cobwebs. You have to rethink your own approach to editing, not just the mechanical side, but also the psychological approach.”_<br />
-> **[Benjamin Mercer](https://www.provideocoalition.com/art-of-the-cut-with-ben-mercer-on-editing-unknown-soldier-in-fcp-x)** <font size="2">- _Editor of [Unknown Soldier](https://www.imdb.com/title/tt4065552/)_</font>
+<style>
+	.quote {
+		text-align: left;
+		color: #FFFFFF;
+		border-radius: 10px;
+		background-color: #000000;
+		border: 2px solid #000000;
+		padding-top: 20px;
+		padding-left: 20px;
+		padding-right: 20px;
+		margin-bottom: 20px;
+	}
+</style>
+:::quote
+***“Changing the tool will also affect the way that you approach the edit and when you change the way you approach the edit, you shake off old rust and cobwebs. You have to rethink your own approach to editing, not just the mechanical side, but also the psychological approach.”***<br />
+
+**[Benjamin Mercer](https://www.provideocoalition.com/art-of-the-cut-with-ben-mercer-on-editing-unknown-soldier-in-fcp-x)** <font size="2">- _Editor of [Unknown Soldier](https://www.imdb.com/title/tt4065552/)_</font>
+:::
 
 Final Cut Pro distinguishes itself from other NLEs by fostering a transparent user experience. The application’s design facilitates an interface that transcends operational complexities, enabling users to immerse themselves in the creative editorial process without the burden of navigating an array of intricate settings. This unique attribute not only enhances workflow efficiency but also liberates users to concentrate on the artistic nuances of their projects, unencumbered by the intricacies of technical adjustments. In essence, Final Cut Pro’s user-centric approach elevates the editing experience by minimising distractions and empowering users to channel their energy into the expressive and imaginative aspects of their work.
 
