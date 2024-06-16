@@ -1,7 +1,7 @@
 ---
 label: FAQ
 icon: question
-order: -96
+order: -94
 ---
 # Frequently Asked Questions
 

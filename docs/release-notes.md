@@ -1,7 +1,7 @@
 ---
 label: Release Notes
 icon: note
-order: -99
+order: -98
 ---
 # Release Notes
 
