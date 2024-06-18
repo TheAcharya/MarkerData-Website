@@ -9,6 +9,10 @@ order: -95
 
 To access the logs for **Marker Data**, navigate to the `Help` menu and select `Open Logs`.
 
+## Marker Data's Workflow Extension is not functioning. 
+
+To ensure optimal functionality of **Marker Data**, please ensure it is installed within the Applications folder.
+
 ## Why is the upload speed to Notion slow?
 
 The slow upload speed to Notion could be attributed to potential issues with Notion's servers or regional server connectivity. Please verify the current [status](https://status.notion.so/) of Notion's servers.
