@@ -5,6 +5,10 @@ order: -95
 ---
 # Troubleshooting
 
+## How to access the logs in Marker Data?
+
+To access the logs for **Marker Data**, navigate to the `Help` menu and select `Open Logs`.
+
 ## Why is the upload speed to Notion slow?
 
 The slow upload speed to Notion could be attributed to potential issues with Notion's servers or regional server connectivity. Please verify the current [status](https://status.notion.so/) of Notion's servers.
