@@ -23,11 +23,11 @@ The slow upload speed to Notion could be attributed to potential issues with Not
 
 Please ensure that you are using **Marker Data**'s [Share Destination](/user-guide/share-destination). Images will not be extracted when using **Marker Data**'s [Workflow Extension](/user-guide/workflow-extension).
 
-## Marker Data shows `Failed to complete upload`.
+## Marker Data shows Failed to complete upload.
 
 ![Failed to complete upload](/assets/md-failed-to-complete-upload.png)
 
-When the **Marker Data** displays a Failed to complete upload error, it may be attributed to various underlying causes.
+When the **Marker Data** displays a `Failed to complete upload` error, it may be attributed to various underlying causes.
 
 ### Notion
 
