@@ -5,7 +5,7 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.771988886589">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.772161651973">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -13,7 +13,7 @@
     <!-- Primary Meta Tags -->
     <title>Troubleshooting</title>
     <meta name="title" content="Troubleshooting">
-    <meta name="description" content="To access the logs for Marker Data, navigate to the Help menu and select Open Logs.">
+    <meta name="description" content="Below, you will find a comprehensive list of common issues users may encounter, accompanied by solutions to resolve them.">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://markerdata.theacharya.co/troubleshooting/">
@@ -22,22 +22,24 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://markerdata.theacharya.co/troubleshooting/">
     <meta property="og:title" content="Troubleshooting">
-    <meta property="og:description" content="To access the logs for Marker Data, navigate to the Help menu and select Open Logs.">
+    <meta property="og:description" content="Below, you will find a comprehensive list of common issues users may encounter, accompanied by solutions to resolve them.">
+    <meta property="og:image" content="https://markerdata.theacharya.co/assets/md-failed-to-complete-upload.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://markerdata.theacharya.co/troubleshooting/">
     <meta property="twitter:title" content="Troubleshooting">
-    <meta property="twitter:description" content="To access the logs for Marker Data, navigate to the Help menu and select Open Logs.">
+    <meta property="twitter:description" content="Below, you will find a comprehensive list of common issues users may encounter, accompanied by solutions to resolve them.">
+    <meta property="twitter:image" content="https://markerdata.theacharya.co/assets/md-failed-to-complete-upload.png">
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../static/favicon.ico" rel="icon">
-    <link href="../resources/css/retype.css?v=3.5.0.771988886589" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=3.5.0.772161651973" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=3.5.0.771988886589" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=3.5.0.772161651973" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.5.0.771988886589" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.5.0.772161651973" data-turbo-eval="false" defer></script>
 
     <style>
     	/* The Acharya Logo */
@@ -320,6 +322,7 @@
         <span>Troubleshooting</span>
     </h1>
 </doc-anchor-target>
+<p>Below, you will find a comprehensive list of common issues users may encounter, accompanied by solutions to resolve them.</p>
 <doc-anchor-target id="how-to-access-the-logs-in-marker-data">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#how-to-access-the-logs-in-marker-data">#</doc-anchor-trigger>
@@ -348,6 +351,44 @@
     </h2>
 </doc-anchor-target>
 <p>Please ensure that you are using <strong>Marker Data</strong>&#x27;s <a href="/user-guide/share-destination">Share Destination</a>. Images will not be extracted when using <strong>Marker Data</strong>&#x27;s <a href="/user-guide/workflow-extension">Workflow Extension</a>.</p>
+<doc-anchor-target id="marker-data-shows-failed-to-complete-upload">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#marker-data-shows-failed-to-complete-upload">#</doc-anchor-trigger>
+        <span>Marker Data shows <code v-pre>Failed to complete upload</code>.</span>
+    </h2>
+</doc-anchor-target>
+<p><figure class="content-center">
+    <img src="../assets/md-failed-to-complete-upload.png" alt="Failed to complete upload">
+    <figcaption class="caption">Failed to complete upload</figcaption>
+</figure>
+</p>
+<p>When the <strong>Marker Data</strong> displays a Failed to complete upload error, it may be attributed to various underlying causes.</p>
+<doc-anchor-target id="notion">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#notion">#</doc-anchor-trigger>
+        <span>Notion</span>
+    </h3>
+</doc-anchor-target>
+<p>If you encounter issues uploading to your Notion Database, please follow these steps to troubleshoot:</p>
+<ol>
+<li>Navigate to the <code v-pre>Help</code> menu and select <code v-pre>Open Logs</code>.</li>
+<li>Open the log file <code v-pre>csv2notion-neo_log.txt</code>.</li>
+<li>Scroll down to review the most recent entries.</li>
+</ol>
+<p>If you observe the error messages <code v-pre>HTTPError: 401 Client Error: Unauthorized for url</code> or <code v-pre>Invalid Notion token</code>, it is likely that either your Notion Database URL is incorrect or your Notion v2 Token has expired. For detailed instructions on resolving these issues, please refer to the <a href="../databases/notion-prerequisite/">Notion Prerequisite</a> documentation.</p>
+<doc-anchor-target id="airtable">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#airtable">#</doc-anchor-trigger>
+        <span>Airtable</span>
+    </h3>
+</doc-anchor-target>
+<p>If you encounter issues uploading to your Airtable Database, please follow these steps to troubleshoot:</p>
+<ol>
+<li>Navigate to the <code v-pre>Help</code> menu and select <code v-pre>Open Logs</code>.</li>
+<li>Open the log file <code v-pre>airlift_log.txt</code>.</li>
+<li>Scroll down to review the most recent entries.</li>
+</ol>
+<p>If you observe the error messages <code v-pre>Authentication required</code> or <code v-pre>Invalid permissions, or the requested model was not found.</code>, it is likely that either your Airtable Token is incorrect or your Airtable Base ID &amp; Table ID is incorrect. For detailed instructions on resolving these issues, please refer to the <a href="../databases/airtable-prerequisite/">Airtable Prerequisite</a> documentation.</p>
 
                                 
                                 <!-- Required only on API pages -->
