@@ -132,6 +132,8 @@ Runs natively on both Apple silicon and Intel-based Mac computers
 - Colourist’s Notes Database
 - Client Review & Tracking Database
 - Offline & Online Notes Database
+- Send Final Cut Pro's Markers to DAWs
+- Create YouTube Chapters
 
 ## Support
 
