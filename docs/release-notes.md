@@ -7,6 +7,6 @@ order: -98
 
 ### 1.0.0 (1)
 **🎉 Released:**
-- Insert Date
+- Date
 
 This is the first public release of **Marker Data**!
