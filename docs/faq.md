@@ -108,7 +108,7 @@ Certainly, such an endeavour is within our purview. As we continue to refine and
 
 ## Would it be possible to add a specific feature to Marker Data for a project I am currently working on?
 
-If you require a specific feature for Marker Data that falls within the scope of the application, please contact us [here](https://theacharya.co/contact) for advice and a quote.
+If you require a specific feature for **Marker Data** that falls within the scope of the application, please contact us [here](https://theacharya.co/contact) for advice and a quote.
 
 ## Are you affiliated with Notion or Airtable?
 
@@ -116,7 +116,7 @@ We are not associated with, nor do we have any affiliation with, Notion or Airta
 
 ## Is it possible to use Marker Data with the free plans of Notion or Airtable?
 
-**Marker Data**  can be seamlessly integrated with both the free plans of Notion and Airtable, as there are no technical constraints imposed by Marker Data on such usage. However, it is important to consider the limitations inherent to the free tiers of these platforms. Specifically, Notion's free plan restricts uploads to a maximum of 5MB per file, while Airtable's free plan imposes a limit of 1,000 records per base.
+**Marker Data** can be seamlessly integrated with both the free plans of Notion and Airtable, as there are no technical constraints imposed by Marker Data on such usage. However, it is important to consider the limitations inherent to the free tiers of these platforms. Specifically, Notion's free plan restricts uploads to a maximum of 5MB per file, while Airtable's free plan imposes a limit of 1,000 records per base.
 
 ## What is Marker Data's Privacy Policy?
 
