@@ -22,7 +22,7 @@ What if the intricate tasks of managing and organising Final Cut Pro elements co
 - Emphasise self-sufficiency by eliminating the necessity for additional applications, offering an all-encompassing solution within the application itself.
 - Ensure the portability and self-containment of the exported Data Set, enhancing convenience and accessibility.
 - Support for clips enriched with Color Grades, Effects, and Titles, augmenting the application's versatility.
-- Accommodate Camera RAW files, including formats such as [REDCODE RAW](https://support.apple.com/en-sg/guide/final-cut-pro/ver715436b78/mac), [Canon Cinema RAW](https://support.apple.com/en-sg/guide/final-cut-pro/ver10fade120/mac), and [Blackmagic RAW](https://brawtoolbox.io/), broadening compatibility and functionality.
+- Accommodate Camera RAW files, including formats such as [REDCODE RAW](https://support.apple.com/en-sg/guide/final-cut-pro/ver715436b78/mac), [ARRIRAW MXF](https://www.arri.com/en/learn-help/learn-help-camera-system/pre-postproduction/file-formats-data-handling/arriraw-faq), [Canon Cinema RAW](https://support.apple.com/en-sg/guide/final-cut-pro/ver10fade120/mac), and [Blackmagic RAW](https://brawtoolbox.io/), broadening compatibility and functionality.
 - Enhance accessibility to database workflows, making them more user-friendly and intuitive.
 - Prioritise time efficiency by introducing features that significantly contribute to saving the user's valuable time throughout the application's usage.
 
