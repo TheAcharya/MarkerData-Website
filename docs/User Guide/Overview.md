@@ -15,8 +15,8 @@ Notwithstanding the emphasis on user-friendly design, this website stands ready 
 
 ![Marker Data's DMG](/assets/md-install.png)
 
-1. Download the file to your device.
-2. Select the file to open it.
+1. Download the DMG to your system.
+2. Mount the DMG by double-clicking it.
 3. Move **Marker Data** to your Applications folder.
 4. Launch **Marker Data**.
 5. Read `Onboarding` information and instructions.
