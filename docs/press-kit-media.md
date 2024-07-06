@@ -42,7 +42,7 @@ Feel free to reach out directly [here](https://theacharya.co/contact).
 :::quote
 ***“Using Marker Data feels intuitive and effortless, making it an invaluable tool that enhances my VFX workflow on high-end productions.”***<br />
 
-**[Sam Pluemacher](https://www.imdb.com/name/nm10223233/)** <font size="2">- _Assistant Editor on Netflix's [Blood Red Sky](https://www.imdb.com/title/tt6402468/)_</font>
+**[Sam Pluemacher](https://www.imdb.com/name/nm10223233/)** <font size="2">- _Assistant Editor on Netflix's [Blood Red Sky](https://www.imdb.com/title/tt6402468/), [Blood & Gold](https://www.imdb.com/title/tt18073328/) & [Sixty Minutes](https://www.imdb.com/title/tt29538571/)_</font>
 :::
 
 :::quote
