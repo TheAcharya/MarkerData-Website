@@ -68,7 +68,7 @@ In contrast, **Marker Data** specialises solely in the extraction of information
 
 ## Can Marker Data's Data Set be used with other applications?
 
-Yes. Within **Marker Data**, you have the option to export Data Set in two fundamental formats, namely `.csv` and `.tsv`. These exported Data Sets are located within **Export Destination** folder. Subsequently, you possess the flexibility to import either the `.csv` or the `.tsv` files into any compatible application of your choice.
+Yes. Within **Marker Data**, you have the option to export Data Set in two fundamental formats, namely `.csv` and `.tsv`. These exported Data Sets are located within `Export Destination` folder. Subsequently, you possess the flexibility to import either the `.csv` or the `.tsv` files into any compatible application of your choice.
 
 ## Will it be possible to extract and upload only specific column data?
 
