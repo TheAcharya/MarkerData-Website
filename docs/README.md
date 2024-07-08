@@ -118,9 +118,9 @@ Your browser does not support the video tag.
 
 ## System Requirements
 
-macOS Ventura 13.6.2 or later
-Final Cut Pro 10.6.9 or later
-Runs natively on both Apple silicon and Intel-based Mac computers
+macOS Ventura 13.6.7 or later
+Final Cut Pro 10.7.1 or later
+Runs natively on Apple silicon Macs.
 
 ## Use Cases
 - Marker Notes Database
