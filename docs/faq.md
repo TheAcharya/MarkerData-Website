@@ -57,7 +57,7 @@ Creates GIFs | Yes | No
 Burn-Ins of Labels | Yes | No
 Cost | Free & Open Source | Paid
 
-**Dependent on your Mac’s hardware. With Apple Silicon, your can achieve faster results.*
+**Performance depends on your Mac's hardware. With Apple Silicon M2 or higher, results are significantly faster.*
 ***Rendered Timeline*
 
 ## Does Marker Data replaces Producer's Best Friend?
