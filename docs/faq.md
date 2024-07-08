@@ -126,7 +126,7 @@ As an independent developer, we have chosen to support only macOS Ventura and la
 
 ## Does Marker Data Support Intel-based Macs?
 
-**Marker Data** has not been tested on Intel-based Macs. Both our internal Notion and Airtable client binaries are built natively for the arm64 architecture. While it is technically feasible to create universal binaries that support both Intel and Apple Silicon, doing so would necessitate incorporating additional dependency libraries, which could adversely affect upload performance. Consequently, **Marker Data** is exclusively designed for Apple Silicon Macs.
+**Marker Data** has not been tested on Intel-based Macs. Both our internal Notion and Airtable client binaries are built natively for the ARM64 architecture. While it is technically feasible to create universal binaries that support both Intel and Apple Silicon, doing so would necessitate incorporating additional dependency libraries, which could adversely affect upload performance. Consequently, **Marker Data** is exclusively designed for Apple Silicon Macs.
 
 ## What is Marker Data's Privacy Policy?
 
