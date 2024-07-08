@@ -118,6 +118,16 @@ We are not associated with, nor do we have any affiliation with, Notion or Airta
 
 **Marker Data** can be seamlessly integrated with both the free plans of Notion and Airtable, as there are no technical constraints imposed by Marker Data on such usage. However, it is important to consider the limitations inherent to the free tiers of these platforms. Specifically, Notion's free plan restricts uploads to a maximum of 5MB per file, while Airtable's free plan imposes a limit of 1,000 records per base.
 
+## Why is Marker Data Only Available on macOS Ventura or Later?
+
+**Marker Data** is compatible exclusively with macOS Ventura (13) or later due to Apple's policy of releasing new software features only for the latest version of their operating system. Although these features could technically work on older systems, Apple does not support such compatibility. This poses significant challenges for developers, who are then faced with the choice of either devising extensive workarounds or limiting support to newer OS versions.
+
+As an independent developer, we have chosen to support only macOS Ventura and later versions to avoid the complexities and time-consuming nature of these workarounds. This decision is a matter of practicality and efficiency, not a reflection of a lack of effort or dedication. It is important to understand that these constraints are imposed by Apple's policies, rather than the developers themselves.
+
+## Does Marker Data Support Intel-based Macs?
+
+**Marker Data** has not been tested on Intel-based Macs. Both our internal Notion and Airtable client binaries are built natively for the arm64 architecture. While it is technically feasible to create universal binaries that support both Intel and Apple Silicon, doing so would necessitate incorporating additional dependency libraries, which could adversely affect upload performance. Consequently, **Marker Data** is exclusively designed for Apple Silicon Macs.
+
 ## What is Marker Data's Privacy Policy?
 
 **Marker Data** is designed to operate solely on your computer, without any collection of personal information. All processes and data manipulations occur locally, ensuring that your sensitive information remains confidential and secure. However, it's important to note that when you choose to upload data to platforms such as [Notion](https://www.notion.so/security), [Airtable](https://www.airtable.com/company/trust-and-security) or [Dropbox](https://www.dropbox.com/privacy), your information is subject to their respective privacy policies. We encourage you to read and familiarise yourself with their security & privacy policies to understand how they handle your data. Rest assured, our commitment to privacy means you can enjoy the benefits of our application without compromising your personal data.
