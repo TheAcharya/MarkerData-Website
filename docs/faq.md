@@ -47,7 +47,7 @@ Comparison matrix between **Marker Data** and **FCPXImageExporter.**
 
 Features   | Marker Data | FCPXImageExporter
 :---:   | :---: | :---:
-Speed | Fast*  | Fast
+Speed | Faster*  | Fast
 Utilises Source Clips | No | Yes
 RAW Files| Yes** | No
 Effects, Titles & Transitions | Yes** | No
