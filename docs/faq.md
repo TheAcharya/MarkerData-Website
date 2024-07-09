@@ -120,9 +120,9 @@ We are not associated with, nor do we have any affiliation with, Notion or Airta
 
 ## Why is Marker Data Only Available on macOS Ventura or Later?
 
-**Marker Data** is compatible exclusively with macOS Ventura (13) or later due to Apple's policy of releasing new software features only for the latest version of their operating system. Although these features could technically work on older systems, Apple does not support such compatibility. This poses significant challenges for developers, who are then faced with the choice of either devising extensive workarounds or limiting support to newer OS versions.
+**Marker Data** is compatible exclusively with macOS Ventura (version 13) or later due to Apple's policy of releasing new software features only for the latest version of their operating system. Although these features could technically work on older systems, Apple does not support such compatibility. This poses significant challenges for developers, who are then faced with the choice of either devising extensive workarounds or limiting support to newer OS versions.
 
-As an independent developer, we have chosen to support only macOS Ventura and later versions to avoid the complexities and time-consuming nature of these workarounds. This decision is a matter of practicality and efficiency, not a reflection of a lack of effort or dedication. It is important to understand that these constraints are imposed by Apple's policies, rather than the developers themselves.
+As an independent developer, we have chosen to support only macOS Ventura and later versions to avoid the complexities and time-consuming nature of these workarounds. This decision is a matter of practicality and efficiency, not a reflection of a lack of effort or dedication.
 
 ## Does Marker Data Support Intel-based Macs?
 
