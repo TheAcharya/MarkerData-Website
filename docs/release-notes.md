@@ -7,6 +7,8 @@ order: -98
 
 ### 1.0.0 (1)
 **🎉 Released:**
-- Date
+- 11th July 2024
 
 This is the first public release of **Marker Data**!
+
+![](https://i.giphy.com/Lp71UWmAAeJHi.webp)
