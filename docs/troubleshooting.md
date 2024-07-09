@@ -27,7 +27,7 @@ Please ensure that you are using **Marker Data**'s [Share Destination](/user-gui
 
 ![Failed to complete upload](/assets/md-failed-to-complete-upload.png)
 
-When the **Marker Data** displays a `Failed to complete upload` error, it may be attributed to various underlying causes.
+When **Marker Data** displays a `Failed to complete upload` error, it may be attributed to various underlying causes. If you are utilising a firewall application such as Little Snitch, please ensure that outgoing connections to **Marker Data** are permitted.
 
 ### Notion
 
@@ -48,3 +48,9 @@ If you encounter issues uploading to your Airtable Database, please follow these
 3. Scroll down to review the most recent entries.
 
 If you observe the error messages `Authentication required` or `Invalid permissions, or the requested model was not found.`, it is likely that either your Airtable Token is incorrect or your Airtable Base ID & Table ID is incorrect. For detailed instructions on resolving these issues, please refer to the [Airtable Prerequisite](/databases/airtable-prerequisite) documentation.
+
+## Marker Data shows Failed to upload completely.
+
+![Failed to upload completely](/assets/md-failed-to-upload-completely.png)
+
+When **Marker Data** displays a `Failed to upload completely` error, it may be due to several factors. One potential cause is that you are using an Intel-based Mac, which is not supported by **Marker Data**. For further information, please refer to this [FAQ](/faq/#does-marker-data-support-intel-based-macs).
