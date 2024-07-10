@@ -118,13 +118,13 @@ We are not associated with, nor do we have any affiliation with, Notion or Airta
 
 **Marker Data** can be seamlessly integrated with both the free plans of Notion and Airtable, as there are no technical constraints imposed by Marker Data on such usage. However, it is important to consider the limitations inherent to the free tiers of these platforms. Specifically, Notion's free plan restricts uploads to a maximum of 5MB per file, while Airtable's free plan imposes a limit of 1,000 records per base.
 
-## Why is Marker Data Only Available on macOS Ventura or Later?
+## Why is Marker Data only available on macOS Ventura or later?
 
 **Marker Data** is compatible exclusively with macOS Ventura (version 13) or later due to Apple's policy of releasing new software features only for the latest version of their operating system. Although these features could technically work on older systems, Apple does not support such compatibility. This poses significant challenges for developers, who are then faced with the choice of either devising extensive workarounds or limiting support to newer OS versions.
 
 As an independent developer, we have chosen to support only macOS Ventura and later versions to avoid the complexities and time-consuming nature of these workarounds. This decision is a matter of practicality and efficiency, not a reflection of a lack of effort or dedication.
 
-## Does Marker Data Support Intel-based Macs?
+## Does Marker Data support Intel-based Macs?
 
 **Marker Data** has not been extensively tested on Intel-based Macs. Both our internal Notion and Airtable client binaries are built natively for the ARM64 architecture. While it is technically feasible to create universal binaries that support both Intel and Apple Silicon, doing so would necessitate incorporating additional dependency libraries, which could adversely affect upload performance. Hence, **Marker Data** is exclusively developed for Apple Silicon Macs.
 
