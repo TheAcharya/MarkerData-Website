@@ -14,7 +14,9 @@ Feel free to reach out directly [here](https://theacharya.co/contact).
 
 ## Featured
 
+- [FCP Cafe](https://fcp.cafe/#11th-july-2024)
 - [Newsshooter](https://www.newsshooter.com/2024/07/10/marker-data-for-final-cut-pro/)
+- [ProVideo Coalition](https://www.provideocoalition.com/marker-data-a-quick-look/)
 
 ## What Users Say
 
@@ -53,6 +55,12 @@ Feel free to reach out directly [here](https://theacharya.co/contact).
 ***“Marker Data is the easiest way to extract notes, chapter timing data and reference images from a Final Cut Pro timeline.”***<br />
 
 **[Iain Anderson](https://iain-anderson.com/)** <font size="2">- _Author of Final Cut Pro Efficient Editing_</font>
+:::
+
+:::quote
+***“Final Cut Pro marker metadata mastery!”***<br />
+
+**[Alex ‘4D’ Gollner](https://x.com/Alex4D)** <font size="2">- _Editor & Associate Governor of British Film Editors_</font>
 :::
 
 ## Trivia
