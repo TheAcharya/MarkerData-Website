@@ -120,7 +120,7 @@ Your browser does not support the video tag.
 
 macOS Ventura 13.6.7 or later
 Final Cut Pro 10.7.1 or later
-Runs natively on Apple silicon Macs
+Runs only on Apple silicon Macs
 
 ## Use Cases
 - Marker Notes Database
