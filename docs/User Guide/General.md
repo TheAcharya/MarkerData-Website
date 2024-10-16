@@ -104,7 +104,7 @@ Select the `Open Files and Folders Access` link to open macOS's Files and Folder
 Select the `Open Full Disk Access` link to open macOS's Full Disk Access Settings.
 
 !!!info Info
-Due to stringent security protocols implemented within macOS, you will encounter a prompt necessitating your authorisation to grant Files and Folders Access to **Marker Data** upon initial extraction. In the eventuality of managing multiple Configurations with varying `Export Destination` settings scattered across your local drive, you can confer **Marker Data** with Full Disk Access privileges."
+Due to stringent security protocols implemented within macOS, you will encounter a prompt necessitating your authorisation to grant Files and Folders Access to **Marker Data** upon initial extraction. In the eventuality of managing multiple Configurations with varying `Export Destination` settings scattered across your local drive, you can confer **Marker Data** with Full Disk Access privileges.
 !!!
 
 <hr>
