@@ -14,7 +14,7 @@ Feel free to reach out directly [here](https://theacharya.co/contact).
 
 ## Featured
 
-- [FCP Cafe](https://fcp.cafe/#11th-july-2024)
+- [FCP Cafe](https://fcp.cafe/ecosystem/tools/#marker-data)
 - [Newsshooter](https://www.newsshooter.com/2024/07/10/marker-data-for-final-cut-pro/)
 - [ProVideo Coalition](https://www.provideocoalition.com/marker-data-a-quick-look/)
 
