@@ -63,6 +63,20 @@ You can also click on the `Quick Configurations Selector` menu located on the to
 
 2. Click on your desired Configuration to `Make Active`.
 
+### Method 4
+
+Starting with **Marker Data** version 1.1.0, you will have the capability to assign a shortcut to your chosen Configuration. Shortcuts can be assigned using key combinations ranging from `⌘` `1` to `⌘` `9`.
+
+1. Right-click on your desired Configuration.
+
+![Assign Shortcut](/assets/md-configuration-settings_08.png)
+
+2. Click on your desired keyboard shortcut.
+
+3. The shortcut will be assigned to the particular Configuration.
+
+4. You will be able to switch configurations easily using the keyboard shortcut.
+
 ## Duplicate Configuration
 
 ### Method 1
