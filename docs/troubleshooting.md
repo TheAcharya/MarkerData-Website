@@ -53,6 +53,6 @@ If you observe the error messages `Authentication required` or `Invalid permissi
 
 ![Failed to upload completely](/assets/md-failed-to-upload-completely.png)
 
-When **Marker Data** displays a `Failed to upload completely` error, it may be due to couple of factors. One potential cause is that you are using an Intel-based Mac, which is not supported by **Marker Data**. For further information, please refer to this [FAQ](/faq/#does-marker-data-support-intel-based-macs).
+When **Marker Data** displays a `Failed to upload completely` error, it may be due to couple of factors. One potential cause is that you are using an Intel-based Mac, which is not supported by **Marker Data**. Starting with **Marker Data** version 1.1.0, application is exclusively build and optimised for Apple Silicon only. For further information, please refer to this [FAQ](/faq/#does-marker-data-support-intel-based-macs).
 
 If you are utilising a firewall application such as Little Snitch, please ensure that outgoing connections to **Marker Data** are permitted.
