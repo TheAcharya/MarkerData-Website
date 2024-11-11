@@ -22,6 +22,8 @@ order: -98
 **🐞 Bug Fix:**
 - Fixed a critical bug in the Notion module that prevented Marker Data's Data Set uploads when Notion Database URL is not provided
 
+<hr>
+
 ### 1.0.0 (1)
 
 **🎉 Released:**
