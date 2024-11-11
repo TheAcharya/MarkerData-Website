@@ -49,6 +49,8 @@ If you encounter issues uploading to your Airtable Database, please follow these
 
 If you observe the error messages `Authentication required` or `Invalid permissions, or the requested model was not found.`, it is likely that either your Airtable Token is incorrect or your Airtable Base ID & Table ID is incorrect. For detailed instructions on resolving these issues, please refer to the [Airtable Prerequisite](/databases/airtable-prerequisite) documentation.
 
+If you observe the error message `Error in call to API function "files/create_folder": Your app is not permitted to access this endpoint because it does not have the required scope \'files.content.write\'. The owner of the app can enable the scope for the app using the Permissions tab on the App Console.')`, it is likely that the required scopes for the app utilising the Permissions tab within the Dropbox's App Console is not checked. For detailed instructions on resolving these issues, please refer to the [Dropbox Prerequisite](/databases/dropbox-prerequisite) documentation. After you have checked your and submitted the scopes, you must to re-create and start over your Dropbox refresh token again. For detailed instructions on resolving these issues, please refer to the [Dropbox App Key](databases/#creating-airtable-database-profile) documentation.
+
 ## Marker Data shows Failed to upload completely.
 
 ![Failed to upload completely](/assets/md-failed-to-upload-completely.png)
