@@ -27,7 +27,7 @@ order: -98
 
 **🔨 Improvements:**
 - Application bundle size has been reduced
-- User can now Assign Shortcut to Configurations (#47)
+- User can now Assign Shortcut to Configurations
 - Codebase updates for better compatibility with Xcode 16
 - Updated Notion Module CSV2Notion Neo to version 1.3.3
 - Updated Airtable Module Airlift to version 1.1.4

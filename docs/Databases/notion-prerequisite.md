@@ -15,10 +15,10 @@ order: -2
 ## Obtain your Session Token
 
 1. Login to your [Notion](https://www.notion.so/login) account via a web browser.
-2. Find and copy the entire `token_v2` value including `v02%3Auser_token_or_cookies%` from your Notion session.
+2. Find and copy the entire `token_v2` value including `v03%3` from your Notion session.
 
 !!!info Info
-Your Notion v2 Token should start with `v02%3Auser_token_or_cookies%...`
+Your Notion v2 Token should start with `v03%3...`
 !!!
 
 ==- Safari
