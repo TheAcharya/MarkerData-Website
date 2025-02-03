@@ -64,8 +64,4 @@ footer:
     link: license.md
     icon: law
     
-integrations:
-    googleTagManager:
-      id: G-KB3LY86BRJ
-    
 poweredByRetype: false
