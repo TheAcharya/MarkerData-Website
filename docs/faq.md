@@ -132,6 +132,14 @@ As an independent developer, we have chosen to support only macOS Ventura and la
 
 **Marker Data** has not been extensively tested on Intel-based Macs. Both our internal Notion and Airtable client binaries are built natively for the ARM64 architecture. While it is technically feasible to create universal binaries that support both Intel and Apple Silicon, doing so would necessitate incorporating additional dependency libraries, which could adversely affect upload performance. Starting with **Marker Data** version 1.1.0, application is exclusively build and optimised for Apple Silicon only.
 
+## Can iCloud Sync Be Integrated for Marker Data’s Configuration and Database Profiles?
+
+While integrating iCloud Sync for **Marker Data**’s Configuration and Database Profiles is technically feasible, it falls outside the application's intended scope. Implementing such a feature would introduce additional complexities in maintenance and development.
+
+Users can, however, manually back up their Configuration and Database Profiles to a preferred location as needed. For those requiring a more robust synchronisation solution, we recommend [PostSync](https://chrisroyfilms.com/postsync/), which fully supports **Marker Data**’s Configuration and Database Profiles.
+
+![PostSync](assets/postsync.png)
+
 ## What is Marker Data's Privacy Policy?
 
 **Marker Data** is designed to operate solely on your computer, without any collection of personal information. All processes and data manipulations occur locally, ensuring that your sensitive information remains confidential and secure. However, it's important to note that when you choose to upload data to platforms such as [Notion](https://www.notion.so/security), [Airtable](https://www.airtable.com/company/trust-and-security) or [Dropbox](https://www.dropbox.com/privacy), your information is subject to their respective privacy policies. We encourage you to read and familiarise yourself with their security & privacy policies to understand how they handle your data. Rest assured, our commitment to privacy means you can enjoy the benefits of our application without compromising your personal data.
