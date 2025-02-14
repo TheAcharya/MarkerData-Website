@@ -14,6 +14,8 @@ Marker Data is also made possible because of the hard work of these amazing open
 | [OTCore](https://github.com/orchetect/OTCore) | Useful extensions on Swift standard library types |
 | [ColorWellKit](https://github.com/jordanbaird/ColorWellKit) | An alternative to NSColorWell for Cocoa and ColorPicker for SwiftUI |
 | [PasswordField](https://github.com/MrAsterisco/PasswordField) | A secure text field for SwiftUI with a button to toggle visibility |
+| [ButtonKit](https://github.com/Dean151/ButtonKit) | Asynchronous and Throwable button implementation for SwiftUI, with animations and progress tracking |
+| [DockProgress](https://github.com/sindresorhus/DockProgress) | Show progress in your app's Dock icon |
 | [ShareDestinationKit](https://github.com/latenitefilms/ShareDestinationKit) | Receiving Media and Data Through a Custom Share Destination in Swift |
 | [DominantColors](https://github.com/DenDmitriev/DominantColors) | Extractor dominant colours from image |
 | [GrabShot](https://github.com/DenDmitriev/GrabShot) | An application for capturing frames from videos and extracting colors |
