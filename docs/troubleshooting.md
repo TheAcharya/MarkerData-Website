@@ -90,3 +90,5 @@ Traceback (most recent call last):
 ```
 
 Occasionally, **Marker Data**'s Notion module would become non-functional when Notion updates its APIs. This occurs due to the reliance on [unofficial APIs](/faq/#what-rationale-underlies-the-utilisation-of-notion-v2-tokens-in-lieu-of-official-api-provided-by-notion).
+
+If you encounter such an problem, please open an [issue](https://github.com/TheAcharya/MarkerData/issues). With time and thorough investigation, we will release an update for **Marker Data**. However, the update may not be immediate, as it depends on our availability to analyse and resolve the issue. We appreciate your patience and understanding.
