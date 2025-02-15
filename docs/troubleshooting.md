@@ -58,3 +58,35 @@ If you observe the error message `Error in call to API function "files/create_fo
 When **Marker Data** displays a `Failed to upload completely` error, it may be due to couple of factors. One potential cause is that you are using an Intel-based Mac, which is not supported by **Marker Data**. Starting with **Marker Data** version 1.1.0, application is exclusively build and optimised for Apple Silicon only. For further information, please refer to this [FAQ](/faq/#does-marker-data-support-intel-based-macs).
 
 If you are utilising a firewall application such as Little Snitch, please ensure that outgoing connections to **Marker Data** are permitted.
+
+## I have verified and ensured that all Notion prerequisites are met and entered correctly. However, Marker Data still shows Failed to upload completely.
+
+1. Navigate to the `Help` menu and select `Open Logs`.
+2. Open the log file `csv2notion-neo_log.txt`.
+3. Scroll down to review the most recent entries.
+
+If you encounter error messages similar to the one displayed, it may indicate that Notion has updated its APIs, requiring an update to Marker Data's Notion module.
+
+```bash
+2025-02-15 10:23:02,118 [ERROR   ] Error at division
+Traceback (most recent call last):
+  File "csv2notion_neo/cli.py", line 58, in cli
+  File "csv2notion_neo/cli_steps.py", line 80, in upload_rows
+  File "tqdm/std.py", line 1181, in __iter__
+  File "csv2notion_neo/utils_threading.py", line 39, in process_iter
+  File "csv2notion_neo/utils_threading.py", line 39, in <genexpr>
+  File "concurrent/futures/_base.py", line 437, in result
+  File "concurrent/futures/_base.py", line 389, in __get_result
+  File "concurrent/futures/thread.py", line 57, in run
+  File "csv2notion_neo/utils_threading.py", line 27, in worker
+  File "csv2notion_neo/notion_uploader.py", line 33, in upload_row
+  File "csv2notion_neo/notion_uploader.py", line 50, in _get_db_row
+  File "csv2notion_neo/notion_db.py", line 106, in add_row
+  File "csv2notion_neo/notion_db_collection.py", line 39, in add_row_block
+  File "csv2notion_neo/notion_db_collection.py", line 69, in _add_row_block
+  File "csv2notion_neo/notion_row.py", line 46, in icon
+  File "csv2notion_neo/notion_row_upload_file.py", line 21, in upload_filetype
+  File "csv2notion_neo/notion_row_upload_file.py", line 41, in upload_file
+```
+
+Occasionally, **Marker Data**'s Notion module may become non-functional when Notion updates its APIs. This occurs due to the reliance on [unofficial APIs](/faq/#what-rationale-underlies-the-utilisation-of-notion-v2-tokens-in-lieu-of-official-api-provided-by-notiong).
