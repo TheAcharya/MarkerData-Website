@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.792809954813">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.792903216197">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.6.0">
@@ -33,11 +33,12 @@
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../static/favicon.ico" rel="icon">
-    <link href="../resources/css/retype.css?v=3.6.0.792809954813" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=3.6.0.792903216197" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=3.6.0.792809954813" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=3.6.0.792903216197" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=3.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.6.0.792809954813" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.6.0.792903216197" data-turbo-eval="false" defer></script>
+    <script id="prism-js" data-cfasync="false" src="../resources/js/prism.js?v=3.6.0.792903216197" defer></script>
 
     <meta name="msvalidate.01" content="325120C12888C61306930ACDFB17A57E" />
     <!-- Google Tag Manager -->
@@ -416,6 +417,40 @@
 </p>
 <p>When <strong>Marker Data</strong> displays a <code v-pre>Failed to upload completely</code> error, it may be due to couple of factors. One potential cause is that you are using an Intel-based Mac, which is not supported by <strong>Marker Data</strong>. Starting with <strong>Marker Data</strong> version 1.1.0, application is exclusively build and optimised for Apple Silicon only. For further information, please refer to this <a href="../faq/#does-marker-data-support-intel-based-macs">FAQ</a>.</p>
 <p>If you are utilising a firewall application such as Little Snitch, please ensure that outgoing connections to <strong>Marker Data</strong> are permitted.</p>
+<doc-anchor-target id="i-have-verified-and-ensured-that-all-notion-prerequisites-are-met-and-entered-correctly-however-marker-data-still-shows-failed-to-upload-completely">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#i-have-verified-and-ensured-that-all-notion-prerequisites-are-met-and-entered-correctly-however-marker-data-still-shows-failed-to-upload-completely">#</doc-anchor-trigger>
+        <span>I have verified and ensured that all Notion prerequisites are met and entered correctly. However, Marker Data still shows Failed to upload completely.</span>
+    </h2>
+</doc-anchor-target>
+<ol>
+<li>Navigate to the <code v-pre>Help</code> menu and select <code v-pre>Open Logs</code>.</li>
+<li>Open the log file <code v-pre>csv2notion-neo_log.txt</code>.</li>
+<li>Scroll down to review the most recent entries.</li>
+</ol>
+<p>If you encounter error messages similar to the one displayed, it may indicate that Notion has updated its APIs, requiring an update to Marker Data&#x27;s Notion module.</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-bash"><code v-pre class="language-bash">2025-02-15 10:23:02,118 [ERROR   ] Error at division
+Traceback (most recent call last):
+  File &quot;csv2notion_neo/cli.py&quot;, line 58, in cli
+  File &quot;csv2notion_neo/cli_steps.py&quot;, line 80, in upload_rows
+  File &quot;tqdm/std.py&quot;, line 1181, in __iter__
+  File &quot;csv2notion_neo/utils_threading.py&quot;, line 39, in process_iter
+  File &quot;csv2notion_neo/utils_threading.py&quot;, line 39, in &lt;genexpr&gt;
+  File &quot;concurrent/futures/_base.py&quot;, line 437, in result
+  File &quot;concurrent/futures/_base.py&quot;, line 389, in __get_result
+  File &quot;concurrent/futures/thread.py&quot;, line 57, in run
+  File &quot;csv2notion_neo/utils_threading.py&quot;, line 27, in worker
+  File &quot;csv2notion_neo/notion_uploader.py&quot;, line 33, in upload_row
+  File &quot;csv2notion_neo/notion_uploader.py&quot;, line 50, in _get_db_row
+  File &quot;csv2notion_neo/notion_db.py&quot;, line 106, in add_row
+  File &quot;csv2notion_neo/notion_db_collection.py&quot;, line 39, in add_row_block
+  File &quot;csv2notion_neo/notion_db_collection.py&quot;, line 69, in _add_row_block
+  File &quot;csv2notion_neo/notion_row.py&quot;, line 46, in icon
+  File &quot;csv2notion_neo/notion_row_upload_file.py&quot;, line 21, in upload_filetype
+  File &quot;csv2notion_neo/notion_row_upload_file.py&quot;, line 41, in upload_file</code></pre>
+</doc-codeblock></div>
+<p>Occasionally, <strong>Marker Data</strong>&#x27;s Notion module may become non-functional when Notion updates its APIs. This occurs due to the reliance on <a href="../faq/#what-rationale-underlies-the-utilisation-of-notion-v2-tokens-in-lieu-of-official-api-provided-by-notiong">unofficial APIs</a>.</p>
 
                                 
                                 <!-- Required only on API pages -->
@@ -492,6 +527,6 @@
 
     <div id="docs-overlay-target"></div>
 
-    <script data-cfasync="false">window.__DOCS__ = { "title": "Troubleshooting", level: 1, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+    <script data-cfasync="false">window.__DOCS__ = { "title": "Troubleshooting", level: 1, icon: "file", hasPrism: true, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
 </body>
 </html>
