@@ -89,4 +89,4 @@ Traceback (most recent call last):
   File "csv2notion_neo/notion_row_upload_file.py", line 41, in upload_file
 ```
 
-Occasionally, **Marker Data**'s Notion module may become non-functional when Notion updates its APIs. This occurs due to the reliance on [unofficial APIs](/faq/#what-rationale-underlies-the-utilisation-of-notion-v2-tokens-in-lieu-of-official-api-provided-by-notiong).
+Occasionally, **Marker Data**'s Notion module would become non-functional when Notion updates its APIs. This occurs due to the reliance on [unofficial APIs](/faq/#what-rationale-underlies-the-utilisation-of-notion-v2-tokens-in-lieu-of-official-api-provided-by-notion).
