@@ -93,11 +93,13 @@ Occasionally, **Marker Data**'s Notion module would become non-functional when N
 
 If you encounter such an problem, please open an [issue](https://github.com/TheAcharya/MarkerData/issues). With time and thorough investigation, we will release an update for **Marker Data**. However, the update may not be immediate, as it depends on our availability to analyse and resolve the issue. We appreciate your patience and understanding.
 
-To streamline our internal testing process, we have implemented an automated weekly validation of Marker Data’s Notion module, [CSV2Notion Neo](https://github.com/TheAcharya/csv2notion-neo), against Notion’s servers. This test is scheduled to run every week at 8:00 AM Singapore time.
+## Module Status
 
-Tests   | Status
----    | ---
-Notion Image Upload Test  | [![notion_image_upload_test](https://github.com/TheAcharya/csv2notion-neo/actions/workflows/notion_image_upload_test.yml/badge.svg)](https://github.com/TheAcharya/csv2notion-neo/actions/workflows/notion_image_upload_test.yml)
+To streamline our internal testing process, we have implemented an automated weekly validation of Marker Data’s module.
 
-If the badge displays green and indicates a passing status, it confirms that our Notion module's codebase is compatible with Notion’s API. However, if it appears red and signals a failure, an update may be required.
+Tests   | Status | Schedule
+---    | --- | ---
+Notion  | [![notion_image_upload_test](https://github.com/TheAcharya/csv2notion-neo/actions/workflows/notion_image_upload_test.yml/badge.svg)](https://github.com/TheAcharya/csv2notion-neo/actions/workflows/notion_image_upload_test.yml) | Scheduled weekly on Saturdays at 8:00 AM Singapore time
+
+If the badge is green, indicating a successful test, it confirms that our modules are compatible with the supported database platforms. However, if the badge turns red, signalling a failure, an update may be necessary to ensure continued compatibility.
 
