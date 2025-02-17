@@ -97,7 +97,7 @@ If you encounter such an problem, please open an [issue](https://github.com/TheA
 
 To streamline our internal testing process, we have implemented an automated weekly validation of Marker Data’s module.
 
-Tests   | Status | Schedule
+Modules   | Status | Schedule
 ---    | --- | ---
 Notion  | [![notion_image_upload_test](https://github.com/TheAcharya/csv2notion-neo/actions/workflows/notion_image_upload_test.yml/badge.svg)](https://github.com/TheAcharya/csv2notion-neo/actions/workflows/notion_image_upload_test.yml) | Scheduled weekly on Saturdays at 8:00 AM Singapore time
 
