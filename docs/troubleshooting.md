@@ -95,8 +95,9 @@ If you encounter such an problem, please open an [issue](https://github.com/TheA
 
 To streamline our internal testing process, we have implemented an automated weekly validation of Marker Data’s Notion module, [CSV2Notion Neo](https://github.com/TheAcharya/csv2notion-neo), against Notion’s servers. This test is scheduled to run every week at 8:00 AM Singapore time.
 
-Name   | Status
+Tests   | Status
 ---    | ---
 Notion Image Upload Test  | [![notion_image_upload_test](https://github.com/TheAcharya/csv2notion-neo/actions/workflows/notion_image_upload_test.yml/badge.svg)](https://github.com/TheAcharya/csv2notion-neo/actions/workflows/notion_image_upload_test.yml)
 
+If the badge displays green and indicates a passing status, it confirms that our Notion module's codebase is compatible with Notion’s API. However, if it appears red and signals a failure, an update may be required.
 
