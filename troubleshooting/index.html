@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.793029013820">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.793074986913">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.6.0">
@@ -33,12 +33,12 @@
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../static/favicon.ico" rel="icon">
-    <link href="../resources/css/retype.css?v=3.6.0.793029013820" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=3.6.0.793074986913" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=3.6.0.793029013820" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=3.6.0.793074986913" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=3.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.6.0.793029013820" data-turbo-eval="false" defer></script>
-    <script id="prism-js" data-cfasync="false" src="../resources/js/prism.js?v=3.6.0.793029013820" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.6.0.793074986913" data-turbo-eval="false" defer></script>
+    <script id="prism-js" data-cfasync="false" src="../resources/js/prism.js?v=3.6.0.793074986913" defer></script>
 
     <meta name="msvalidate.01" content="325120C12888C61306930ACDFB17A57E" />
     <!-- Google Tag Manager -->
@@ -452,6 +452,23 @@ Traceback (most recent call last):
 </doc-codeblock></div>
 <p>Occasionally, <strong>Marker Data</strong>&#x27;s Notion module would become non-functional when Notion updates its APIs. This occurs due to the reliance on <a href="../faq/#what-rationale-underlies-the-utilisation-of-notion-v2-tokens-in-lieu-of-official-api-provided-by-notion">unofficial APIs</a>.</p>
 <p>If you encounter such an problem, please open an <a href="https://github.com/TheAcharya/MarkerData/issues" class="outbound" target="_blank">issue</a>. With time and thorough investigation, we will release an update for <strong>Marker Data</strong>. However, the update may not be immediate, as it depends on our availability to analyse and resolve the issue. We appreciate your patience and understanding.</p>
+<p>To streamline our internal testing process, we have implemented an automated weekly validation of Marker Data’s Notion module, <a href="https://github.com/TheAcharya/csv2notion-neo" class="outbound" target="_blank">CSV2Notion Neo</a>, against Notion’s servers. This test is scheduled to run every week at 8:00 AM Singapore time.</p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Name</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Notion Image Upload Test</td>
+<td><a href="https://github.com/TheAcharya/csv2notion-neo/actions/workflows/notion_image_upload_test.yml" class="outbound" target="_blank"><img src="https://github.com/TheAcharya/csv2notion-neo/actions/workflows/notion_image_upload_test.yml/badge.svg" alt="notion_image_upload_test" /></a></td>
+</tr>
+</tbody>
+</table>
+</div>
 
                                 
                                 <!-- Required only on API pages -->
