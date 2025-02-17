@@ -92,3 +92,11 @@ Traceback (most recent call last):
 Occasionally, **Marker Data**'s Notion module would become non-functional when Notion updates its APIs. This occurs due to the reliance on [unofficial APIs](/faq/#what-rationale-underlies-the-utilisation-of-notion-v2-tokens-in-lieu-of-official-api-provided-by-notion).
 
 If you encounter such an problem, please open an [issue](https://github.com/TheAcharya/MarkerData/issues). With time and thorough investigation, we will release an update for **Marker Data**. However, the update may not be immediate, as it depends on our availability to analyse and resolve the issue. We appreciate your patience and understanding.
+
+To streamline our internal testing process, we have implemented an automated weekly validation of Marker Data’s Notion module, [CSV2Notion Neo](https://github.com/TheAcharya/csv2notion-neo), against Notion’s servers. This test is scheduled to run every week at 8:00 AM Singapore time.
+
+Name   | Status
+---    | ---
+Notion Image Upload Test  | [![notion_image_upload_test](https://github.com/TheAcharya/csv2notion-neo/actions/workflows/notion_image_upload_test.yml/badge.svg)](https://github.com/TheAcharya/csv2notion-neo/actions/workflows/notion_image_upload_test.yml)
+
+
