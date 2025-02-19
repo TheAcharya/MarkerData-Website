@@ -5,6 +5,19 @@ order: -98
 ---
 # Release Notes
 
+### 1.1.3 (5)
+
+**🎉 Released:**
+- TBD
+
+**🔨 Improvements:**
+- Updated [Troubleshooting](https://markerdata.theacharya.co/troubleshooting/) guide to include Module Status
+
+**🐞 Bug Fix:**
+- Fixed a critical bug that caused Marker Data's Workflow Extension to crash in macOS Sequoia
+
+<hr>
+
 ### 1.1.2 (4)
 
 **🎉 Released:**
