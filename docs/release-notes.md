@@ -11,7 +11,7 @@ order: -98
 - 20th February 2025
 
 **🔨 Improvements:**
-- Updated [Troubleshooting](https://markerdata.theacharya.co/troubleshooting/) guide to include Module Status
+- Updated [Troubleshooting](troubleshooting.md) guide to include Module Status
 
 **🐞 Bug Fix:**
 - Fixed a critical bug that caused Marker Data's Workflow Extension to crash in macOS Sequoia
