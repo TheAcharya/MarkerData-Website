@@ -12,6 +12,10 @@ We would greatly appreciate your support in sharing and promoting **Marker Data*
 
 Feel free to reach out directly [here](https://theacharya.co/contact).
 
+## YouTube
+
+- [Jesus from motionfx.es talks about creating YouTube Chapters Markers using Marker Data (30th January 2025)](https://www.youtube.com/watch?v=7YNVUjlDhMo)
+
 ## Featured
 
 - [FCP Cafe](https://fcp.cafe/ecosystem/tools/#marker-data)
