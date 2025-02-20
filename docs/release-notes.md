@@ -8,7 +8,7 @@ order: -98
 ### 1.1.3 (5)
 
 **🎉 Released:**
-- TBD
+- 20th February 2025
 
 **🔨 Improvements:**
 - Updated [Troubleshooting](https://markerdata.theacharya.co/troubleshooting/) guide to include Module Status
