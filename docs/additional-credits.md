@@ -12,7 +12,7 @@ Marker Data is also made possible because of the hard work of these amazing open
 | [MIDIKit](https://github.com/orchetect/MIDIKit) | Modern multi-platform Swift CoreMIDI wrapper with MIDI 2.0 support |
 | [TextFileKit](https://github.com/orchetect/TextFileKit) | Read & write delimited text file formats (incl. CSV and TSV) |
 | [OTCore](https://github.com/orchetect/OTCore) | Useful extensions on Swift standard library types |
-| [Marker Data Pagemaker](https://github.com/TheAcharya/MarkerData-Pagemaker) | From Timeline to PDF, Effortlessly Built|
+| [Pagemaker](https://github.com/TheAcharya/MarkerData-Pagemaker) | From Timeline to PDF, Effortlessly Built|
 | [ColorWellKit](https://github.com/jordanbaird/ColorWellKit) | An alternative to NSColorWell for Cocoa and ColorPicker for SwiftUI |
 | [PasswordField](https://github.com/MrAsterisco/PasswordField) | A secure text field for SwiftUI with a button to toggle visibility |
 | [ButtonKit](https://github.com/Dean151/ButtonKit) | Asynchronous and Throwable button implementation for SwiftUI, with animations and progress tracking |
