@@ -1,7 +1,7 @@
 ---
 label: Keyboard Shortcuts
 icon: key-asterisk
-order: -11
+order: -12
 ---
 # Keyboard Shortcuts
 
@@ -10,6 +10,13 @@ You can use keyboard shortcuts to quickly accomplish Common tasks in **Marker Da
 !!!info Info
 Some keyboard shortcuts can be changed in System Settings (or System Preferences) and may not match what is listed here.
 !!!
+
+## File Menu
+
+| Action | Shortcut |
+|---|---|
+| Open Pagemaker | `⌘` `P` |
+| Clean Cache | `⌘` `K` |
 
 ## Main Application
 

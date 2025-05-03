@@ -1,7 +1,7 @@
 ---
 label: Share Destination
 icon: share
-order: -9
+order: -10
 ---
 # Share Destination
 
