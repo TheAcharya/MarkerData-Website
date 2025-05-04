@@ -52,3 +52,11 @@ Some keyboard shortcuts can be changed in System Settings (or System Preferences
 | Action | Shortcut |
 |---|---|
 | Clear Merge Only Selection | `⇧` `⌘` `D` |
+
+## Pagemaker
+
+| Action | Shortcut |
+|---|---|
+| Open Folder | `⌘` `O` |
+| Export PDF | `⇧` `⌘` `S` |
+| Reload | `⌘` `R` |
