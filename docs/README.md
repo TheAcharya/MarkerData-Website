@@ -116,6 +116,8 @@ Your browser does not support the video tag.
 
 ![Database Settings](/assets/md-database-settings.png)
 
+![Pagemaker](/assets/md-pagemaker.png)
+
 ## System Requirements
 
 macOS Ventura 13.6.7 or later
