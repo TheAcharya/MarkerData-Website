@@ -30,6 +30,7 @@ The avant-garde Marker extraction application crafted for [Final Cut Pro](https:
 - Comprehensive timeline functionality, encompassing support for timelines such as Projects and Compound Clips.
 - Allows the creation of multiple configurations tailored to diverse project requirements.
 - Harnesses the potential to utilise Captions as Markers, adding a layer of flexibility.
+- Convert Markers into shareable, professional PDFs via Pagemaker.
 - Written in Apple Swift language and SwiftUI framework.
 - Application is Notarised by Apple.
 
@@ -136,6 +137,7 @@ Runs only on Apple silicon Macs
 - Offline & Online Notes Database
 - Send Final Cut Pro's Markers to DAWs
 - Create YouTube Chapters
+- Create PDFs via Pagemaker
 
 ## Support
 
