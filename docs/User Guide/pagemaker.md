@@ -10,6 +10,10 @@ order: -9
 **Pagemaker** is a lightweight module designed to bridge a key gap in the **Marker Data** toolset: the ability to generate and export PDFs from [Final Cut Pro](https://www.apple.com/final-cut-pro/)'s Marker metadata with images. Originally, Marker Data lacked native support for PDF export. With the introduction of the Pagemaker module, this limitation has been thoughtfully addressed.
 
 Starting with **Marker Data** version 1.2.0, **Marker Data** now allows users to load a data set, extracted via Notion or Airtable using [Extraction Profiles](/user-guide/general/#extraction-profile) and generate a dynamic, visual web gallery. Once the Data Set is loaded, users can explore its contents through a searchable and filterable interface. Selected items can then be exported into a cleanly formatted, print-ready PDF, making it easy to share with clients, team members, or maintaining as project archives.
+
+!!!info Info
+To use **Pagemaker**, an internet connection is necessary. Rest assured that your Data Set processing remains entirely local, maintaining data integrity and privacy.
+!!!
  
 ## Opening Pagemaker
 
@@ -145,5 +149,5 @@ The PDF export is automatically named using the format `[ProjectName]-[Date]-[Ti
 
 ## Behind the Name: Pagemaker
 
-The name **Pagemaker** draws from cherished memories of my teenage years in the 1990s. During high school, Adobe PageMaker 6.0 became my gateway into desktop publishing—transforming simple school reports into thoughtfully designed documents. This early experience kindled my appreciation for visual communication and the power of layout design. By naming this module after that influential software, I honour a tool that shaped my creative understanding while providing today's users the ability to transform metadata data into elegant, shareable documents.
+The name **Pagemaker** draws from cherished memories of my teenage years in the 1990s. During high school, Adobe PageMaker 6.0 became my gateway into desktop publishing—transforming simple school reports into thoughtfully designed documents. This early experience kindled my appreciation for visual communication and the power of layout design. By naming this module after that influential software, I honour a tool that shaped my creative understanding while providing today's users the ability to transform metadata data into elegant, shareable PDFs.
 
