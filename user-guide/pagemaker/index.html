@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.7.0.799638836804">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.7.0.799726459592">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.7.0">
@@ -11,7 +11,7 @@
     <!-- Primary Meta Tags -->
     <title>Pagemaker</title>
     <meta name="title" content="Pagemaker">
-    <meta name="description" content="Documentation will be added in due course.">
+    <meta name="description" content="Pagemaker">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://markerdata.theacharya.co/user-guide/pagemaker/">
@@ -20,22 +20,24 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://markerdata.theacharya.co/user-guide/pagemaker/">
     <meta property="og:title" content="Pagemaker">
-    <meta property="og:description" content="Documentation will be added in due course.">
+    <meta property="og:description" content="Pagemaker">
+    <meta property="og:image" content="https://markerdata.theacharya.co/assets/md-pagemaker.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://markerdata.theacharya.co/user-guide/pagemaker/">
     <meta property="twitter:title" content="Pagemaker">
-    <meta property="twitter:description" content="Documentation will be added in due course.">
+    <meta property="twitter:description" content="Pagemaker">
+    <meta property="twitter:image" content="https://markerdata.theacharya.co/assets/md-pagemaker.png">
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../static/favicon.ico" rel="icon">
-    <link href="../../resources/css/retype.css?v=3.7.0.799638836804" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.7.0.799726459592" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.7.0.799638836804" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.7.0.799726459592" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.7.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.7.0.799638836804" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.7.0.799726459592" data-turbo-eval="false" defer></script>
 
     <meta name="msvalidate.01" content="325120C12888C61306930ACDFB17A57E" />
     <!-- Google Tag Manager -->
@@ -340,7 +342,304 @@
         <span>Pagemaker</span>
     </h1>
 </doc-anchor-target>
-<p>Documentation will be added in due course.</p>
+<p><figure class="content-center">
+    <img src="../../assets/md-pagemaker.png" alt="Pagemaker">
+    <figcaption class="caption">Pagemaker</figcaption>
+</figure>
+</p>
+<p><strong>Pagemaker</strong> is a lightweight module designed to bridge a key gap in the <strong>Marker Data</strong> toolset: the ability to generate and export PDFs from <a href="https://www.apple.com/final-cut-pro/" class="outbound" target="_blank">Final Cut Pro</a>&#x27;s Marker metadata with images. Originally, Marker Data lacked native support for PDF export. With the introduction of the Pagemaker module, this limitation has been thoughtfully addressed.</p>
+<p>Starting with <strong>Marker Data</strong> version 1.2.0, <strong>Marker Data</strong> now allows users to load a data set, extracted via Notion or Airtable using <a href="/user-guide/general/#extraction-profile">Extraction Profiles</a> and generate a dynamic, visual web gallery. Once the Data Set is loaded, users can explore its contents through a searchable and filterable interface. Selected items can then be exported into a cleanly formatted, print-ready PDF, making it easy to share with clients, team members, or maintaining as project archives.</p>
+<doc-anchor-target id="opening-pagemaker">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#opening-pagemaker">#</doc-anchor-trigger>
+        <span>Opening Pagemaker</span>
+    </h2>
+</doc-anchor-target>
+<p>With <strong>Marker Data</strong> opened, click <code v-pre>Open Pagemaker</code> from File menu. Alternatively, you can press <code v-pre>⌘</code> <code v-pre>P</code> on your keyboard to open <strong>Pagemaker</strong> module.</p>
+<doc-anchor-target id="choosing-extracted-data-set">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#choosing-extracted-data-set">#</doc-anchor-trigger>
+        <span>Choosing Extracted Data Set</span>
+    </h2>
+</doc-anchor-target>
+<p>Pagemaker accepts Data Sets extracted through <strong>Marker Data</strong>&#x27;s Extraction Profiles for Notion or Airtable, ensuring compatibility with your existing workflow.</p>
+<doc-anchor-target id="drag-and-drop">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#drag-and-drop">#</doc-anchor-trigger>
+        <span>Drag and Drop</span>
+    </h3>
+</doc-anchor-target>
+<p>The simplest way to load your Data Set is by dragging and dropping your extracted data folder directly onto the <strong>Pagemaker</strong>&#x27;s <code v-pre>drop zone</code>. This folder should contain <code v-pre>.json</code> data extracted via Notion or Airtable using <a href="/user-guide/general/#extraction-profile">Extraction Profiles</a>.</p>
+<p><figure class="content-center">
+    <img src="../../assets/md-pagemaker-01.gif" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<doc-anchor-target id="choose-folder">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#choose-folder">#</doc-anchor-trigger>
+        <span>Choose Folder</span>
+    </h3>
+</doc-anchor-target>
+<p>Alternatively, click the drop zone or by pressing <code v-pre>⌘</code> <code v-pre>O</code> on your keyboard to open a folder browser dialog. Navigate to your extracted data folder and select it. This method is particularly useful for users who prefer traditional file navigation.</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-300"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-300" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Info</h5>
+<p>Once loaded, <strong>Pagemaker</strong> automatically processes your Data Set, mapping metadata and resolving image paths. After successful loading, your Markers will be displayed in a responsive grid layout. The project name will appear at the top of the page for easy identification.</p>
+        </div>
+    </div>
+</div>
+<doc-anchor-target id="search">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#search">#</doc-anchor-trigger>
+        <span>Search</span>
+    </h2>
+</doc-anchor-target>
+<p><strong>Pagemaker</strong> offers common search capabilities to help you quickly find and select specific Markers within large Data Sets.</p>
+<p>Use the search field to filter markers by name, notes, or type. The search is real-time, with results updating as you type.</p>
+<p><figure class="content-center">
+    <img src="../../assets/md-pagemaker-02.gif" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-300"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-300" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Info</h5>
+<p><strong>Pagemaker</strong> uses fuzzy search technology, allowing for partial matches and typo tolerance to help you find your Markers even with incomplete information.</p>
+        </div>
+    </div>
+</div>
+<doc-anchor-target id="status-selection">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#status-selection">#</doc-anchor-trigger>
+        <span>Status Selection</span>
+    </h2>
+</doc-anchor-target>
+<p>Efficiently sort and filter your markers based on their completion status using the status selection toolbar.</p>
+<p>Toggle between four status views using the buttons in the toolbar.</p>
+<p>Status Options.</p>
+<ul>
+<li><strong>All Statuses</strong> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-blue-600 bg-blue-100 h-6 px-2 text-xs rounded-md">
+    <span>Default</span>
+</span></li>
+<li><strong>Done</strong></li>
+<li><strong>In Progress</strong></li>
+<li><strong>Not Started</strong></li>
+</ul>
+<p><figure class="content-center">
+    <img src="../../assets/md-pagemaker-03.gif" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-300"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-300" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Info</h5>
+<p>Status selection works seamlessly with search and type filters, allowing for highly specific result sets. For instance, you can display only <code v-pre>Chapter</code> type markers that are marked as <code v-pre>Done</code>.</p>
+        </div>
+    </div>
+</div>
+<doc-anchor-target id="marker-type-selection">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#marker-type-selection">#</doc-anchor-trigger>
+        <span>Marker Type Selection</span>
+    </h2>
+</doc-anchor-target>
+<p>Marker types helps you categorise and locate your Markers for more efficient retrieval.</p>
+<p>Add type-specific filters by typing <code v-pre>type:`` in the search field or clicking the </code>Type Suggestions<code v-pre>button. You can select from Marker types (Standard, To Do, Chapter, Caption). Combine multiple type filters by adding multiple</code>type:&#x60;&#x60; prefixes. For example, you can simultaneously filter for both &quot;Chapter&quot; and &quot;Caption&quot; markers.</p>
+<p>Active type filters appears as a pill tag inside search field. Click the &#x60;×&#x60;&#x60; icon on any pill tag to remove that type filter and update your results.</p>
+<p>Status Options.</p>
+<ul>
+<li><strong>Standard</strong></li>
+<li><strong>To Do</strong></li>
+<li><strong>Chapter</strong></li>
+<li><strong>Caption</strong></li>
+</ul>
+<p><figure class="content-center">
+    <img src="../../assets/md-pagemaker-04.gif" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-300"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-300" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Info</h5>
+<p>Add multiple type filters simultaneously to create complex selections.</p>
+        </div>
+    </div>
+</div>
+<doc-anchor-target id="column-selection">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#column-selection">#</doc-anchor-trigger>
+        <span>Column Selection</span>
+    </h2>
+</doc-anchor-target>
+<p>Customise your viewing experience by adjusting the gallery&#x27;s column layout to match your screen size and export preferences. The column selection affects the PDF export layout, giving you control over the final printed appearance of your Markers.</p>
+<p>Layout Options.</p>
+<ul>
+<li><strong>1 Column</strong></li>
+<li><strong>2 Columns</strong> <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-blue-600 bg-blue-100 h-6 px-2 text-xs rounded-md">
+    <span>Default</span>
+</span></li>
+<li><strong>3 Columns</strong></li>
+<li><strong>4 Columns</strong></li>
+<li><strong>5 Columns</strong></li>
+</ul>
+<p><figure class="content-center">
+    <img src="../../assets/md-pagemaker-05.gif" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>The column selection feature enables you to balance information density with readability, adapting the interface to best suit your display size and PDF export.</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-300"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-300" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Info</h5>
+<p>Your column preference remains active throughout your session, even as you adjust filters or search terms.</p>
+        </div>
+    </div>
+</div>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-300"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-300" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Info</h5>
+<p>Each column layout automatically adjusts card sizes and information density to maintain readability and usability.</p>
+        </div>
+    </div>
+</div>
+<doc-anchor-target id="checkbox-selection">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#checkbox-selection">#</doc-anchor-trigger>
+        <span>Checkbox Selection</span>
+    </h2>
+</doc-anchor-target>
+<p>The checkbox selection system provides granular control over your exports, enabling you to create precisely tailored PDFs containing exactly the marker information you need. Each Marker Card features a checkbox in the top-right corner. Click to toggle inclusion in the PDF export. This feature allows you to include or exclude specific Markers from your export while keeping the rest, perfect for creating targeted PDFs.</p>
+<p>Use the dedicated selection button for efficient management:</p>
+<ul>
+<li><strong>Select All</strong> will instantly selects all currently visible Markers.</li>
+<li><strong>Deselect All</strong> will clears all selections at once.</li>
+</ul>
+<p><figure class="content-center">
+    <img src="../../assets/md-pagemaker-06.gif" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-300"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-300" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Info</h5>
+<p>You can use filters to display a specific subset of Markers, then use <code v-pre>Select All</code> to quickly select just those Markers.</p>
+        </div>
+    </div>
+</div>
+<doc-anchor-target id="export-pdf">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#export-pdf">#</doc-anchor-trigger>
+        <span>Export PDF</span>
+    </h2>
+</doc-anchor-target>
+<p>Transform your selected markers into professionally formatted PDF documents with <strong>Pagemaker</strong>&#x27;s export functionality. Click the <code v-pre>Export PDF</code> button or press <code v-pre>⇧</code> <code v-pre>⌘</code> <code v-pre>P</code> on your keyboard in the top toolbar to initiate the export process.</p>
+<p>The PDF will automatically use your current:</p>
+<ul>
+<li>Search</li>
+<li>Status Selection</li>
+<li>Marker Type Selection</li>
+<li>Column Selection</li>
+<li>Checkbox Selection</li>
+</ul>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-300"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-300" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Info</h5>
+<p>During export, <strong>Pagemaker</strong> processes each Marker&#x27;s metadata and imagery, formatting them into a cohesive document.</p>
+        </div>
+    </div>
+</div>
+<p>The PDF will begin with a title page that includes a project summary, date, and filter details. Marker cards will be organised based on the selected column layout: portrait orientation will be used for layouts with <code v-pre>1 Column</code>, <code v-pre>2 Columns</code>, or <code v-pre>3 Columns</code>, while landscape orientation will be applied for <code v-pre>4 Columns</code> and <code v-pre>5 Columns</code> formats.</p>
+<p>Each page will feature consistent headers and footers displaying the project name and page numbers. Within each marker card, the following details will be presented: images, colour palettes (when available), names, IDs, positions, types, statuses, and accompanying notes.</p>
+<p>The PDF export is automatically named using the format <code v-pre>[ProjectName]-[Date]-[Time].pdf</code> for easy identification and organisation. Once export completes, you can save it to your desired location.</p>
 
                                 
                                 <!-- Required only on API pages -->
