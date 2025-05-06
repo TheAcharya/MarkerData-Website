@@ -149,5 +149,9 @@ The PDF export is automatically named using the format `[ProjectName]-[Date]-[Ti
 
 ## Behind the Name: Pagemaker
 
-The name **Pagemaker** draws from cherished memories of my teenage years in the 1990s. During high school, Adobe PageMaker 6.0 became my gateway into desktop publishing—transforming simple school reports into thoughtfully designed documents. This early experience kindled my appreciation for visual communication and the power of layout design. By naming this module after that influential software, I honour a tool that shaped my creative understanding while providing today's users the ability to transform metadata data into elegant, shareable PDFs.
+The name **Pagemaker** draws from cherished memories of my teenage years in the 1990s. During high school, [Adobe PageMaker 6.0](https://en.wikipedia.org/wiki/Aldus_PageMaker) became my gateway into desktop publishing—transforming simple school reports into thoughtfully designed documents. This early experience kindled my appreciation for visual communication and the power of layout design. By naming this module after that influential software, I honour a tool that shaped my creative understanding while providing today's users the ability to transform metadata data into elegant, shareable PDFs.
+
+## Contribution
+
+Pagemaker was developed as a side project driven by curiosity and experimentation. While functional and stable, maintenance and feature additions will be minimal—no new paper sizes or features are planned, though we'll address critical bugs as they arise. Community contributions are welcome through pull requests, provided they maintain all existing functionality, behaviour, theme and styling without breaking changes. The source code can be found [here](https://github.com/TheAcharya/MarkerData-Pagemaker).
 
