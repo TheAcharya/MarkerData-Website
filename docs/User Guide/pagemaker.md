@@ -161,5 +161,5 @@ The name **Pagemaker** draws from cherished memories of my teenage years in the 
 
 ## Contribution
 
-Pagemaker was developed as a side project driven by curiosity and experimentation. While functional and stable, maintenance and feature additions will be minimal—no new paper sizes or features are planned, though we'll address critical bugs as they arise. Community contributions are welcome through pull requests, provided they maintain all existing functionality, behaviour, theme and styling without breaking changes. The source code can be found [here](https://github.com/TheAcharya/MarkerData-Pagemaker).
+Pagemaker was developed as an ‘as-is’ side project, driven by curiosity, experimentation, and a desire to create a proof of concept. While functional and stable, maintenance and feature additions will be minimal—no new paper sizes or features are planned, though critical bugs will be addressed as they arise. Community contributions are welcome through pull requests, provided they maintain all existing functionality, behaviour, theme, and styling without introducing breaking changes. The source code can be found [here](https://github.com/TheAcharya/MarkerData-Pagemaker).
 
