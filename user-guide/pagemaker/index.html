@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.8.1.799930071221">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.8.1.799962878156">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.8.1">
@@ -33,11 +33,11 @@
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../static/favicon.ico" rel="icon">
-    <link href="../../resources/css/retype.css?v=3.8.1.799930071221" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.8.1.799962878156" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.8.1.799930071221" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.8.1.799962878156" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.8.1" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.8.1.799930071221" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.8.1.799962878156" data-turbo-eval="false" defer></script>
 
     <meta name="msvalidate.01" content="325120C12888C61306930ACDFB17A57E" />
     <!-- Google Tag Manager -->
@@ -551,6 +551,50 @@
 </figure>
 </p>
 <p>The column selection feature enables you to balance information density with readability, adapting the interface to best suit your display size and PDF export.</p>
+<doc-panels>
+   <doc-panel id="1-column" collapsed>
+       <template #title>1 Column</template>
+<p><figure class="content-center">
+    <img src="../../assets/md-pagemaker-column-01.png" alt="1 Column Layout (Portrait)">
+    <figcaption class="caption">1 Column Layout (Portrait)</figcaption>
+</figure>
+</p>
+   </doc-panel>
+   <doc-panel id="2-columns-badge-text-default" collapsed>
+       <template #title>2 Columns <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-blue-600 bg-blue-100 h-6 px-2 text-xs rounded-md">
+    <span>Default</span>
+</span></template>
+<p><figure class="content-center">
+    <img src="../../assets/md-pagemaker-column-02.png" alt="2 Columns Layout (Portrait)">
+    <figcaption class="caption">2 Columns Layout (Portrait)</figcaption>
+</figure>
+</p>
+   </doc-panel>
+   <doc-panel id="3-columns" collapsed>
+       <template #title>3 Columns</template>
+<p><figure class="content-center">
+    <img src="../../assets/md-pagemaker-column-03.png" alt="3 Columns Layout (Portrait)">
+    <figcaption class="caption">3 Columns Layout (Portrait)</figcaption>
+</figure>
+</p>
+   </doc-panel>
+   <doc-panel id="4-columns" collapsed>
+       <template #title>4 Columns</template>
+<p><figure class="content-center">
+    <img src="../../assets/md-pagemaker-column-04.png" alt="4 Columns Layout (Landscape)">
+    <figcaption class="caption">4 Columns Layout (Landscape)</figcaption>
+</figure>
+</p>
+   </doc-panel>
+   <doc-panel id="5-columns" collapsed>
+       <template #title>5 Columns</template>
+<p><figure class="content-center">
+    <img src="../../assets/md-pagemaker-column-05.png" alt="5 Columns Layout (Landscape)">
+    <figcaption class="caption">5 Columns Layout (Landscape)</figcaption>
+</figure>
+</p>
+   </doc-panel>
+</doc-panels>
 <div class="flex mb-6">
     <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-300"></div>
     <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
@@ -601,7 +645,7 @@
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Info</h5>
-<p>Each column layout automatically adjusts card sizes and information density to maintain readability and usability.</p>
+<p>Each column layout automatically adjusts card sizes and information density to maintain readability and usability. Depending on the column selected, the character length of metadata values may exceed the predefined boundary box if certain values surpass a specific limit. <strong>Pagemaker</strong> is not inherently designed to accommodate all possible character lengths.</p>
         </div>
     </div>
 </div>
