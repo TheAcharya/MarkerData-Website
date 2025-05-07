@@ -100,7 +100,29 @@ Layout Options.
 
 ![](/assets/md-pagemaker-05.gif)
 
-The column selection feature enables you to balance information density with readability, adapting the interface to best suit your display size and PDF export.
+The column selection feature enables you to balance information density with readability, adapting the interface to best suit your display size and PDF export. 
+
+==- 1 Column
+
+![1 Column Layout (Portrait)](/assets/md-pagemaker-column-01.png)
+
+==- 2 Columns [!badge text="Default"]
+
+![2 Columns Layout (Portrait)](/assets/md-pagemaker-column-02.png)
+
+==- 3 Columns
+
+![3 Columns Layout (Portrait)](/assets/md-pagemaker-column-03.png)
+
+==- 4 Columns
+
+![4 Columns Layout (Landscape)](/assets/md-pagemaker-column-04.png)
+
+==- 5 Columns
+
+![5 Columns Layout (Landscape)](/assets/md-pagemaker-column-05.png)
+
+===
 
 !!!info Info
 The `Additional Metadata` box will be included in the PDF export only when Column 1 is selected.
@@ -111,7 +133,7 @@ Your column preference remains active throughout your session, even as you adjus
 !!!
 
 !!!info Info
-Each column layout automatically adjusts card sizes and information density to maintain readability and usability.
+Each column layout automatically adjusts card sizes and information density to maintain readability and usability. Depending on the column selected, the character length of metadata values may exceed the predefined boundary box if certain values surpass a specific limit. **Pagemaker** is not inherently designed to accommodate all possible character lengths.
 !!!
 
 ## Checkbox Selection
