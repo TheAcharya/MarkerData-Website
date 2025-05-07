@@ -71,7 +71,7 @@ Status selection works seamlessly with search and type filters, allowing for hig
 
 Marker types helps you categorise and locate your Markers for more efficient retrieval.
 
-Add type-specific filters by typing `type:`` in the search field or clicking the `Type Suggestions` button. You can select from Marker types (Standard, To Do, Chapter, Caption). Combine multiple type filters by adding multiple `type:`` prefixes. For example, you can simultaneously filter for both "Chapter" and "Caption" markers.
+Add type-specific filters by typing `type:` in the search field or clicking the `Type Suggestions` button. You can select from Marker types (Standard, To Do, Chapter, Caption). Combine multiple type filters by adding multiple `type:` prefixes. For example, you can simultaneously filter for both `Chapter` and `Caption` markers.
 
 Active type filters appears as a pill tag inside search field. Click the `×`` icon on any pill tag to remove that type filter and update your results.
 
