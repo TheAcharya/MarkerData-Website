@@ -103,6 +103,10 @@ Layout Options.
 The column selection feature enables you to balance information density with readability, adapting the interface to best suit your display size and PDF export.
 
 !!!info Info
+The `Additional Metadata` box will be included in the PDF export only when Column 1 is selected.
+!!!
+
+!!!info Info
 Your column preference remains active throughout your session, even as you adjust filters or search terms.
 !!!
 
