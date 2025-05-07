@@ -15,9 +15,17 @@ To access the logs for **Marker Data**, navigate to the `Help` menu and select `
 
 To ensure optimal functionality of **Marker Data**, please ensure it is installed within the Applications folder.
 
-## Why is the upload speed to Notion slow?
+## Experiencing slow uploads in Notion
 
-The slow upload speed to Notion could be attributed to potential issues with Notion's servers or regional server connectivity. Please verify the current [status](https://status.notion.so/) of Notion's servers.
+Notion enforces variable rate limits on its API, averaging approximately three requests per second. While brief bursts above this average may occasionally be permitted, they are not guaranteed and should not be relied upon. It is important to note that Notion’s rate limits are subject to change without notice, and we do not have control over these adjustments.
+
+As usage approaches the rate limit, upload performance may gradually degrade, resulting in slower response times. To prevent this and avoid errors such as `500 Server Error` or `HTTP 429 (Too Many Requests)`, users are strongly advised not to upload large Data Set (e.g., 99 images) in a single batch.
+
+Instead, we recommend uploading data in smaller batches of up to 50 items, followed by a short pause before initiating the next batch. This approach helps maintain consistent performance and minimises the risk of triggering rate-limiting errors.
+
+For the most up-to-date information on Notion’s rate limits, please refer to their [official documentation](https://developers.notion.com/reference/request-limits).
+
+The slow upload speed could also be attributed to potential issues with Notion's servers or regional server connectivity. Please verify the current [status](https://status.notion.so/) of Notion's servers.
 
 ## Why are there no images in the extract folder?
 
@@ -102,7 +110,7 @@ Traceback (most recent call last):
 requests.exceptions.HTTPError: 500 Server Error: Internal Server Error for url: https://www.notion.so/api/v3/getPublicPageData
 ```
 
-==- HTTPError: 429 Client Error: Too Many Requests
+==- 429 Client Error: Too Many Requests
 
 ```bash
 ERROR: Error at division
@@ -133,16 +141,6 @@ Traceback (most recent call last):
 Occasionally, **Marker Data**'s Notion module would become non-functional when Notion updates its APIs. This occurs due to the reliance on [unofficial APIs](/faq/#what-rationale-underlies-the-utilisation-of-notion-v2-tokens-in-lieu-of-official-api-provided-by-notion).
 
 If you encounter such an problem, please open an [issue](https://github.com/TheAcharya/MarkerData/issues). With time and thorough investigation, we will release an update for **Marker Data**. However, the update may not be immediate, as it depends on our availability to analyse and resolve the issue. We appreciate your patience and understanding.
-
-## Experiencing slow uploads in Notion
-
-Notion enforces variable rate limits on its API, averaging approximately three requests per second. While brief bursts above this average may occasionally be permitted, they are not guaranteed and should not be relied upon. It is important to note that Notion’s rate limits are subject to change without notice, and we do not have control over these adjustments.
-
-As usage approaches the rate limit, upload performance may gradually degrade, resulting in slower response times. To prevent this and avoid errors such as `500 Server Error` or `HTTP 429 (Too Many Requests)`, users are strongly advised not to upload large Data Set (e.g., 99 images) in a single batch.
-
-Instead, we recommend uploading data in smaller batches of up to 50 items, followed by a short pause before initiating the next batch. This approach helps maintain consistent performance and minimises the risk of triggering rate-limiting errors.
-
-For the most up-to-date information on Notion’s rate limits, please refer to their [official documentation](https://developers.notion.com/reference/request-limits).
 
 ## Module Status
 
