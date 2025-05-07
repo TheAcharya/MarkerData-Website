@@ -73,8 +73,10 @@ If you need to burn Metaburner’s Title into your clips for image extraction vi
 
 If you encounter error messages similar to the one displayed, it may indicate that Notion has updated its APIs, requiring an update to Marker Data's Notion module.
 
+==- 500 Server Error: Internal Server Error
+
 ```bash
-2025-02-15 10:23:02,118 [ERROR   ] Error at division
+2025-04-17 16:42:40,179 [ERROR   ] Error at division
 Traceback (most recent call last):
   File "csv2notion_neo/cli.py", line 58, in cli
   File "csv2notion_neo/cli_steps.py", line 80, in upload_rows
@@ -92,12 +94,55 @@ Traceback (most recent call last):
   File "csv2notion_neo/notion_db_collection.py", line 69, in _add_row_block
   File "csv2notion_neo/notion_row.py", line 46, in icon
   File "csv2notion_neo/notion_row_upload_file.py", line 21, in upload_filetype
-  File "csv2notion_neo/notion_row_upload_file.py", line 41, in upload_file
+  File "csv2notion_neo/notion_row_upload_file.py", line 38, in upload_file
+  File "csv2notion_neo/notion_row_upload_file.py", line 69, in _upload_file
+  File "csv2notion_neo/notion/block.py", line 224, in space_info
+  File "csv2notion_neo/notion/client.py", line 294, in post
+  File "requests/models.py", line 1024, in raise_for_status
+requests.exceptions.HTTPError: 500 Server Error: Internal Server Error for url: https://www.notion.so/api/v3/getPublicPageData
 ```
+
+==- HTTPError: 429 Client Error: Too Many Requests
+
+```bash
+ERROR: Error at division
+Traceback (most recent call last):
+  File "csv2notion_neo/cli.py", line 53, in cli
+  File "csv2notion_neo/cli_steps.py", line 58, in convert_csv_to_notion_rows
+  File "csv2notion_neo/notion_convert.py", line 53, in convert_to_notion_rows
+  File "csv2notion_neo/notion_convert.py", line 68, in _convert_row
+  File "csv2notion_neo/notion_convert.py", line 114, in _map_columns
+  File "csv2notion_neo/notion_convert.py", line 136, in _map_column
+  File "csv2notion_neo/notion_convert.py", line 318, in _map_relation
+  File "csv2notion_neo/notion_convert.py", line 331, in _resolve_relation_by_key
+  File "csv2notion_neo/notion_db.py", line 48, in rows
+  File "csv2notion_neo/notion_db_collection.py", line 23, in get_unique_rows
+  File "csv2notion_neo/notion_db_collection.py", line 23, in <lambda>
+  File "csv2notion_neo/notion/maps.py", line 44, in fget
+  File "csv2notion_neo/notion/records.py", line 108, in get
+  File "csv2notion_neo/notion/records.py", line 97, in _get_record_data
+  File "csv2notion_neo/notion/client.py", line 189, in get_record_data
+  File "csv2notion_neo/notion/store.py", line 184, in get
+  File "csv2notion_neo/notion/store.py", line 289, in call_load_page_chunk
+  File "csv2notion_neo/notion/client.py", line 316, in post
+  File "requests/models.py", line 1024, in raise_for_status requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://www.notion.so/api/v3/loadPageChunk
+```
+
+===
 
 Occasionally, **Marker Data**'s Notion module would become non-functional when Notion updates its APIs. This occurs due to the reliance on [unofficial APIs](/faq/#what-rationale-underlies-the-utilisation-of-notion-v2-tokens-in-lieu-of-official-api-provided-by-notion).
 
 If you encounter such an problem, please open an [issue](https://github.com/TheAcharya/MarkerData/issues). With time and thorough investigation, we will release an update for **Marker Data**. However, the update may not be immediate, as it depends on our availability to analyse and resolve the issue. We appreciate your patience and understanding.
+
+## Experiencing slow uploads in Notion
+
+Notion enforces variable rate limits on its API, averaging approximately three requests per second. While brief bursts above this average may occasionally be permitted, they are not guaranteed and should not be relied upon. It is important to note that Notion’s rate limits are subject to change without notice, and we do not have control over these adjustments.
+
+As usage approaches the rate limit, upload performance may gradually degrade, resulting in slower response times. To prevent this and avoid errors such as `500 Server Error` or `HTTP 429 (Too Many Requests)`, users are strongly advised not to upload large Data Set (e.g., 99 images) in a single batch.
+
+Instead, we recommend uploading data in smaller batches of up to 50 items, followed by a short pause before initiating the next batch. This approach helps maintain consistent performance and minimises the risk of triggering rate-limiting errors.
+
+For the most up-to-date information on Notion’s rate limits, please refer to their [official documentation](https://developers.notion.com/reference/request-limits).
 
 ## Module Status
 

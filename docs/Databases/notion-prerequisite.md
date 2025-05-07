@@ -5,6 +5,14 @@ order: -2
 ---
 # Notion Prerequisite
 
+!!!warning Warning
+Notion applies variable rate limits to its API. On average, it supports approximately three requests per second. While occasional bursts exceeding this average may be permitted, they are not guaranteed and should not be relied upon. Additionally, Notion's rate limits are subject to change at any time, and we have no control over such modifications.
+
+To prevent errors such as `500 Server Error` or `HTTP 429 (Too Many Requests)`, users are strongly advised not to upload large Data Set (e.g., 99 images) in a single batch. Instead, it is recommended to upload data in smaller batches of no more than 50 items at a time, with a short pause between batches to avoid triggering rate limits.
+
+For the most current information on Notion’s rate limiting policies, please refer to their [official documentation](https://developers.notion.com/reference/request-limits).
+!!!
+
 ## Obtain your Workspace Name
 
 ![Workspace Name](/assets/notion_workspace.png)
