@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.8.1.799894920878">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.8.1.799895218020">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.8.1">
@@ -33,12 +33,12 @@
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../static/favicon.ico" rel="icon">
-    <link href="../resources/css/retype.css?v=3.8.1.799894920878" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=3.8.1.799895218020" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=3.8.1.799894920878" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=3.8.1.799895218020" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=3.8.1" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.8.1.799894920878" data-turbo-eval="false" defer></script>
-    <script id="prism-js" data-cfasync="false" src="../resources/js/prism.js?v=3.8.1.799894920878" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.8.1.799895218020" data-turbo-eval="false" defer></script>
+    <script id="prism-js" data-cfasync="false" src="../resources/js/prism.js?v=3.8.1.799895218020" defer></script>
 
     <meta name="msvalidate.01" content="325120C12888C61306930ACDFB17A57E" />
     <!-- Google Tag Manager -->
@@ -350,13 +350,17 @@
     </h2>
 </doc-anchor-target>
 <p>To ensure optimal functionality of <strong>Marker Data</strong>, please ensure it is installed within the Applications folder.</p>
-<doc-anchor-target id="why-is-the-upload-speed-to-notion-slow">
+<doc-anchor-target id="experiencing-slow-uploads-in-notion">
     <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#why-is-the-upload-speed-to-notion-slow">#</doc-anchor-trigger>
-        <span>Why is the upload speed to Notion slow?</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#experiencing-slow-uploads-in-notion">#</doc-anchor-trigger>
+        <span>Experiencing slow uploads in Notion</span>
     </h2>
 </doc-anchor-target>
-<p>The slow upload speed to Notion could be attributed to potential issues with Notion&#x27;s servers or regional server connectivity. Please verify the current <a href="https://status.notion.so/" class="outbound" target="_blank">status</a> of Notion&#x27;s servers.</p>
+<p>Notion enforces variable rate limits on its API, averaging approximately three requests per second. While brief bursts above this average may occasionally be permitted, they are not guaranteed and should not be relied upon. It is important to note that Notion’s rate limits are subject to change without notice, and we do not have control over these adjustments.</p>
+<p>As usage approaches the rate limit, upload performance may gradually degrade, resulting in slower response times. To prevent this and avoid errors such as <code v-pre>500 Server Error</code> or <code v-pre>HTTP 429 (Too Many Requests)</code>, users are strongly advised not to upload large Data Set (e.g., 99 images) in a single batch.</p>
+<p>Instead, we recommend uploading data in smaller batches of up to 50 items, followed by a short pause before initiating the next batch. This approach helps maintain consistent performance and minimises the risk of triggering rate-limiting errors.</p>
+<p>For the most up-to-date information on Notion’s rate limits, please refer to their <a href="https://developers.notion.com/reference/request-limits" class="outbound" target="_blank">official documentation</a>.</p>
+<p>The slow upload speed could also be attributed to potential issues with Notion&#x27;s servers or regional server connectivity. Please verify the current <a href="https://status.notion.so/" class="outbound" target="_blank">status</a> of Notion&#x27;s servers.</p>
 <doc-anchor-target id="why-are-there-no-images-in-the-extract-folder">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#why-are-there-no-images-in-the-extract-folder">#</doc-anchor-trigger>
@@ -466,8 +470,8 @@ Traceback (most recent call last):
 requests.exceptions.HTTPError: 500 Server Error: Internal Server Error for url: https://www.notion.so/api/v3/getPublicPageData</code></pre>
 </doc-codeblock></div>
    </doc-panel>
-   <doc-panel id="httperror-429-client-error-too-many-requests" collapsed>
-       <template #title>HTTPError: 429 Client Error: Too Many Requests</template>
+   <doc-panel id="429-client-error-too-many-requests" collapsed>
+       <template #title>429 Client Error: Too Many Requests</template>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-bash"><code v-pre class="language-bash">ERROR: Error at division
 Traceback (most recent call last):
@@ -495,16 +499,6 @@ Traceback (most recent call last):
 </doc-panels>
 <p>Occasionally, <strong>Marker Data</strong>&#x27;s Notion module would become non-functional when Notion updates its APIs. This occurs due to the reliance on <a href="../faq/#what-rationale-underlies-the-utilisation-of-notion-v2-tokens-in-lieu-of-official-api-provided-by-notion">unofficial APIs</a>.</p>
 <p>If you encounter such an problem, please open an <a href="https://github.com/TheAcharya/MarkerData/issues" class="outbound" target="_blank">issue</a>. With time and thorough investigation, we will release an update for <strong>Marker Data</strong>. However, the update may not be immediate, as it depends on our availability to analyse and resolve the issue. We appreciate your patience and understanding.</p>
-<doc-anchor-target id="experiencing-slow-uploads-in-notion">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#experiencing-slow-uploads-in-notion">#</doc-anchor-trigger>
-        <span>Experiencing slow uploads in Notion</span>
-    </h2>
-</doc-anchor-target>
-<p>Notion enforces variable rate limits on its API, averaging approximately three requests per second. While brief bursts above this average may occasionally be permitted, they are not guaranteed and should not be relied upon. It is important to note that Notion’s rate limits are subject to change without notice, and we do not have control over these adjustments.</p>
-<p>As usage approaches the rate limit, upload performance may gradually degrade, resulting in slower response times. To prevent this and avoid errors such as <code v-pre>500 Server Error</code> or <code v-pre>HTTP 429 (Too Many Requests)</code>, users are strongly advised not to upload large Data Set (e.g., 99 images) in a single batch.</p>
-<p>Instead, we recommend uploading data in smaller batches of up to 50 items, followed by a short pause before initiating the next batch. This approach helps maintain consistent performance and minimises the risk of triggering rate-limiting errors.</p>
-<p>For the most up-to-date information on Notion’s rate limits, please refer to their <a href="https://developers.notion.com/reference/request-limits" class="outbound" target="_blank">official documentation</a>.</p>
 <doc-anchor-target id="module-status">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#module-status">#</doc-anchor-trigger>
