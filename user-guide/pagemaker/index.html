@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.8.1.799963368594">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.8.1.800110961544">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.8.1">
@@ -33,11 +33,11 @@
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../static/favicon.ico" rel="icon">
-    <link href="../../resources/css/retype.css?v=3.8.1.799963368594" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.8.1.800110961544" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.8.1.799963368594" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.8.1.800110961544" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.8.1" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.8.1.799963368594" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.8.1.800110961544" data-turbo-eval="false" defer></script>
 
     <meta name="msvalidate.01" content="325120C12888C61306930ACDFB17A57E" />
     <!-- Google Tag Manager -->
@@ -609,7 +609,7 @@
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Info</h5>
-<p>The <code v-pre>Additional Metadata</code> box will be included in the PDF export only when Column 1 is selected.</p>
+<p>The <code v-pre>Additional Metadata</code> section will be included in the PDF export only when Column 1 is selected. If a metadata value is empty, its corresponding label will be omitted.</p>
         </div>
     </div>
 </div>
@@ -645,7 +645,7 @@
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Info</h5>
-<p>Each column layout automatically adjusts card sizes and information density to maintain readability and usability. Depending on the column selected, the character length of metadata values may exceed the predefined boundary box if certain values surpass a specific limit. <strong>Pagemaker</strong> is not inherently designed to accommodate all possible character lengths.</p>
+<p>Each column layout dynamically adjusts card sizes and information density to preserve readability and usability. However, depending on the selected column, metadata values may occasionally exceed their predefined boundary boxes when character lengths surpass a certain threshold. <strong>Pagemaker</strong> is not inherently designed to support all possible character lengths, nor is it intended to accommodate a wide range of layout styles.</p>
         </div>
     </div>
 </div>
@@ -752,6 +752,14 @@
     </h2>
 </doc-anchor-target>
 <p>Pagemaker was developed as an ‘as-is’ side project, driven by curiosity, experimentation, and a desire to create a proof of concept. While functional and stable, maintenance and feature additions will be minimal—no new paper sizes or features are planned, though critical bugs will be addressed as they arise. Community contributions are welcome through pull requests, provided they maintain all existing functionality, behaviour, theme, and styling without introducing breaking changes. The source code can be found <a href="https://github.com/TheAcharya/MarkerData-Pagemaker" class="outbound" target="_blank">here</a>.</p>
+<doc-anchor-target id="customisations">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#customisations">#</doc-anchor-trigger>
+        <span>Customisations</span>
+    </h2>
+</doc-anchor-target>
+<p>For users requiring specific customisations related to style or layout, the <code v-pre>Pagemaker.html</code> file can be <a href="https://github.com/TheAcharya/MarkerData-Pagemaker" class="outbound" target="_blank">downloaded</a> and modified directly. Once customised, it can be replaced in the application directory at:  <code v-pre>/Applications/Marker Data.app/Contents/Resources/Pagemaker.html</code>.</p>
+<p>While there are no official guides or tutorials available due to the complexity of the codebase, users may seek assistance from AI tools or large language models to support their customisation efforts.</p>
 
                                 
                                 <!-- Required only on API pages -->
