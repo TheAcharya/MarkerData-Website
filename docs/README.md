@@ -81,6 +81,13 @@ Your browser does not support the video tag.
 Your browser does not support the video tag.
 </video>
 
+==- Creating PDF
+
+<video controls width="1920">
+  <source src="/assets/md-pagemaker-creating-pdf-02.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
 ==- Utilising Workflow Extension
 
 <video controls width="1920">
