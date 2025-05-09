@@ -34,3 +34,10 @@ For this demonstration, Data Set will not be uploaded to Notion or Airtable. Not
   <source src="/assets/md-pagemaker-creating-pdf-02.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
+
+1. Select `Marker Data Source` or `Marker Data H.264` from [Final Cut Pro's Share menu](user-guide/share-destination/).
+2. **Marker Data** will start to perform its task.
+3. Click on `Open Pagemaker` button to launch [Pagemaker](/user-guide/pagemaker/).
+4. The simplest way to load your Data Set is by dragging and dropping your extracted data folder directly onto the **Pagemaker**'s `drop zone`.
+5. Once your desired selection or filtering is done, Click the `Export PDF` button or press `⇧` `⌘` `P` on your keyboard in the top toolbar to initiate the export process.
+6. Once export completes, you can save it to your desired location.
