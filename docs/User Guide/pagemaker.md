@@ -21,6 +21,10 @@ To use **Pagemaker**, an internet connection is necessary. Rest assured that you
 
 With **Marker Data** opened, click `Open Pagemaker` from File menu. Alternatively, you can press `⌘` `P` on your keyboard to open **Pagemaker** module.
 
+Additionally, if you are working with Notion or Airtable profiles, an `Open Pagemaker` button will appear upon completion of the extraction process. You may click this button to access the module as well.
+
+![](/assets/md-pagemaker-07.gif)
+
 ## Choosing Extracted Data Set
 
 Pagemaker accepts Data Sets extracted through **Marker Data**'s Extraction Profiles for Notion or Airtable, ensuring compatibility with your existing workflow.
@@ -195,5 +199,5 @@ For users requiring specific customisations related to style or layout, the `Pag
 /Applications/Marker Data.app/Contents/Resources/Pagemaker.html
 ```
 
-While there are no official guides or tutorials available due to the complexity of the codebase, users may seek assistance from AI tools or large language models to support their customisation efforts.
+There will not be any guides or tutorials available due to the complexity of the codebase, as it delves into programming and development territory. Users may rely on AI tools or large language models to support their customisation efforts
 
