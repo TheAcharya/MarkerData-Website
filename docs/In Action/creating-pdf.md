@@ -28,7 +28,7 @@ For this demonstration, Data Set will not be uploaded to Notion or Airtable. Not
 7. Select your desired [Overlays](/user-guide/label/#overlays) (Optional).
 8. Return back to Configurations to [Update Active Configuration](/user-guide/configurations/#update-active-configuration)
 
-## Using Pagemaker
+## Using Pagemaker to Export PDF
 
 <video controls width="1920">
   <source src="/assets/md-pagemaker-creating-pdf-02.mp4" type="video/mp4">

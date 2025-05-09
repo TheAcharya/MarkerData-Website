@@ -14,6 +14,8 @@ Starting with **Marker Data** version 1.2.0, **Marker Data** now allows users to
 !!!info Info
 To use **Pagemaker**, an internet connection is necessary. Rest assured that your Data Set processing remains entirely local, maintaining data integrity and privacy.
 !!!
+
+[!ref icon="paper-airplane" text="Creating PDF"](/in-action/creating-pdf)
  
 ## Opening Pagemaker
 
@@ -187,7 +189,11 @@ Pagemaker was developed as an ‘as-is’ side project, driven by curiosity, exp
 
 ## Customisations
 
-For users requiring specific customisations related to style or layout, the `Pagemaker.html` file can be [downloaded](https://github.com/TheAcharya/MarkerData-Pagemaker) and modified directly. Once customised, it can be replaced in the application directory at:  `/Applications/Marker Data.app/Contents/Resources/Pagemaker.html`.
+For users requiring specific customisations related to style or layout, the `Pagemaker.html` file can be [downloaded](https://github.com/TheAcharya/MarkerData-Pagemaker) and modified directly. Once customised, it can be replaced in the application directory at:  
+
+```txt
+/Applications/Marker Data.app/Contents/Resources/Pagemaker.html
+```
 
 While there are no official guides or tutorials available due to the complexity of the codebase, users may seek assistance from AI tools or large language models to support their customisation efforts.
 
