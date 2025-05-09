@@ -28,13 +28,13 @@ You possess the liberty to tailor the [Marker Data Template](/user-guide/databas
 It is presumed that you have acquired and inputted your [Notion V2 Token](/databases/notion-prerequisite/#obtain-your-session-token).
 !!!
 
-![Paste URL](/assets/md-send-to-notion-01.png)
+![Notion V2 Token](/assets/md-send-to-notion-01.png)
 
 5. Click `Save` once values are entered.
 
 ## Configuration Setup
 
-![Paste the URL](/assets/md-send-to-notion-02.gif)
+![Configuration Setup](/assets/md-send-to-notion-02.gif)
 
 1. [Create Your Configuration](/user-guide/configurations/#add-configuration).
 2. You can select your desired Export Destination by clicking on the [Folder Icon](/user-guide/general/#export-destination).

@@ -30,13 +30,13 @@ It is presumed that you have acquired and inputted your [Notion V2 Token](/datab
 
 5. Type `Shot ID` into `Rename Key Column` field. 
 
-![Paste URL](/assets/md-creating-shot-library-01.png)
+![Rename Key Column](/assets/md-creating-shot-library-01.png)
 
 5. Click `Save` once values are entered.
 
 ## Configuration Setup
 
-![Paste the URL](/assets/md-creating-shot-library-02.gif)
+![Configuration Setup](/assets/md-creating-shot-library-02.gif)
 
 1. [Create Your Configuration](/user-guide/configurations/#add-configuration).
 2. You can select your desired Export Destination by clicking on the [Folder Icon](/user-guide/general/#export-destination).

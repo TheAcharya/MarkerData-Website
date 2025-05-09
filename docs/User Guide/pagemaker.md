@@ -125,7 +125,7 @@ The column selection feature enables you to balance information density with rea
 ===
 
 !!!info Info
-The `Additional Metadata` box will be included in the PDF export only when Column 1 is selected.
+The `Additional Metadata` section will be included in the PDF export only when Column 1 is selected. If a metadata value is empty, its corresponding label will be omitted.
 !!!
 
 !!!info Info
@@ -133,7 +133,7 @@ Your column preference remains active throughout your session, even as you adjus
 !!!
 
 !!!info Info
-Each column layout automatically adjusts card sizes and information density to maintain readability and usability. Depending on the column selected, the character length of metadata values may exceed the predefined boundary box if certain values surpass a specific limit. **Pagemaker** is not inherently designed to accommodate all possible character lengths.
+Each column layout dynamically adjusts card sizes and information density to preserve readability and usability. However, depending on the selected column, metadata values may occasionally exceed their predefined boundary boxes when character lengths surpass a certain threshold. **Pagemaker** is not inherently designed to support all possible character lengths, nor is it intended to accommodate a wide range of layout styles.
 !!!
 
 ## Checkbox Selection
@@ -184,4 +184,10 @@ The name **Pagemaker** draws from cherished memories of my teenage years in the 
 ## Contribution
 
 Pagemaker was developed as an ‘as-is’ side project, driven by curiosity, experimentation, and a desire to create a proof of concept. While functional and stable, maintenance and feature additions will be minimal—no new paper sizes or features are planned, though critical bugs will be addressed as they arise. Community contributions are welcome through pull requests, provided they maintain all existing functionality, behaviour, theme, and styling without introducing breaking changes. The source code can be found [here](https://github.com/TheAcharya/MarkerData-Pagemaker).
+
+## Customisations
+
+For users requiring specific customisations related to style or layout, the `Pagemaker.html` file can be [downloaded](https://github.com/TheAcharya/MarkerData-Pagemaker) and modified directly. Once customised, it can be replaced in the application directory at:  `/Applications/Marker Data.app/Contents/Resources/Pagemaker.html`.
+
+While there are no official guides or tutorials available due to the complexity of the codebase, users may seek assistance from AI tools or large language models to support their customisation efforts.
 
