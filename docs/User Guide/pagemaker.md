@@ -198,7 +198,7 @@ Pagemaker was developed as an ‘as-is’ side project, driven by curiosity, exp
 
 ## Customisations
 
-For users requiring specific customisations related to style or layout, the `Pagemaker.html` file can be [downloaded](https://github.com/TheAcharya/MarkerData-Pagemaker) and modified directly. Once customised, it can be replaced in the application directory at:  
+For users requiring specific customisations related to style or layout, the `Pagemaker.html` file can be downloaded from the source code mentioned above and modified directly. Once customised, it should replace the existing file in the application directory at:
 
 ```txt
 /Applications/Marker Data.app/Contents/Resources/Pagemaker.html
