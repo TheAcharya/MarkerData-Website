@@ -55,6 +55,11 @@ Use the search field to filter markers by name, notes, or type. The search is re
 **Pagemaker** uses fuzzy search technology, allowing for partial matches and typo tolerance to help you find your Markers even with incomplete information.
 !!!
 
+!!!info Info
+Markers will always be programmatically sorted in ascending alphabetical order by their associated `Marker ID`.
+!!!
+
+
 ## Status Selection
 
 Efficiently sort and filter your markers based on their completion status using the status selection toolbar.
@@ -79,7 +84,7 @@ Marker types helps you categorise and locate your Markers for more efficient ret
 
 Add type-specific filters by typing `type:` in the search field or clicking the `Type Suggestions` button. You can select from Marker types (Standard, To Do, Chapter, Caption). Combine multiple type filters by adding multiple `type:` prefixes. For example, you can simultaneously filter for both `Chapter` and `Caption` markers.
 
-Active type filters appears as a pill tag inside search field. Click the `×`` icon on any pill tag to remove that type filter and update your results.
+Active type filters appears as a pill tag inside search field. Click the `×` icon on any pill tag to remove that type filter and update your results.
 
 Status Options.
 - **Standard**
@@ -148,7 +153,7 @@ The checkbox selection system provides granular control over your exports, enabl
 
 Use the dedicated selection button for efficient management:
 
-- **Select All** will instantly selects all currently visible Markers.
+- **Select All** will instantly selects all currently visible Markers. [!badge text="Default"]
 - **Deselect All** will clears all selections at once.
 
 ![](/assets/md-pagemaker-06.gif)
@@ -185,7 +190,7 @@ All exported PDFs are available in A4 size only.
 
 ## Behind the Name: Pagemaker
 
-The name **Pagemaker** draws from cherished memories of my teenage years in the 1990s. During high school, [Adobe PageMaker 6.0](https://en.wikipedia.org/wiki/Aldus_PageMaker) became my gateway into desktop publishing—transforming simple school reports into thoughtfully designed documents. This early experience kindled my appreciation for visual communication and the power of layout design. By naming this module after that influential software, I honour a tool that shaped my creative understanding while providing today's users the ability to transform metadata data into elegant, shareable PDFs.
+The name **Pagemaker** draws from fond memories of my teenage years in the 1990s. During high school, [Adobe PageMaker 6.0](https://en.wikipedia.org/wiki/Aldus_PageMaker) became my gateway into desktop publishing—transforming simple school reports into thoughtfully designed documents. This early experience kindled my appreciation for visual communication and the power of layout design. By naming this module after that influential software, I honour a tool that shaped my creative understanding while providing today's users the ability to transform metadata data into elegant, shareable PDFs.
 
 ## Contribution
 
@@ -199,5 +204,5 @@ For users requiring specific customisations related to style or layout, the `Pag
 /Applications/Marker Data.app/Contents/Resources/Pagemaker.html
 ```
 
-There will not be any guides or tutorials available due to the complexity of the codebase, as it delves into programming and development territory. Users may rely on AI tools or large language models to support their customisation efforts
+There will not be any guides or tutorials available due to the complexity of the codebase, as it delves into programming and development territory. Users may rely on AI tools or large language models to support their customisation efforts.
 
