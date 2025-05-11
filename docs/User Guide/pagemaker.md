@@ -188,6 +188,10 @@ The PDF export is automatically named using the format `[ProjectName]-[Date]-[Ti
 All exported PDFs are available in A4 size only.
 !!!
 
+!!!info Info
+**Pagemaker** operates within an ephemeral session, meaning no settings are preserved. The session resets when the **Pagemaker** window is closed, the Reload button is clicked, or `⌘` `R` is pressed.
+!!!
+
 ## Behind the Name: Pagemaker
 
 The name **Pagemaker** draws from fond memories of my teenage years in the 1990s. During high school, [PageMaker 6.0](https://en.wikipedia.org/wiki/Aldus_PageMaker) became my gateway into desktop publishing—transforming simple school reports into thoughtfully designed documents. This early experience kindled my appreciation for visual communication and the power of layout design. By naming this module after that influential software, I honour a tool that shaped my creative understanding while providing today's users the ability to transform metadata data into elegant, shareable PDFs.
