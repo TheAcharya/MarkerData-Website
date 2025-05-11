@@ -189,7 +189,7 @@ All exported PDFs are available in A4 size only.
 !!!
 
 !!!info Info
-**Pagemaker** operates within an ephemeral session, meaning no settings are preserved. The session resets when **Pagemaker**'s window is closed, the Reload button is clicked, or `⌘` `R` is pressed.
+**Pagemaker** operates within an ephemeral session, meaning no settings are preserved. The session resets when **Pagemaker**'s window is closed, the `Reload` button is clicked, or `⌘` `R` is pressed.
 !!!
 
 ## Behind the Name: Pagemaker
