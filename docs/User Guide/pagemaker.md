@@ -196,6 +196,8 @@ All exported PDFs are available in A4 size only.
 
 The name **Pagemaker** draws from fond memories of my teenage years in the 1990s. During high school, [PageMaker 6.0](https://en.wikipedia.org/wiki/Aldus_PageMaker) became my gateway into desktop publishing—transforming simple school reports into thoughtfully designed documents. This early experience kindled my appreciation for visual communication and the power of layout design. By naming this module after that influential software, I honour a tool that shaped my creative understanding while providing today's users the ability to transform metadata data into elegant, shareable PDFs.
 
+PageMaker® is a registered trademark of Adobe Inc. References to PageMaker in this project are for historical context and educational purposes, and do not imply any affiliation with or endorsement by Adobe Inc.
+
 ## Contribution
 
 Pagemaker was developed as an ‘as-is’ side project, driven by curiosity, experimentation, and a desire to create a proof of concept. While functional and stable, maintenance and feature additions will be minimal—no new paper sizes or features are planned, though critical bugs will be addressed as they arise. Community contributions are welcome through pull requests, provided they maintain all existing functionality, behaviour, theme, and styling without introducing breaking changes. The source code can be found [here](https://github.com/TheAcharya/MarkerData-Pagemaker).
