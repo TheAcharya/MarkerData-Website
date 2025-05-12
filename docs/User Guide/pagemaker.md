@@ -210,6 +210,6 @@ For users requiring specific customisations related to style or layout, the `Pag
 
 There will not be any guides or tutorials available due to the complexity of the codebase, as it delves into programming and development territory. Users may rely on AI tools or large language models to support their customisation efforts.
 
-## Attribution
+## Disclaimer
 
-PageMaker® is a registered trademark of Adobe Inc. References to PageMaker in this project are for historical context and educational purposes, and do not imply any affiliation with or endorsement by Adobe Inc.
+PageMaker® is a registered trademark of Adobe Inc. References to PageMaker in this project are for historical context, fair use, and educational purposes, and do not imply any affiliation with or endorsement by Adobe Inc.
