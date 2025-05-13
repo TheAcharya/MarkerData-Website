@@ -37,4 +37,4 @@ Excel® is a registered trademark of Microsoft Corporation. References to Excel 
 
 PageMaker® is a registered trademark of Adobe Inc. References to PageMaker in this project are for historical context, fair use, and educational purposes, and do not imply any affiliation with or endorsement by Adobe Inc.
 
-PDF® is a registered trademark of Adobe Inc. References to PDF in this software application are for compatibility and identification purposes only and do not imply any affiliation with or endorsement by Adobe In
+PDF® is a registered trademark of Adobe Inc. References to PDF in this software application are for compatibility and identification purposes only and do not imply any affiliation with or endorsement by Adobe Inc.
