@@ -67,7 +67,7 @@ When **Marker Data** displays a `Failed to upload completely` error, it may be d
 
 If you are utilising a firewall application such as Little Snitch, please ensure that outgoing connections to **Marker Data** are permitted.
 
-## Final Cut Pro crashes during extraction when the timeline includes Metaburner’s Custom Title.
+## Final Cut Pro crashes during extraction when the timeline includes Metaburner’s Title.
 
 [Metaburner](https://metaburner.pro)’s Title is a highly complex title effect, leading to an intricate FCPXML structure. This complexity is the primary reason Final Cut Pro encounters stability issues during the extraction process. Although image extraction may be feasible on basic timelines using Metaburner’s Title, **Marker Data** does not account for Metaburner’s Title, as we do not support third-party custom titles for parsing.
 
