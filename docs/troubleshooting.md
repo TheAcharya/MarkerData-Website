@@ -69,7 +69,7 @@ If you are utilising a firewall application such as Little Snitch, please ensure
 
 ## Final Cut Pro crashes during extraction when the timeline includes Metaburner’s Custom Title.
 
-[Metaburner](https://metaburner.pro)’s Custom Title is a highly complex title effect, leading to an intricate FCPXML structure. This complexity is the primary reason Final Cut Pro encounters stability issues during the extraction process. Although image extraction may be feasible on basic timelines using Metaburner’s Custom Title, **Marker Data** does not account for Metaburner’s Custom Title, as we do not support third-party custom titles for parsing.
+[Metaburner](https://metaburner.pro)’s Title is a highly complex title effect, leading to an intricate FCPXML structure. This complexity is the primary reason Final Cut Pro encounters stability issues during the extraction process. Although image extraction may be feasible on basic timelines using Metaburner’s Title, **Marker Data** does not account for Metaburner’s Title, as we do not support third-party custom titles for parsing.
 
 If you need to burn Metaburner’s Title into your clips for image extraction via **Marker Data**, a simple solution is to pre-render the timeline. To do this, render the timeline containing Metaburner’s Title and export it as a new file. Then, create a new timeline with the rendered file and copy-paste the title containing all your markers. This approach allows you to perform extraction tasks seamlessly without encountering any issues.
 
