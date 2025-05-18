@@ -193,7 +193,7 @@ All exported PDFs are available in A4 size only.
 !!!
 
 !!!info Info
-**Pagemaker** does not support emoji rendering, as this functionality is not supported by [jsPDF](https://github.com/parallax/jsPDF). If you intend to use Pagemaker to `Export PDF`, please ensure that all Markers and metadata within your timeline are free of emojis.
+**Pagemaker** does not support emoji rendering, as this functionality is not supported by [jsPDF](https://github.com/parallax/jsPDF). If you intend to use Pagemaker to `Export PDF`, please ensure that all Markers and metadata within your timeline are free of emojis. It is best to avoid placing Markers on titles that contain emojis.
 !!!
 
 ## Behind the Name: Pagemaker
