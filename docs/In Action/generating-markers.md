@@ -7,7 +7,7 @@ order: -7
 
 ![](/assets/content-banner-marker-toolbox.png)
 
-A procedural generative approach to Marker extraction was initially [considered](https://github.com/TheAcharya/MarkersExtractor/issues/108). However, due to the niche nature of the workflow, it will not be planned for inclusion in **Marker Data**. Nevertheless, procedural generation of markers remains feasible through the use of the [Marker Toolbox](https://markertoolbox.io). When combined with **Marker Data** and chat models, this presents a powerful solution for the procedural generation and extraction of Markers using a unified set of tools."
+A procedural generative approach to Marker extraction was initially [considered](https://github.com/TheAcharya/MarkersExtractor/issues/108). However, due to the niche nature of the workflow, it will not be planned for inclusion in **Marker Data**. Nevertheless, procedural generation of markers remains feasible through the use of the [Marker Toolbox](https://markertoolbox.io). When combined with **Marker Data** and chat models, this presents a powerful solution for the procedural generation and extraction of Markers using a unified set of tools.
 
 ## CSV Profile
 
