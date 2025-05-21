@@ -26,7 +26,7 @@ Your browser does not support the video tag.
 <br>
 
 !!!info Info
-This demonstration presupposes the presence of an already opened Logic Pro Project session, within which you intend to incorporate the extracted Markers from Final Cut Pro.
+This demonstration presupposes the presence of an already opened Logic Pro Project session, within which you intend to incorporate the extracted Markers from **Final Cut Pro**.
 !!!
 
 1. After **Marker Data** completes its extraction task, drag `.mid` file onto Logic Pro's App icon, or right-click on the `.mid` file to `Open With` `Logic Pro.app`. 
@@ -52,7 +52,7 @@ Take note of the timecode of the earliest marker for reference later.
 5. Switch to the existing Project session you want to transfer the Markers into.
 
 !!!info Info
-Go to Logic Pro's `Synchronization` options under `File`, `Project Settings`. Ensure that `Bar Position <first bar>` is set to a timecode that is equal to or earlier than the first marker's timecode. Also ensure that Frame Rate matches with Final Cut Pro's timeline Frame Rate.
+Go to Logic Pro's `Synchronization` options under `File`, `Project Settings`. Ensure that `Bar Position <first bar>` is set to a timecode that is equal to or earlier than the first marker's timecode. Also ensure that Frame Rate matches with **Final Cut Pro**'s timeline Frame Rate.
 !!!
 
 

@@ -21,7 +21,7 @@ For this demonstration, Data Set will not be uploaded to Notion or Airtable. Not
 
 1. [Create Your Configuration](/user-guide/configurations/#add-configuration).
 2. You can select your desired Export Destination by clicking on the [Folder Icon](/user-guide/general/#export-destination).
-3. You can select your Notion Database Profile as your [Extraction Profile](/user-guide/general/#extraction-profile).
+3. You can select `Notion (No Upload)` as your [Extraction Profile](/user-guide/general/#extraction-profile).
 4. Set [Marker Source](/user-guide/image/#marker-source) to `Marker and Captions` (Optional).
 5. You can set [Image Format](/user-guide/image/#image-format) to `GIF` (Optional).
 6. Enable [Swatch](/user-guide/image/#swatch) (Optional).
