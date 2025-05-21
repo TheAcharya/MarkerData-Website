@@ -31,7 +31,7 @@ You can also use TSV, Excel, Notion or Airtable Profile.
 
 ## Count Mode
 
-Below is a refined AI prompt template for use with Count Mode. You may input it into your preferred language model, such as (ChatGPT)[https://chatgpt.com/], [Claude](https://claude.ai/), or [DeepSeek](https://www.deepseek.com/en). Please ensure that the `Timeline Duration` and `Timeline FPS` values match your timeline’s total duration and frame rate. You may also customise the `Marker Prefix`, `Marker Name Zero Padding`, and `Count` values according to your specific requirements.
+Below is a refined AI prompt template for use with Count Mode. You may input it into your preferred language model, such as [ChatGPT](https://chatgpt.com/), [Claude](https://claude.ai/), or [DeepSeek](https://www.deepseek.com/en). Please ensure that the `Timeline Duration` and `Timeline FPS` values match your timeline’s total duration and frame rate. You may also customise the `Marker Prefix`, `Marker Name Zero Padding`, and `Count` values according to your specific requirements.
 
 ### AI Prompt Template
 
@@ -88,7 +88,7 @@ You can use this same technique for the [Notion Database Profile](/user-guide/da
 
 ## Interval Mode
 
-Below is a refined AI prompt template for use with Interval Mode. You may input it into your preferred language model, such as (ChatGPT)[https://chatgpt.com/], [Claude](https://claude.ai/), or [DeepSeek](https://www.deepseek.com/en). Please ensure that the `Timeline Duration` and `Timeline FPS` values match your timeline’s total duration and frame rate. You may also customise the `Marker Prefix`, `Marker Name Zero Padding`, and `Interval` values according to your specific requirements.
+Below is a refined AI prompt template for use with Interval Mode. You may input it into your preferred language model, such as [ChatGPT](https://chatgpt.com/), [Claude](https://claude.ai/), or [DeepSeek](https://www.deepseek.com/en). Please ensure that the `Timeline Duration` and `Timeline FPS` values match your timeline’s total duration and frame rate. You may also customise the `Marker Prefix`, `Marker Name Zero Padding`, and `Interval` values according to your specific requirements.
 
 ### AI Prompt Template
 
