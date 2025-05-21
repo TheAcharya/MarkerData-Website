@@ -75,7 +75,7 @@ Your browser does not support the video tag.
 2. Select `Marker Toolbox` from the `Extensions` menu.
 3. Click `Settings` and ensure that your frame rate matches the timeline frame rate in **Final Cut Pro**.
 4. Ensure you have clicked `Copied` from DeepSeek’s code block.
-5. In `Marker Toolbox`, click `Paste`, then click `Process Comments Locally`. Adjust any marker's timecode if needed.
+5. In `Marker Toolbox`, click `Paste`, then click `Process Comments Locally`. Adjust any Marker's timecode if needed.
 6. Click the `Green` button to drag and drop the `Compound Clip` into your timeline.
 7. Make sure the `Compound Clip` is aligned with the start of the timeline.
 8. From **Final Cut Pro**’s Share menu, select either `Marker Data Source` or `Marker Data H.264`
@@ -134,7 +134,7 @@ Your browser does not support the video tag.
 2. Select `Marker Toolbox` from the `Extensions` menu.
 3. Click `Settings` and ensure that your frame rate matches the timeline frame rate in **Final Cut Pro**.
 4. Ensure you have clicked `Copied` from DeepSeek’s code block.
-5. In `Marker Toolbox`, click `Paste`, then click `Process Comments Locally`. Adjust any marker's timecode if needed.
+5. In `Marker Toolbox`, click `Paste`, then click `Process Comments Locally`. Adjust any Marker's timecode if needed.
 6. Click the `Green` button to drag and drop the `Compound Clip` into your timeline.
 7. Make sure the `Compound Clip` is aligned with the start of the timeline.
 8. From **Final Cut Pro**’s Share menu, select either `Marker Data Source` or `Marker Data H.264`
