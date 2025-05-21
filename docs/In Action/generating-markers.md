@@ -49,7 +49,9 @@ Sample List Style
 00:00:02:00 - Marker-0002
 
 Instruction:
-Generate a list of marker positions based on the specified “Timeline Duration” and “Timeline FPS”. The markers must be evenly spaced and calculated with high precision. They should fall strictly within the bounds of the timeline; excluding both the start “00:00:00:00” and the end “Timeline Duration”.
+Generate a list of marker positions based on the specified “Timeline Duration” and “Timeline FPS”. 
+The markers must be evenly spaced and calculated with high precision. 
+They should fall strictly within the bounds of the timeline; excluding both the start “00:00:00:00” and the end “Timeline Duration”.
 
 List them in code block.
 ```
@@ -106,7 +108,9 @@ Sample List Style
 00:00:02:00 - Marker-0002
 
 Instruction:
-Generate a list of marker positions based on the specified “Timeline Duration” and “Timeline FPS”. Markers should be placed at every defined “Interval” within the “Timeline Duration”. All calculations must be performed with high precision and accuracy. Marker positions must fall strictly within the bounds of the timeline duration.
+Generate a list of marker positions based on the specified “Timeline Duration” and “Timeline FPS”. 
+Markers should be placed at every defined “Interval” within the “Timeline Duration”. 
+All calculations must be performed with high precision and accuracy. Marker positions must fall strictly within the bounds of the timeline duration.
 
 List them in code block.
 ```
