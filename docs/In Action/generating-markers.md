@@ -7,7 +7,7 @@ order: -7
 
 ![](/assets/content-banner-marker-toolbox.png)
 
-Users interested in procedural Marker extraction can take advantage of the [Marker Toolbox](https://markertoolbox.io), which offers capabilities for inserting and manipulating Markers. When combined with **Marker Data** and modern chat-based models, this setup enables a cohesive, end-to-end workflow for both programmatic generation and extraction of Markers. Although a generative approach to Marker extraction was initially [explored](https://github.com/TheAcharya/MarkersExtractor/issues/108), it was ultimately considered too specialised for inclusion in the official **Marker Data**'s' roadmap.
+Users interested in procedural Marker extraction can take advantage of the [Marker Toolbox](https://markertoolbox.io), which offers capabilities for inserting and manipulating Markers. When combined with **Marker Data** and modern chat-based models, this setup enables a cohesive, end-to-end workflow for both programmatic generation and extraction of Markers. Although a generative approach to Marker extraction was initially [explored](https://github.com/TheAcharya/MarkersExtractor/issues/108), it was ultimately considered too specialised for inclusion in **Marker Data**'s roadmap.
 
 ## CSV Profile
 
