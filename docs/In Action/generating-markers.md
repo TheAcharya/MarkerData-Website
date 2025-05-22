@@ -7,7 +7,7 @@ order: -7
 
 ![](/assets/content-banner-marker-toolbox.png)
 
-A procedural generative approach to Marker extraction was initially [considered](https://github.com/TheAcharya/MarkersExtractor/issues/108). However, due to the niche nature of the workflow, it will not be planned for inclusion in **Marker Data**. Nevertheless, procedural generation of markers remains feasible through the use of the [Marker Toolbox](https://markertoolbox.io). When combined with **Marker Data** and chat models, this presents a powerful solution for the procedural generation and extraction of Markers using a unified set of tools.
+Users interested in procedural Marker extraction can take advantage of the [Marker Toolbox](https://markertoolbox.io), which offers capabilities for inserting and manipulating Markers. When combined with **Marker Data** and modern chat-based models, this setup enables a cohesive, end-to-end workflow for both programmatic generation and extraction of Markers. Although a generative approach to Marker extraction was initially [explored](https://github.com/TheAcharya/MarkersExtractor/issues/108), it was ultimately considered too specialised for inclusion in the official **Marker Data**'s' roadmap.
 
 ## CSV Profile
 
@@ -144,3 +144,9 @@ Your browser does not support the video tag.
 !!!info Info
 You can use this same technique for the [Notion Database Profile](/user-guide/databases/#creating-notion-database-profile), the [Airtable Database Profile](/user-guide/databases/#creating-airtable-database-profile) or even when working with [Pagemaker](/user-guide/pagemaker/).
 !!!
+
+## Afterthoughts
+
+The procedural workflow for Marker extraction and generation opens up a range of compelling use cases. One notable example is the archival of timelines—such as those found in video editing, animation, or narrative design workflows—where users may wish to capture still frames or key moments along the timeline. These snapshots can then be compiled into structured documents using [Pagemaker](/user-guide/pagemaker/), enabling the creation of rich, navigable PDFs that serve as comprehensive visual records.
+
+What makes this workflow particularly powerful is its compatibility with large language models (LLMs). By integrating chat-based models into the pipeline, users can generate sophisticated Marker placement patterns automatically.
