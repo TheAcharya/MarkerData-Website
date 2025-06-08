@@ -140,6 +140,14 @@ Users can, however, manually back up their Configuration and Database Profiles t
 
 ![PostSync](assets/postsync.png)
 
+## Is Marker Data safe to use even though it's not sandboxed?
+
+Yes, **Marker Data** is safe. While it is not a sandboxed application, it has been code-signed and notarised by Apple’s notary service. This means the application has been checked and approved by Apple to be free of known malware. As long as you download **Marker Data** from our official [source](https://github.com/TheAcharya/MarkerData/releases), you can trust its integrity and security.
+
+## Why isn’t Marker Data available on the Mac App Store?
+
+**Marker Data** is coded in a way that is not compatible with the strict sandboxing requirements enforced by the Mac App Store. These restrictions would limit essential aspects of the app’s functionality. To preserve the full capabilities of **Marker Data**, we distribute it independently via our official GitHub repository.
+
 ## What is Marker Data's Privacy Policy?
 
 **Marker Data** is designed to operate solely on your computer, without any collection of personal information. All processes and data manipulations occur locally, ensuring that your sensitive information remains confidential and secure. However, it's important to note that when you choose to upload data to platforms such as [Notion](https://www.notion.so/security), [Airtable](https://www.airtable.com/company/trust-and-security) or [Dropbox](https://www.dropbox.com/privacy), your information is subject to their respective privacy policies. We encourage you to read and familiarise yourself with their security & privacy policies to understand how they handle your data. Rest assured, our commitment to privacy means you can enjoy the benefits of our application without compromising your personal data.
