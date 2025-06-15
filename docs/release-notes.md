@@ -5,6 +5,17 @@ order: -98
 ---
 # Release Notes
 
+### 1.2.1 (8)
+
+**🎉 Released:**
+- 15th June 2025
+
+**🔨 Improvements:**
+- Updated Pagemaker Module to version 1.0.7
+- Pagemaker module now maintains aspect ratios for vertical images in PDF exports, ensuring parity with gallery preview
+
+<hr>
+
 ### 1.2.0 (7)
 
 **🎉 Released:**
