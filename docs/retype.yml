@@ -31,7 +31,7 @@ links:
   
 - text: Download
   icon: download
-  link: https://github.com/TheAcharya/MarkerData/releases
+  link: https://github.com/TheAcharya/MarkerData/releases/latest
   target: blank
   
 - text: Issues
