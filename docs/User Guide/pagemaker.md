@@ -162,6 +162,20 @@ Use the dedicated selection button for efficient management:
 You can use filters to display a specific subset of Markers, then use `Select All` to quickly select just those Markers.
 !!!
 
+## PDF Compression
+
+Click the `PDF Compression` button to reveal compression slider.
+
+Select your desired PDF Compression level.
+- **None**
+- **Low**
+- **Medium** [!badge text="Default"]
+- **High**
+
+![](/assets/md-pagemaker-08.gif)
+
+Higher compression results in smaller file sizes, while lower compression retains more detail but increases file size. Selecting `None` will produce the largest PDF file with no compression applied, whereas `High` will generate a significantly smaller file by applying maximum compression. Choose the level that best balances file size and quality for your needs.
+
 ## Export PDF
 
 Transform your selected markers into professionally formatted PDF documents with **Pagemaker**'s export functionality. Click the `Export PDF` button or press `⇧` `⌘` `P` on your keyboard in the top toolbar to initiate the export process.
@@ -195,18 +209,6 @@ All exported PDFs are available in A4 size only.
 !!!info Info
 **Pagemaker** offers basic support for emojis. During PDF export, emojis are automatically converted into descriptive text. For example, `🔥 Metaburner` will be rendered as `[fire] Metaburner`.
 !!!
-
-## PDF Compression
-
-Click the `PDF Compression` button to reveal compression slider.
-
-Select your desired PDF Compression level.
-- **None**
-- **Low**
-- **Medium** [!badge text="Default"]
-- **High**
-
-Higher compression results in smaller file sizes, while lower compression retains more detail but increases file size. Selecting `None` will produce the largest PDF file with no compression applied, whereas `High` will generate a significantly smaller file by applying maximum compression. Choose the level that best balances file size and quality for your needs.
 
 ## Behind the Name: Pagemaker
 
