@@ -152,3 +152,5 @@ Internet connection is necessary for some modules and functionality
 Technical support questions are best asked in the [Discussions](https://github.com/TheAcharya/MarkerData/discussions).
 
 For bug reports, feature requests and other suggestions you can create a new [issue](https://github.com/TheAcharya/MarkerData/issues) to discuss.
+
+*Note: Some images and videos on this documentation site may reflect earlier versions of the application. Features, layout, or functionality may have changed in recent updates.*
