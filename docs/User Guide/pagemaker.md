@@ -193,8 +193,18 @@ All exported PDFs are available in A4 size only.
 !!!
 
 !!!info Info
-**Pagemaker** does not support emoji rendering, as this functionality is not supported by [jsPDF](https://github.com/parallax/jsPDF). If you intend to use Pagemaker to `Export PDF`, please ensure that all Markers and metadata within your timeline are free of emojis. It is best to avoid placing Markers on titles that contain emojis.
+**Pagemaker** offers basic support for emojis. During PDF export, emojis are automatically converted into descriptive text. For example, `🔥 Metaburner` will be rendered as `[fire] Metaburner`.
 !!!
+
+## PDF Compression
+
+Click the `PDF Compression` button to reveal compression slider.
+
+Select your desired PDF Compression level.
+- **None**
+- **Low**
+- **Medium** [!badge text="Default"]
+- **High**
 
 ## Behind the Name: Pagemaker
 
