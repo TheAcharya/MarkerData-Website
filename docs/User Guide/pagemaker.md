@@ -206,6 +206,8 @@ Select your desired PDF Compression level.
 - **Medium** [!badge text="Default"]
 - **High**
 
+Higher compression results in smaller file sizes, while lower compression retains more detail but increases file size. Selecting `None` will produce the largest PDF file with no compression applied, whereas `High` will generate a significantly smaller file by applying maximum compression. Choose the level that best balances file size and quality for your needs.
+
 ## Behind the Name: Pagemaker
 
 The name **Pagemaker** draws from fond memories of my teenage years in the 1990s. During high school, [PageMaker 6.0](https://en.wikipedia.org/wiki/Aldus_PageMaker) became my gateway into desktop publishing—transforming simple school reports into thoughtfully designed documents. This early experience kindled my appreciation for visual communication and the power of layout design. By naming this module after that influential software, I honour a tool that shaped my creative understanding while providing today's users the ability to transform metadata data into elegant, shareable PDFs.
