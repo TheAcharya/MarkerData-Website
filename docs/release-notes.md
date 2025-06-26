@@ -5,6 +5,19 @@ order: -98
 ---
 # Release Notes
 
+### 1.2.3 (10)
+
+**🎉 Released:**
+- 26th June 2025
+
+**🔨 Improvements:**
+- Updated Notion Module CSV2Notion Neo to version 1.3.6
+
+**🐞 Bug Fix:**
+- Fixed an issue in the Notion module that was preventing Marker Data's Data Set from being uploaded
+
+<hr>
+
 ### 1.2.2 (9)
 
 **🎉 Released:**
