@@ -42,6 +42,8 @@ The avant-garde Marker extraction application crafted for [Final Cut Pro](https:
 - Tab-separated values (TSV) - Compatible with spreadsheet application
 - Microsoft Excel (XLSX)
 - YouTube Chapters (TXT)
+- Compressor Chapters (TXT)
+- Markdown List (MD)
 - Standard MIDI File - Compatible with most audio DAWs
 
 ## Demo

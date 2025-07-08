@@ -46,7 +46,9 @@ Select your desired Extraction Profile.
 	- **TSV**
 	- **Excel**
 	- **MIDI**
+	- **Markdown List**
 	- **YouTube Chapters**
+	- **Compressor Chapters**
 	- **Notion (No Upload)**
 	- **Airtable (No Upload)**
 - Database Profiles (Upload)

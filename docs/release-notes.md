@@ -5,6 +5,17 @@ order: -98
 ---
 # Release Notes
 
+### 1.3.0 (11)
+
+**🎉 Released:**
+- 8th July 2025
+
+**🔨 Improvements:**
+- Added new **Compressor Chapters** Profile
+- Added new **Markdown List** Profile
+
+<hr>
+
 ### 1.2.3 (10)
 
 **🎉 Released:**
