@@ -44,6 +44,7 @@ The avant-garde Marker extraction application crafted for [Final Cut Pro](https:
 - YouTube Chapters (TXT)
 - Compressor Chapters (TXT)
 - Markdown List (MD)
+- SubRip Subtitle (SRT)
 - Standard MIDI File - Compatible with most audio DAWs
 
 ## Demo

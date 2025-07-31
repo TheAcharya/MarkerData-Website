@@ -47,6 +47,7 @@ Select your desired Extraction Profile.
 	- **Excel**
 	- **MIDI**
 	- **Markdown List**
+	- **SubRip Subtitle**
 	- **YouTube Chapters**
 	- **Compressor Chapters**
 	- **Notion (No Upload)**

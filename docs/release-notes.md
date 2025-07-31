@@ -5,6 +5,17 @@ order: -98
 ---
 # Release Notes
 
+### 1.4.0 (12)
+
+**🎉 Released:**
+- 31st July 2025
+
+**🔨 Improvements:**
+- Added new **SubRip Subtitle** Profile
+- Updated Airtable Module Airlift to version 1.2.0
+
+<hr>
+
 ### 1.3.0 (11)
 
 **🎉 Released:**
