@@ -1,6 +1,8 @@
-# Marker Data Website
+<p align="center">
+  <a href="https://github.com/TheAcharya/MarkerData"><img src="assets/marker_data_app_icon.png" height="200">
+  <h1 align="center">Marker Data Website</h1>
+</p>
 
-[![Publish Retype powered website to GitHub Pages](https://github.com/TheAcharya/MarkerData-Website/actions/workflows/retype-action.yml/badge.svg?branch=main)](https://github.com/TheAcharya/MarkerData-Website/actions/workflows/retype-action.yml)
-[![pages-build-deployment](https://github.com/TheAcharya/MarkerData-Website/actions/workflows/pages/pages-build-deployment/badge.svg?branch=retype)](https://github.com/TheAcharya/MarkerData-Website/actions/workflows/pages/pages-build-deployment)
+<p align="center"><a href="https://github.com/TheAcharya/MarkerData-Website/actions/workflows/retype-action.yml"><img src="https://github.com/TheAcharya/MarkerData-Website/actions/workflows/retype-action.yml/badge.svg?branch=main" alt="Publish Retype powered website to GitHub Pages"/></a>&nbsp;<a href="https://github.com/TheAcharya/MarkerData-Website/actions/workflows/pages/pages-build-deployment"><img src="https://github.com/TheAcharya/MarkerData-Website/actions/workflows/pages/pages-build-deployment/badge.svg?branch=retype" alt="pages-build-deployment"/></a></p>
 
 This repository contains the source code for the Marker Data website.
