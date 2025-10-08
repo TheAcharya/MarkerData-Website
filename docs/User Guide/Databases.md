@@ -16,15 +16,7 @@ Delve deeper into the distinctions and parallels between Notion and Airtable [he
 ![Create Notion Profile](/assets/md-database-settings_01.png)
 
 !!!info Info
-For Notion Profile, it is strongly advised that users utilise the provided Notion's [Marker Data Template](/user-guide/databases/#notion-template).
-!!!
-
-!!!warning Warning
-Notion applies variable rate limits to its API. On average, it supports approximately three requests per second. While occasional bursts exceeding this average may be permitted, they are not guaranteed and should not be relied upon. Additionally, Notion's rate limits are subject to change at any time, and we have no control over such modifications.
-
-To prevent errors such as `500 Server Error` or `HTTP 429 (Too Many Requests)`, users are strongly advised not to upload large Data Set (e.g., 99 images) in a single batch. Instead, it is recommended to upload data in smaller batches of no more than 50 items at a time, with a short pause between batches to avoid triggering rate limits.
-
-For the most current information on Notion’s rate limiting policies, please refer to their [official documentation](https://developers.notion.com/reference/request-limits).
+For Notion Profile, users must utilise the provided Notion's [Marker Data Template](/user-guide/databases/#notion-template).
 !!!
 
 1. Click on the `+` button to Create Database Profile.
@@ -36,16 +28,16 @@ For the most current information on Notion’s rate limiting policies, please re
 
 Enter your [Notion Workspace Name](/databases/notion-prerequisite#obtain-your-workspace-name) here.
 
-==- Notion V2 Token
+==- Notion Integration Token
 
-Enter your [Notion V2 Token](/databases/notion-prerequisite#obtain-your-session-token) here.
+Enter your [Notion Integration Token](/databases/notion-prerequisite#obtain-your-integration-token) here.
 
 ==- Notion Database URL
 
-Enter your [Notion Database URL](/databases/notion-prerequisite##obtain-your-database-url) here. In the absence of a provided Notion Database URL, **Marker Data** will upload all entries of the Marker Metadata from Final Cut Pro into Notion.
+Enter your [Notion Database URL](/databases/notion-prerequisite##obtain-your-database-url) here.
 
 !!!info Info
-It is strongly advised that you to duplicate the supplied [Marker Data Template](/user-guide/databases/#notion-template). Subsequently, you can acquire the link from your duplicated Notion Template within your Workspace.
+Users must duplicate the supplied [Marker Data Template](/user-guide/databases/#notion-template). Subsequently, you can acquire the link from your duplicated Notion Template within your Workspace.
 !!!
 
 ==- Rename Key Column
