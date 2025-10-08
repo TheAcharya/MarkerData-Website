@@ -25,7 +25,7 @@ You possess the liberty to tailor the [Shot Library Template](/user-guide/databa
 4. Paste the URL into `Notion Database URL` field.
 
 !!!info Info
-It is presumed that you have acquired and inputted your [Notion V2 Token](/databases/notion-prerequisite/#obtain-your-session-token).
+It is presumed that you have acquired and inputted your [Notion Integration Token](/databases/notion-prerequisite#obtain-your-integration-token).
 !!!
 
 5. Type `Shot ID` into `Rename Key Column` field. 
