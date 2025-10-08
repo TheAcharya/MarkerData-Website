@@ -45,7 +45,7 @@ If you encounter issues uploading to your Notion Database, please follow these s
 2. Open the log file `csv2notion-neo_log.txt`.
 3. Scroll down to review the most recent entries.
 
-If you observe the error messages `HTTPError: 401 Client Error: Unauthorized for url` or `Invalid Notion token`, it is likely that either your Notion Database URL is incorrect or your Notion v2 Token has expired. For detailed instructions on resolving these issues, please refer to the [Notion Prerequisite](/databases/notion-prerequisite) documentation.
+If you observe the error messages `HTTPError: 401 Client Error: Unauthorized for url` or `Invalid Notion token`, it is likely that either your Notion Database URL is incorrect or your Notion Integration Token is incorrect. For detailed instructions on resolving these issues, please refer to the [Notion Prerequisite](/databases/notion-prerequisite) documentation.
 
 ### Airtable
 
