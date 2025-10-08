@@ -16,7 +16,7 @@ Delve deeper into the distinctions and parallels between Notion and Airtable [he
 ![Create Notion Profile](/assets/md-database-settings_01.png)
 
 !!!info Info
-For Notion Profile, users must utilise the provided Notion's [Marker Data Template](/user-guide/databases/#notion-template).
+For Notion Profile, it is imperative to underscore that users are mandated to utilise the provided Notion's [Marker Data Template](/user-guide/databases/#notion-template).
 !!!
 
 1. Click on the `+` button to Create Database Profile.
