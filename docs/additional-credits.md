@@ -7,11 +7,11 @@ Marker Data is also made possible because of the hard work of these amazing open
 
 | Library | Role |
 |---|---|
-| [TimecodeKit](https://github.com/orchetect/TimecodeKit) | SMPTE timecode library for Swift |
-| [DAWFileKit](https://github.com/orchetect/DAWFileKit) | Swift library for reading and writing common file formats between popular DAW and NLE applications |
+| [swift-timecode](https://github.com/orchetect/swift-timecode) | SMPTE timecode library for Swift |
+| [swift-daw-file-tools](https://github.com/orchetect/swift-daw-file-tools) | Swift library for reading and writing common file formats between popular DAW and NLE applications |
 | [MIDIKit](https://github.com/orchetect/MIDIKit) | Modern multi-platform Swift CoreMIDI wrapper with MIDI 2.0 support |
-| [TextFileKit](https://github.com/orchetect/TextFileKit) | Read & write delimited text file formats (incl. CSV and TSV) |
-| [OTCore](https://github.com/orchetect/OTCore) | Useful extensions on Swift standard library types |
+| [swift-textfile-tools](https://github.com/orchetect/swift-textfile-tools) | Read & write delimited text file formats (incl. CSV and TSV) |
+| [swift-extensions](https://github.com/orchetect/swift-extensions) | Useful extensions on Swift standard library types |
 | [Pagemaker](https://github.com/TheAcharya/MarkerData-Pagemaker) | From Timeline to PDF, Effortlessly Made |
 | [ColorWellKit](https://github.com/jordanbaird/ColorWellKit) | An alternative to NSColorWell for Cocoa and ColorPicker for SwiftUI |
 | [PasswordField](https://github.com/MrAsterisco/PasswordField) | A secure text field for SwiftUI with a button to toggle visibility |
