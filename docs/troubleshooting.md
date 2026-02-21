@@ -146,9 +146,9 @@ If you encounter such an problem, please open an [issue](https://github.com/TheA
 
 To streamline our internal testing process, we have implemented an automated weekly validation of Marker Data’s module.
 
-Modules   | Status | Schedule
----    | --- | ---
-Notion  | [![notion_image_upload_test](https://github.com/TheAcharya/csv2notion-neo/actions/workflows/notion_image_upload_test.yml/badge.svg)](https://github.com/TheAcharya/csv2notion-neo/actions/workflows/notion_image_upload_test.yml) | Scheduled daily at 8:00 AM Singapore time
-Airtable  | [![airtable_image_upload_test](https://github.com/TheAcharya/Airlift/actions/workflows/airtable_image_upload_test.yml/badge.svg)](https://github.com/TheAcharya/Airlift/actions/workflows/airtable_image_upload_test.yml) | Scheduled daily at 8:00 AM Singapore time
+Modules   | Status | Platform Status | Schedule
+---    | --- | --- | ---
+Notion  | [![notion_image_upload_test](https://github.com/TheAcharya/csv2notion-neo/actions/workflows/notion_image_upload_test.yml/badge.svg)](https://github.com/TheAcharya/csv2notion-neo/actions/workflows/notion_image_upload_test.yml) | [Notion Status](https://www.notion-status.com) | Scheduled daily at 8:00 AM Singapore time
+Airtable  | [![airtable_image_upload_test](https://github.com/TheAcharya/Airlift/actions/workflows/airtable_image_upload_test.yml/badge.svg)](https://github.com/TheAcharya/Airlift/actions/workflows/airtable_image_upload_test.yml) | [Airtable Status](https://status.airtable.com) | Scheduled daily at 8:00 AM Singapore time
 
-If the badge is green, indicating a successful test, it confirms that our modules are compatible with the supported database platforms. However, if the badge turns red, signalling a failure, an update may be necessary to ensure continued compatibility.
+If the badge is green, indicating a successful test, it confirms that our modules are compatible with the supported database platforms. However, if the badge turns red, signalling a failure, an update may be necessary to ensure continued compatibility. In the event of a failure, we also recommend checking the platform's status page to rule out any ongoing outages or service disruptions.
