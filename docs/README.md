@@ -131,8 +131,8 @@ Your browser does not support the video tag.
 
 ## System Requirements
 
-macOS Sonoma 14.7 or later
-Final Cut Pro 11.0 or later
+macOS Sequoia 15.7 or later
+Final Cut Pro 12.0 or later
 Runs only on Apple silicon Macs
 Internet connection is necessary for some modules and functionality
 
