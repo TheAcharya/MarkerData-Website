@@ -98,17 +98,15 @@ Regrettably, despite the capacity to import and export FCPXMLs within **DaVinci 
 
 ## Could other database platforms be supported in the foreseeable future?
 
-At present, our primary emphasis lies in the steadfast support and enhancement of integration capabilities with Notion and Airtable—two widely acclaimed platforms embraced by users and companies across the global Film and TV industry. The development of robust internal components for both [Notion](https://github.com/TheAcharya/csv2notion-neo) and [Airtable](https://github.com/TheAcharya/Airlift) has demanded a significant investment of time and effort.
-
-Should you have specific use cases or preferences for other platforms, we encourage you to initiate a [discussion](https://github.com/TheAcharya/MarkerData/discussions). It is essential to note that the incorporation of additional platforms will be contingent upon the availability of compatible API libraries.
+No. At present, our primary emphasis lies in the steadfast support and enhancement of integration capabilities with Notion and Airtable—two widely acclaimed platforms embraced by users and companies across the global Film and TV industry. The development of robust internal components for both [Notion](https://github.com/TheAcharya/csv2notion-neo) and [Airtable](https://github.com/TheAcharya/Airlift) has demanded a significant investment of time and effort.
 
 ## Could Marker Data extract and convert Final Cut Pro's Marker metadata to another format?
 
-Certainly, such an endeavour is within our purview. As we continue to refine and advance our Library, the augmentation of [Profiles](https://github.com/TheAcharya/MarkersExtractor/issues?q=is%3Aissue+is%3Aopen+label%3Aprofiles) is a definite consideration for future.
+Whilst this is technically feasible, our [Library](https://github.com/TheAcharya/MarkersExtractor) has reached a considered level of maturity and has consequently transitioned into [maintenance mode](https://en.wikipedia.org/wiki/Maintenance_mode). As such, we have no intention of introducing new features or profiles. Our ongoing commitment is limited to the resolution of defects and the provision of compatibility updates as and when required.
 
 ## Would it be possible to add a specific feature to Marker Data for a project I am currently working on?
 
-If you require a specific feature for **Marker Data** that falls within the scope of the application, please contact us [here](https://theacharya.co/contact) for advice and a quote.
+With the release of **Marker Data** 2.0.0, we consider the application to have reached a definitive level of maturity. As such, we have no intention of introducing significant new features beyond routine maintenance and bug fixes. That said, should you have a particular enquiry, you are most welcome to contact us [here](https://theacharya.co/contact).
 
 ## Are you affiliated with Notion or Airtable?
 
@@ -118,11 +116,11 @@ We are not associated with, nor do we have any affiliation with, Notion or Airta
 
 **Marker Data** can be seamlessly integrated with both the free plans of Notion and Airtable, as there are no technical constraints imposed by Marker Data on such usage. However, it is important to consider the limitations inherent to the free tiers of these platforms. Specifically, Notion's free plan restricts uploads to a maximum of 5MB per file, while Airtable's free plan imposes a limit of 1,000 records per base.
 
-## Why is Marker Data only available on macOS Ventura or later?
+## Why is Marker Data only available on the latest macOS versions?
 
-**Marker Data** is compatible exclusively with macOS Ventura (version 13) or later due to Apple's policy of releasing new software features only for the latest version of their operating system. Although these features could technically work on older systems, Apple does not support such compatibility. This poses significant challenges for developers, who are then faced with the choice of either devising extensive workarounds or limiting support to newer OS versions.
+**Marker Data** is compatible exclusively with the current and preceding major release of macOS, owing to Apple's policy of restricting new software features and frameworks to their most recent operating system releases. Whilst these features may technically function on older systems, Apple provides no official support for such compatibility, which presents considerable challenges for developers who must then choose between implementing extensive workarounds or confining support to the most current OS versions.
 
-As an independent developer, we have chosen to support only macOS Ventura and later versions to avoid the complexities and time-consuming nature of these workarounds. This decision is a matter of practicality and efficiency, not a reflection of a lack of effort or dedication.
+As an independent developer, we have elected to support only the current and immediately preceding major release of macOS, so as to avoid the complexities and time-consuming nature of such workarounds. This is a matter of practicality and efficiency, and is in no way a reflection of any lack of effort or dedication on our part.
 
 ## Does Marker Data support Intel-based Macs?
 
@@ -150,4 +148,8 @@ Yes, **Marker Data** is safe. While it is not a sandboxed application, it has be
 
 ## Why is Maker Data free?
 
-The decision to offer **Marker Data** free of charge stems from a commitment to democratising access within the filmmaking community. Unlike many software solutions that impose subscription models or steep perpetual license fees, **Marker Data** prioritises inclusivity. Whether one is a burgeoning student filmmaker or a seasoned professional embarking on a feature project, **Marker Data** stands as a readily accessible resource. By removing financial barriers, the aim is to ensure that all individuals can benefit from its features without concern for monetary constraints. Moreover, by fostering a culture of contribution and support, users are encouraged to engage with **Marker Data** and, if they find value in its offerings can choose to contribute as sponsors. Ultimately, this approach not only facilitates seamless integration into Final Cut Pro workflows but also fosters a sense of community and collaboration within the filmmaking sphere. You can [sponsor](https://github.com/sponsors/TheAcharya) us if you find **Marker Data** useful or would like to see more features added.
+The decision to offer **Marker Data** free of charge stems from a commitment to democratising access within the filmmaking community. Unlike many software solutions that impose subscription models or steep perpetual licence fees, **Marker Data** prioritises inclusivity. Whether one is a burgeoning student filmmaker or a seasoned professional embarking on a feature project, **Marker Data** stands as a readily accessible resource. By removing financial barriers, the aim is to ensure that all individuals may benefit from its features without concern for monetary constraints.
+
+**Marker Data** holds a particular significance for us, as it was our first application developed for macOS. In its inception, it served as an invaluable exercise in acquainting ourselves with Apple's software development ecosystem and understanding the intricacies of building and maintaining a macOS application. Given this, we felt it only fitting to open-source the application, with the hope that it may serve as a useful reference for other developers who find themselves at a similar juncture in their journey.
+
+By fostering a culture of contribution and support, users are encouraged to engage with **Marker Data** and, should they find value in its offerings, may choose to contribute as sponsors. Ultimately, this approach not only facilitates seamless integration into Final Cut Pro workflows but also fosters a sense of community and collaboration within the filmmaking sphere. You can [sponsor](https://github.com/sponsors/TheAcharya) us if you find **Marker Data** useful or would like to show your support.
