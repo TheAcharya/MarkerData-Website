@@ -124,7 +124,7 @@ As an independent developer, we have elected to support only the current and imm
 
 ## Does Marker Data support Intel-based Macs?
 
-**Marker Data** has not been extensively tested on Intel-based Macs. Both our internal Notion and Airtable client binaries are built natively for the ARM64 architecture. While it is technically feasible to create universal binaries that support both Intel and Apple Silicon, doing so would necessitate incorporating additional dependency libraries, which could adversely affect upload performance. Starting with **Marker Data** version 1.1.0, application is exclusively build and optimised for Apple Silicon only.
+No. Starting with **Marker Data** version 1.1.0, application is exclusively build and optimised for Apple Silicon only.
 
 ## Can iCloud Sync Be Integrated for Marker Data’s Configuration and Database Profiles?
 
