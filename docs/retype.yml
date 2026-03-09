@@ -56,6 +56,9 @@ links:
   
 markdown:
   lineBreaks: hard
+  
+backlinks:
+  enabled: false
 
 footer:
   copyright: "&copy; Copyright 2026 [The Acharya](https://theacharya.co/). All rights reserved."
