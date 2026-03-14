@@ -1,7 +1,7 @@
 ---
 label: Creating Shot Library
 icon: video
-order: -5
+order: -6
 ---
 # Creating Shot Library
 
