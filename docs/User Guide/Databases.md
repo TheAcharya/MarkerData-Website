@@ -114,7 +114,7 @@ It is advisable to ensure prior login to your Dropbox Account has been completed
 3. Paste it in the `Dropbox App Key` field.
 4. Press `Continue`.
 5. **Marker Data** will launch Terminal.
-6. Highlight the full URL, right-click to `Open Link`.
+6. There would be delay before the URL appears. Highlight the full URL, right-click to `Open Link`.
 7. Your default browser will be launched with the URL.
 8. Click `Continue` and click `Allow`.
 9. Copy your unique `Authorisation code`.
