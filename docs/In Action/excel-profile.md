@@ -5,7 +5,7 @@ order: -4
 ---
 # Sending to Excel
 
-![](/assets/content-banner-youtube.png)
+![](/assets/content-banner-excel.png)
 
 ## Configuration Setup
 
@@ -33,4 +33,4 @@ Your browser does not support the video tag.
 1. Select `Marker Data Source` or `Marker Data H.264` from [Final Cut Pro's Share menu](user-guide/share-destination/).
 2. **Marker Data** will start to perform its task.
 3. **Marker Data** will launch to commence extraction and conversion.
-4. **Marker Data** will create `..xlsx` file with embed images.
+4. **Marker Data** will create `.xlsx` file with embed images.

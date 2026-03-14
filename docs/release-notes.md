@@ -5,6 +5,31 @@ order: -98
 ---
 # Release Notes
 
+### 2.0.0 (17)
+
+**🎉 Released:**
+- TBC
+
+**Marker Data** no longer officially supports macOS Sonoma starting with version 2.0.0.
+
+**🔨 Improvements:**
+- Overhaul Marker Data's GUI to Liquid Glass
+- Updated Marker Data's application icon for macOS Tahoe
+- [Excel export profile](https://markerdata.theacharya.co/in-action/excel-profile/) now has the ability to automatically embed images
+- Added support and compatibility for FCPXML v1.14 (Final Cut Pro 12)
+- Updated Airtable Module Airlift to version 1.3.3
+- Updated Notion Module CSV2Notion Neo to version 2.1.0
+- Updated Pagemaker Module to version 1.1.1
+- Updated core dependencies
+- Codebase updates for Xcode 26.3
+
+**🐞 Bug Fix:**
+- Removed unintended exposure of the XML Path column in Notion Database Profile
+- Fixed an issue that prevented macOS notifications for Marker Data
+- Fixed an issue that caused Dropbox setup to fail on macOS Tahoe due to Apple restrictions
+
+<hr>
+
 ### 1.4.4 (16)
 
 **🎉 Released:**
