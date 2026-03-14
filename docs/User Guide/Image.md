@@ -120,6 +120,10 @@ Enable the checkbox to embed colour Swatch Palette into extracted images.
 For both Notion and Airtable Export Profiles, when `GIF` is selected as Image Format, Swatch Palettes will be extracted as a separate `.jpg` file.
 !!!
 
+!!!info Info
+Embedding extracted images with a Color Swatch Palette is not supported for Excel Profile. Even when this option is enabled, images will be embedded without the associated Color Swatch Palette data.
+!!!
+
 ### Algorithm
 
 Select your desired Swatch Algorithm.
