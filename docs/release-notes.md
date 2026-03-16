@@ -15,8 +15,10 @@ order: -98
 **🔨 Improvements:**
 - Overhaul Marker Data's GUI to Liquid Glass
 - Updated Marker Data's application icon for macOS Tahoe
+- Verified to run under macOS Tahoe and Final Cut Pro 12
 - [Excel export profile](https://markerdata.theacharya.co/in-action/excel-profile/) now has the ability to automatically embed images
 - Added support and compatibility for FCPXML v1.14 (Final Cut Pro 12)
+- Added support for Final Cut Pro Creator Studio (Subscription Version)
 - Updated Airtable Module Airlift to version 1.3.3
 - Updated Notion Module CSV2Notion Neo to version 2.1.0
 - Updated Pagemaker Module to version 1.1.1
