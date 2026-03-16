@@ -14,7 +14,7 @@ order: -11
 ![Final Cut Pro's Extensions Button](/assets/fcp-extensions-button.png)
 
 !!!info Info
-The Extensions button appears only when extensions are installed.
+The Extensions button appears only when extensions apps are installed.
 !!!
 
 Initiate the extraction process by dragging your desired  `Timeline` from your **Final Cut Pro**’s `Browser` into the `Workflow Extension`, beneath the Extract Tab. Subsequently, **Marker Data** will promptly launch to commence the extraction process. **Marker Data** will automatically utilise [Active Configuration](/user-guide/configurations/#make-active-configuration) during the extraction process.
@@ -31,7 +31,11 @@ Within the refined capabilities of **Marker Data**, users are empowered to make 
 
 The extraction process can then be started through either **Marker Data**’s [Share Destination](/user-guide/share-destination) or the [Extract Tab](/user-guide/workflow-extension/#extract) within this Workflow Extension.
 
-By [!badge text="Default"], **Marker Data** extracts all roles. However, the Role tab permits targeted extractions based on your specific role selections. Workflow Extension's Role tab is always synchronised with the [Roles tab of the General Settings](/user-guide/general/#roles). Should you wish to save your roles selection, you may perform [Update Active Configuration](/user-guide/configurations/#update-active-configuration) to preserve your choices.
+By [!badge text="Default"], **Marker Data** extracts all roles. However, the Role tab permits targeted extractions based on your specific role selections. Workflow Extension's Role tab is always synchronised with the [Roles tab of the General Settings](/user-guide/general/#roles).
+
+!!!info Info
+You may be required to perform [Update Active Configuration](/user-guide/configurations/#update-active-configuration) to preserve your role selections during the extraction process.
+!!!
 
 <video controls width="1920">
   <source src="/assets/md-workflow-extension-roles.mp4" type="video/mp4">
