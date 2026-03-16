@@ -142,6 +142,12 @@ Yes, **Marker Data** is safe. While it is not a sandboxed application, it has be
 
 **Marker Data** is coded in a way that is not compatible with the strict sandboxing requirements enforced by the Mac App Store. These restrictions would limit essential aspects of the app’s functionality. To preserve the full capabilities of **Marker Data**, we distribute it independently via our official GitHub repository.
 
+## Does Marker Data work with Final Cut Pro Creator Studio?
+
+Yes. From version 2.0.0 onwards, **Marker Data** has been verified as compatible with both Final Cut Pro 12.0 (Lifetime / Perpetual licence) and Final Cut Pro Creator Studio 12.0 (Subscription licence).
+
+However, users who have both versions installed simultaneously may encounter conflicts during the installation of **Marker Data**’s [Share Destination](/user-guide/share-destination). To ensure a stable and predictable installation, it is strongly recommended that only a single version of Final Cut Pro be maintained on the system at any one time.
+
 ## What is Marker Data's Privacy Policy?
 
 **Marker Data** is designed to operate solely on your computer, without any collection of personal information. All processes and data manipulations occur locally, ensuring that your sensitive information remains confidential and secure. However, it's important to note that when you choose to upload data to platforms such as [Notion](https://www.notion.so/security), [Airtable](https://www.airtable.com/company/trust-and-security) or [Dropbox](https://www.dropbox.com/privacy), your information is subject to their respective privacy policies. We encourage you to read and familiarise yourself with their security & privacy policies to understand how they handle your data. Rest assured, our commitment to privacy means you can enjoy the benefits of our application without compromising your personal data.
