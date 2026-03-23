@@ -121,7 +121,7 @@ For both Notion and Airtable Export Profiles, when `GIF` is selected as Image Fo
 !!!
 
 !!!info Info
-Embedding extracted images with a Color Swatch Palette is not supported for Excel Profile. Even when this option is enabled, images will be embedded without the associated Color Swatch Palette data.
+Embedding extracted images with a Color Swatch Palette is not supported for Excel Profile.
 !!!
 
 ### Algorithm

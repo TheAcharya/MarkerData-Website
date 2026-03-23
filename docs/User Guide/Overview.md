@@ -35,7 +35,7 @@ It is imperative to review Marker Data’s Onboarding information and instructio
 
 ## Uninstall
 
-![Uninstall Marker Data](/assets/md-uninstall.png)
+![Marker Data Uninstaller App](/assets/md-uninstall.png)
 
 1. Double click on `Uninstall Marker Data.app`.
 2. Click on `Uninstall Marker Data` button.

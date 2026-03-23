@@ -17,7 +17,7 @@ order: -4
 4. Return back to Configurations to [Update Active Configuration](/user-guide/configurations/#update-active-configuration)
 
 !!!info Info
-Embedding extracted images with a Color Swatch Palette is not supported. Even when this option is enabled, images will be embedded without the associated Color Swatch Palette data.
+Embedding extracted images with a Color Swatch Palette is not supported.
 !!!
 
 
