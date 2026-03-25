@@ -25,7 +25,7 @@ order: -98
 - Updated Pagemaker Module to version 1.1.1
 - Marker Data's Uninstaller has been rewritten in Swift
 - Updated core dependencies
-- Codebase updates for Xcode 26.3
+- Codebase updates for Xcode 26.4.0
 
 **🐞 Bug Fix:**
 - Removed unintended exposure of the XML Path column in Notion Database Profile
