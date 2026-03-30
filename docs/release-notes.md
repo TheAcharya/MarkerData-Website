@@ -8,7 +8,7 @@ order: -98
 ### 2.0.0 (17)
 
 **🎉 Released:**
-- TBC
+- 30th March 2026
 
 **Marker Data** now only supports macOS Sequoia 15.7 or later, starting with version 2.0.0.
 
@@ -17,6 +17,7 @@ order: -98
 - Updated Marker Data's application icon for macOS Tahoe
 - Verified to run under macOS Tahoe and Final Cut Pro 12
 - [Excel export profile](https://markerdata.theacharya.co/in-action/excel-profile/) now has the ability to automatically embed images
+- Improved compatibility of CSV export profile and TSV export profile when data contains special characters
 - Added support and compatibility for FCPXML v1.14 (Final Cut Pro 12)
 - Added support for [Final Cut Pro Creator Studio (Subscription Version)](https://markerdata.theacharya.co/faq/#does-marker-data-work-with-final-cut-pro-creator-studio)
 - Dock Icon's Progress now uses Squircle Style
@@ -32,6 +33,7 @@ order: -98
 - Fixed an issue that prevented macOS notifications for Marker Data
 - Fixed an issue that caused Dropbox setup to fail on macOS Tahoe due to Apple restrictions
 - Fixed an issue where the Dock Icon progress toggle was not working
+- Fixed an issue where the Queue table sort was not working
 - Embedding extracted images with Swatch Palette is not supported for Excel Profile
 
 <hr>
