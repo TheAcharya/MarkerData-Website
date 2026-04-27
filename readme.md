@@ -1,6 +1,6 @@
-![](/static/marker-data-social-card.png)
-
 # Marker Data
+
+![](/static/marker-data-social-card.png)
 
 The avant-garde Marker extraction application crafted for [Final Cut Pro](https://www.apple.com/final-cut-pro/). It allows users to extract, convert and create databases from Final Cut Pro’s Marker metadata effortlessly. 
 
