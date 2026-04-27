@@ -1,11 +1,4 @@
-<style>
-	@media (max-width: 959px) {
-		img.rightLogo {
-			display: none !important;
-		}
-	}
-</style>
-<img class="rightLogo" src="https://github.com/TheAcharya/MarkerData-Website/blob/main/docs/static/logo.png?raw=true" align="right" style="width: 300px !important; height: 300px !important;" />
+![](/static/marker-data-social-card.png)
 
 # Marker Data
 
