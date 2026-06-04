@@ -1,5 +1,17 @@
 # Release Notes
 
+### 2.0.2 (19)
+
+**🎉 Released:**
+- 4th June 2026
+
+**🔨 Improvements:**
+- Updated core dependencies
+- Updated Notion Module CSV2Notion Neo to version 2.2.0
+- Updated Airtable Module Airlift to version 1.4.2
+
+<hr>
+
 ### 2.0.1 (18)
 
 **🎉 Released:**

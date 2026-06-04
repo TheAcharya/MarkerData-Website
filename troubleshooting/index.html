@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.830603939434">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.833867178497">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 4.5.3">
+    <meta name="generator" content="Retype 4.6.0">
 
     <!-- Primary Meta Tags -->
     <title>Troubleshooting</title>
@@ -44,12 +44,12 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../static/favicon.ico" />
-    <link href="../resources/css/retype.css?v=4.5.3.830603939434" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=4.6.0.833867178497" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=4.5.3.830603939434" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="../resources/js/retype.js?v=4.5.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=4.5.3.830603939434" data-turbo-eval="false" defer></script>
-    <script id="prism-js" data-cfasync="false" src="../resources/js/prism.js?v=4.5.3.830603939434" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=4.6.0.833867178497" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=4.6.0.833867178497" data-turbo-eval="false" defer></script>
+    <script id="prism-js" data-cfasync="false" src="../resources/js/prism.js?v=4.6.0.833867178497" defer></script>
 
     <meta name="msvalidate.01" content="325120C12888C61306930ACDFB17A57E" />
     <!-- Google Tag Manager -->
@@ -408,6 +408,10 @@ Traceback (most recent call last):
 <p>If you encounter such an problem, please open an <a href="https://github.com/TheAcharya/MarkerData/issues" class="outbound" target="_blank">issue</a>. With time and thorough investigation, we will release an update for <strong>Marker Data</strong>. However, the update may not be immediate, as it depends on our availability to analyse and resolve the issue. We appreciate your patience and understanding.</p>
 <h2 id="module-status">Module Status</h2>
 <p>To streamline our internal testing process, we have implemented an automated weekly validation of Marker Data’s module.</p>
+<retype-table copy-text="Modules   | Status | Platform Status | Schedule
+---    | --- | --- | ---
+Notion  | [![notion_image_upload_test](https://github.com/TheAcharya/csv2notion-neo/actions/workflows/notion_image_upload_test.yml/badge.svg)](https://github.com/TheAcharya/csv2notion-neo/actions/workflows/notion_image_upload_test.yml) | [Notion Status](https://www.notion-status.com) | Scheduled daily at 8:00 AM Singapore time
+Airtable  | [![airtable_image_upload_test](https://github.com/TheAcharya/Airlift/actions/workflows/airtable_image_upload_test.yml/badge.svg)](https://github.com/TheAcharya/Airlift/actions/workflows/airtable_image_upload_test.yml) | [Airtable Status](https://status.airtable.com) | Scheduled daily at 8:00 AM Singapore time">
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
@@ -434,6 +438,7 @@ Traceback (most recent call last):
 </tbody>
 </table>
 </div>
+</retype-table>
 <p>If the badge is green, indicating a successful test, it confirms that our modules are compatible with the supported database platforms. However, if the badge turns red, signalling a failure, an update may be necessary to ensure continued compatibility. In the event of a failure, we also recommend checking the platform&#x27;s status page to rule out any ongoing outages or service disruptions.</p>
 
                 
