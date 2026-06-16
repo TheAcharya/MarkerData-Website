@@ -11,7 +11,7 @@ order: -98
 - 16th June 2026
 
 **🔨 Improvements:**
-- Added new [Allow UTF-8 in MIDI Export Profile](https://markerdata.theacharya.co/user-guide/general/#allow-utf-8-in-midi-export-profile) under General Settings
+- Added new option [Allow UTF-8 in MIDI Export Profile](https://markerdata.theacharya.co/user-guide/general/#allow-utf-8-in-midi-export-profile) under General Settings
 
 ---
 
