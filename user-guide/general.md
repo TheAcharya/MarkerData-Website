@@ -95,7 +95,7 @@ This option is applicable in situations wherein:
 
 ### Allow UTF-8 in MIDI Export Profile
 
-By [!badge text="Default"], **Marker Data** will export MIDI file text events using strict ASCII encoding, in accordance with the Standard MIDI File 1.0 specification, ensuring the broadest possible compatibility with MIDI applications. Activating the `Allow UTF-8 in MIDI Export Profile` opts in to wider encoding support, mimicking Logic Pro's ability to use UTF-8 text in MIDI files. When this option is enabled, text that falls within standard ASCII remains fully backwards compatible, while any text that requires it will be encoded as UTF-8 automatically.
+By [!badge text="Default"] **Marker Data** will export MIDI file text events using strict ASCII encoding, in accordance with the Standard MIDI File 1.0 specification, ensuring the broadest possible compatibility with MIDI applications. Activating the `Allow UTF-8 in MIDI Export Profile` opts in to wider encoding support, mimicking Logic Pro's ability to use UTF-8 text in MIDI files. When this option is enabled, text that falls within standard ASCII remains fully backwards compatible, while any text that requires it will be encoded as UTF-8 automatically.
 
 ### Open Files and Folders Access
 
