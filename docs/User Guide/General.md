@@ -91,12 +91,16 @@ In both states, chapter markers's timecode would be identical on both image labe
 
 ### Skip Image Generation
 
-By [!badge text="Default"] Marker Data will always look for accompanying movie file (`.mov` or `.mp4`) in directory where the `.fcpxmld` or `.fcpxml` resides. Activating the Skip Image Generation option allows **Marker Data** to circumvent the inclusion of the movie file during processing.
+By [!badge text="Default"] **Marker Data** will always look for accompanying movie file (`.mov` or `.mp4`) in directory where the `.fcpxmld` or `.fcpxml` resides. Activating the `Skip Image Generation` option allows **Marker Data** to circumvent the inclusion of the movie file during processing.
 
 This option is applicable in situations wherein:
 
 - You do not require exporting a movie file.
 - You do not require extraction of images.
+
+### Allow UTF-8 in MIDI Export Profile
+
+By [!badge text="Default"], **Marker Data** will export MIDI file text events using strict ASCII encoding, in accordance with the Standard MIDI File 1.0 specification, ensuring the broadest possible compatibility with MIDI applications. Activating the `Allow UTF-8 in MIDI Export Profile` opts in to wider encoding support, mimicking Logic Pro's ability to use UTF-8 text in MIDI files. When this option is enabled, text that falls within standard ASCII remains fully backwards compatible, while any text that requires it will be encoded as UTF-8 automatically.
 
 ### Open Files and Folders Access
 
