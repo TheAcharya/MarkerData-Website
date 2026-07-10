@@ -13,7 +13,7 @@
 2. Duplicate Notion's [Marker Data Template](/user-guide/databases/#notion-template) in to your Notion account.
 
 !!!info Info
-You possess the liberty to tailor the [Marker Data Template](/user-guide/databases/#notion-template) to suit your preferences, affording you the opportunity to incorporate additional [Notion Database properties](https://www.notion.so/help/database-properties) as per your discretion. While it is recommended to refrain from the removal of existing properties, should such an inclination arise, it is imperative to note that **Marker Data** will disregard any column properties that have been deleted.
+You possess the liberty to tailor the [Marker Data Template](/user-guide/databases/#notion-template) to suit your preferences, affording you the opportunity to incorporate additional [Notion Database properties](https://www.notion.com/help/database-properties) as per your discretion. While it is recommended to refrain from the removal of existing properties, should such an inclination arise, it is imperative to note that **Marker Data** will disregard any column properties that have been deleted.
 !!!
 
 3. [Obtain your Database URL](/databases/notion-prerequisite/#obtain-your-database-url) by going to your Notion Database, and right-click on the view and click **Copy link to view**.
