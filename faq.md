@@ -101,7 +101,7 @@ Whilst this is technically feasible, our [Library](https://github.com/TheAcharya
 
 ## Would it be possible to add a specific feature to Marker Data for a project I am currently working on?
 
-With the release of **Marker Data** 2.0.0, we consider the application to have reached a definitive level of maturity. As such, we have no intention of introducing significant new features beyond routine maintenance and bug fixes. That said, should you have a particular enquiry, you are most welcome to contact us [here](https://theacharya.co/contact).
+With the release of **Marker Data** 2.0.0, we consider the application to have reached a definitive level of maturity. As such, we have no intention of introducing significant new features beyond routine maintenance and bug fixes. That said, should you have a particular enquiry, you are most welcome to contact us [here](https://tech.theacharya.co).
 
 ## Are you affiliated with Notion or Airtable?
 
