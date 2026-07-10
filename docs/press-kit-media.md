@@ -10,7 +10,7 @@ We would greatly appreciate your support in sharing and promoting **Marker Data*
 
 [!file Press Kit](https://github.com/TheAcharya/MarkerData/raw/main/Press%20Kit/press-kit.zip)
 
-Feel free to reach out directly [here](https://theacharya.co/contact).
+Feel free to reach out directly [here](https://tech.theacharya.co).
 
 ## YouTube
 
