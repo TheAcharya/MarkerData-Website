@@ -14,7 +14,7 @@ order: -2
 
 ## Obtain your Integration Token
 
-1. Login to your [Notion](https://www.notion.so/my-integrations) account via a web browser.
+1. Login to your [Notion](https://www.notion.com/my-integrations) account via a web browser.
 2. Create a new **integration**.
 3. Provide a **Name** for your integration. Optionally, you can also upload an image to use as a Logo.
 4. Use the dropdown menu to specify which Associated workspace you would like to use this integration with.

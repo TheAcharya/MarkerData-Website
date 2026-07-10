@@ -110,7 +110,7 @@ order: -98
 **🔨 Improvements:**
 - Update Notion Database Profile validation
 - Updated Notion Module CSV2Notion Neo to version 2.0.0
-- Notion module have been migrated from unofficial Notion private API to official [Notion API](https://www.notion.so/my-integrations) 
+- Notion module have been migrated from unofficial Notion private API to official [Notion API](https://www.notion.com/my-integrations) 
 - Notion Database URL is now a required field
 - Automatic database creation is no longer supported
 - Updated [Database Settings](https://markerdata.theacharya.co/user-guide/databases/) guide

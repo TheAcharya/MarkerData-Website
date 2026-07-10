@@ -18,7 +18,7 @@ The avant-garde Marker extraction application crafted for [Final Cut Pro](https:
 - Automatically analyse and embed colour swatches from extracted images for shot reference.
 - Integrates with Final Cut Pro, boasting a native Share Destination & Workflow Extension.
 - Precise extraction of Markers, ensuring an accurate representation of metadata.
-- Native integration with renowned databases such as [Notion](https://www.notion.so) and [Airtable](https://www.airtable.com).
+- Native integration with renowned databases such as [Notion](https://www.notion.com) and [Airtable](https://www.airtable.com).
 - Effortlessly synchronise Final Cut Pro's Marker metadata to cloud databases with a single click.
 - Versatile features for batch burning-in labels, embedding comprehensive metadata of each Marker onto stills or animated GIFs.
 - Comprehensive timeline functionality, encompassing support for timelines such as Projects and Compound Clips.
