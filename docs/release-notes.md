@@ -5,6 +5,16 @@ order: -98
 ---
 # Release Notes
 
+### 2.0.5 (22)
+
+**🎉 Released:**
+- 27th July 2026
+
+**🔨 Improvements:**
+- Updated Notion Module CSV2Notion Neo to version 2.2.1
+
+---
+
 ### 2.0.4 (21)
 
 **🎉 Released:**
