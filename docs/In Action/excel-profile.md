@@ -20,7 +20,6 @@ order: -4
 Embedding extracted images with a Color Swatch Palette is not supported.
 !!!
 
-
 ## Final Cut Pro to Excel
 
 <video controls width="1920">
