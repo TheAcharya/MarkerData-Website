@@ -6,10 +6,10 @@ Marker Data is also made possible because of the hard work of these amazing open
 |---|---|
 | [SwiftTimecode](https://github.com/orchetect/swift-timecode) | SMPTE timecode library for Swift |
 | [SwiftDAWFileTools](https://github.com/orchetect/swift-daw-file-tools) | Swift library for reading and writing common file formats between popular DAW and NLE applications |
-| [swift-fcpxml](https://github.com/orchetect/swift-fcpxml) | Read, write, and reason on FCPXML (Final Cut Pro XML) in Swift |
+| [SwiftFCPXML](https://github.com/orchetect/swift-fcpxml) | Read, write, and reason on FCPXML (Final Cut Pro XML) in Swift |
 | [SwiftMIDI](https://github.com/orchetect/swift-midi) | Modular multi-platform MIDI toolkit written in pure Swift supporting MIDI 1.0 and MIDI 2.0 |
-| [swift-textfile](https://github.com/orchetect/swift-textfile) | Read & write delimited text file formats (incl. CSV and TSV) |
-| [swift-extensions](https://github.com/orchetect/swift-extensions) | Useful extensions on Swift standard library types |
+| [SwiftTextFile](https://github.com/orchetect/swift-textfile) | Read & write delimited text file formats (incl. CSV and TSV) |
+| [SwiftExtensions](https://github.com/orchetect/swift-extensions) | Useful extensions on Swift standard library types |
 | [Pagemaker](https://github.com/TheAcharya/MarkerData-Pagemaker) | From Timeline to PDF, Effortlessly Made |
 | [XLKit](https://github.com/TheAcharya/XLKit) | A modern Swift library for creating Excel (.xlsx) files on macOS with image embedding |
 | [ColorWellKit](https://github.com/jordanbaird/ColorWellKit) | An alternative to NSColorWell for Cocoa and ColorPicker for SwiftUI |
