@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/TheAcharya/MarkerData"><img src="https://github.com/TheAcharya/MarkerData/blob/main/assets/marker_data_app_icon.png?raw=true" height="200">
+  <a href="https://github.com/TheAcharya/MarkerData"><img src="https://github.com/TheAcharya/MarkerData-Website/blob/main/docs/static/logo.png?raw=true" height="200">
   <h1 align="center">Marker Data Website</h1>
 </p>
 
