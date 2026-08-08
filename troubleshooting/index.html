@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.839542516290">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.839542832093">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -44,12 +44,12 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../static/favicon.ico" />
-    <link href="../resources/css/retype.css?v=4.6.0.839542516290" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=4.6.0.839542832093" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=4.6.0.839542516290" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=4.6.0.839542832093" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=4.6.0.839542516290" data-turbo-eval="false" defer></script>
-    <script id="prism-js" data-cfasync="false" src="../resources/js/prism.js?v=4.6.0.839542516290" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=4.6.0.839542832093" data-turbo-eval="false" defer></script>
+    <script id="prism-js" data-cfasync="false" src="../resources/js/prism.js?v=4.6.0.839542832093" defer></script>
 
     <meta name="msvalidate.01" content="325120C12888C61306930ACDFB17A57E" />
     <!-- Google Tag Manager -->
@@ -383,13 +383,41 @@
 <li>Confirm you are using a supported Final Cut Pro release (see the <a href="https://markerdata.theacharya.co/" class="outbound" target="_blank">Welcome</a> page for system requirements).</li>
 </ol>
 <p>See also <doc-anchor-trigger to="#install-location-warning">Install Location Warning</doc-anchor-trigger> and the <a href="/user-guide/workflow-extension">Workflow Extension</a> documentation.</p>
+<h3 id="roles-tab-appears-empty-or-out-of-sync">Roles tab appears empty or out of sync</h3>
+<p>The Roles tables remain empty until you drop an <code translate="no" v-pre>.fcpxml</code> / <code translate="no" v-pre>.fcpxmld</code> file or a Final Cut Pro project onto the Roles tab (in the main application or the Workflow Extension). After roles are retrieved, enable or disable them as required.</p>
+<p>The Workflow Extension Roles tab remains synchronised with <a href="/user-guide/general/#roles">General Settings → Roles</a>. On large or complex projects, synchronisation may lag — press <code translate="no" v-pre>Refresh</code> in the Workflow Extension to force an update. Use <a href="/user-guide/configurations/#update-active-configuration">Update Active Configuration</a> if you wish to preserve role selections for subsequent extractions.</p>
+<h2 id="why-are-there-no-images-in-the-extract-folder">Why are there no images in the extract folder?</h2>
+<p>Please ensure that you are using <strong>Marker Data</strong>&#x27;s <a href="/user-guide/share-destination">Share Destination</a>. Images will not be extracted when using <strong>Marker Data</strong>&#x27;s <a href="/user-guide/workflow-extension">Workflow Extension</a>.</p>
+<p>If you have enabled <code translate="no" v-pre>Skip Image Generation</code> under Image settings, stills and GIFs will not be produced by design.</p>
+<h2 id="images-or-attachments-are-missing-in-notion-or-airtable-after-upload">Images or attachments are missing in Notion or Airtable after upload</h2>
+<p>If the upload appears to complete, yet images or attachments are absent in the database:</p>
+<ul>
+<li>Confirm you did not extract via the Workflow Extension alone when you expected stills — use the <a href="/user-guide/share-destination">Share Destination</a> for image extraction</li>
+<li>Confirm <code translate="no" v-pre>Skip Image Generation</code> is disabled under <a href="/user-guide/image">Image</a> settings</li>
+<li>Confirm you selected a Notion or Airtable upload profile (not solely a No Upload or extract-only profile) when you intended an immediate upload</li>
+<li>For Airtable, confirm Dropbox authorisation completed successfully and that attachment columns such as <code translate="no" v-pre>Attachments</code> and <code translate="no" v-pre>Palette Attachments</code> exist in your table — see <a href="../databases/dropbox-prerequisite/">Dropbox Prerequisite</a> and <a href="/user-guide/databases/#creating-airtable-database-profile">Creating Airtable Database Profile</a></li>
+</ul>
+<p>Review the most recent entries in <code translate="no" v-pre>csv2notion-neo_log.txt</code> or <code translate="no" v-pre>airlift_log.txt</code> via <code translate="no" v-pre>Help</code> → <code translate="no" v-pre>Open Logs</code>.</p>
+<h2 id="drag-and-drop-from-final-cut-pro-does-not-start-an-extraction">Drag and drop from Final Cut Pro does not start an extraction</h2>
+<p>Set a valid <doc-anchor-trigger to="#empty-or-invalid-export-destination--export-folder-shows-please-select-or-missing-folder">Export Folder</doc-anchor-trigger> first. Prefer dropping onto the <a href="/user-guide/extract">Extract</a> panel rather than solely onto the Dock icon — timeline drops onto the Dock are often pasteboard-only and may not deliver a usable file path.</p>
+<p>You may also:</p>
+<ul>
+<li>Use <strong>Marker Data</strong>&#x27;s <a href="/user-guide/share-destination">Share Destination</a> for metadata and images</li>
+<li>Use the <a href="/user-guide/workflow-extension">Workflow Extension</a> Extract tab to open <strong>Marker Data</strong> with marker metadata</li>
+<li>Use <code translate="no" v-pre>Choose File</code> / <code translate="no" v-pre>File → Open…</code> with an <code translate="no" v-pre>.fcpxml</code> or <code translate="no" v-pre>.fcpxmld</code> file exported from Final Cut Pro</li>
+</ul>
+<p>Finder text clippings are accepted only when they contain FCPXML content.</p>
+<h2 id="fewer-markers-appear-in-the-extract-than-i-expected">Fewer markers appear in the extract than I expected</h2>
+<p><strong>Marker Data</strong> extracts markers from the primary active timeline. Markers nested within Compound Clips, Multicam clips, or synchronised clips outside that primary timeline are disregarded. Markers obscured by trimmed clips are likewise excluded under a WYSIWYG approach.</p>
+<p>Where Marker IDs would otherwise collide, <strong>Marker Data</strong> appends a numerical suffix so that each Marker ID and image filename remains unique.</p>
+<p>For a fuller explanation, please refer to the <a href="../faq/#what-happens-when-markers-are-situated-within-a-nested-compound-multicam-and-synchronised-clips">FAQ</a> on nested markers, <a href="../faq/#what-behavioural-logic-arise-in-the-event-when-markers-are-intentionally-obscured-by-trimmed-clips">obscured markers</a>, and <a href="../faq/#what-happens-when-marker-collision-occurs">marker collision</a>.</p>
 <h2 id="experiencing-slow-uploads-in-notion">Experiencing slow uploads in Notion</h2>
 <p>Notion enforces variable rate limits on its API, averaging approximately three requests per second. While brief bursts above this average may occasionally be permitted, they are not guaranteed and should not be relied upon. It is important to note that Notion’s rate limits are subject to change without notice, and we do not have control over these adjustments.</p>
 <p>As usage approaches the rate limit, upload performance may gradually degrade, resulting in slower response times. To prevent this and avoid errors such as <code translate="no" v-pre>500 Server Error</code> or <code translate="no" v-pre>HTTP 429 (Too Many Requests)</code>, users are strongly advised not to upload large Data Set (e.g., 99 images) in a single batch.</p>
 <p>Instead, we recommend uploading data in smaller batches of up to 50 items, followed by a short pause before initiating the next batch. This approach helps maintain consistent performance and minimises the risk of triggering rate-limiting errors.</p>
 <p>For the most up-to-date information on Notion’s rate limits, please refer to their <a href="https://developers.notion.com/reference/request-limits" class="outbound" target="_blank">official documentation</a>.</p>
 <p>The slow upload speed could also be attributed to potential issues with Notion&#x27;s servers or regional server connectivity. Please verify the current <a href="https://status.notion.so/" class="outbound" target="_blank">status</a> of Notion&#x27;s servers.</p>
-<h2 id="why-are-there-no-images-in-the-extract-folder">Why are there no images in the extract folder?</h2>
+<h2 id="why-are-there-no-images-in-the-extract-folder-1">Why are there no images in the extract folder?</h2>
 <p>Please ensure that you are using <strong>Marker Data</strong>&#x27;s <a href="/user-guide/share-destination">Share Destination</a>. Images will not be extracted when using <strong>Marker Data</strong>&#x27;s <a href="/user-guide/workflow-extension">Workflow Extension</a>.</p>
 <h2 id="marker-data-shows-failed-to-complete-upload">Marker Data shows Failed to complete upload.</h2>
 <figure class="content-center">

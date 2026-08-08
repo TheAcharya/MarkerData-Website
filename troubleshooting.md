@@ -86,6 +86,49 @@ In Final Cut Pro, the `Extensions` button on the left side of the toolbar appear
 
 See also [Install Location Warning](#install-location-warning) and the [Workflow Extension](/user-guide/workflow-extension) documentation.
 
+### Roles tab appears empty or out of sync
+
+The Roles tables remain empty until you drop an `.fcpxml` / `.fcpxmld` file or a Final Cut Pro project onto the Roles tab (in the main application or the Workflow Extension). After roles are retrieved, enable or disable them as required.
+
+The Workflow Extension Roles tab remains synchronised with [General Settings → Roles](/user-guide/general/#roles). On large or complex projects, synchronisation may lag — press `Refresh` in the Workflow Extension to force an update. Use [Update Active Configuration](/user-guide/configurations/#update-active-configuration) if you wish to preserve role selections for subsequent extractions.
+
+## Why are there no images in the extract folder?
+
+Please ensure that you are using **Marker Data**'s [Share Destination](/user-guide/share-destination). Images will not be extracted when using **Marker Data**'s [Workflow Extension](/user-guide/workflow-extension).
+
+If you have enabled `Skip Image Generation` under Image settings, stills and GIFs will not be produced by design.
+
+## Images or attachments are missing in Notion or Airtable after upload
+
+If the upload appears to complete, yet images or attachments are absent in the database:
+
+- Confirm you did not extract via the Workflow Extension alone when you expected stills — use the [Share Destination](/user-guide/share-destination) for image extraction
+- Confirm `Skip Image Generation` is disabled under [Image](/user-guide/image) settings
+- Confirm you selected a Notion or Airtable upload profile (not solely a No Upload or extract-only profile) when you intended an immediate upload
+- For Airtable, confirm Dropbox authorisation completed successfully and that attachment columns such as `Attachments` and `Palette Attachments` exist in your table — see [Dropbox Prerequisite](/databases/dropbox-prerequisite) and [Creating Airtable Database Profile](/user-guide/databases/#creating-airtable-database-profile)
+
+Review the most recent entries in `csv2notion-neo_log.txt` or `airlift_log.txt` via `Help` → `Open Logs`.
+
+## Drag and drop from Final Cut Pro does not start an extraction
+
+Set a valid [Export Folder](#empty-or-invalid-export-destination--export-folder-shows-please-select-or-missing-folder) first. Prefer dropping onto the [Extract](/user-guide/extract) panel rather than solely onto the Dock icon — timeline drops onto the Dock are often pasteboard-only and may not deliver a usable file path.
+
+You may also:
+
+- Use **Marker Data**'s [Share Destination](/user-guide/share-destination) for metadata and images
+- Use the [Workflow Extension](/user-guide/workflow-extension) Extract tab to open **Marker Data** with marker metadata
+- Use `Choose File` / `File → Open…` with an `.fcpxml` or `.fcpxmld` file exported from Final Cut Pro
+
+Finder text clippings are accepted only when they contain FCPXML content.
+
+## Fewer markers appear in the extract than I expected
+
+**Marker Data** extracts markers from the primary active timeline. Markers nested within Compound Clips, Multicam clips, or synchronised clips outside that primary timeline are disregarded. Markers obscured by trimmed clips are likewise excluded under a WYSIWYG approach.
+
+Where Marker IDs would otherwise collide, **Marker Data** appends a numerical suffix so that each Marker ID and image filename remains unique.
+
+For a fuller explanation, please refer to the [FAQ](/faq/#what-happens-when-markers-are-situated-within-a-nested-compound-multicam-and-synchronised-clips) on nested markers, [obscured markers](/faq/#what-behavioural-logic-arise-in-the-event-when-markers-are-intentionally-obscured-by-trimmed-clips), and [marker collision](/faq/#what-happens-when-marker-collision-occurs).
+
 ## Experiencing slow uploads in Notion
 
 Notion enforces variable rate limits on its API, averaging approximately three requests per second. While brief bursts above this average may occasionally be permitted, they are not guaranteed and should not be relied upon. It is important to note that Notion’s rate limits are subject to change without notice, and we do not have control over these adjustments.

@@ -13,16 +13,16 @@
     <loc>https://markerdata.theacharya.co/license/</loc>
   </url>
   <url>
-    <loc>https://markerdata.theacharya.co/user-guide/general/</loc>
-  </url>
-  <url>
-    <loc>https://markerdata.theacharya.co/user-guide/databases/</loc>
-  </url>
-  <url>
     <loc>https://markerdata.theacharya.co/troubleshooting/</loc>
   </url>
   <url>
+    <loc>https://markerdata.theacharya.co/user-guide/general/</loc>
+  </url>
+  <url>
     <loc>https://markerdata.theacharya.co/user-guide/configurations/</loc>
+  </url>
+  <url>
+    <loc>https://markerdata.theacharya.co/user-guide/databases/</loc>
   </url>
   <url>
     <loc>https://markerdata.theacharya.co/prologue/</loc>
@@ -122,6 +122,6 @@
   </url>
   <url>
     <loc>https://markerdata.theacharya.co/release-notes-appcast.html</loc>
-    <lastmod>2026-08-08T22:15:02Z</lastmod>
+    <lastmod>2026-08-08T22:20:24Z</lastmod>
   </url>
 </urlset>
