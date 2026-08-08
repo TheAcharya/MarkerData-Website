@@ -46,22 +46,22 @@
     <loc>https://markerdata.theacharya.co/user-guide/label/</loc>
   </url>
   <url>
+    <loc>https://markerdata.theacharya.co/user-guide/pagemaker/</loc>
+  </url>
+  <url>
     <loc>https://markerdata.theacharya.co/press-kit-media/</loc>
   </url>
   <url>
     <loc>https://markerdata.theacharya.co/credits/</loc>
   </url>
   <url>
+    <loc>https://markerdata.theacharya.co/user-guide/queue/</loc>
+  </url>
+  <url>
     <loc>https://markerdata.theacharya.co/epilogue/</loc>
   </url>
   <url>
-    <loc>https://markerdata.theacharya.co/user-guide/pagemaker/</loc>
-  </url>
-  <url>
     <loc>https://markerdata.theacharya.co/the-acharya/</loc>
-  </url>
-  <url>
-    <loc>https://markerdata.theacharya.co/user-guide/queue/</loc>
   </url>
   <url>
     <loc>https://markerdata.theacharya.co/user-guide/workflow-extension/</loc>
@@ -91,13 +91,13 @@
     <loc>https://markerdata.theacharya.co/user-guide/share-destination/</loc>
   </url>
   <url>
+    <loc>https://markerdata.theacharya.co/in-action/creating-pdf/</loc>
+  </url>
+  <url>
     <loc>https://markerdata.theacharya.co/databases/notion-prerequisite/</loc>
   </url>
   <url>
     <loc>https://markerdata.theacharya.co/in-action/creating-shot-library/</loc>
-  </url>
-  <url>
-    <loc>https://markerdata.theacharya.co/in-action/creating-pdf/</loc>
   </url>
   <url>
     <loc>https://markerdata.theacharya.co/in-action/generating-markers/</loc>
@@ -122,6 +122,6 @@
   </url>
   <url>
     <loc>https://markerdata.theacharya.co/release-notes-appcast.html</loc>
-    <lastmod>2026-08-08T22:20:24Z</lastmod>
+    <lastmod>2026-08-08T22:25:17Z</lastmod>
   </url>
 </urlset>
