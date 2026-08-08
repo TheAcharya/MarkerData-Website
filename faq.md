@@ -147,6 +147,14 @@ However, users who have both versions installed simultaneously may encounter con
 
 **Marker Data** is designed to operate solely on your computer, without any collection of personal information. All processes and data manipulations occur locally, ensuring that your sensitive information remains confidential and secure. However, it's important to note that when you choose to upload data to platforms such as [Notion](https://www.notion.com/security), [Airtable](https://www.airtable.com/company/trust-and-security) or [Dropbox](https://www.dropbox.com/privacy), your information is subject to their respective privacy policies. We encourage you to read and familiarise yourself with their security & privacy policies to understand how they handle your data. Rest assured, our commitment to privacy means you can enjoy the benefits of our application without compromising your personal data.
 
+## Was AI or LLMs used in the development of Marker Data?
+
+Prior to version 2.0.0, the entire codebase was written by hand, including its dependencies such as [MarkersExtractor](https://github.com/TheAcharya/MarkersExtractor), which is still maintained by hand.
+
+However, starting with **Marker Data** 2.0.0, we have used various large language models to assist with maintenance and bug fixes. The reason comes down to capacity. This is a free and open source project, so without AI assistance, the realistic alternative isn't hand-written code, it's a much slower release cycle, or no releases at all.
+
+All code changes are always reviewed, tested and verified before release, regardless of how they were written.
+
 ## Why is Maker Data free?
 
 The decision to offer **Marker Data** free of charge stems from a commitment to democratising access within the filmmaking community. Unlike many software solutions that impose subscription models or steep perpetual licence fees, **Marker Data** prioritises inclusivity. Whether one is a burgeoning student filmmaker or a seasoned professional embarking on a feature project, **Marker Data** stands as a readily accessible resource. By removing financial barriers, the aim is to ensure that all individuals may benefit from its features without concern for monetary constraints.
