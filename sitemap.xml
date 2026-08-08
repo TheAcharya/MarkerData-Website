@@ -19,13 +19,13 @@
     <loc>https://markerdata.theacharya.co/user-guide/databases/</loc>
   </url>
   <url>
+    <loc>https://markerdata.theacharya.co/troubleshooting/</loc>
+  </url>
+  <url>
     <loc>https://markerdata.theacharya.co/user-guide/configurations/</loc>
   </url>
   <url>
     <loc>https://markerdata.theacharya.co/prologue/</loc>
-  </url>
-  <url>
-    <loc>https://markerdata.theacharya.co/troubleshooting/</loc>
   </url>
   <url>
     <loc>https://markerdata.theacharya.co/faq/</loc>
@@ -40,6 +40,9 @@
     <loc>https://markerdata.theacharya.co/release-notes/</loc>
   </url>
   <url>
+    <loc>https://markerdata.theacharya.co/user-guide/extract/</loc>
+  </url>
+  <url>
     <loc>https://markerdata.theacharya.co/user-guide/label/</loc>
   </url>
   <url>
@@ -47,9 +50,6 @@
   </url>
   <url>
     <loc>https://markerdata.theacharya.co/credits/</loc>
-  </url>
-  <url>
-    <loc>https://markerdata.theacharya.co/user-guide/extract/</loc>
   </url>
   <url>
     <loc>https://markerdata.theacharya.co/epilogue/</loc>
@@ -122,6 +122,6 @@
   </url>
   <url>
     <loc>https://markerdata.theacharya.co/release-notes-appcast.html</loc>
-    <lastmod>2026-08-08T22:11:12Z</lastmod>
+    <lastmod>2026-08-08T22:15:02Z</lastmod>
   </url>
 </urlset>

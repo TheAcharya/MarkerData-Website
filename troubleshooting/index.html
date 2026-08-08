@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.839542281727">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.839542516290">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -44,12 +44,12 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../static/favicon.ico" />
-    <link href="../resources/css/retype.css?v=4.6.0.839542281727" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=4.6.0.839542516290" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=4.6.0.839542281727" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=4.6.0.839542516290" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=4.6.0.839542281727" data-turbo-eval="false" defer></script>
-    <script id="prism-js" data-cfasync="false" src="../resources/js/prism.js?v=4.6.0.839542281727" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=4.6.0.839542516290" data-turbo-eval="false" defer></script>
+    <script id="prism-js" data-cfasync="false" src="../resources/js/prism.js?v=4.6.0.839542516290" defer></script>
 
     <meta name="msvalidate.01" content="325120C12888C61306930ACDFB17A57E" />
     <!-- Google Tag Manager -->
@@ -295,10 +295,94 @@
                 <!-- Page content  -->
 <h1 id="troubleshooting">Troubleshooting</h1>
 <p>Below, you will find a comprehensive list of common issues users may encounter, accompanied by solutions to resolve them.</p>
+<p>If you remain unable to resolve the issue after following these steps, navigate to the <code translate="no" v-pre>Help</code> menu and select <code translate="no" v-pre>Open Logs</code>, then retain the relevant log files when seeking further assistance.</p>
 <h2 id="how-to-access-the-logs-in-marker-data">How to access the logs in Marker Data?</h2>
 <p>To access the logs for <strong>Marker Data</strong>, navigate to the <code translate="no" v-pre>Help</code> menu and select <code translate="no" v-pre>Open Logs</code>.</p>
-<h2 id="marker-datas-workflow-extension-is-not-functioning">Marker Data&#x27;s Workflow Extension is not functioning.</h2>
+<p>This opens the Logs folder in Finder. Depending on the operation you were performing, you may find:</p>
+<ul>
+<li><code translate="no" v-pre>csv2notion-neo_log.txt</code> — Notion upload activity</li>
+<li><code translate="no" v-pre>airlift_log.txt</code> — Airtable and Dropbox upload activity</li>
+</ul>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-info"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-info" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Info</h5>
+<p>These files may include project, folder, or database names from your machine. Share them only if you are comfortable doing so when requesting support.</p>
+        </div>
+    </div>
+</div>
+<h2 id="macos-will-not-open-marker-data--gatekeeper-warning">macOS will not open Marker Data / Gatekeeper warning</h2>
+<p><strong>Marker Data</strong> is code-signed and notarised by Apple. Please download it only from the official <a href="https://github.com/TheAcharya/MarkerData/releases" class="outbound" target="_blank">GitHub Releases</a> page.</p>
+<p>If macOS reports that the application cannot be opened, locate <strong>Marker Data</strong> in Finder, right-click (or Control-click) the application, choose <code translate="no" v-pre>Open</code>, then confirm <code translate="no" v-pre>Open</code> in the dialogue. Thereafter, subsequent launches should proceed normally.</p>
+<p>For further information on distribution and security, please refer to the <a href="../faq/#is-marker-data-safe-to-use-even-though-its-not-sandboxed">FAQ</a>.</p>
+<h2 id="empty-or-invalid-export-destination--export-folder-shows-please-select-or-missing-folder">Empty or invalid export destination / Export Folder shows “Please select!” or “Missing Folder!”</h2>
+<p><strong>Marker Data</strong> cannot extract until a valid export destination has been selected.</p>
+<p>You will see this when:</p>
+<ul>
+<li>The Extract footer shows <code translate="no" v-pre>Please select!</code> next to the export folder control</li>
+<li>The footer shows <code translate="no" v-pre>Missing Folder!</code> because a previously chosen destination can no longer be found (for example the drive was ejected, or the folder was moved or deleted)</li>
+<li>Extraction fails with a message indicating that the Export Folder is not selected</li>
+</ul>
+<p>On <a href="/user-guide/extract">Extract</a>, use the folder control in the footer, or open <a href="/user-guide/general">General Settings</a> → <code translate="no" v-pre>File</code> and choose a destination under <code translate="no" v-pre>Export Destination</code>. Select a folder you can write to (for example on your Mac, an external drive, or a mounted network volume). Confirm the footer displays the folder name rather than a warning, then provide your project again.</p>
+<p>Right-click the folder control and choose <code translate="no" v-pre>Clear Path</code> if you need to remove an old selection first, then choose a folder again.</p>
+<h2 id="the-extraction-or-upload-fails-with-an-alert">The extraction or upload fails with an alert</h2>
+<p>When an extraction or upload does not finish successfully, <strong>Marker Data</strong> may show messages such as <code translate="no" v-pre>Failed to complete extraction</code> or <code translate="no" v-pre>Failed to complete upload</code>.</p>
+<ul>
+<li>Press <code translate="no" v-pre>Show Error Details</code> on the alert, <strong>or</strong></li>
+<li>Press <code translate="no" v-pre>Show Error Details</code> in the progress area on Extract</li>
+</ul>
+<p>This opens the <code translate="no" v-pre>Failed Tasks</code> window with the file path and the error message for each failure. Hover a truncated cell to see the full text. Use that message when searching this page or when contacting support.</p>
+<h2 id="install-location-warning">Install Location Warning</h2>
+<p>macOS may show <code translate="no" v-pre>Install Location Warning</code> if <strong>Marker Data</strong> is not running from the Applications folder.</p>
+<p>Move the application into <code translate="no" v-pre>/Applications</code>, then launch it again. Choose <code translate="no" v-pre>Don't show again</code> only if you intentionally run it from another location and accept that the Workflow Extension and related handoffs may not function correctly.</p>
+<h2 id="share-destination-is-not-listed--automation-access">Share Destination is not listed / Automation Access</h2>
+<p>If <strong>Marker Data</strong>&#x27;s Share Destinations do not appear in Final Cut Pro:</p>
+<ol>
+<li>Confirm <strong>Marker Data</strong> is installed in <code translate="no" v-pre>/Applications</code>.</li>
+<li>In <strong>Marker Data</strong>, choose <code translate="no" v-pre>File</code> → <code translate="no" v-pre>Install FCP Share Destination…</code>, or press <code translate="no" v-pre>Install</code> on the Extract card when prompted.</li>
+<li>Quit and reopen Final Cut Pro, then review Share Destinations again.</li>
+</ol>
+<p>When you first send a timeline via <code translate="no" v-pre>Marker Data Source</code> or <code translate="no" v-pre>Marker Data H.264</code>, macOS may ask you to allow automation access so that Final Cut Pro may interact with <strong>Marker Data</strong>. This permission must be granted for the Share Destination integration to function properly.</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-info"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-info" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Info</h5>
+<p>Users who have both Final Cut Pro (Lifetime / Perpetual) and Final Cut Pro Creator Studio installed simultaneously may encounter conflicts during Share Destination installation. It is strongly recommended that only a single version of Final Cut Pro be maintained on the system at any one time. See the <a href="../faq/#does-marker-data-work-with-final-cut-pro-creator-studio">FAQ</a>.</p>
+        </div>
+    </div>
+</div>
+<p>For installation steps, please refer to the <a href="/user-guide/share-destination">Share Destination</a> documentation.</p>
+<h2 id="marker-datas-workflow-extension-is-not-functioning">Marker Data&#x27;s Workflow Extension is not functioning</h2>
 <p>To ensure optimal functionality of <strong>Marker Data</strong>, please ensure it is installed within the Applications folder.</p>
+<p>The Workflow Extension opens <strong>Marker Data</strong> from <code translate="no" v-pre>/Applications/Marker Data.app</code>. If the application resides elsewhere, handoff from Final Cut Pro may fail.</p>
+<h3 id="workflow-extension-does-not-appear-under-extensions">Workflow Extension does not appear under Extensions</h3>
+<p>In Final Cut Pro, the <code translate="no" v-pre>Extensions</code> button on the left side of the toolbar appears only when extension apps are installed. If you do not see <strong>Marker Data</strong>:</p>
+<ol>
+<li>Confirm <strong>Marker Data</strong> is in <code translate="no" v-pre>/Applications</code> and has been launched at least once.</li>
+<li>Quit and reopen Final Cut Pro.</li>
+<li>Confirm you are using a supported Final Cut Pro release (see the <a href="https://markerdata.theacharya.co/" class="outbound" target="_blank">Welcome</a> page for system requirements).</li>
+</ol>
+<p>See also <doc-anchor-trigger to="#install-location-warning">Install Location Warning</doc-anchor-trigger> and the <a href="/user-guide/workflow-extension">Workflow Extension</a> documentation.</p>
 <h2 id="experiencing-slow-uploads-in-notion">Experiencing slow uploads in Notion</h2>
 <p>Notion enforces variable rate limits on its API, averaging approximately three requests per second. While brief bursts above this average may occasionally be permitted, they are not guaranteed and should not be relied upon. It is important to note that Notion’s rate limits are subject to change without notice, and we do not have control over these adjustments.</p>
 <p>As usage approaches the rate limit, upload performance may gradually degrade, resulting in slower response times. To prevent this and avoid errors such as <code translate="no" v-pre>500 Server Error</code> or <code translate="no" v-pre>HTTP 429 (Too Many Requests)</code>, users are strongly advised not to upload large Data Set (e.g., 99 images) in a single batch.</p>
