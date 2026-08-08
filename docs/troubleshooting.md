@@ -7,13 +7,89 @@ order: -95
 
 Below, you will find a comprehensive list of common issues users may encounter, accompanied by solutions to resolve them.
 
+If you remain unable to resolve the issue after following these steps, navigate to the `Help` menu and select `Open Logs`, then retain the relevant log files when seeking further assistance.
+
 ## How to access the logs in Marker Data?
 
 To access the logs for **Marker Data**, navigate to the `Help` menu and select `Open Logs`.
 
-## Marker Data's Workflow Extension is not functioning. 
+This opens the Logs folder in Finder. Depending on the operation you were performing, you may find:
+
+- `csv2notion-neo_log.txt` — Notion upload activity
+- `airlift_log.txt` — Airtable and Dropbox upload activity
+
+!!!info Info
+These files may include project, folder, or database names from your machine. Share them only if you are comfortable doing so when requesting support.
+!!!
+
+## macOS will not open Marker Data / Gatekeeper warning
+
+**Marker Data** is code-signed and notarised by Apple. Please download it only from the official [GitHub Releases](https://github.com/TheAcharya/MarkerData/releases) page.
+
+If macOS reports that the application cannot be opened, locate **Marker Data** in Finder, right-click (or Control-click) the application, choose `Open`, then confirm `Open` in the dialogue. Thereafter, subsequent launches should proceed normally.
+
+For further information on distribution and security, please refer to the [FAQ](/faq/#is-marker-data-safe-to-use-even-though-its-not-sandboxed).
+
+## Empty or invalid export destination / Export Folder shows “Please select!” or “Missing Folder!”
+
+**Marker Data** cannot extract until a valid export destination has been selected.
+
+You will see this when:
+
+- The Extract footer shows `Please select!` next to the export folder control
+- The footer shows `Missing Folder!` because a previously chosen destination can no longer be found (for example the drive was ejected, or the folder was moved or deleted)
+- Extraction fails with a message indicating that the Export Folder is not selected
+
+On [Extract](/user-guide/extract), use the folder control in the footer, or open [General Settings](/user-guide/general) → `File` and choose a destination under `Export Destination`. Select a folder you can write to (for example on your Mac, an external drive, or a mounted network volume). Confirm the footer displays the folder name rather than a warning, then provide your project again.
+
+Right-click the folder control and choose `Clear Path` if you need to remove an old selection first, then choose a folder again.
+
+## The extraction or upload fails with an alert
+
+When an extraction or upload does not finish successfully, **Marker Data** may show messages such as `Failed to complete extraction` or `Failed to complete upload`.
+
+- Press `Show Error Details` on the alert, **or**
+- Press `Show Error Details` in the progress area on Extract
+
+This opens the `Failed Tasks` window with the file path and the error message for each failure. Hover a truncated cell to see the full text. Use that message when searching this page or when contacting support.
+
+## Install Location Warning
+
+macOS may show `Install Location Warning` if **Marker Data** is not running from the Applications folder.
+
+Move the application into `/Applications`, then launch it again. Choose `Don't show again` only if you intentionally run it from another location and accept that the Workflow Extension and related handoffs may not function correctly.
+
+## Share Destination is not listed / Automation Access
+
+If **Marker Data**'s Share Destinations do not appear in Final Cut Pro:
+
+1. Confirm **Marker Data** is installed in `/Applications`.
+2. In **Marker Data**, choose `File` → `Install FCP Share Destination…`, or press `Install` on the Extract card when prompted.
+3. Quit and reopen Final Cut Pro, then review Share Destinations again.
+
+When you first send a timeline via `Marker Data Source` or `Marker Data H.264`, macOS may ask you to allow automation access so that Final Cut Pro may interact with **Marker Data**. This permission must be granted for the Share Destination integration to function properly.
+
+!!!info Info
+Users who have both Final Cut Pro (Lifetime / Perpetual) and Final Cut Pro Creator Studio installed simultaneously may encounter conflicts during Share Destination installation. It is strongly recommended that only a single version of Final Cut Pro be maintained on the system at any one time. See the [FAQ](/faq/#does-marker-data-work-with-final-cut-pro-creator-studio).
+!!!
+
+For installation steps, please refer to the [Share Destination](/user-guide/share-destination) documentation.
+
+## Marker Data's Workflow Extension is not functioning
 
 To ensure optimal functionality of **Marker Data**, please ensure it is installed within the Applications folder.
+
+The Workflow Extension opens **Marker Data** from `/Applications/Marker Data.app`. If the application resides elsewhere, handoff from Final Cut Pro may fail.
+
+### Workflow Extension does not appear under Extensions
+
+In Final Cut Pro, the `Extensions` button on the left side of the toolbar appears only when extension apps are installed. If you do not see **Marker Data**:
+
+1. Confirm **Marker Data** is in `/Applications` and has been launched at least once.
+2. Quit and reopen Final Cut Pro.
+3. Confirm you are using a supported Final Cut Pro release (see the [Welcome](https://markerdata.theacharya.co/) page for system requirements).
+
+See also [Install Location Warning](#install-location-warning) and the [Workflow Extension](/user-guide/workflow-extension) documentation.
 
 ## Experiencing slow uploads in Notion
 
