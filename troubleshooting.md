@@ -29,7 +29,9 @@ For further information on distribution and security, please refer to the [FAQ](
 
 **Marker Data** cannot extract until a valid export destination has been selected.
 
+!!!info Info
 It is important to create your first [Configuration](/user-guide/configurations) with a valid `Export Folder` before exporting. Select a destination under `General` Settings, then press `⌘` `S` to `Update Active Configuration`.
+!!!
 
 You will see this when:
 
