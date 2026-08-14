@@ -16,10 +16,16 @@ Notwithstanding the emphasis on user-friendly design, this website stands ready 
 4. Launch **Marker Data**.
 5. Read `Onboarding` information and instructions.
 6. Create your first [Configuration](/user-guide/configurations).
-7. Start using **Marker Data** and have fun!
+7. Return to [General](/user-guide/general) Settings and select your `Export Folder`.
+8. Press `⌘` `S` on your keyboard to `Update Active Configuration`.
+. Start using **Marker Data** and have fun!
 
 !!!warning Warning
 **Marker Data** must be installed in the Applications folder to run correctly. Running the application outside of this designated directory would result in functionality issues.
+!!!
+
+!!!info Info
+Whenever you change settings on an active [Configuration](/user-guide/configurations), press `⌘` `S` to `Update Active Configuration`. Press `⌘` `Z` to `Discard Changes` and revert to the last saved preset.
 !!!
 
 ## Onboarding
