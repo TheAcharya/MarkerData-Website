@@ -193,8 +193,6 @@ If uploads suddenly stall or fail, check [Airtable’s status](https://status.ai
 
 ## Marker Data shows Failed to complete upload
 
-![Failed to complete upload](/assets/md-failed-to-complete-upload.png)
-
 When **Marker Data** displays a `Failed to complete upload` error, it may be attributed to various underlying causes. If you are utilising a firewall application such as Little Snitch, please ensure that outgoing connections for **Marker Data** are permitted.
 
 ### Notion
@@ -222,8 +220,6 @@ If you observe the error messages `Authentication required` or `Invalid permissi
 If you observe an error indicating that Dropbox does not have the required scope `files.content.write` (or related file permissions), it is likely that the required scopes for the app have not been enabled using the Permissions tab within Dropbox’s App Console. For detailed instructions, please refer to the [Dropbox Prerequisite](/databases/dropbox-prerequisite) documentation. After you have checked and submitted the scopes, you must recreate your Dropbox refresh token. For detailed instructions, please refer to the [Creating Airtable Database Profile](/user-guide/databases/#creating-airtable-database-profile) documentation.
 
 ## Marker Data shows Failed to upload completely
-
-![Failed to upload completely](/assets/md-failed-to-upload-completely.png)
 
 When **Marker Data** displays a `Failed to upload completely` error, it may be due to a couple of factors. One potential cause is that you are using an Intel-based Mac, which is not supported by **Marker Data**. Starting with **Marker Data** version 1.1.0, the application is exclusively built and optimised for Apple Silicon only. For further information, please refer to this [FAQ](/faq/#does-marker-data-support-intel-based-macs).
 
