@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.841159402585">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.841198237568">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -23,7 +23,7 @@
     <meta property="og:url" content="https://markerdata.theacharya.co/troubleshooting/">
     <meta property="og:title" content="Troubleshooting">
     <meta property="og:description" content="Below, you will find a comprehensive list of common issues users may encounter, accompanied by solutions to resolve them.">
-    <meta property="og:image" content="https://markerdata.theacharya.co/assets/md-failed-to-complete-upload.png">
+    <meta property="og:image" content="https://github.com/TheAcharya/csv2notion-neo/actions/workflows/notion_image_upload_test.yml/badge.svg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:image:alt" content="Troubleshooting">
@@ -35,7 +35,7 @@
     <meta name="twitter:url" content="https://markerdata.theacharya.co/troubleshooting/">
     <meta name="twitter:title" content="Troubleshooting">
     <meta name="twitter:description" content="Below, you will find a comprehensive list of common issues users may encounter, accompanied by solutions to resolve them.">
-    <meta name="twitter:image" content="https://markerdata.theacharya.co/assets/md-failed-to-complete-upload.png">
+    <meta name="twitter:image" content="https://github.com/TheAcharya/csv2notion-neo/actions/workflows/notion_image_upload_test.yml/badge.svg">
     <meta name="twitter:image:alt" content="Troubleshooting">
 
     <!-- Alternate Markdown -->
@@ -44,11 +44,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../static/favicon.ico" />
-    <link href="../resources/css/retype.css?v=4.6.0.841159402585" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=4.6.0.841198237568" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=4.6.0.841159402585" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=4.6.0.841198237568" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=4.6.0.841159402585" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=4.6.0.841198237568" data-turbo-eval="false" defer></script>
 
     <meta name="msvalidate.01" content="325120C12888C61306930ACDFB17A57E" />
     <!-- Google Tag Manager -->
@@ -459,10 +459,6 @@
 <p>Airtable upload speed depends on your network connection, the size and number of attachments, and Dropbox availability (attachments are staged via Dropbox before Airtable receives them). Large batches with many stills or GIFs will naturally take longer.</p>
 <p>If uploads suddenly stall or fail, check <a href="https://status.airtable.com" class="outbound" target="_blank">Airtable’s status</a> and <a href="https://status.dropbox.com/" class="outbound" target="_blank">Dropbox’s status</a>. For larger projects, extract with <code translate="no" v-pre>Airtable (No Upload)</code> and upload in batches via <a href="/user-guide/queue">Queue</a>.</p>
 <h2 id="marker-data-shows-failed-to-complete-upload">Marker Data shows Failed to complete upload</h2>
-<figure class="content-center">
-    <img src="../assets/md-failed-to-complete-upload.png" alt="Failed to complete upload" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="2024" height="1328" />
-    <figcaption class="caption">Failed to complete upload</figcaption>
-</figure>
 <p>When <strong>Marker Data</strong> displays a <code translate="no" v-pre>Failed to complete upload</code> error, it may be attributed to various underlying causes. If you are utilising a firewall application such as Little Snitch, please ensure that outgoing connections for <strong>Marker Data</strong> are permitted.</p>
 <h3 id="notion">Notion</h3>
 <p>If you encounter issues uploading to your Notion Database, please follow these steps to troubleshoot:</p>
@@ -483,10 +479,6 @@
 <p>If you observe the error messages <code translate="no" v-pre>Authentication required</code> or <code translate="no" v-pre>Invalid permissions, or the requested model was not found.</code>, it is likely that either your Airtable Token is incorrect or your Airtable Base ID and Table ID are incorrect. For detailed instructions on resolving these issues, please refer to the <a href="../databases/airtable-prerequisite/">Airtable Prerequisite</a> documentation.</p>
 <p>If you observe an error indicating that Dropbox does not have the required scope <code translate="no" v-pre>files.content.write</code> (or related file permissions), it is likely that the required scopes for the app have not been enabled using the Permissions tab within Dropbox’s App Console. For detailed instructions, please refer to the <a href="../databases/dropbox-prerequisite/">Dropbox Prerequisite</a> documentation. After you have checked and submitted the scopes, you must recreate your Dropbox refresh token. For detailed instructions, please refer to the <a href="/user-guide/databases/#creating-airtable-database-profile">Creating Airtable Database Profile</a> documentation.</p>
 <h2 id="marker-data-shows-failed-to-upload-completely">Marker Data shows Failed to upload completely</h2>
-<figure class="content-center">
-    <img src="../assets/md-failed-to-upload-completely.png" alt="Failed to upload completely" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="2024" height="1328" />
-    <figcaption class="caption">Failed to upload completely</figcaption>
-</figure>
 <p>When <strong>Marker Data</strong> displays a <code translate="no" v-pre>Failed to upload completely</code> error, it may be due to a couple of factors. One potential cause is that you are using an Intel-based Mac, which is not supported by <strong>Marker Data</strong>. Starting with <strong>Marker Data</strong> version 1.1.0, the application is exclusively built and optimised for Apple Silicon only. For further information, please refer to this <a href="../faq/#does-marker-data-support-intel-based-macs">FAQ</a>.</p>
 <p>If you are utilising a firewall application such as Little Snitch, please ensure that outgoing connections for <strong>Marker Data</strong> are permitted.</p>
 <h2 id="uploads-fail-or-appear-incomplete-on-free-notion-or-airtable-plans">Uploads fail or appear incomplete on free Notion or Airtable plans</h2>
