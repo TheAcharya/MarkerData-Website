@@ -10,6 +10,8 @@ We would greatly appreciate your support in sharing and promoting **Marker Data*
 
 [!file icon="file" text="Press Release - 11th July 2024"](https://github.com/TheAcharya/MarkerData-Website/blob/main/press%20kit/Marker%20Data%20-%20Press%20Release-2024-07-11.pdf)
 
+[!file icon="file-zip" text="Press Kit - 11th July 2024"](https://github.com/TheAcharya/MarkerData-Website/raw/main/press%20kit/press-kit-2024-07-11.zip)
+
 Feel free to reach out directly [here](https://tech.theacharya.co).
 
 ## YouTube
