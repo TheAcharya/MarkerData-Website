@@ -34,11 +34,6 @@ links:
   link: https://github.com/TheAcharya/MarkerData/releases/latest
   target: blank
   
-- text: Issues
-  link: https://github.com/TheAcharya/MarkerData/issues
-  icon: issue-opened
-  target: blank
-  
 - text: Sponsor
   link: https://github.com/sponsors/TheAcharya
   icon: heart-fill
