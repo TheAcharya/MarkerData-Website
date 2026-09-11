@@ -66,6 +66,8 @@ No. Contrary to negation, **Production’s Best Friend** serves as a complement 
 
 In contrast, **Marker Data** specialises solely in the extraction of information pertinent to markers and their associated metadata. It confines its focus to this specific domain, providing a nuanced and refined functionality distinct from the broader spectrum covered by Production’s Best Friend.
 
+That said, we've since built our own take on the space, [Production Data](https://productiondata.theacharya.co).
+
 ## Does Marker Data replaces Creator's Best Friend?
 
 Yes. While **Creator's Best Friend** is compatible with both Premiere and Final Cut Pro, **Marker Data** is exclusively designed for Final Cut Pro. Unlike **Creator's Best Friend**, **Marker Data** not only supports the extraction of Chapter Markers but also Regular Markers as chapters. Optimised for precise frame extraction, **Marker Data** can handle timelines with fewer than three markers and durations shorter than ten seconds.
