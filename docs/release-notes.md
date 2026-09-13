@@ -5,6 +5,16 @@ order: -98
 ---
 # Release Notes
 
+### 2.1.3 (27)
+
+**🎉 Released:**
+- 13th September 2026
+
+**🔨 Improvements:**
+- Updated Marker Data's DMG background
+
+---
+
 ### 2.1.2 (26)
 
 **🎉 Released:**
