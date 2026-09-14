@@ -142,7 +142,7 @@ Pressing `Disable All` will uncheck all roles selection.
 
 <hr>
 
-## Notification
+## Notifications
 
 ![](/assets/md-general-settings-notifications.png)
 
