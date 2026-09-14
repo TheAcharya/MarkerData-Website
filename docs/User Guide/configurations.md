@@ -113,7 +113,7 @@ Go to **Marker Data**'s menu bar, click on `Update Active Configuration` under C
 
 ### Method 3
 
-Press `⌘` `s` on your keyboard to `Update Active Configuration`. You can press `⌘` `s` anywhere within **Marker Data**.
+Press `⌘` `S` on your keyboard to `Update Active Configuration`. You can press `⌘` `s` anywhere within **Marker Data**.
 
 ## Delete Configuration
 
